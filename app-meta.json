@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 3,
+  "version": "1.5.0-ca-statewide-partial",
+  "applicationUpdated": "2026-08-16T08:47:07Z",
+  "publisher": {
+    "name": "Restless Monkey Software",
+    "contactEmail": "restlessmonkey.software@gmail.com"
+  },
+  "markerDataChanges": {
+    "comparedToDataUpdated": "2026-05-21T19:31:06Z",
+    "currentDataUpdated": "2026-08-14T12:21:32Z",
+    "added": 6,
+    "updated": 67,
+    "removed": 4,
+    "totalChanged": 77,
+    "netChange": 2
+  },
+  "datasets": {
+    "TX": {
+      "name": "Texas",
+      "path": "markers.json",
+      "source": "Texas Historical Commission Historic Sites Atlas",
+      "markerDataChanges": {
+        "comparedToDataUpdated": "2026-05-21T19:31:06Z",
+        "currentDataUpdated": "2026-08-14T12:21:32Z",
+        "added": 6,
+        "updated": 67,
+        "removed": 4,
+        "totalChanged": 77,
+        "netChange": 2
+      }
+    },
+    "NC": {
+      "name": "North Carolina",
+      "path": "data/states/nc/markers.json",
+      "source": "NC DNCR Highway Historical Marker GIS and Historical Marker Database",
+      "markerDataChanges": null
+    },
+    "CA": {
+      "name": "California Historical Markers — statewide captured HMDB + official OHP links",
+      "path": "data/states/ca/markers.json",
+      "source": "Historical Marker Database (physical-marker records) + California Office of Historic Preservation (official CHL identity/details when deterministically matched)",
+      "markerDataChanges": null,
+      "markerCount": 10518,
+      "scope": "PARTIAL STATEWIDE COVERAGE. All 58 California counties scanned; 52 complete and 6 partial. Missing records from partial counties remain on the backlog.",
+      "sourceUrl": "https://www.hmdb.org/results.asp?Search=State&State=California",
+      "countyCount": 58,
+      "retrievedUtc": "2026-08-16T08:47:07Z",
+      "contentNote": "HMDB supplies physical-marker coordinates and public marker metadata. Official California Historical Landmark identity/details are attached only when the deterministic OHP identity gate passes. Use each HMDB link for the source record.",
+      "officialSourceUrl": "https://ohp.parks.ca.gov/ListedResources",
+      "hmdbSourceUrl": "https://www.hmdb.org/results.asp?Search=State&State=California",
+      "ohpEnrichedMarkerCount": 477,
+      "ohpUniqueLandmarksFetched": 545,
+      "capturedInventoryCount": 10518,
+      "statewideReportedCount": 13038,
+      "remainingBacklogCount": 2520,
+      "completeCountyCount": 52,
+      "partialCountyCount": 6
+    }
+  },
+  "analytics": {
+    "provider": "Cloudflare Web Analytics",
+    "enabled": false,
+    "host": "restlessmonkey.github.io",
+    "pathPrefix": "/restless-markers-site/",
+    "cookies": false,
+    "customEvents": false
+  }
+}

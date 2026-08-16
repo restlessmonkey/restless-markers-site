@@ -1,0 +1,1126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #1d1d1f;
+  -webkit-text-size-adjust: 100%;
+}
+
+.app-header {
+  padding: max(0.75rem, env(safe-area-inset-top)) 1rem 0.9rem;
+  background: #0b3d91;
+  color: #ffffff;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.app-header p {
+  margin: 0.35rem 0 0;
+}
+
+/* Use :empty instead of the hidden attribute so the line paints reliably on first load
+   (some browsers defer repainting [hidden] toggles until the next layout pass). */
+.data-updated-notice:empty {
+  display: none;
+  margin: 0;
+  min-height: 0;
+}
+
+.data-updated-notice:not(:empty) {
+  display: block;
+  margin: 0.65rem 0 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+  letter-spacing: 0.01em;
+}
+
+html.device-mobile .data-updated-notice:not(:empty) {
+  font-size: 0.82rem;
+}
+
+.header-update-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.state-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 40px;
+  padding: 0.25rem 0.45rem 0.25rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.state-picker select {
+  min-height: 30px;
+  max-width: min(16rem, 52vw);
+  border: 0;
+  border-radius: 4px;
+  padding: 0.2rem 1.65rem 0.2rem 0.45rem;
+  background: #ffffff;
+  color: #17324d;
+  font: inherit;
+  cursor: pointer;
+}
+
+.state-picker select:disabled {
+  opacity: 0.72;
+  cursor: wait;
+}
+
+html.legacy-thm-site .state-picker {
+  display: none;
+}
+
+.header-toolbar-btn {
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border-radius: 6px;
+  min-height: 40px;
+  padding: 0.45rem 0.85rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+a.header-toolbar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.header-toolbar-btn:hover:not(:disabled),
+.header-toolbar-btn:focus:not(:disabled) {
+  background: rgba(255, 255, 255, 0.22);
+  outline: none;
+}
+
+.header-toolbar-btn:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.refresh-markers-status {
+  margin: 0;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.95);
+  flex: 1 1 200px;
+  min-width: 0;
+}
+
+.refresh-markers-status.is-error {
+  color: #ffd4d4;
+}
+
+.hosted-update-info-btn {
+  width: 40px;
+  min-width: 40px;
+  padding: 0;
+  border-radius: 50%;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  line-height: 1;
+}
+
+.hosted-update-info-btn span {
+  display: block;
+  transform: translateX(-0.04em);
+}
+
+.about-toolbar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.2rem 0.75rem 0.2rem 0.25rem;
+}
+
+.about-toolbar-btn img {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #ffffff;
+}
+
+.hosted-update-dialog code {
+  display: inline-block;
+  margin: 0.12rem 0;
+  padding: 0.08rem 0.3rem;
+  border-radius: 4px;
+  background: #e8edf5;
+  color: #1d1d1f;
+  font-size: 0.8rem;
+  overflow-wrap: anywhere;
+}
+
+dialog.add-to-home-dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  max-width: min(28rem, calc(100vw - 2rem));
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
+}
+
+dialog.add-to-home-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.add-to-home-dialog-inner {
+  padding: 1.25rem 1.35rem;
+  background: #ffffff;
+  color: #1d1d1f;
+}
+
+.add-to-home-dialog-inner h2 {
+  margin: 0 0 0.65rem;
+  font-size: 1.15rem;
+}
+
+.add-to-home-dialog-body {
+  margin: 0 0 1rem;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.add-to-home-dialog-body ol {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.add-to-home-dialog-body li + li {
+  margin-top: 0.35rem;
+}
+
+.add-to-home-dialog-note {
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+  color: #3d3d41;
+}
+
+.add-to-home-dialog-close {
+  width: 100%;
+  border: 1px solid #c5c7cc;
+  background: #f4f6f8;
+  color: #1d1d1f;
+  border-radius: 6px;
+  min-height: 40px;
+  padding: 0.45rem 1rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.add-to-home-dialog-close:hover,
+.add-to-home-dialog-close:focus {
+  background: #e8eaed;
+  outline: none;
+}
+
+dialog.about-dialog {
+  width: min(44rem, calc(100vw - 2rem));
+  max-width: min(44rem, calc(100vw - 2rem));
+}
+
+.about-dialog-inner {
+  max-height: calc(100vh - 2rem);
+  max-height: calc(100svh - 2rem);
+  overflow-y: auto;
+}
+
+.about-brand-logo {
+  display: block;
+  width: min(100%, 32rem);
+  height: auto;
+  margin: -0.45rem auto 0.25rem;
+  border-radius: 10px;
+}
+
+.about-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-title-row h2 {
+  margin-bottom: 0.1rem;
+}
+
+.about-subtitle {
+  margin: 0;
+  color: #56616f;
+  font-size: 0.9rem;
+}
+
+.about-version-badge {
+  flex: 0 0 auto;
+  padding: 0.3rem 0.55rem;
+  border-radius: 999px;
+  background: #eaf1fd;
+  color: #0b3d91;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.about-intro {
+  margin: 0 0 1rem;
+  line-height: 1.45;
+}
+
+.about-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin: 0 0 1rem;
+}
+
+.about-facts > div {
+  padding: 0.65rem 0.7rem;
+  border: 1px solid #d8dee7;
+  border-radius: 8px;
+  background: #f7f9fc;
+}
+
+.about-facts dt {
+  margin-bottom: 0.25rem;
+  color: #56616f;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-facts dd {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.about-section {
+  margin: 0 0 0.9rem;
+}
+
+.about-section h3 {
+  margin: 0 0 0.35rem;
+  font-size: 0.96rem;
+  color: #0b3d91;
+}
+
+.about-section p,
+.about-details p,
+.about-contact p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.about-change-summary {
+  padding: 0.65rem 0.75rem;
+  border-left: 4px solid #e86f00;
+  border-radius: 4px;
+  background: #fff7ef;
+}
+
+.about-details {
+  margin: 0 0 0.65rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #d8dee7;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.about-details summary {
+  color: #0b3d91;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.about-details p {
+  margin-top: 0.5rem;
+}
+
+.about-contact {
+  margin: 0.9rem 0 0.75rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid #d8dee7;
+}
+
+.about-contact > a {
+  display: inline-block;
+  margin-top: 0.25rem;
+  color: #0b3d91;
+  overflow-wrap: anywhere;
+}
+
+.about-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.about-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid #0b3d91;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #0b3d91;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.about-action-btn:hover,
+.about-action-btn:focus {
+  background: #eaf1fd;
+  outline: none;
+}
+
+.about-copyright {
+  margin: 0 0 0.75rem;
+  color: #6a7079;
+  font-size: 0.76rem;
+  text-align: center;
+}
+
+@media (max-width: 620px) {
+  .about-toolbar-btn {
+    width: 40px;
+    min-width: 40px;
+    padding: 3px;
+    border-radius: 50%;
+  }
+
+  .about-toolbar-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .about-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .about-brand-logo {
+    width: 100%;
+    margin-top: -0.15rem;
+  }
+
+  .about-title-row {
+    align-items: center;
+  }
+
+  .about-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.layout {
+  display: grid;
+  gap: 1rem;
+  padding: 0.75rem;
+}
+
+/* —— Desktop (and head-script fallback): row with draggable splitters —— */
+html:not(.device-mobile) .layout {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 0;
+  min-height: calc(100vh - 94px);
+}
+
+html:not(.device-mobile) .layout > .panel {
+  min-height: 0;
+}
+
+html:not(.device-mobile) .list-panel {
+  flex: 0 0 var(--thm-list-w, 320px);
+  width: var(--thm-list-w, 320px);
+  min-width: 200px;
+  max-width: min(72vw, 900px);
+  display: flex;
+  flex-direction: column;
+  /* Keep the column within the viewport so users can scroll to the word cloud */
+  max-height: calc(100vh - 96px);
+  max-height: calc(100svh - 96px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+html:not(.device-mobile) .detail-panel {
+  flex: 0 0 var(--thm-detail-w, 420px);
+  min-width: 200px;
+  max-width: none;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+html:not(.device-mobile) .map-panel {
+  flex: 1 1 auto;
+  min-width: 200px;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+html:not(.device-mobile) .layout-resizer {
+  flex: 0 0 8px;
+  width: 8px;
+  min-width: 8px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: #d5dde6;
+  cursor: col-resize;
+  touch-action: none;
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+
+html:not(.device-mobile) .layout-resizer:hover,
+html:not(.device-mobile) .layout-resizer:focus-visible {
+  background: #0b3d91;
+  outline: none;
+}
+
+html:not(.device-mobile) .layout-resizer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -4px;
+  right: -4px;
+}
+
+html.device-mobile .layout-resizer {
+  display: none !important;
+}
+
+/* —— Mobile device: single column, map first —— */
+html.device-mobile .layout {
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+  padding: 0.5rem;
+  min-height: auto;
+}
+
+html.device-mobile .map-panel {
+  order: 1;
+  padding: 0.45rem;
+}
+
+html.device-mobile .list-panel {
+  order: 2;
+}
+
+html.device-mobile .detail-panel {
+  order: 3;
+}
+
+html.device-mobile .app-header h1 {
+  font-size: 1.25rem;
+}
+
+html.device-mobile .app-header p {
+  font-size: 0.92rem;
+}
+
+html.device-mobile .panel {
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+html.device-mobile .label {
+  margin-bottom: 0.3rem;
+}
+
+html.device-mobile .marker-list {
+  margin-top: 0.6rem;
+}
+
+.panel {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+}
+
+.county-select,
+.search-input,
+.radius-select {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #cdd4dc;
+  border-radius: 6px;
+  background: #ffffff;
+  font-size: 16px;
+}
+
+.county-select {
+  margin-bottom: 0.75rem;
+}
+
+.marker-number-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.random-marker-row {
+  margin-bottom: 0.75rem;
+}
+
+.gps-location-hint {
+  margin: 0 0 0.35rem;
+  font-size: 0.9rem;
+}
+
+.gps-location-readout {
+  margin: 0.35rem 0 0.75rem;
+  padding: 0.55rem 0.65rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  border-radius: 6px;
+  border: 1px solid #b8c5d6;
+  background: #e8eef6;
+  color: #1a2a3d;
+  font-variant-numeric: tabular-nums;
+}
+
+.gps-location-readout.is-error {
+  border-color: #d4a0a0;
+  background: #fdeeee;
+  color: #5c1f1f;
+}
+
+.lookup-btn-full {
+  width: 100%;
+}
+
+.zip-row {
+  display: grid;
+  grid-template-columns: 1fr 90px auto;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+html.device-mobile .zip-row {
+  grid-template-columns: 1fr;
+}
+
+html.device-mobile .marker-number-row {
+  grid-template-columns: 1fr;
+}
+
+html.device-mobile .radius-spacer {
+  display: none;
+}
+
+.radius-spacer {
+  width: 90px;
+}
+
+.lookup-btn {
+  border: 1px solid #0b3d91;
+  background: #0b3d91;
+  color: #ffffff;
+  border-radius: 6px;
+  min-height: 44px;
+  padding: 0.6rem 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.lookup-btn:hover,
+.lookup-btn:focus {
+  background: #072d6c;
+  border-color: #072d6c;
+  outline: none;
+}
+
+.word-cloud-section {
+  margin: 0.85rem 0 0.75rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid #e2e8ee;
+  /* Do not let the flex layout squeeze the cloud to zero height */
+  flex-shrink: 0;
+}
+
+.word-cloud-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.word-cloud-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.45rem;
+}
+
+.word-cloud-heading {
+  margin-bottom: 0;
+}
+
+.word-cloud-refresh-btn,
+.word-cloud-clear-btn {
+  border: 1px solid #6a7784;
+  background: #ffffff;
+  color: #3a4550;
+  border-radius: 6px;
+  min-height: 36px;
+  padding: 0.35rem 0.65rem;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.word-cloud-refresh-btn {
+  border-color: #0b3d91;
+  color: #0b3d91;
+}
+
+.word-cloud-refresh-btn:hover:not(:disabled),
+.word-cloud-refresh-btn:focus:not(:disabled),
+.word-cloud-clear-btn:hover,
+.word-cloud-clear-btn:focus {
+  border-color: #0b3d91;
+  color: #0b3d91;
+  outline: none;
+  background: #eaf1fd;
+}
+
+.word-cloud-refresh-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.word-cloud-hint {
+  margin: 0 0 0.5rem;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.word-cloud-status {
+  margin: 0 0 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #0b3d91;
+}
+
+.word-cloud-load-error {
+  margin: 0 0 0.45rem;
+  font-size: 0.82rem;
+  color: #a32020;
+}
+
+.word-cloud {
+  position: relative;
+  width: 100%;
+  height: min(280px, 40vh);
+  height: min(280px, 40svh);
+  min-height: 200px;
+  max-height: min(280px, 40vh);
+  max-height: min(280px, 40svh);
+  border: 1px solid #e2e8ee;
+  border-radius: 8px;
+  background: #fafbfd;
+  overflow: hidden;
+  cursor: crosshair;
+  flex-shrink: 0;
+}
+
+.word-cloud[hidden] {
+  display: none !important;
+}
+
+.word-cloud-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.marker-list {
+  list-style: none;
+  margin: 0.8rem 0 0;
+  padding: 0;
+  overflow: auto;
+}
+
+html:not(.device-mobile) .marker-list {
+  flex: 1 1 auto;
+  min-height: 120px;
+  max-height: calc(100vh - 250px);
+}
+
+html.device-mobile .marker-list {
+  max-height: min(34vh, 320px);
+}
+
+.marker-list button {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #d9dfe5;
+  background: #ffffff;
+  border-radius: 6px;
+  min-height: 44px;
+  padding: 0.75rem;
+  margin-bottom: 0.55rem;
+  cursor: pointer;
+}
+
+.marker-list button:hover,
+.marker-list button:focus {
+  border-color: #0b3d91;
+  outline: none;
+}
+
+.marker-list button.active {
+  border-color: #0b3d91;
+  background: #eaf1fd;
+}
+
+.muted {
+  color: #4a5a6a;
+  margin-top: 0;
+}
+
+.detail-atlas-fields {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, auto) 1fr;
+  gap: 0.35rem 1rem;
+  margin: 0.85rem 0 0;
+  padding: 0.85rem 0 0;
+  border-top: 1px solid #e2e8ee;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.detail-atlas-fields dt {
+  margin: 0;
+  font-weight: 700;
+  color: #4a5a6a;
+}
+
+.detail-atlas-fields dd {
+  margin: 0;
+  color: #1d1d1f;
+  min-width: 0;
+  word-wrap: break-word;
+}
+
+.detail-inscription-heading {
+  margin: 0.65rem 0 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+
+.detail-photo-section {
+  margin: 0.5rem 0 0;
+  padding: 0.65rem 0 0;
+  border-top: 1px solid #e2e8ee;
+}
+
+.detail-photo-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: min(52vh, 420px);
+  overflow: hidden;
+  border: 1px solid #d5dde6;
+  border-radius: 8px;
+  background: #f4f6f8;
+}
+
+.detail-marker-photo {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: min(52vh, 420px);
+  object-fit: contain;
+}
+
+.detail-photo-status {
+  margin: 0.45rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.detail-sketch-wrap {
+  margin: 0.75rem 0 0;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid #d5dde6;
+  border-radius: 8px;
+  background: #fafcfd;
+}
+
+.detail-sketch-summary {
+  color: #0b3d91;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.detail-sketch-text {
+  max-height: min(50vh, 360px);
+  margin: 0.5rem 0 0;
+  padding: 0;
+  overflow-y: auto;
+  color: #2a3540;
+  font-family: inherit;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.detail-resources {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8ee;
+}
+
+.detail-resources-title {
+  margin: 0 0 0.45rem;
+  color: #1d1d1f;
+  font-size: 1rem;
+}
+
+.detail-resource-links {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.detail-resource-links a {
+  color: #0b3d91;
+  font-weight: 700;
+}
+
+.detail-header-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.detail-header-row h2 {
+  margin: 0;
+  flex: 1 1 12rem;
+  min-width: 0;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.detail-header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.65rem;
+}
+
+.google-maps-btn {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0b3d91;
+  background: #ffffff;
+  color: #0b3d91;
+  border-radius: 6px;
+  min-height: 40px;
+  padding: 0.45rem 0.75rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.google-maps-btn:hover:not(:disabled),
+.google-maps-btn:focus:not(:disabled) {
+  background: #eaf1fd;
+  outline: none;
+}
+
+.google-maps-btn:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.google-maps-btn[hidden] {
+  display: none !important;
+}
+
+.copy-marker-btn {
+  flex: 0 0 auto;
+  border: 1px solid #0b3d91;
+  background: #ffffff;
+  color: #0b3d91;
+  border-radius: 6px;
+  min-height: 40px;
+  padding: 0.45rem 0.75rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.copy-marker-btn:hover:not(:disabled),
+.copy-marker-btn:focus:not(:disabled) {
+  background: #eaf1fd;
+  outline: none;
+}
+
+.copy-marker-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.detail-text {
+  line-height: 1.45;
+  white-space: pre-wrap;
+}
+
+.detail-text mark.inscription-highlight {
+  background: #ffe08a;
+  color: #1d1d1f;
+  padding: 0.06em 0.14em;
+  border-radius: 4px;
+  font-weight: inherit;
+}
+
+/* Same width:height proportion in mobile and desktop layout (Leaflet resize via JS on toggle). */
+#map {
+  width: 100%;
+  border-radius: 8px;
+  aspect-ratio: 16 / 10;
+  height: auto;
+  min-height: 260px;
+  max-height: min(65vh, 720px);
+}
+
+/* Hover tooltip on map markers (Leaflet adds .leaflet-tooltip) */
+.leaflet-tooltip.marker-hover-tooltip {
+  padding: 0.5rem 0.65rem;
+  max-width: min(300px, 78vw);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  white-space: normal;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+  border: 1px solid #cdd4dc;
+}
+
+.marker-tooltip-body {
+  text-align: left;
+}
+
+.marker-tooltip-num {
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  color: #0b3d91;
+  margin: 0 0 0.2rem;
+}
+
+.marker-tooltip-title {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #1d1d1f;
+  margin: 0 0 0.35rem;
+}
+
+.marker-tooltip-snippet {
+  margin: 0 0 0.35rem;
+  color: #3a4550;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.marker-tooltip-loc {
+  font-size: 0.72rem;
+  color: #6a7784;
+  margin: 0;
+}
+
+/* If the head script did not run, desktop uses same flex rules as html:not(.device-mobile) above */
+
+html:not(.device-mobile) #map {
+  flex: 1 1 auto;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  height: auto;
+  min-height: 260px;
+  max-height: min(65vh, 720px);
+}

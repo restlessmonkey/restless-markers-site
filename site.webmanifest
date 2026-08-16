@@ -1,0 +1,18 @@
+{
+  "name": "Restless Markers — Explore America’s historical markers",
+  "short_name": "Restless Markers",
+  "description": "Explore historical markers across America.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b3d91",
+  "theme_color": "#0b3d91",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

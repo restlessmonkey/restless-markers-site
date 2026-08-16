@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (function () {
+        function isMobileDevice() {
+          try {
+            if (navigator.userAgentData && typeof navigator.userAgentData.mobile === "boolean") {
+              return navigator.userAgentData.mobile;
+            }
+          } catch (_) {}
+          var ua = navigator.userAgent || "";
+          if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua)) {
+            return true;
+          }
+          if (/\biPad\b|\bTablet\b|Silk\b|Kindle\b/i.test(ua)) {
+            return true;
+          }
+          return false;
+        }
+        var det = isMobileDevice() ? "mobile" : "desktop";
+        document.documentElement.dataset.thmDetected = det;
+        document.documentElement.classList.add(det === "mobile" ? "device-mobile" : "device-desktop");
+        if (
+          location.hostname === "restlessmonkey.github.io" &&
+          location.pathname.startsWith("/THM-site/")
+        ) {
+          document.documentElement.classList.add("legacy-thm-site");
+        }
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b3d91" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Restless Markers" />
+    <title>Restless Markers — Explore America’s historical markers</title>
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icons/icon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css" />
+    <link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.Default.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1 id="app-title">Restless Markers</h1>
+      <p id="app-subtitle">Explore America’s historical markers</p>
+      <p id="data-updated-notice" class="data-updated-notice" aria-live="polite"></p>
+      <div class="header-update-row">
+        <label class="state-picker" for="state-selector">
+          <span>State</span>
+          <select id="state-selector" aria-label="Choose a historical marker state">
+            <option value="TX">Texas (TX)</option>
+            <option value="NC">North Carolina (NC)</option>
+            <option value="CA">California — Historical Markers (CA)</option>
+          </select>
+        </label>
+        <button id="layout-mode-btn" type="button" class="header-toolbar-btn" aria-label="Cycle layout: automatic, mobile, or desktop">Layout: Auto</button>
+        <a id="official-program-link" class="header-toolbar-btn" href="https://atlas.thc.texas.gov/" target="_blank" rel="noopener noreferrer" aria-label="Open Texas Historic Sites Atlas (Texas Historical Commission) in a new tab">Historic Sites Atlas</a>
+        <button id="add-to-home-btn" type="button" class="header-toolbar-btn" aria-haspopup="dialog" aria-controls="add-to-home-dialog">Add to Home Screen</button>
+        <button id="reset-app-btn" type="button" class="header-toolbar-btn" aria-label="Reset application: remove marker from address bar and reload">Reset</button>
+        <button id="refresh-markers-btn" type="button" class="header-toolbar-btn">Update marker data</button>
+        <button id="about-btn" type="button" class="header-toolbar-btn about-toolbar-btn" aria-label="About Restless Markers" aria-haspopup="dialog" aria-controls="about-dialog">
+          <img src="icons/restless-monkey-software-mascot.png" alt="" width="32" height="32" aria-hidden="true" />
+          <span class="about-toolbar-label">About</span>
+        </button>
+        <button id="hosted-update-info-btn" type="button" class="header-toolbar-btn hosted-update-info-btn" aria-label="About hosted marker data updates" aria-haspopup="dialog" aria-controls="hosted-update-dialog" hidden><span aria-hidden="true">i</span></button>
+        <p id="refresh-markers-status" class="refresh-markers-status" role="status" aria-live="polite" hidden></p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel list-panel">
+        <label for="city-name" class="label">Find markers near city</label>
+        <div class="zip-row">
+          <input id="city-name" class="search-input" type="text" list="city-suggestions" placeholder="Enter city (example: Austin)" />
+          <datalist id="city-suggestions"></datalist>
+          <select id="radius-filter" class="radius-select" aria-label="Radius in miles">
+            <option value="5">5 mi</option><option value="10">10 mi</option><option value="25" selected>25 mi</option><option value="50">50 mi</option><option value="100">100 mi</option>
+          </select>
+          <button id="city-name-btn" type="button" class="lookup-btn">Find City</button>
+        </div>
+        <label for="zip-code" class="label">Find markers near ZIP code</label>
+        <div class="zip-row">
+          <input id="zip-code" class="search-input" type="text" inputmode="numeric" maxlength="5" placeholder="Enter ZIP (example: 78701)" />
+          <div class="radius-spacer" aria-hidden="true"></div>
+          <button id="zip-code-btn" type="button" class="lookup-btn">Near Me</button>
+        </div>
+        <label for="my-location-btn" class="label">Find markers near my GPS location</label>
+        <p class="muted gps-location-hint">Uses the radius in miles next to Find City. Your browser will ask permission to read your location.</p>
+        <div class="random-marker-row"><button id="my-location-btn" type="button" class="lookup-btn lookup-btn-full" aria-label="Find markers within the selected radius of your device GPS location">Use my location</button></div>
+        <p id="my-location-readout" class="gps-location-readout" hidden aria-live="polite" role="status"></p>
+        <label for="marker-number" class="label">Find by marker number</label>
+        <div class="marker-number-row">
+          <input id="marker-number" class="search-input" type="text" inputmode="numeric" placeholder="Enter marker number (example: 2162)" />
+          <button id="marker-number-btn" type="button" class="lookup-btn">Go</button>
+        </div>
+        <label for="random-marker-btn" class="label">Random marker</label>
+        <div class="random-marker-row"><button id="random-marker-btn" type="button" class="lookup-btn lookup-btn-full" disabled>Random Marker</button></div>
+        <label for="county-filter" class="label">Filter by county</label>
+        <select id="county-filter" class="county-select"><option value="">All counties</option></select>
+        <div id="inscription-word-cloud-section" class="word-cloud-section">
+          <div class="word-cloud-toolbar">
+            <span class="label word-cloud-heading">Inscription word cloud</span>
+            <div class="word-cloud-actions">
+              <button id="word-cloud-refresh-btn" type="button" class="word-cloud-refresh-btn" disabled aria-label="Rebuild the word cloud from loaded marker inscriptions and redraw" title="Rebuild word frequencies from current data and redraw the cloud with a new layout">Refresh cloud</button>
+              <button id="word-cloud-clear-btn" type="button" class="word-cloud-clear-btn" hidden aria-label="Clear inscription word filter">Clear word</button>
+            </div>
+          </div>
+          <p id="word-cloud-hint" class="word-cloud-hint muted">Scroll this column if needed—the cloud is in the shaded box. Bigger words are more common in inscriptions; click one to filter the map and list; then choose any matching marker. Use Refresh cloud to rebuild counts from the loaded data and redraw with a new layout.</p>
+          <p id="word-cloud-status" class="word-cloud-status muted" hidden aria-live="polite"></p>
+          <p id="word-cloud-load-error" class="word-cloud-load-error muted" hidden role="alert"></p>
+          <div id="word-cloud" class="word-cloud" role="application" aria-label="Graphical word cloud of inscription words; click a word to filter markers" hidden><canvas id="word-cloud-canvas" class="word-cloud-canvas"></canvas></div>
+        </div>
+        <label for="search" class="label">Search markers</label>
+        <input id="search" class="search-input" type="search" placeholder="Search by title, county, or text" />
+        <ul id="marker-list" class="marker-list"></ul>
+      </section>
+
+      <div class="layout-resizer" id="layout-resizer-list-detail" role="separator" aria-orientation="vertical" aria-label="Drag to resize the marker list and detail panels" tabindex="0"></div>
+
+      <section class="panel detail-panel">
+        <div class="detail-header-row">
+          <h2 id="detail-title">Select a marker</h2>
+          <div class="detail-header-actions">
+            <a id="google-maps-link" class="google-maps-btn" href="#" target="_blank" rel="noopener noreferrer" hidden aria-label="Open this marker location in Google Maps">Google Maps</a>
+            <a id="atlas-detail-link" class="google-maps-btn" href="#" target="_blank" rel="noopener noreferrer" hidden aria-label="Open this marker in the Texas Historic Sites Atlas">Historic Sites Atlas</a>
+            <button id="google-directions-btn" type="button" class="google-maps-btn" hidden disabled aria-label="Open Google Maps driving directions to this marker">Driving directions</button>
+            <button id="copy-marker-text-btn" type="button" class="copy-marker-btn" disabled aria-label="Copy marker title, location, and full text to clipboard">Copy marker text</button>
+          </div>
+        </div>
+        <p id="detail-county" class="muted"></p>
+        <section id="detail-photo-section" class="detail-photo-section" hidden aria-label="Marker photograph">
+          <div class="detail-photo-frame"><img id="detail-marker-photo" class="detail-marker-photo" alt="" width="640" height="480" decoding="async" loading="lazy" referrerpolicy="no-referrer" hidden /></div>
+          <p id="detail-photo-status" class="detail-photo-status muted"></p>
+        </section>
+        <h3 id="detail-inscription-heading" class="detail-inscription-heading" hidden>Inscription</h3>
+        <p id="detail-text" class="detail-text">Pick a marker from the list to view details.</p>
+        <details id="detail-sketch-wrap" class="detail-sketch-wrap" hidden><summary class="detail-sketch-summary">Program background essay</summary><pre id="detail-sketch-text" class="detail-sketch-text"></pre></details>
+        <dl id="detail-atlas-fields" class="detail-atlas-fields" hidden></dl>
+        <div id="detail-state-resources" class="detail-resources" hidden>
+          <h3 class="detail-resources-title">Additional official resources</h3>
+          <ul class="detail-resource-links"><li><a id="detail-state-source-link" href="#" target="_blank" rel="noopener noreferrer"></a></li></ul>
+        </div>
+      </section>
+
+      <div class="layout-resizer" id="layout-resizer-detail-map" role="separator" aria-orientation="vertical" aria-label="Drag to resize the detail and map panels" tabindex="0"></div>
+      <section class="panel map-panel"><div id="map" aria-label="Map of historical marker locations"></div></section>
+    </main>
+
+    <dialog id="add-to-home-dialog" class="add-to-home-dialog" aria-labelledby="add-to-home-dialog-title">
+      <div class="add-to-home-dialog-inner">
+        <h2 id="add-to-home-dialog-title">Add to Home Screen</h2>
+        <div id="add-to-home-ios-hint" class="add-to-home-dialog-body">
+          <p><strong>Safari on iPhone or iPad (no App Store)</strong></p>
+          <p class="muted">Open the Restless Markers website in Safari. After adding it to your Home Screen, you can launch it like an app. Marker data and the application shell are cached for offline use after they have been loaded.</p>
+          <ol><li>Tap the <strong>Share</strong> button in the toolbar (square with an arrow pointing up).</li><li>Scroll the menu and tap <strong>Add to Home Screen</strong>.</li><li>Tap <strong>Add</strong> in the top corner.</li></ol>
+        </div>
+        <div id="add-to-home-generic-hint" class="add-to-home-dialog-body" hidden>
+          <p>If your browser supports it, you may see an <strong>Install</strong> icon in the address bar (Chrome or Edge), or use the browser menu to choose <strong>Install app</strong> / <strong>Add to Home Screen</strong>.</p>
+          <p class="add-to-home-dialog-note">Installing as an app usually requires <strong>HTTPS</strong> or <strong>localhost</strong>.</p>
+        </div>
+        <button type="button" id="add-to-home-dialog-close" class="add-to-home-dialog-close">Close</button>
+      </div>
+    </dialog>
+
+    <dialog id="hosted-update-dialog" class="add-to-home-dialog hosted-update-dialog" aria-labelledby="hosted-update-dialog-title">
+      <div class="add-to-home-dialog-inner">
+        <h2 id="hosted-update-dialog-title">About marker data updates</h2>
+        <div class="add-to-home-dialog-body">
+          <p>This hosted app displays the marker dataset bundled with the current release. GitHub Pages cannot run the server-side updater that downloads fresh state marker data.</p>
+          <p>Marker-data refresh and validation are performed in the private canonical Restless Markers source repository, then validated browser-ready files are published here. The public site repository intentionally does not contain the ingestion, audit, or reconciliation tooling.</p>
+        </div>
+        <button type="button" id="hosted-update-dialog-close" class="add-to-home-dialog-close">Close</button>
+      </div>
+    </dialog>
+
+    <dialog id="about-dialog" class="add-to-home-dialog about-dialog" aria-labelledby="about-dialog-title">
+      <div class="add-to-home-dialog-inner about-dialog-inner">
+        <img class="about-brand-logo" src="icons/restless-monkey-software-logo.png" alt="Restless Monkey Software" width="900" height="450" />
+        <div class="about-title-row"><div><h2 id="about-dialog-title">About Restless Markers</h2><p id="about-subtitle" class="about-subtitle">Texas Historical Markers</p></div><span id="about-version-badge" class="about-version-badge">Version 1.4.0</span></div>
+        <p id="about-intro" class="about-intro">Explore Texas historical marker locations, inscriptions, and public marker metadata.</p>
+        <dl class="about-facts"><div><dt>Application updated</dt><dd id="about-app-updated">Aug 14, 2026 at 11:07:44 PM UTC</dd></div><div><dt>Marker dataset</dt><dd id="about-marker-count">Loading…</dd></div><div><dt>Marker data updated</dt><dd id="about-data-updated">Loading…</dd></div></dl>
+        <section class="about-section" aria-labelledby="about-changes-title"><h3 id="about-changes-title">What changed in the marker data</h3><p id="about-change-summary" class="about-change-summary">Loading the dataset comparison…</p></section>
+        <section class="about-section" aria-labelledby="about-source-title"><h3 id="about-source-title">Source and accuracy</h3><p id="about-source-copy">Marker information is derived from public Texas Historical Commission data. This is an independent viewer, not an official Texas Historical Commission product. For the official record, use the <a id="about-source-link" href="https://atlas.thc.texas.gov/" target="_blank" rel="noopener noreferrer">Historic Sites Atlas</a>.</p></section>
+        <details class="about-details"><summary>Privacy</summary><p>The application has no user accounts. Restless Markers does not currently send marker searches, selected markers, or precise device location as custom analytics events. Layout and last-selected-state preferences stay on your device. Optional location, address, and map features use your browser or third-party services only when requested.</p></details>
+        <details class="about-details"><summary>Acknowledgments</summary><p id="about-acknowledgments">Texas Historical Commission; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js.</p></details>
+        <div class="about-contact"><p><strong>Created and maintained by Restless Monkey Software</strong></p><a href="mailto:restlessmonkey.software@gmail.com">restlessmonkey.software@gmail.com</a><div class="about-actions"><a id="about-report-link" class="about-action-btn" href="mailto:restlessmonkey.software@gmail.com?subject=Restless%20Markers%20feedback">Report a problem or idea</a><button id="about-copy-support-btn" type="button" class="about-action-btn">Copy support information</button></div></div>
+        <p class="about-copyright">© 2026 Restless Monkey Software</p>
+        <button type="button" id="about-dialog-close" class="add-to-home-dialog-close">Close</button>
+      </div>
+    </dialog>
+
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
+    <script src="vendor/wordcloud/wordcloud2.js"></script>
+    <script src="ca-enhancements.js?v=1"></script>
+    <script src="app.js?v=1.4.0"></script>
+    <script src="restless-markers-brand.js?v=1"></script>
+    <script>
+      if ("serviceWorker" in navigator && location.protocol !== "capacitor:") {
+        navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(function () {});
+      }
+    </script>
+  </body>
+</html>
