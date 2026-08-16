@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "version": "1.5.0-ca-statewide-partial",
-  "applicationUpdated": "2026-08-16T12:24:14Z",
+  "applicationUpdated": "2026-08-16T14:24:40Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -53,25 +53,29 @@
       "dncrPhotosUpdated": "2026-08-16T12:24:10Z"
     },
     "CA": {
-      "name": "California Historical Markers — statewide captured HMDB + official OHP links",
+      "name": "California Historical Markers — statewide known HMDB + official OHP links",
       "path": "data/states/ca/markers.json",
       "source": "Historical Marker Database (physical-marker records) + California Office of Historic Preservation (official CHL identity/details when deterministically matched)",
       "markerDataChanges": null,
-      "markerCount": 10518,
-      "scope": "PARTIAL STATEWIDE COVERAGE. All 58 California counties scanned; 52 complete and 6 partial. Missing records from partial counties remain on the backlog.",
+      "markerCount": 10578,
+      "scope": "PARTIAL STATEWIDE COVERAGE. All 58 California counties scanned; 52 complete and 6 partial. Known physical-marker coverage is the union of the current captured inventory and guarded, live-refetched previously known MarkerIDs that public county-result caps cannot rediscover.",
       "sourceUrl": "https://www.hmdb.org/results.asp?Search=State&State=California",
       "countyCount": 58,
-      "retrievedUtc": "2026-08-16T08:47:07Z",
-      "contentNote": "HMDB supplies physical-marker coordinates and public marker metadata. Official California Historical Landmark identity/details are attached only when the deterministic OHP identity gate passes. Use each HMDB link for the source record.",
+      "retrievedUtc": "2026-08-16T14:24:40Z",
+      "contentNote": "HMDB supplies physical-marker coordinates and public marker metadata. Official California Historical Landmark identity/details are attached only when the deterministic OHP identity gate passes. Fresh captured records take precedence over preservation records.",
       "officialSourceUrl": "https://ohp.parks.ca.gov/ListedResources",
       "hmdbSourceUrl": "https://www.hmdb.org/results.asp?Search=State&State=California",
-      "ohpEnrichedMarkerCount": 477,
+      "ohpEnrichedMarkerCount": 528,
       "ohpUniqueLandmarksFetched": 545,
       "capturedInventoryCount": 10518,
       "statewideReportedCount": 13038,
-      "remainingBacklogCount": 2520,
+      "remainingBacklogCount": 2460,
       "completeCountyCount": 52,
-      "partialCountyCount": 6
+      "partialCountyCount": 6,
+      "preservedKnownSupplementCount": 60,
+      "knownPhysicalMarkerCount": 10578,
+      "ohpUniquePhysicalLandmarkCount": 513,
+      "preservationEnabled": true
     }
   },
   "analytics": {
