@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "version": "1.5.0-ca-statewide-partial",
-  "applicationUpdated": "2026-08-16T16:27:17Z",
+  "applicationUpdated": "2026-08-16T19:52:59Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -76,7 +76,7 @@
       "knownPhysicalMarkerCount": 10578,
       "ohpUniquePhysicalLandmarkCount": 875,
       "preservationEnabled": true,
-      "identityProjectionReconciledUtc": "2026-08-16T16:27:17Z"
+      "identityProjectionReconciledUtc": "2026-08-16T19:52:59Z"
     }
   },
   "analytics": {
