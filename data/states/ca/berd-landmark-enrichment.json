@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedUtc": "2026-08-16T09:21:08Z",
-  "ohpRetrievedUtc": "2026-08-16T01:05:22Z",
+  "generatedUtc": "2026-08-16T16:27:17Z",
+  "ohpRetrievedUtc": "2026-08-16T16:16:43Z",
   "source": "California Office of Historic Preservation — Built Environment Resource Directory",
   "sourceUrl": "https://ohp.parks.ca.gov/?page_id=30338",
   "usersGuideUrl": "https://ohp.parks.ca.gov/pages/1068/files/Built%20Environment%20Resources%20and%20Archeological%20Resources%20Directories%20Users%20Guide%202026.pdf",
@@ -18,9 +18,9 @@
     "evaluationIdentifier": 398,
     "evaluationIdentifier+title": 420
   },
-  "physicalMarkerRecordCount": 10518,
-  "physicalMarkerRecordsCovered": 383,
-  "physicalMarkerUniqueLandmarksCovered": 374,
+  "physicalMarkerRecordCount": 10578,
+  "physicalMarkerRecordsCovered": 733,
+  "physicalMarkerUniqueLandmarksCovered": 700,
   "records": [
     {
       "id": "CA-SHL-1",

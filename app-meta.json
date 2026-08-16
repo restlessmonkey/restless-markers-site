@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "version": "1.5.0-ca-statewide-partial",
-  "applicationUpdated": "2026-08-16T14:24:40Z",
+  "applicationUpdated": "2026-08-16T16:27:17Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -65,7 +65,7 @@
       "contentNote": "HMDB supplies physical-marker coordinates and public marker metadata. Official California Historical Landmark identity/details are attached only when the deterministic OHP identity gate passes. Fresh captured records take precedence over preservation records.",
       "officialSourceUrl": "https://ohp.parks.ca.gov/ListedResources",
       "hmdbSourceUrl": "https://www.hmdb.org/results.asp?Search=State&State=California",
-      "ohpEnrichedMarkerCount": 528,
+      "ohpEnrichedMarkerCount": 918,
       "ohpUniqueLandmarksFetched": 545,
       "capturedInventoryCount": 10518,
       "statewideReportedCount": 13038,
@@ -74,8 +74,9 @@
       "partialCountyCount": 6,
       "preservedKnownSupplementCount": 60,
       "knownPhysicalMarkerCount": 10578,
-      "ohpUniquePhysicalLandmarkCount": 513,
-      "preservationEnabled": true
+      "ohpUniquePhysicalLandmarkCount": 875,
+      "preservationEnabled": true,
+      "identityProjectionReconciledUtc": "2026-08-16T16:27:17Z"
     }
   },
   "analytics": {
