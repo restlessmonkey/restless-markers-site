@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "version": "1.5.0-ca-statewide-partial",
-  "applicationUpdated": "2026-08-16T19:52:59Z",
+  "applicationUpdated": "2026-08-17T05:20:42Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -77,6 +77,27 @@
       "ohpUniquePhysicalLandmarkCount": 875,
       "preservationEnabled": true,
       "identityProjectionReconciledUtc": "2026-08-16T19:52:59Z"
+    },
+    "MI": {
+      "name": "Michigan Historical Markers",
+      "path": "data/states/mi/markers.json",
+      "source": "Michigan Department of Natural Resources / Michigan History Center Historical Markers Public View",
+      "markerDataChanges": {
+        "comparedToDataUpdated": "2026-08-17T02:29:38Z",
+        "currentDataUpdated": "2026-08-17T05:20:40Z",
+        "added": 0,
+        "updated": 0,
+        "removed": 0,
+        "totalChanged": 0,
+        "netChange": 0
+      },
+      "sourceUrl": "https://gis-michigan.opendata.arcgis.com/datasets/midnr::michigan-historical-markers-public-view/explore",
+      "markerCount": 1821,
+      "retrievedUtc": "2026-08-17T05:20:40Z",
+      "privateRuntime": true,
+      "publicPublicationEnabled": true,
+      "contentNote": "Public runtime authorized in Michigan Baby Step 7. Historical-marker dataset fields are published from the official MIDNR Open Data source. Source feature geometry is preserved exactly; out-of-state official records remain present and review-flagged rather than corrected or excluded. State logos, separately protected photographs, maps/site graphics, and other non-dataset content are not included by this authorization.",
+      "publicRuntime": true
     }
   },
   "analytics": {

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "state": "MI",
+  "artifact": "candidate-ingest",
+  "generatedUtc": "2026-08-17T02:10:10Z",
+  "candidateOnly": true,
+  "productionEnabled": false,
+  "publicationAuthorized": false,
+  "source": {
+    "agency": "Michigan Department of Natural Resources / Michigan History Center",
+    "serviceUrl": "https://services3.arcgis.com/Jdnp1TjADvSDxMAX/ArcGIS/rest/services/Historical_Markers_Public_View/FeatureServer",
+    "layerUrl": "https://services3.arcgis.com/Jdnp1TjADvSDxMAX/ArcGIS/rest/services/Historical_Markers_Public_View/FeatureServer/0",
+    "serviceItemId": "f3135a1337674b67b5af123eb41d6738",
+    "layerName": "HistoricalMarkers",
+    "schemaFingerprintSha256": "b712202b72b62f484e7e6b480dd1b06f4d71e45ceb4691bfccfa1cc1cfdc61b1",
+    "sourceRecordCount": 1821,
+    "lastEditDateEpochMs": 1786652267525,
+    "dataLastEditDateEpochMs": 1786652267525
+  },
+  "policy": {
+    "candidateOnly": true,
+    "productionEnabled": false,
+    "publicationAuthorized": false,
+    "sourceGeometryPolicy": "preserve-exactly-no-correction",
+    "outsideMichiganCoordinatePolicy": "preserve-and-flag",
+    "identityPolicy": "GlobalID is unique source identity; MHC marker ID is preserved but not assumed unique",
+    "exclusionCount": 0
+  },
+  "summary": {
+    "candidateRecordCount": 1821,
+    "uniqueGlobalIdCount": 1821,
+    "mhcMarkerIdCount": 1821,
+    "uniqueMhcMarkerIdCount": 1820,
+    "duplicateMhcMarkerIds": [
+      "L2230"
+    ],
+    "sourceGeometryPresentCount": 1821,
+    "outsideMichiganSourceCoordinateCount": 8,
+    "geometryGnssDifferenceOver500mCount": 22,
+    "reviewFlaggedRecordCount": 140,
+    "reviewReasonCounts": {
+      "geometry-gnss-disagreement-over-500m": 22,
+      "missing-county": 7,
+      "missing-state-field": 6,
+      "outside-michigan-source-coordinate": 8,
+      "source-bad-location-directions": 23,
+      "source-status-needs-follow-up": 72,
+      "source-status-pending": 1,
+      "source-status-unavailable": 1,
+      "source-unable-to-find": 32
+    },
+    "markerStatusCounts": {
+      "Needs follow-up": 72,
+      "Pending": 1,
+      "Unavailable": 1,
+      "Verified": 1747
+    },
+    "fieldLocationStatusCounts": {
+      "(blank)": 961,
+      "Bad Location - Directions (See Comments)": 23,
+      "No Issues": 805,
+      "Unable to Find (See Comments)": 32
+    },
+    "sourceStateCounts": {
+      "(blank)": 6,
+      "IN": 1,
+      "KY": 3,
+      "MD": 1,
+      "MI": 1808,
+      "PA": 1,
+      "TN": 1
+    }
+  }
+}

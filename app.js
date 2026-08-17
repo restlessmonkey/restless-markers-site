@@ -82,7 +82,34 @@ const STATE_CONFIG = Object.freeze({
       "Pilot descriptions and official record links come from the California Office of Historic Preservation Alameda County landmark list. Coordinates and city matching come from the corresponding Wikipedia county list and should be independently verified. This is an independent test viewer, not an official California State Parks product.",
     acknowledgments:
       "California Office of Historic Preservation; California State Parks; Wikipedia contributors; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js; Cloudflare Web Analytics."
+  }),
+  // PRIVATE_STATE_MI_BEGIN
+  MI: Object.freeze({
+    code: "MI",
+    name: "Michigan",
+    heading: "Michigan Historical Markers",
+    subtitle: "Explore official Michigan historical marker locations and inscriptions.",
+    dataPath: "data/states/mi/markers.json",
+    offlineLookupsPath: "data/states/mi/offline-lookups.json",
+    mapCenter: [44.35, -85.6],
+    mapZoom: 6,
+    cityExample: "Lansing",
+    zipExample: "48933",
+    markerExample: "L2230",
+    programName: "Michigan Historical Marker Program",
+    programUrl: "https://gis-midnr.opendata.arcgis.com/datasets/midnr::historical-markers-public-view-1/about?layer=0",
+    sourceName: "Michigan Department of Natural Resources / Michigan History Center",
+    refreshDescription: "Michigan DNR / Michigan History Center historical marker GIS",
+    refreshStatus: "Downloading the official Michigan historical marker GIS layer…",
+    manualRefreshCommand: "python scripts/fetch_mi_markers.py",
+    aboutIntro:
+      "Explore Michigan Historical Marker Program locations, inscriptions, and public source metadata.",
+    sourceCopy:
+      "Marker information is derived from the public Michigan DNR / Michigan History Center historical marker GIS layer. Source coordinates are preserved exactly as published, including official records located outside Michigan. This is an independent viewer, not an official State of Michigan product.",
+    acknowledgments:
+      "Michigan Department of Natural Resources; Michigan History Center; Michigan Historical Marker Program; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js; Cloudflare Web Analytics."
   })
+  // PRIVATE_STATE_MI_END
 });
 
 function normalizeStateCode(value) {
@@ -201,6 +228,25 @@ const atlasDetailLinkEl = document.getElementById("atlas-detail-link");
 const googleDirectionsBtnEl = document.getElementById("google-directions-btn");
 const dataUpdatedNoticeEl = document.getElementById("data-updated-notice");
 const stateSelectorEl = document.getElementById("state-selector");
+
+function syncStateSelectorOptions() {
+  if (!stateSelectorEl) {
+    return;
+  }
+  const existingCodes = new Set(Array.from(stateSelectorEl.options, (option) => option.value));
+  for (const [code, state] of Object.entries(STATE_CONFIG)) {
+    if (existingCodes.has(code)) {
+      continue;
+    }
+    const option = document.createElement("option");
+    option.value = code;
+    option.textContent = `${state.name} (${code})`;
+    stateSelectorEl.appendChild(option);
+  }
+  stateSelectorEl.value = activeStateCode;
+}
+
+syncStateSelectorOptions();
 const appTitleEl = document.getElementById("app-title");
 const appSubtitleEl = document.getElementById("app-subtitle");
 const officialProgramLinkEl = document.getElementById("official-program-link");
