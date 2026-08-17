@@ -2,7 +2,7 @@
   "version": 3,
   "source": "Historical Marker Database (HMDB) known California physical-marker union",
   "coverageNotice": "Lookup points are centroids of known HMDB physical markers, not official municipal centroids.",
-  "retrievedUtc": "2026-08-16T14:24:40Z",
+  "retrievedUtc": "2026-08-17T09:59:25Z",
   "cities": {
     "16999 airport blvd, mojave, ca...": {
       "lat": 35.393213,
@@ -3561,11 +3561,11 @@
       "markerCount": 1
     },
     "lancaster": {
-      "lat": 34.703072988461535,
-      "lng": -118.16777406461537,
+      "lat": 34.69911753648649,
+      "lng": -118.1538284551351,
       "label": "Lancaster",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 13
+      "markerCount": 37
     },
     "landers": {
       "lat": 34.29491667,
@@ -3679,6 +3679,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 1
     },
+    "leona valley": {
+      "lat": 34.61664,
+      "lng": -118.27975,
+      "label": "Leona Valley",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
+    },
     "letts lake": {
       "lat": 39.30332851,
       "lng": -122.70895197,
@@ -3727,6 +3734,13 @@
       "label": "Litchfield",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 3
+    },
+    "littlerock": {
+      "lat": 34.52207,
+      "lng": -117.99266,
+      "label": "Littlerock",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
     },
     "livermore": {
       "lat": 37.679060624146345,
@@ -3820,11 +3834,11 @@
       "markerCount": 15
     },
     "long beach": {
-      "lat": 33.80111204,
-      "lng": -118.15889862,
+      "lat": 33.78546134399999,
+      "lng": -118.17247267485715,
       "label": "Long Beach",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 2
+      "markerCount": 70
     },
     "loomis": {
       "lat": 38.82162786166666,
@@ -3855,11 +3869,11 @@
       "markerCount": 7
     },
     "los angeles": {
-      "lat": 34.06574624166666,
-      "lng": -118.34730305833334,
+      "lat": 34.071473497515996,
+      "lng": -118.32422813036858,
       "label": "Los Angeles",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 12
+      "markerCount": 1248
     },
     "los banos": {
       "lat": 37.07678325285714,
@@ -3953,11 +3967,11 @@
       "markerCount": 5
     },
     "malibu": {
-      "lat": 34.03436667,
-      "lng": -118.67971667,
+      "lat": 34.031000416875,
+      "lng": -118.69734104187499,
       "label": "Malibu",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 1
+      "markerCount": 16
     },
     "mammoth": {
       "lat": 37.65111111,
@@ -3974,11 +3988,11 @@
       "markerCount": 21
     },
     "manhattan beach": {
-      "lat": 33.88445,
-      "lng": -118.412,
+      "lat": 33.88666333333333,
+      "lng": -118.404645,
       "label": "Manhattan Beach",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 1
+      "markerCount": 6
     },
     "manteca": {
       "lat": 37.80208741,
@@ -4014,6 +4028,13 @@
       "label": "Marina",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 7
+    },
+    "marina del rey": {
+      "lat": 33.973686666666666,
+      "lng": -118.44781,
+      "label": "Marina del Rey",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 3
     },
     "mariposa": {
       "lat": 37.48514279375,
@@ -4309,6 +4330,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 5
     },
+    "monrovia": {
+      "lat": 34.145209090909084,
+      "lng": -118.00182454545455,
+      "label": "Monrovia",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 11
+    },
     "montague": {
       "lat": 41.72243448875,
       "lng": -122.4104689775,
@@ -4330,12 +4358,26 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 1
     },
+    "montebello": {
+      "lat": 34.02766,
+      "lng": -118.07979,
+      "label": "Montebello",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 2
+    },
     "monterey": {
       "lat": 36.603178585578235,
       "lng": -121.89472471761907,
       "label": "Monterey",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 147
+    },
+    "monterey park": {
+      "lat": 34.056602,
+      "lng": -118.129144,
+      "label": "Monterey Park",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 5
     },
     "montgomery creek": {
       "lat": 40.86462667,
@@ -4680,6 +4722,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 2
     },
+    "norwalk": {
+      "lat": 33.90602,
+      "lng": -118.0804,
+      "label": "Norwalk",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 2
+    },
     "novato": {
       "lat": 38.108305707777774,
       "lng": -122.56047417888891,
@@ -4730,11 +4779,11 @@
       "markerCount": 12
     },
     "oakland": {
-      "lat": 37.803284360588236,
-      "lng": -122.25363740235295,
+      "lat": 37.802312803058825,
+      "lng": -122.25922496094113,
       "label": "Oakland",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 68
+      "markerCount": 170
     },
     "oakley": {
       "lat": 38.0129783,
@@ -4960,6 +5009,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 61
     },
+    "palmdale": {
+      "lat": 34.592616,
+      "lng": -118.09887240000003,
+      "label": "Palmdale",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 25
+    },
     "palo alto": {
       "lat": 37.43071572066667,
       "lng": -122.14321815599997,
@@ -4974,6 +5030,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 2
     },
+    "palos verdes estates": {
+      "lat": 33.799895,
+      "lng": -118.38228749999999,
+      "label": "Palos Verdes Estates",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 4
+    },
     "panamint springs": {
       "lat": 36.24570252,
       "lng": -117.43451551,
@@ -4987,6 +5050,13 @@
       "label": "Paradise",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 7
+    },
+    "paramount": {
+      "lat": 33.884185,
+      "lng": -118.16050000000001,
+      "label": "Paramount",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 2
     },
     "parkfield": {
       "lat": 35.90038,
@@ -5003,11 +5073,11 @@
       "markerCount": 2
     },
     "pasadena": {
-      "lat": 34.1492255,
-      "lng": -118.150904,
+      "lat": 34.14735775968991,
+      "lng": -118.1454696744186,
       "label": "Pasadena",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 2
+      "markerCount": 129
     },
     "paso robles": {
       "lat": 35.63363852125,
@@ -5029,6 +5099,13 @@
       "label": "Patterson",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 7
+    },
+    "pearblossom": {
+      "lat": 34.41387,
+      "lng": -117.85817,
+      "label": "Pearblossom",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
     },
     "pebble beach": {
       "lat": 36.584249,
@@ -5106,6 +5183,20 @@
       "label": "Picketts Junction",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 3
+    },
+    "pico rivera": {
+      "lat": 33.96907,
+      "lng": -118.1017,
+      "label": "Pico Rivera",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
+    },
+    "piedmont": {
+      "lat": 37.82253923076923,
+      "lng": -122.23085615384618,
+      "label": "Piedmont",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 13
     },
     "piedra": {
       "lat": 36.8225,
@@ -5241,11 +5332,11 @@
       "markerCount": 3
     },
     "pleasanton": {
-      "lat": 37.803262,
-      "lng": -121.860089,
+      "lat": 37.66483522580645,
+      "lng": -121.88438448387097,
       "label": "Pleasanton",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 1
+      "markerCount": 31
     },
     "plymouth": {
       "lat": 38.491886671818186,
@@ -5297,11 +5388,11 @@
       "markerCount": 18
     },
     "pomona": {
-      "lat": 34.09006667,
-      "lng": -117.74253333,
+      "lat": 34.074965778,
+      "lng": -117.77200555533335,
       "label": "Pomona",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 1
+      "markerCount": 15
     },
     "pont arena": {
       "lat": 38.914511,
@@ -5436,6 +5527,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 3
     },
+    "rancho palos verdes": {
+      "lat": 33.748167499999994,
+      "lng": -118.36229166666668,
+      "label": "Rancho Palos Verdes",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 12
+    },
     "rancho santa fe": {
       "lat": 33.03159,
       "lng": -117.21927500000001,
@@ -5505,6 +5603,13 @@
       "label": "Redlands",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 22
+    },
+    "redondo beach": {
+      "lat": 33.846014000000004,
+      "lng": -118.389975,
+      "label": "Redondo Beach",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 10
     },
     "redwood city": {
       "lat": 37.48445686339622,
@@ -5611,12 +5716,26 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 2
     },
+    "rolling hills estates": {
+      "lat": 33.78009,
+      "lng": -118.34243,
+      "label": "Rolling Hills Estates",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
+    },
     "rosamond": {
       "lat": 34.8722613375,
       "lng": -118.2555555,
       "label": "Rosamond",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 4
+    },
+    "rosemead": {
+      "lat": 34.0816555,
+      "lng": -118.06736099999998,
+      "label": "Rosemead",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 40
     },
     "roseville": {
       "lat": 38.75027328771429,
@@ -5773,18 +5892,39 @@
       "markerCount": 7
     },
     "san diego": {
-      "lat": 32.735032031080245,
-      "lng": -117.1811463541357,
+      "lat": 32.735394871380365,
+      "lng": -117.18131162190173,
       "label": "San Diego",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 324
+      "markerCount": 326
+    },
+    "san dimas": {
+      "lat": 34.10753794117645,
+      "lng": -117.8075082352941,
+      "label": "San Dimas",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 34
+    },
+    "san fernando": {
+      "lat": 34.283602,
+      "lng": -118.44340200000002,
+      "label": "San Fernando",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 5
     },
     "san francisco": {
-      "lat": 37.79252900916668,
-      "lng": -122.42788703589281,
+      "lat": 37.78911300215139,
+      "lng": -122.42547939719789,
       "label": "San Francisco",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 504
+      "markerCount": 753
+    },
+    "san gabriel": {
+      "lat": 34.09746500000001,
+      "lng": -118.10737909090909,
+      "label": "San Gabriel",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 22
     },
     "san gregorio": {
       "lat": 37.324719834999996,
@@ -5822,11 +5962,18 @@
       "markerCount": 79
     },
     "san leandro": {
-      "lat": 37.72705463333333,
-      "lng": -122.15982746666667,
+      "lat": 37.72562431935484,
+      "lng": -122.1468026580645,
       "label": "San Leandro",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 3
+      "markerCount": 31
+    },
+    "san lorenzo": {
+      "lat": 37.68984,
+      "lng": -122.12882,
+      "label": "San Lorenzo",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
     },
     "san luis obispo": {
       "lat": 35.282934932380954,
@@ -5834,6 +5981,13 @@
       "label": "San Luis Obispo",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 21
+    },
+    "san marino": {
+      "lat": 34.12432545454545,
+      "lng": -118.11805909090909,
+      "label": "San Marino",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 11
     },
     "san martin": {
       "lat": 37.094636666666666,
@@ -5906,18 +6060,18 @@
       "markerCount": 68
     },
     "santa clara": {
-      "lat": 37.351604934,
-      "lng": -121.946881334,
+      "lat": 37.35806505987181,
+      "lng": -121.9485352137179,
       "label": "Santa Clara",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 5
+      "markerCount": 78
     },
     "santa clarita": {
-      "lat": 34.40932607,
-      "lng": -118.530903659,
+      "lat": 34.41319284814815,
+      "lng": -118.52127008135798,
       "label": "Santa Clarita",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 10
+      "markerCount": 81
     },
     "santa cruz": {
       "lat": 36.97211598409836,
@@ -5925,6 +6079,13 @@
       "label": "Santa Cruz",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 183
+    },
+    "santa fe springs": {
+      "lat": 33.9359,
+      "lng": -118.07958,
+      "label": "Santa Fe Springs",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
     },
     "santa margarita": {
       "lat": 35.303791,
@@ -5939,6 +6100,13 @@
       "label": "Santa Maria",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 23
+    },
+    "santa monica": {
+      "lat": 34.01060125,
+      "lng": -118.48996392857143,
+      "label": "Santa Monica",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 56
     },
     "santa nella": {
       "lat": 37.10833992,
@@ -5962,25 +6130,25 @@
       "markerCount": 10
     },
     "santa ysabel": {
-      "lat": 33.1308,
-      "lng": -116.67798333,
+      "lat": 33.122585,
+      "lng": -116.67477833250001,
       "label": "Santa Ysabel",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 1
+      "markerCount": 4
     },
     "santee": {
-      "lat": 32.83963333,
-      "lng": -117.04185,
+      "lat": 32.839266665,
+      "lng": -117.017965,
       "label": "Santee",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 1
+      "markerCount": 2
     },
     "saratoga": {
-      "lat": 37.25985,
-      "lng": -122.0475,
+      "lat": 37.259971666666665,
+      "lng": -122.03216888888886,
       "label": "Saratoga",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 2
+      "markerCount": 18
     },
     "saticoy": {
       "lat": 34.28238714,
@@ -6143,12 +6311,26 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 4
     },
+    "sierra madre": {
+      "lat": 34.16605,
+      "lng": -118.050882,
+      "label": "Sierra Madre",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 5
+    },
     "sierraville": {
       "lat": 39.4999091725,
       "lng": -120.3270705125,
       "label": "Sierraville",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 4
+    },
+    "signal hill": {
+      "lat": 33.79898899999999,
+      "lng": -118.16160800000003,
+      "label": "Signal Hill",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 10
     },
     "silverado": {
       "lat": 33.74648333333333,
@@ -6206,6 +6388,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 20
     },
+    "solana beach": {
+      "lat": 32.99147666666667,
+      "lng": -117.27184,
+      "label": "Solana Beach",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 3
+    },
     "soledad": {
       "lat": 36.411193331999996,
       "lng": -121.34340010599999,
@@ -6235,11 +6424,11 @@
       "markerCount": 1
     },
     "sonoma": {
-      "lat": 38.2908564858209,
-      "lng": -122.44755041746266,
+      "lat": 38.29086359632353,
+      "lng": -122.44769864661764,
       "label": "Sonoma",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 67
+      "markerCount": 68
     },
     "sonora": {
       "lat": 37.983660233,
@@ -6269,6 +6458,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 2
     },
+    "south el monte": {
+      "lat": 34.02931,
+      "lng": -118.06866,
+      "label": "South El Monte",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
+    },
     "south lake tahoe": {
       "lat": 38.925590940312496,
       "lng": -120.0236619365625,
@@ -6282,6 +6478,13 @@
       "label": "South Montebello",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 1
+    },
+    "south pasadena": {
+      "lat": 34.11722875,
+      "lng": -118.1563325,
+      "label": "South Pasadena",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 8
     },
     "south san francisco": {
       "lat": 37.655778421363635,
@@ -6338,6 +6541,13 @@
       "label": "Standard",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 1
+    },
+    "stanford": {
+      "lat": 37.427479444444444,
+      "lng": -122.17131888888889,
+      "label": "Stanford",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 18
     },
     "stanford university": {
       "lat": 37.4219,
@@ -6430,12 +6640,26 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 2
     },
-    "sunnyvale": {
-      "lat": 37.382093,
-      "lng": -122.026337,
-      "label": "Sunnyvale",
+    "sun village": {
+      "lat": 34.57285,
+      "lng": -117.97311,
+      "label": "Sun Village",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 1
+    },
+    "sunnyvale": {
+      "lat": 37.363754681818186,
+      "lng": -122.02867804545454,
+      "label": "Sunnyvale",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 22
+    },
+    "sunol": {
+      "lat": 37.591163333333334,
+      "lng": -121.88720666666667,
+      "label": "Sunol",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 3
     },
     "susanville": {
       "lat": 40.40892205347826,
@@ -6626,6 +6850,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 2
     },
+    "torrance": {
+      "lat": 33.83623,
+      "lng": -118.31492,
+      "label": "Torrance",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 2
+    },
     "trabuco canyon": {
       "lat": 33.6586694,
       "lng": -117.60067952,
@@ -6752,10 +6983,24 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 1
     },
+    "twin creeks": {
+      "lat": 37.15902,
+      "lng": -121.89840333333332,
+      "label": "Twin Creeks",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 3
+    },
     "twin oaks": {
       "lat": 35.400457,
       "lng": -118.4697095,
       "label": "Twin Oaks",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 2
+    },
+    "two harbors": {
+      "lat": 33.439505,
+      "lng": -118.499335,
+      "label": "Two Harbors",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 2
     },
@@ -6767,11 +7012,18 @@
       "markerCount": 10
     },
     "union city": {
-      "lat": 37.598599664999995,
-      "lng": -122.07580683500001,
+      "lat": 37.602081866,
+      "lng": -122.051716734,
       "label": "Union City",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 2
+      "markerCount": 5
+    },
+    "universal city": {
+      "lat": 34.137762499999994,
+      "lng": -118.3546875,
+      "label": "Universal City",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 4
     },
     "upland": {
       "lat": 34.10775259857143,
@@ -6822,6 +7074,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 3
     },
+    "van nuys": {
+      "lat": 34.20185,
+      "lng": -118.49218,
+      "label": "Van Nuys",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
+    },
     "vandenberg space force base...": {
       "lat": 34.755015019999995,
       "lng": -120.54679619142858,
@@ -6842,6 +7101,13 @@
       "label": "Verdi, NV",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 1
+    },
+    "vernon": {
+      "lat": 34.004965,
+      "lng": -118.23067499999999,
+      "label": "Vernon",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 2
     },
     "victorville": {
       "lat": 34.55957585090909,
@@ -6884,6 +7150,13 @@
       "label": "Visalia",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 19
+    },
+    "vista": {
+      "lat": 33.23325,
+      "lng": -117.25369,
+      "label": "Vista",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
     },
     "volcano": {
       "lat": 38.44277820666666,
@@ -6928,11 +7201,11 @@
       "markerCount": 8
     },
     "warner springs": {
-      "lat": 33.24226667,
-      "lng": -116.66598333,
+      "lat": 33.33826555666667,
+      "lng": -116.74972777666666,
       "label": "Warner Springs",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 1
+      "markerCount": 3
     },
     "wasco": {
       "lat": 35.59873498,
@@ -6990,6 +7263,20 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 7
     },
+    "west covina": {
+      "lat": 34.06404,
+      "lng": -117.95221,
+      "label": "West Covina",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
+    },
+    "west hollywood": {
+      "lat": 34.09015153846154,
+      "lng": -118.36861153846156,
+      "label": "West Hollywood",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 13
+    },
     "west point": {
       "lat": 38.395335672499996,
       "lng": -120.5283963775,
@@ -7012,11 +7299,11 @@
       "markerCount": 2
     },
     "westminster": {
-      "lat": 33.758347024,
-      "lng": -117.983045702,
+      "lat": 33.758143192727275,
+      "lng": -117.98248622818183,
       "label": "Westminster",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 5
+      "markerCount": 11
     },
     "westwood": {
       "lat": 40.30603091727273,
@@ -7054,11 +7341,11 @@
       "markerCount": 1
     },
     "whittier": {
-      "lat": 33.98646667,
-      "lng": -118.060241665,
+      "lat": 33.97973303090909,
+      "lng": -118.04817575727272,
       "label": "Whittier",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 2
+      "markerCount": 11
     },
     "williams": {
       "lat": 39.142023,
@@ -7187,11 +7474,11 @@
       "markerCount": 1
     },
     "yorba linda": {
-      "lat": 33.87679167,
-      "lng": -117.799116665,
+      "lat": 33.880270222666674,
+      "lng": -117.78662422200001,
       "label": "Yorba Linda",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 2
+      "markerCount": 15
     },
     "yosemite national": {
       "lat": 37.723987,
