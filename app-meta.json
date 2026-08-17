@@ -91,7 +91,7 @@
         "totalChanged": 0,
         "netChange": 0
       },
-      "sourceUrl": "https://gis-michigan.opendata.arcgis.com/datasets/midnr::michigan-historical-markers-public-view/explore",
+      "sourceUrl": "https://gis-midnr.opendata.arcgis.com/datasets/midnr::historical-markers-public-view-1/about?layer=0",
       "markerCount": 1821,
       "retrievedUtc": "2026-08-17T05:20:40Z",
       "privateRuntime": true,
