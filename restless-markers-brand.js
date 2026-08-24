@@ -2,6 +2,20 @@
   const BRAND = "Restless Markers";
   const TAGLINE = "Explore America’s historical markers";
 
+  function ensureRoutePlannerRuntime() {
+    if (document.querySelector('script[data-restless-route-planner="true"]')) {
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = new URL("data/runtime/route-planner.js?v=1.7.0", document.baseURI).href;
+    script.async = false;
+    script.dataset.restlessRoutePlanner = "true";
+    script.addEventListener("error", () => {
+      console.error("Restless Markers route-planner extension failed to load.");
+    });
+    document.head.appendChild(script);
+  }
+
   function isCalifornia() {
     const selector = document.getElementById("state-selector");
     return Boolean(selector && selector.value === "CA");
@@ -28,10 +42,15 @@
   }
 
   document.addEventListener("DOMContentLoaded", () => {
+    ensureRoutePlannerRuntime();
     applyAfterStateChange();
     const selector = document.getElementById("state-selector");
     if (selector) selector.addEventListener("change", applyAfterStateChange);
   });
-  window.addEventListener("load", applyAfterStateChange);
+  window.addEventListener("load", () => {
+    ensureRoutePlannerRuntime();
+    applyAfterStateChange();
+  });
+  ensureRoutePlannerRuntime();
   applyBrand();
 })();
