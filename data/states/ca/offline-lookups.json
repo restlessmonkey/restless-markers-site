@@ -2,7 +2,7 @@
   "version": 3,
   "source": "Historical Marker Database (HMDB) known California physical-marker union",
   "coverageNotice": "Lookup points are centroids of known HMDB physical markers, not official municipal centroids.",
-  "retrievedUtc": "2026-08-17T09:59:25Z",
+  "retrievedUtc": "2026-09-09T17:56:39Z",
   "cities": {
     "16999 airport blvd, mojave, ca...": {
       "lat": 35.393213,
@@ -187,11 +187,11 @@
       "markerCount": 7
     },
     "amboy": {
-      "lat": 34.56187307222222,
-      "lng": -115.69754779888889,
+      "lat": 34.561557764999996,
+      "lng": -115.70213401899998,
       "label": "Amboy",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 9
+      "markerCount": 10
     },
     "anacapa island": {
       "lat": 34.01545841,
@@ -201,11 +201,11 @@
       "markerCount": 1
     },
     "anaheim": {
-      "lat": 33.826751694038464,
-      "lng": -117.90293566423075,
+      "lat": 33.825894038703694,
+      "lng": -117.90208545444442,
       "label": "Anaheim",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 52
+      "markerCount": 54
     },
     "anderson": {
       "lat": 40.460138797,
@@ -418,11 +418,11 @@
       "markerCount": 12
     },
     "bakersfield": {
-      "lat": 35.38835304871559,
-      "lng": -119.01618059311924,
+      "lat": 35.38672542621621,
+      "lng": -119.01516445630628,
       "label": "Bakersfield",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 109
+      "markerCount": 111
     },
     "balboa island": {
       "lat": 33.6024,
@@ -1089,6 +1089,13 @@
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 22
     },
+    "carmel highlands": {
+      "lat": 36.51904,
+      "lng": -121.94045,
+      "label": "Carmel Highlands",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
+    },
     "carmel-by-the-sea": {
       "lat": 36.5505499625,
       "lng": -121.92164101083334,
@@ -1398,11 +1405,11 @@
       "markerCount": 2
     },
     "coalinga": {
-      "lat": 36.14563843047617,
-      "lng": -120.3584047607143,
+      "lat": 36.14777497860463,
+      "lng": -120.36368348720931,
       "label": "Coalinga",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 42
+      "markerCount": 43
     },
     "coarsegold": {
       "lat": 37.21591465666667,
@@ -1923,11 +1930,11 @@
       "markerCount": 2
     },
     "dutch flat": {
-      "lat": 39.20918011,
-      "lng": -120.84187889000002,
+      "lat": 39.2213150825,
+      "lng": -120.8282891675,
       "label": "Dutch Flat",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 3
+      "markerCount": 4
     },
     "earlimart": {
       "lat": 35.86413715,
@@ -2371,11 +2378,11 @@
       "markerCount": 4
     },
     "fountain valley": {
-      "lat": 33.70412918074074,
-      "lng": -117.95786024962962,
+      "lat": 33.704237781428574,
+      "lng": -117.9575941692857,
       "label": "Fountain Valley",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 27
+      "markerCount": 28
     },
     "fowler": {
       "lat": 36.62944444,
@@ -2595,11 +2602,11 @@
       "markerCount": 2
     },
     "goleta": {
-      "lat": 34.462593954210526,
-      "lng": -119.99104206473686,
+      "lat": 34.463739256500006,
+      "lng": -120.00291096149999,
       "label": "Goleta",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 19
+      "markerCount": 20
     },
     "gonzales": {
       "lat": 36.507833250000004,
@@ -3001,11 +3008,11 @@
       "markerCount": 1
     },
     "huntington beach": {
-      "lat": 33.672607944615386,
-      "lng": -117.99898317461538,
+      "lat": 33.672862218666666,
+      "lng": -117.997363418,
       "label": "Huntington Beach",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 13
+      "markerCount": 15
     },
     "idyllwild": {
       "lat": 33.748342339999994,
@@ -3281,11 +3288,11 @@
       "markerCount": 3
     },
     "kenwood": {
-      "lat": 38.41061667,
-      "lng": -122.55021667,
+      "lat": 38.416973335,
+      "lng": -122.552633335,
       "label": "Kenwood",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 1
+      "markerCount": 2
     },
     "kerman": {
       "lat": 36.7741700925,
@@ -3869,11 +3876,11 @@
       "markerCount": 7
     },
     "los angeles": {
-      "lat": 34.071473497515996,
-      "lng": -118.32422813036858,
+      "lat": 34.07146481577258,
+      "lng": -118.32425655460368,
       "label": "Los Angeles",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 1248
+      "markerCount": 1249
     },
     "los banos": {
       "lat": 37.07678325285714,
@@ -4366,11 +4373,11 @@
       "markerCount": 2
     },
     "monterey": {
-      "lat": 36.603178585578235,
-      "lng": -121.89472471761907,
+      "lat": 36.603156725369125,
+      "lng": -121.89471767442959,
       "label": "Monterey",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 147
+      "markerCount": 149
     },
     "monterey park": {
       "lat": 34.056602,
@@ -4891,11 +4898,11 @@
       "markerCount": 2
     },
     "orange": {
-      "lat": 33.79999942035714,
-      "lng": -117.84301848857142,
+      "lat": 33.79938479233333,
+      "lng": -117.84384125599999,
       "label": "Orange",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 28
+      "markerCount": 30
     },
     "oregon house": {
       "lat": 39.35665811,
@@ -5003,11 +5010,11 @@
       "markerCount": 1
     },
     "palm springs": {
-      "lat": 33.82907703606558,
-      "lng": -116.5466101827869,
+      "lat": 33.82955966984127,
+      "lng": -116.54632985952382,
       "label": "Palm Springs",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 61
+      "markerCount": 63
     },
     "palmdale": {
       "lat": 34.592616,
@@ -5073,11 +5080,11 @@
       "markerCount": 2
     },
     "pasadena": {
-      "lat": 34.14735775968991,
-      "lng": -118.1454696744186,
+      "lat": 34.14733985384614,
+      "lng": -118.14550775384616,
       "label": "Pasadena",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 129
+      "markerCount": 130
     },
     "paso robles": {
       "lat": 35.63363852125,
@@ -5689,11 +5696,11 @@
       "markerCount": 2
     },
     "riverside": {
-      "lat": 33.97021533000001,
-      "lng": -117.37602645795778,
+      "lat": 33.97003476986112,
+      "lng": -117.37594824326392,
       "label": "Riverside",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 142
+      "markerCount": 144
     },
     "roberts ferry": {
       "lat": 37.637123535,
@@ -5913,11 +5920,11 @@
       "markerCount": 5
     },
     "san francisco": {
-      "lat": 37.78911300215139,
-      "lng": -122.42547939719789,
+      "lat": 37.78904320187831,
+      "lng": -122.42554441281749,
       "label": "San Francisco",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 753
+      "markerCount": 756
     },
     "san gabriel": {
       "lat": 34.09746500000001,
@@ -6046,11 +6053,11 @@
       "markerCount": 4
     },
     "santa ana": {
-      "lat": 33.73069066666667,
-      "lng": -117.87064948333334,
+      "lat": 33.73685971428571,
+      "lng": -117.872392525,
       "label": "Santa Ana",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 9
+      "markerCount": 14
     },
     "santa barbara": {
       "lat": 34.42405906264705,
@@ -6067,11 +6074,11 @@
       "markerCount": 78
     },
     "santa clarita": {
-      "lat": 34.41319284814815,
-      "lng": -118.52127008135798,
+      "lat": 34.41248976463414,
+      "lng": -118.5211031291463,
       "label": "Santa Clarita",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 81
+      "markerCount": 82
     },
     "santa cruz": {
       "lat": 36.97211598409836,
@@ -6128,6 +6135,13 @@
       "label": "Santa Rosa",
       "placeType": "HMDB marker-coordinate centroid",
       "markerCount": 10
+    },
+    "santa ynez": {
+      "lat": 34.61272,
+      "lng": -120.0806,
+      "label": "Santa Ynez",
+      "placeType": "HMDB marker-coordinate centroid",
+      "markerCount": 1
     },
     "santa ysabel": {
       "lat": 33.122585,
@@ -6403,11 +6417,11 @@
       "markerCount": 10
     },
     "solvang": {
-      "lat": 34.594986335,
-      "lng": -120.137360835,
+      "lat": 34.595064534,
+      "lng": -120.13915233399999,
       "label": "Solvang",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 2
+      "markerCount": 5
     },
     "somersville": {
       "lat": 37.956083335,
@@ -6424,11 +6438,11 @@
       "markerCount": 1
     },
     "sonoma": {
-      "lat": 38.29086359632353,
-      "lng": -122.44769864661764,
+      "lat": 38.29156206066668,
+      "lng": -122.44904863959995,
       "label": "Sonoma",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 68
+      "markerCount": 75
     },
     "sonora": {
       "lat": 37.983660233,
@@ -6725,11 +6739,11 @@
       "markerCount": 2
     },
     "tehachapi": {
-      "lat": 35.13291005876924,
-      "lng": -118.45207020584617,
+      "lat": 35.13289672454547,
+      "lng": -118.45203111181821,
       "label": "Tehachapi",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 65
+      "markerCount": 66
     },
     "tehama": {
       "lat": 40.0273730075,
@@ -6914,11 +6928,11 @@
       "markerCount": 14
     },
     "truckee": {
-      "lat": 39.340671803269224,
-      "lng": -120.2140985509616,
+      "lat": 39.33978756732142,
+      "lng": -120.2119207973215,
       "label": "Truckee",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 52
+      "markerCount": 56
     },
     "tulare": {
       "lat": 36.200871813333336,
@@ -7089,11 +7103,11 @@
       "markerCount": 7
     },
     "ventura": {
-      "lat": 34.27639216081966,
-      "lng": -119.2991742180328,
+      "lat": 34.27646212596774,
+      "lng": -119.29886882741935,
       "label": "Ventura",
       "placeType": "HMDB marker-coordinate centroid",
-      "markerCount": 61
+      "markerCount": 62
     },
     "verdi, nv": {
       "lat": 39.524733,
