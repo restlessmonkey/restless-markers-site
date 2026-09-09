@@ -2,6 +2,20 @@
   const BRAND = "Restless Markers";
   const TAGLINE = "Explore America’s historical markers";
 
+  function ensureMarkerCollectionsRuntime() {
+    if (document.querySelector('script[data-restless-marker-collections="true"]')) {
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = new URL("data/runtime/marker-collections.js?v=1", document.baseURI).href;
+    script.async = false;
+    script.dataset.restlessMarkerCollections = "true";
+    script.addEventListener("error", () => {
+      console.error("Restless Markers marker-collection extension failed to load.");
+    });
+    document.head.appendChild(script);
+  }
+
   function ensureRoutePlannerRuntime() {
     if (document.querySelector('script[data-restless-route-planner="true"]')) {
       return;
@@ -42,15 +56,18 @@
   }
 
   document.addEventListener("DOMContentLoaded", () => {
+    ensureMarkerCollectionsRuntime();
     ensureRoutePlannerRuntime();
     applyAfterStateChange();
     const selector = document.getElementById("state-selector");
     if (selector) selector.addEventListener("change", applyAfterStateChange);
   });
   window.addEventListener("load", () => {
+    ensureMarkerCollectionsRuntime();
     ensureRoutePlannerRuntime();
     applyAfterStateChange();
   });
+  ensureMarkerCollectionsRuntime();
   ensureRoutePlannerRuntime();
   applyBrand();
 })();

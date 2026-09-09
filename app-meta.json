@@ -1,19 +1,19 @@
 {
   "schemaVersion": 3,
   "version": "1.7.0-route-planner",
-  "applicationUpdated": "2026-08-24T22:42:00Z",
+  "applicationUpdated": "2026-09-09T16:55:52Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
   },
   "markerDataChanges": {
-    "comparedToDataUpdated": "2026-08-14T12:21:32Z",
-    "currentDataUpdated": "2026-08-16T12:19:30Z",
-    "added": 0,
-    "updated": 3,
-    "removed": 0,
-    "totalChanged": 3,
-    "netChange": 0
+    "comparedToDataUpdated": "2026-08-16T12:19:30Z",
+    "currentDataUpdated": "2026-09-09T16:55:50Z",
+    "added": 14,
+    "updated": 33,
+    "removed": 2,
+    "totalChanged": 49,
+    "netChange": 12
   },
   "datasets": {
     "TX": {
@@ -21,17 +21,17 @@
       "path": "markers.json",
       "source": "Texas Historical Commission Historic Sites Atlas",
       "markerDataChanges": {
-        "comparedToDataUpdated": "2026-08-14T12:21:32Z",
-        "currentDataUpdated": "2026-08-16T12:19:30Z",
-        "added": 0,
-        "updated": 3,
-        "removed": 0,
-        "totalChanged": 3,
-        "netChange": 0
+        "comparedToDataUpdated": "2026-08-16T12:19:30Z",
+        "currentDataUpdated": "2026-09-09T16:55:50Z",
+        "added": 14,
+        "updated": 33,
+        "removed": 2,
+        "totalChanged": 49,
+        "netChange": 12
       },
       "sourceUrl": "https://atlas.thc.texas.gov/",
-      "markerCount": 15218,
-      "retrievedUtc": "2026-08-16T12:19:30Z"
+      "markerCount": 15230,
+      "retrievedUtc": "2026-09-09T16:55:50Z"
     },
     "NC": {
       "name": "North Carolina",
