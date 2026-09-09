@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "version": "1.7.0-route-planner",
-  "applicationUpdated": "2026-09-09T16:55:52Z",
+  "applicationUpdated": "2026-09-09T17:19:20Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -39,7 +39,7 @@
       "source": "North Carolina DNCR Highway Historical Marker GIS and DNCR marker listing",
       "markerDataChanges": {
         "comparedToDataUpdated": "2026-04-09T03:04:26Z",
-        "currentDataUpdated": "2026-08-16T12:24:11Z",
+        "currentDataUpdated": "2026-09-09T17:19:19Z",
         "added": 0,
         "updated": 15,
         "removed": 0,
@@ -48,9 +48,9 @@
       },
       "sourceUrl": "https://gis2.ncdcr.gov/dncrgis/rest/services/NCHHM_Public/NC_Highway_Historical_Markers/MapServer/0",
       "markerCount": 1658,
-      "retrievedUtc": "2026-08-16T12:24:11Z",
+      "retrievedUtc": "2026-09-09T17:19:19Z",
       "dncrPhotoMatchCount": 1390,
-      "dncrPhotosUpdated": "2026-08-16T12:24:10Z"
+      "dncrPhotosUpdated": "2026-09-09T17:19:19Z"
     },
     "CA": {
       "name": "California Historical Markers — complete HMDB Smart List + official OHP links",
