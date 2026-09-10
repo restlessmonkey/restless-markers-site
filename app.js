@@ -108,8 +108,33 @@ const STATE_CONFIG = Object.freeze({
       "Marker information is derived from the public Michigan DNR / Michigan History Center historical marker GIS layer. Source coordinates are preserved exactly as published, including official records located outside Michigan. This is an independent viewer, not an official State of Michigan product.",
     acknowledgments:
       "Michigan Department of Natural Resources; Michigan History Center; Michigan Historical Marker Program; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js; Cloudflare Web Analytics."
-  })
+  }),
   // PRIVATE_STATE_MI_END
+  VA: Object.freeze({
+    code: "VA",
+    name: "Virginia",
+    heading: "Virginia Historical Highway Markers",
+    subtitle: "Explore official Virginia historical highway marker locations and public program metadata.",
+    dataPath: "data/states/va/markers.json",
+    offlineLookupsPath: "data/states/va/offline-lookups.json",
+    mapCenter: [37.55, -78.5],
+    mapZoom: 7,
+    cityExample: "Richmond",
+    zipExample: "23219",
+    markerExample: "SA-1",
+    programName: "Virginia DHR Highway Marker Program",
+    programUrl: "https://www.dhr.virginia.gov/programs/highway-markers/",
+    sourceName: "Virginia Department of Historic Resources",
+    refreshDescription: "Virginia DHR Highway Markers GIS",
+    refreshStatus: "Downloading and validating the official Virginia DHR highway marker GIS layer…",
+    manualRefreshCommand: "Run the Restless Markers production updater and choose Virginia (option 5).",
+    aboutIntro:
+      "Explore Virginia Department of Historic Resources historical highway marker locations and public source metadata.",
+    sourceCopy:
+      "Marker location and program metadata are derived from the Virginia Department of Historic Resources Highway Markers GIS layer. The GIS feed used by this release does not expose marker inscription text. This is an independent viewer, not an official Virginia DHR product.",
+    acknowledgments:
+      "Virginia Department of Historic Resources; Virginia Highway Marker Program; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js; Cloudflare Web Analytics."
+  })
 });
 
 function normalizeStateCode(value) {
@@ -293,7 +318,7 @@ const detailStateResourcesEl = document.getElementById("detail-state-resources")
 const detailStateSourceLinkEl = document.getElementById("detail-state-source-link");
 
 /** Resolves next to the current HTML document (works when the app is under a subpath). */
-const APP_META_URL = new URL("app-meta.json?v=1.4.0", document.baseURI);
+const APP_META_URL = new URL("app-meta.json?v=1.7.0", document.baseURI);
 
 function markersJsonUrl() {
   return new URL(activeState().dataPath, document.baseURI);
@@ -305,7 +330,7 @@ function offlineLookupsUrl() {
     return null;
   }
   const url = new URL(path, document.baseURI);
-  url.searchParams.set("v", "1.4.0");
+  url.searchParams.set("v", "1.7.0");
   return url;
 }
 
@@ -439,7 +464,7 @@ function applyStateChrome() {
   }
   if (markerNumberEl) {
     markerNumberEl.placeholder = `Enter marker number (example: ${state.markerExample})`;
-    markerNumberEl.inputMode = state.code === "NC" ? "text" : "numeric";
+    markerNumberEl.inputMode = ["NC", "MI", "VA"].includes(state.code) ? "text" : "numeric";
   }
   if (aboutSubtitleEl) {
     aboutSubtitleEl.textContent = state.heading;
@@ -637,6 +662,20 @@ const CA_MARKER_DETAIL_ROWS = [
   { key: "city", label: "City / locality" },
   { key: "locationDetail", label: "Official location description" },
   { key: "nrhpNumber", label: "National Register number" }
+];
+
+const VA_MARKER_DETAIL_ROWS = [
+  { key: "markerNumber", label: "DHR marker number" },
+  { key: "sourceId", label: "DHR source ID" },
+  { key: "county", label: "City / county" },
+  { key: "address", label: "DHR marker location" },
+  { key: "sourceStatus", label: "DHR erection status" },
+  { key: "vdotDistrict", label: "VDOT district" },
+  { key: "routeNumber", label: "Route number" },
+  { key: "routeName", label: "Route name" },
+  { key: "signLine", label: "Marker sign line" },
+  { key: "coordinateDatum", label: "Coordinate datum" },
+  { key: "coordinateProvenance", label: "Coordinate source" }
 ];
 
 function sketchToPlainText(html) {
@@ -863,6 +902,34 @@ function renderDetailAtlasFields(marker) {
     return;
   }
 
+  if (activeStateCode === "VA") {
+    for (const def of VA_MARKER_DETAIL_ROWS) {
+      const value = marker[def.key];
+      if (value != null && String(value).trim()) {
+        appendRow(def.label, String(value).trim());
+      }
+    }
+    const lat = Number(marker.lat);
+    const lng = Number(marker.lng);
+    if (Number.isFinite(lat)) {
+      appendRow("Latitude (WGS84)", lat.toFixed(6));
+    }
+    if (Number.isFinite(lng)) {
+      appendRow("Longitude (WGS84)", lng.toFixed(6));
+    }
+    if (frag.childNodes.length) {
+      detailAtlasFieldsEl.appendChild(frag);
+      detailAtlasFieldsEl.hidden = false;
+    } else {
+      detailAtlasFieldsEl.hidden = true;
+    }
+    if (detailInscriptionHeadingEl) {
+      detailInscriptionHeadingEl.hidden = false;
+    }
+    clearStateDetailExtras();
+    return;
+  }
+
   clearStateDetailExtras();
 
   for (const def of THM_MARKER_DETAIL_ROWS) {
@@ -937,6 +1004,23 @@ function markerMetadataSearchText(marker) {
       .filter(Boolean)
       .join(" ");
   }
+  if (activeStateCode === "VA") {
+    return [
+      marker.markerNumber,
+      marker.sourceId,
+      marker.county,
+      marker.address,
+      marker.officialLocation,
+      marker.vdotLocation,
+      marker.sourceStatus,
+      marker.vdotDistrict,
+      marker.routeNumber,
+      marker.routeName,
+      marker.signLine
+    ]
+      .filter(Boolean)
+      .join(" ");
+  }
   const parts = [
     marker.indexName,
     marker.address,
@@ -996,6 +1080,10 @@ function updateAtlasDetailLinkUI(marker) {
     url = caOfficialMarkerUrl(marker);
     label = "Official landmark page";
     ariaLabel = "Open this landmark on the California Office of Historic Preservation website";
+  } else if (marker && activeStateCode === "VA") {
+    url = "https://www.dhr.virginia.gov/programs/highway-markers/";
+    label = "Virginia DHR Highway Marker Program";
+    ariaLabel = "Open the Virginia DHR Highway Marker Program";
   } else if (marker) {
     url = thcAtlasMarkerDetailUrl(marker.atlasNumber);
     label = "Historic Sites Atlas";
@@ -1109,6 +1197,31 @@ const markerCluster = L.markerClusterGroup({
   maxClusterRadius: 45
 });
 map.addLayer(markerCluster);
+
+// DHR subscription compliance: Virginia source attribution and the date the
+// data was obtained are also displayed directly on the Leaflet map.
+let vaDhrMapAttribution = null;
+function clearVirginiaDhrMapAttribution() {
+  if (vaDhrMapAttribution && map.attributionControl) {
+    map.attributionControl.removeAttribution(vaDhrMapAttribution);
+  }
+  vaDhrMapAttribution = null;
+}
+function updateVirginiaDhrMapAttribution(parsedDate) {
+  clearVirginiaDhrMapAttribution();
+  if (
+    activeStateCode !== "VA" ||
+    !parsedDate ||
+    Number.isNaN(parsedDate.getTime()) ||
+    !map.attributionControl
+  ) {
+    return;
+  }
+  const obtainedDate = parsedDate.toLocaleDateString(undefined, { dateStyle: "medium" });
+  vaDhrMapAttribution =
+    `Data source: Virginia Department of Historic Resources · Data obtained from DHR: ${obtainedDate}`;
+  map.attributionControl.addAttribution(vaDhrMapAttribution);
+}
 
 const panelResizeDrag = {
   active: null,
@@ -1768,6 +1881,7 @@ function setDataUpdatedNotice(isoFromJson, lastModifiedHeader, markerCount) {
   const dateOk = parsed && !Number.isNaN(parsed.getTime());
   currentMarkerCount = typeof markerCount === "number" ? markerCount : null;
   currentMarkerDataUpdated = dateOk ? parsed.toISOString() : null;
+  updateVirginiaDhrMapAttribution(dateOk ? parsed : null);
   renderAboutInformation();
   if (!dateOk && !countPart) {
     dataUpdatedNoticeEl.textContent = "";
@@ -1778,11 +1892,15 @@ function setDataUpdatedNotice(isoFromJson, lastModifiedHeader, markerCount) {
     return;
   }
   const formatted = parsed.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
-  const datePart = `Data last updated: ${formatted}`;
+  const datePart =
+    activeStateCode === "VA"
+      ? `Source: Virginia Department of Historic Resources · Data obtained from DHR: ${formatted}`
+      : `Data last updated: ${formatted}`;
   dataUpdatedNoticeEl.textContent = countPart ? `${countPart} · ${datePart}` : datePart;
 }
 
 function hideDataUpdatedNotice() {
+  clearVirginiaDhrMapAttribution();
   if (dataUpdatedNoticeEl) {
     dataUpdatedNoticeEl.textContent = "";
   }
@@ -2029,6 +2147,17 @@ function formatMarkerForClipboard(marker) {
     const metaBlock = metaLines.length ? `${metaLines.join("\n")}\n\n` : "";
     return `${marker.title}\n${loc}\n\n${metaBlock}${body}`;
   }
+  if (activeStateCode === "VA") {
+    if (marker.sourceId != null) metaLines.push(`DHR source ID: ${marker.sourceId}`);
+    if (marker.address) metaLines.push(`Location: ${marker.address}`);
+    if (marker.sourceStatus) metaLines.push(`DHR erection status: ${marker.sourceStatus}`);
+    if (marker.vdotDistrict) metaLines.push(`VDOT district: ${marker.vdotDistrict}`);
+    if (marker.routeNumber) metaLines.push(`Route: ${marker.routeNumber}`);
+    if (marker.routeName) metaLines.push(`Road: ${marker.routeName}`);
+    const metaBlock = metaLines.length ? `${metaLines.join("\n")}\n\n` : "";
+    const vaBody = marker.text || "Inscription text is not exposed in the Virginia DHR GIS feed used by this release. Use the Virginia DHR Highway Marker Program for the official marker text.";
+    return `${marker.title}\n${loc}\n\n${metaBlock}${vaBody}`;
+  }
   if (marker.atlasNumber) {
     metaLines.push(`Atlas number: ${marker.atlasNumber}`);
   }
@@ -2262,7 +2391,9 @@ function renderDetailInscriptionText(marker) {
   const placeholder = "No marker text available.";
   const token = wordCloudFilterToken;
   if (!raw) {
-    detailTextEl.textContent = placeholder;
+    detailTextEl.textContent = activeStateCode === "VA"
+      ? "Inscription text is not exposed in the Virginia DHR GIS feed used by this release. Use the Virginia DHR Highway Marker Program link for the official marker text."
+      : placeholder;
     return;
   }
   if (!token) {

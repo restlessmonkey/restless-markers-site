@@ -1,0 +1,4275 @@
+{
+  "version": 2,
+  "state": "VA",
+  "cities": {
+    "accomack": {
+      "lat": 37.75585,
+      "lng": -75.72298,
+      "label": "Accomack",
+      "county": "Accomack",
+      "markerCount": 17
+    },
+    "albemarle": {
+      "lat": 38.01938,
+      "lng": -78.50766,
+      "label": "Albemarle",
+      "county": "Albemarle",
+      "markerCount": 39
+    },
+    "alexandria": {
+      "lat": 38.80882,
+      "lng": -77.0532,
+      "label": "Alexandria",
+      "county": "Alexandria",
+      "markerCount": 23
+    },
+    "alleghany": {
+      "lat": 37.78993,
+      "lng": -79.93854,
+      "label": "Alleghany",
+      "county": "Alleghany",
+      "markerCount": 14
+    },
+    "amelia": {
+      "lat": 37.31834,
+      "lng": -78.02788,
+      "label": "Amelia",
+      "county": "Amelia",
+      "markerCount": 12
+    },
+    "amherst": {
+      "lat": 37.56477,
+      "lng": -79.12819,
+      "label": "Amherst",
+      "county": "Amherst",
+      "markerCount": 17
+    },
+    "appomattox": {
+      "lat": 37.34859,
+      "lng": -78.81001,
+      "label": "Appomattox",
+      "county": "Appomattox",
+      "markerCount": 17
+    },
+    "arlington": {
+      "lat": 38.87669,
+      "lng": -77.09975,
+      "label": "Arlington",
+      "county": "Arlington",
+      "markerCount": 5
+    },
+    "augusta": {
+      "lat": 38.15538,
+      "lng": -79.07595,
+      "label": "Augusta",
+      "county": "Augusta",
+      "markerCount": 33
+    },
+    "bath": {
+      "lat": 38.0324,
+      "lng": -79.74394,
+      "label": "Bath",
+      "county": "Bath",
+      "markerCount": 20
+    },
+    "bedford (county)": {
+      "lat": 37.28741,
+      "lng": -79.50779,
+      "label": "Bedford (County)",
+      "county": "Bedford (County)",
+      "markerCount": 17
+    },
+    "bedford (ind. city)": {
+      "lat": 37.33727,
+      "lng": -79.52202,
+      "label": "Bedford (Ind. City)",
+      "county": "Bedford (Ind. City)",
+      "markerCount": 6
+    },
+    "bland": {
+      "lat": 37.11347,
+      "lng": -81.12268,
+      "label": "Bland",
+      "county": "Bland",
+      "markerCount": 5
+    },
+    "botetourt": {
+      "lat": 37.47457,
+      "lng": -79.83956,
+      "label": "Botetourt",
+      "county": "Botetourt",
+      "markerCount": 19
+    },
+    "bristol": {
+      "lat": 36.60973,
+      "lng": -82.15914,
+      "label": "Bristol",
+      "county": "Bristol",
+      "markerCount": 6
+    },
+    "brunswick": {
+      "lat": 36.80568,
+      "lng": -77.83992,
+      "label": "Brunswick",
+      "county": "Brunswick",
+      "markerCount": 22
+    },
+    "buchanan": {
+      "lat": 37.21779,
+      "lng": -82.06488,
+      "label": "Buchanan",
+      "county": "Buchanan",
+      "markerCount": 4
+    },
+    "buckingham": {
+      "lat": 37.54849,
+      "lng": -78.42489,
+      "label": "Buckingham",
+      "county": "Buckingham",
+      "markerCount": 19
+    },
+    "buena vista": {
+      "lat": 37.74291,
+      "lng": -79.36146,
+      "label": "Buena Vista",
+      "county": "Buena Vista",
+      "markerCount": 1
+    },
+    "campbell": {
+      "lat": 37.19201,
+      "lng": -79.0667,
+      "label": "Campbell",
+      "county": "Campbell",
+      "markerCount": 13
+    },
+    "caroline": {
+      "lat": 38.02444,
+      "lng": -77.37588,
+      "label": "Caroline",
+      "county": "Caroline",
+      "markerCount": 31
+    },
+    "carroll": {
+      "lat": 36.79065,
+      "lng": -80.70467,
+      "label": "Carroll",
+      "county": "Carroll",
+      "markerCount": 7
+    },
+    "charles city": {
+      "lat": 37.33893,
+      "lng": -77.09598,
+      "label": "Charles City",
+      "county": "Charles City",
+      "markerCount": 26
+    },
+    "charlotte": {
+      "lat": 37.018,
+      "lng": -78.58133,
+      "label": "Charlotte",
+      "county": "Charlotte",
+      "markerCount": 20
+    },
+    "charlottesville": {
+      "lat": 38.03358,
+      "lng": -78.48585,
+      "label": "Charlottesville",
+      "county": "Charlottesville",
+      "markerCount": 28
+    },
+    "chesapeake": {
+      "lat": 36.7128,
+      "lng": -76.32491,
+      "label": "Chesapeake",
+      "county": "Chesapeake",
+      "markerCount": 9
+    },
+    "chesterfield": {
+      "lat": 37.37772,
+      "lng": -77.51248,
+      "label": "Chesterfield",
+      "county": "Chesterfield",
+      "markerCount": 60
+    },
+    "clarke": {
+      "lat": 39.10912,
+      "lng": -78.00362,
+      "label": "Clarke",
+      "county": "Clarke",
+      "markerCount": 32
+    },
+    "colonial heights": {
+      "lat": 37.26691,
+      "lng": -77.40202,
+      "label": "Colonial Heights",
+      "county": "Colonial Heights",
+      "markerCount": 7
+    },
+    "covington": {
+      "lat": 37.77696,
+      "lng": -79.99137,
+      "label": "Covington",
+      "county": "Covington",
+      "markerCount": 1
+    },
+    "craig": {
+      "lat": 37.41891,
+      "lng": -80.28628,
+      "label": "Craig",
+      "county": "Craig",
+      "markerCount": 7
+    },
+    "culpeper": {
+      "lat": 38.48822,
+      "lng": -77.95957,
+      "label": "Culpeper",
+      "county": "Culpeper",
+      "markerCount": 30
+    },
+    "cumberland": {
+      "lat": 37.48889,
+      "lng": -78.2556,
+      "label": "Cumberland",
+      "county": "Cumberland",
+      "markerCount": 16
+    },
+    "danville": {
+      "lat": 36.58426,
+      "lng": -79.39788,
+      "label": "Danville",
+      "county": "Danville",
+      "markerCount": 25
+    },
+    "dickenson": {
+      "lat": 37.13667,
+      "lng": -82.36053,
+      "label": "Dickenson",
+      "county": "Dickenson",
+      "markerCount": 8
+    },
+    "dinwiddie": {
+      "lat": 37.11376,
+      "lng": -77.57805,
+      "label": "Dinwiddie",
+      "county": "Dinwiddie",
+      "markerCount": 32
+    },
+    "emporia": {
+      "lat": 36.68797,
+      "lng": -77.5417,
+      "label": "Emporia",
+      "county": "Emporia",
+      "markerCount": 14
+    },
+    "essex": {
+      "lat": 37.91277,
+      "lng": -76.8936,
+      "label": "Essex",
+      "county": "Essex",
+      "markerCount": 24
+    },
+    "fairfax (county)": {
+      "lat": 38.81742,
+      "lng": -77.24875,
+      "label": "Fairfax (County)",
+      "county": "Fairfax (County)",
+      "markerCount": 75
+    },
+    "fairfax (ind. city)": {
+      "lat": 38.8415,
+      "lng": -77.30942,
+      "label": "Fairfax (Ind. City)",
+      "county": "Fairfax (Ind. City)",
+      "markerCount": 1
+    },
+    "falls church": {
+      "lat": 38.87843,
+      "lng": -77.16951,
+      "label": "Falls Church",
+      "county": "Falls Church",
+      "markerCount": 4
+    },
+    "fauquier": {
+      "lat": 38.80011,
+      "lng": -77.82194,
+      "label": "Fauquier",
+      "county": "Fauquier",
+      "markerCount": 51
+    },
+    "floyd": {
+      "lat": 36.92521,
+      "lng": -80.31875,
+      "label": "Floyd",
+      "county": "Floyd",
+      "markerCount": 4
+    },
+    "fluvanna": {
+      "lat": 37.82335,
+      "lng": -78.23897,
+      "label": "Fluvanna",
+      "county": "Fluvanna",
+      "markerCount": 14
+    },
+    "franklin (county)": {
+      "lat": 37.02369,
+      "lng": -79.85324,
+      "label": "Franklin (County)",
+      "county": "Franklin (County)",
+      "markerCount": 9
+    },
+    "franklin (ind. city)": {
+      "lat": 36.67665,
+      "lng": -76.92779,
+      "label": "Franklin (Ind. City)",
+      "county": "Franklin (Ind. City)",
+      "markerCount": 5
+    },
+    "frederick": {
+      "lat": 39.15088,
+      "lng": -78.19658,
+      "label": "Frederick",
+      "county": "Frederick",
+      "markerCount": 34
+    },
+    "fredericksburg": {
+      "lat": 38.29754,
+      "lng": -77.46597,
+      "label": "Fredericksburg",
+      "county": "Fredericksburg",
+      "markerCount": 12
+    },
+    "galax": {
+      "lat": 36.6578,
+      "lng": -80.92289,
+      "label": "Galax",
+      "county": "Galax",
+      "markerCount": 1
+    },
+    "giles": {
+      "lat": 37.31209,
+      "lng": -80.73953,
+      "label": "Giles",
+      "county": "Giles",
+      "markerCount": 12
+    },
+    "gloucester": {
+      "lat": 37.37739,
+      "lng": -76.54332,
+      "label": "Gloucester",
+      "county": "Gloucester",
+      "markerCount": 29
+    },
+    "goochland": {
+      "lat": 37.6687,
+      "lng": -77.8486,
+      "label": "Goochland",
+      "county": "Goochland",
+      "markerCount": 21
+    },
+    "grayson": {
+      "lat": 36.67421,
+      "lng": -81.10949,
+      "label": "Grayson",
+      "county": "Grayson",
+      "markerCount": 15
+    },
+    "greene": {
+      "lat": 38.28234,
+      "lng": -78.44377,
+      "label": "Greene",
+      "county": "Greene",
+      "markerCount": 6
+    },
+    "greensville": {
+      "lat": 36.72195,
+      "lng": -77.59039,
+      "label": "Greensville",
+      "county": "Greensville",
+      "markerCount": 4
+    },
+    "halifax": {
+      "lat": 36.81152,
+      "lng": -78.89745,
+      "label": "Halifax",
+      "county": "Halifax",
+      "markerCount": 11
+    },
+    "hampton": {
+      "lat": 37.0249,
+      "lng": -76.34138,
+      "label": "Hampton",
+      "county": "Hampton",
+      "markerCount": 43
+    },
+    "hanover": {
+      "lat": 37.70101,
+      "lng": -77.39172,
+      "label": "Hanover",
+      "county": "Hanover",
+      "markerCount": 59
+    },
+    "harrisonburg": {
+      "lat": 38.44455,
+      "lng": -78.86998,
+      "label": "Harrisonburg",
+      "county": "Harrisonburg",
+      "markerCount": 10
+    },
+    "henrico": {
+      "lat": 37.52218,
+      "lng": -77.366,
+      "label": "Henrico",
+      "county": "Henrico",
+      "markerCount": 82
+    },
+    "henry": {
+      "lat": 36.66396,
+      "lng": -79.88548,
+      "label": "Henry",
+      "county": "Henry",
+      "markerCount": 11
+    },
+    "highland": {
+      "lat": 38.23008,
+      "lng": -79.59973,
+      "label": "Highland",
+      "county": "Highland",
+      "markerCount": 10
+    },
+    "hopewell": {
+      "lat": 37.28029,
+      "lng": -77.31966,
+      "label": "Hopewell",
+      "county": "Hopewell",
+      "markerCount": 1
+    },
+    "isle of wight": {
+      "lat": 36.96374,
+      "lng": -76.64131,
+      "label": "Isle Of Wight",
+      "county": "Isle Of Wight",
+      "markerCount": 14
+    },
+    "james city": {
+      "lat": 37.27537,
+      "lng": -76.75325,
+      "label": "James City",
+      "county": "James City",
+      "markerCount": 38
+    },
+    "king and queen": {
+      "lat": 37.71933,
+      "lng": -76.9115,
+      "label": "King And Queen",
+      "county": "King And Queen",
+      "markerCount": 20
+    },
+    "king george": {
+      "lat": 38.25158,
+      "lng": -77.16745,
+      "label": "King George",
+      "county": "King George",
+      "markerCount": 14
+    },
+    "king william": {
+      "lat": 37.65587,
+      "lng": -76.98451,
+      "label": "King William",
+      "county": "King William",
+      "markerCount": 21
+    },
+    "lancaster": {
+      "lat": 37.70853,
+      "lng": -76.42669,
+      "label": "Lancaster",
+      "county": "Lancaster",
+      "markerCount": 20
+    },
+    "lee": {
+      "lat": 36.69485,
+      "lng": -83.14547,
+      "label": "Lee",
+      "county": "Lee",
+      "markerCount": 19
+    },
+    "lexington": {
+      "lat": 37.78519,
+      "lng": -79.44223,
+      "label": "Lexington",
+      "county": "Lexington",
+      "markerCount": 12
+    },
+    "loudoun": {
+      "lat": 39.09817,
+      "lng": -77.5987,
+      "label": "Loudoun",
+      "county": "Loudoun",
+      "markerCount": 49
+    },
+    "louisa": {
+      "lat": 37.99123,
+      "lng": -78.01504,
+      "label": "Louisa",
+      "county": "Louisa",
+      "markerCount": 24
+    },
+    "lunenburg": {
+      "lat": 36.93241,
+      "lng": -78.18822,
+      "label": "Lunenburg",
+      "county": "Lunenburg",
+      "markerCount": 12
+    },
+    "lynchburg": {
+      "lat": 37.40906,
+      "lng": -79.15729,
+      "label": "Lynchburg",
+      "county": "Lynchburg",
+      "markerCount": 70
+    },
+    "madison": {
+      "lat": 38.36568,
+      "lng": -78.22489,
+      "label": "Madison",
+      "county": "Madison",
+      "markerCount": 18
+    },
+    "manassas": {
+      "lat": 38.75382,
+      "lng": -77.47715,
+      "label": "Manassas",
+      "county": "Manassas",
+      "markerCount": 4
+    },
+    "martinsville": {
+      "lat": 36.69143,
+      "lng": -79.86982,
+      "label": "Martinsville",
+      "county": "Martinsville",
+      "markerCount": 5
+    },
+    "mathews": {
+      "lat": 37.442,
+      "lng": -76.34803,
+      "label": "Mathews",
+      "county": "Mathews",
+      "markerCount": 13
+    },
+    "mecklenburg": {
+      "lat": 36.67247,
+      "lng": -78.40041,
+      "label": "Mecklenburg",
+      "county": "Mecklenburg",
+      "markerCount": 25
+    },
+    "middlesex": {
+      "lat": 37.60202,
+      "lng": -76.52814,
+      "label": "Middlesex",
+      "county": "Middlesex",
+      "markerCount": 19
+    },
+    "montgomery": {
+      "lat": 37.20007,
+      "lng": -80.38304,
+      "label": "Montgomery",
+      "county": "Montgomery",
+      "markerCount": 20
+    },
+    "nelson": {
+      "lat": 37.82546,
+      "lng": -78.86198,
+      "label": "Nelson",
+      "county": "Nelson",
+      "markerCount": 22
+    },
+    "new kent": {
+      "lat": 37.48974,
+      "lng": -76.99885,
+      "label": "New Kent",
+      "county": "New Kent",
+      "markerCount": 29
+    },
+    "newport news": {
+      "lat": 37.10665,
+      "lng": -76.50909,
+      "label": "Newport News",
+      "county": "Newport News",
+      "markerCount": 23
+    },
+    "norfolk": {
+      "lat": 36.89052,
+      "lng": -76.27872,
+      "label": "Norfolk",
+      "county": "Norfolk",
+      "markerCount": 26
+    },
+    "northampton": {
+      "lat": 37.34554,
+      "lng": -75.94403,
+      "label": "Northampton",
+      "county": "Northampton",
+      "markerCount": 14
+    },
+    "northumberland": {
+      "lat": 37.90182,
+      "lng": -76.45133,
+      "label": "Northumberland",
+      "county": "Northumberland",
+      "markerCount": 21
+    },
+    "nottoway": {
+      "lat": 37.15199,
+      "lng": -78.08069,
+      "label": "Nottoway",
+      "county": "Nottoway",
+      "markerCount": 22
+    },
+    "orange": {
+      "lat": 38.23646,
+      "lng": -78.05621,
+      "label": "Orange",
+      "county": "Orange",
+      "markerCount": 35
+    },
+    "page": {
+      "lat": 38.66504,
+      "lng": -78.50099,
+      "label": "Page",
+      "county": "Page",
+      "markerCount": 7
+    },
+    "patrick": {
+      "lat": 36.62481,
+      "lng": -80.29049,
+      "label": "Patrick",
+      "county": "Patrick",
+      "markerCount": 13
+    },
+    "petersburg": {
+      "lat": 37.22651,
+      "lng": -77.40231,
+      "label": "Petersburg",
+      "county": "Petersburg",
+      "markerCount": 44
+    },
+    "pittsylvania": {
+      "lat": 36.82226,
+      "lng": -79.39037,
+      "label": "Pittsylvania",
+      "county": "Pittsylvania",
+      "markerCount": 22
+    },
+    "poquoson": {
+      "lat": 37.12004,
+      "lng": -76.38017,
+      "label": "Poquoson",
+      "county": "Poquoson",
+      "markerCount": 1
+    },
+    "portsmouth": {
+      "lat": 36.87837,
+      "lng": -76.3978,
+      "label": "Portsmouth",
+      "county": "Portsmouth",
+      "markerCount": 33
+    },
+    "powhatan": {
+      "lat": 37.556,
+      "lng": -77.88729,
+      "label": "Powhatan",
+      "county": "Powhatan",
+      "markerCount": 10
+    },
+    "prince edward": {
+      "lat": 37.25236,
+      "lng": -78.37247,
+      "label": "Prince Edward",
+      "county": "Prince Edward",
+      "markerCount": 24
+    },
+    "prince george": {
+      "lat": 37.23465,
+      "lng": -77.22047,
+      "label": "Prince George",
+      "county": "Prince George",
+      "markerCount": 15
+    },
+    "prince william": {
+      "lat": 38.71373,
+      "lng": -77.48633,
+      "label": "Prince William",
+      "county": "Prince William",
+      "markerCount": 23
+    },
+    "pulaski": {
+      "lat": 37.10229,
+      "lng": -80.67699,
+      "label": "Pulaski",
+      "county": "Pulaski",
+      "markerCount": 14
+    },
+    "radford": {
+      "lat": 37.12441,
+      "lng": -80.55398,
+      "label": "Radford",
+      "county": "Radford",
+      "markerCount": 4
+    },
+    "rappahannock": {
+      "lat": 38.68472,
+      "lng": -78.17264,
+      "label": "Rappahannock",
+      "county": "Rappahannock",
+      "markerCount": 16
+    },
+    "richmond (county)": {
+      "lat": 37.93094,
+      "lng": -76.7006,
+      "label": "Richmond (County)",
+      "county": "Richmond (County)",
+      "markerCount": 8
+    },
+    "richmond (ind. city)": {
+      "lat": 37.54438,
+      "lng": -77.44109,
+      "label": "Richmond (Ind. City)",
+      "county": "Richmond (Ind. City)",
+      "markerCount": 106
+    },
+    "roanoke (county)": {
+      "lat": 37.30614,
+      "lng": -80.0425,
+      "label": "Roanoke (County)",
+      "county": "Roanoke (County)",
+      "markerCount": 6
+    },
+    "roanoke (ind. city)": {
+      "lat": 37.27176,
+      "lng": -79.94396,
+      "label": "Roanoke (Ind. City)",
+      "county": "Roanoke (Ind. City)",
+      "markerCount": 24
+    },
+    "rockbridge": {
+      "lat": 37.79724,
+      "lng": -79.43449,
+      "label": "Rockbridge",
+      "county": "Rockbridge",
+      "markerCount": 22
+    },
+    "rockingham": {
+      "lat": 38.44192,
+      "lng": -78.84174,
+      "label": "Rockingham",
+      "county": "Rockingham",
+      "markerCount": 23
+    },
+    "russell": {
+      "lat": 36.90049,
+      "lng": -82.1125,
+      "label": "Russell",
+      "county": "Russell",
+      "markerCount": 9
+    },
+    "salem": {
+      "lat": 37.29177,
+      "lng": -80.05567,
+      "label": "Salem",
+      "county": "Salem",
+      "markerCount": 7
+    },
+    "scott": {
+      "lat": 36.67829,
+      "lng": -82.5521,
+      "label": "Scott",
+      "county": "Scott",
+      "markerCount": 19
+    },
+    "shenandoah": {
+      "lat": 38.80249,
+      "lng": -78.53144,
+      "label": "Shenandoah",
+      "county": "Shenandoah",
+      "markerCount": 28
+    },
+    "smyth": {
+      "lat": 36.82805,
+      "lng": -81.57546,
+      "label": "Smyth",
+      "county": "Smyth",
+      "markerCount": 24
+    },
+    "south boston": {
+      "lat": 36.69607,
+      "lng": -78.89959,
+      "label": "South Boston",
+      "county": "South Boston",
+      "markerCount": 1
+    },
+    "southampton": {
+      "lat": 36.70313,
+      "lng": -77.07951,
+      "label": "Southampton",
+      "county": "Southampton",
+      "markerCount": 18
+    },
+    "spotsylvania": {
+      "lat": 38.2226,
+      "lng": -77.55418,
+      "label": "Spotsylvania",
+      "county": "Spotsylvania",
+      "markerCount": 33
+    },
+    "stafford": {
+      "lat": 38.37015,
+      "lng": -77.43919,
+      "label": "Stafford",
+      "county": "Stafford",
+      "markerCount": 30
+    },
+    "staunton": {
+      "lat": 38.15084,
+      "lng": -79.07322,
+      "label": "Staunton",
+      "county": "Staunton",
+      "markerCount": 10
+    },
+    "suffolk": {
+      "lat": 36.77855,
+      "lng": -76.56503,
+      "label": "Suffolk",
+      "county": "Suffolk",
+      "markerCount": 34
+    },
+    "surry": {
+      "lat": 37.12664,
+      "lng": -76.87882,
+      "label": "Surry",
+      "county": "Surry",
+      "markerCount": 24
+    },
+    "sussex": {
+      "lat": 36.93961,
+      "lng": -77.21852,
+      "label": "Sussex",
+      "county": "Sussex",
+      "markerCount": 15
+    },
+    "tazewell": {
+      "lat": 37.18793,
+      "lng": -81.45149,
+      "label": "Tazewell",
+      "county": "Tazewell",
+      "markerCount": 27
+    },
+    "virginia beach": {
+      "lat": 36.86061,
+      "lng": -76.08387,
+      "label": "Virginia Beach",
+      "county": "Virginia Beach",
+      "markerCount": 26
+    },
+    "warren": {
+      "lat": 38.9364,
+      "lng": -78.20582,
+      "label": "Warren",
+      "county": "Warren",
+      "markerCount": 10
+    },
+    "washington": {
+      "lat": 36.71244,
+      "lng": -81.90379,
+      "label": "Washington",
+      "county": "Washington",
+      "markerCount": 21
+    },
+    "waynesboro": {
+      "lat": 38.06935,
+      "lng": -78.89256,
+      "label": "Waynesboro",
+      "county": "Waynesboro",
+      "markerCount": 7
+    },
+    "westmoreland": {
+      "lat": 38.10571,
+      "lng": -76.79287,
+      "label": "Westmoreland",
+      "county": "Westmoreland",
+      "markerCount": 35
+    },
+    "williamsburg": {
+      "lat": 37.27026,
+      "lng": -76.71277,
+      "label": "Williamsburg",
+      "county": "Williamsburg",
+      "markerCount": 7
+    },
+    "winchester": {
+      "lat": 39.18406,
+      "lng": -78.16466,
+      "label": "Winchester",
+      "county": "Winchester",
+      "markerCount": 15
+    },
+    "wise": {
+      "lat": 36.9679,
+      "lng": -82.64863,
+      "label": "Wise",
+      "county": "Wise",
+      "markerCount": 19
+    },
+    "wythe": {
+      "lat": 36.94421,
+      "lng": -81.03642,
+      "label": "Wythe",
+      "county": "Wythe",
+      "markerCount": 18
+    },
+    "york": {
+      "lat": 37.23372,
+      "lng": -76.56702,
+      "label": "York",
+      "county": "York",
+      "markerCount": 8
+    }
+  },
+  "zips": {
+    "20105": {
+      "lat": 38.96309,
+      "lng": -77.62822,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20106": {
+      "lat": 38.68068,
+      "lng": -77.96511,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "20109": {
+      "lat": 38.81583,
+      "lng": -77.52352,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "20110": {
+      "lat": 38.74923,
+      "lng": -77.487,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "20115": {
+      "lat": 38.87677,
+      "lng": -77.85554,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "20117": {
+      "lat": 38.9739,
+      "lng": -77.68739,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "20119": {
+      "lat": 38.68861,
+      "lng": -77.67076,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "20120": {
+      "lat": 38.8284,
+      "lng": -77.48515,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "20121": {
+      "lat": 38.83548,
+      "lng": -77.44079,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "20124": {
+      "lat": 38.78093,
+      "lng": -77.38669,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "20130": {
+      "lat": 39.01134,
+      "lng": -77.95782,
+      "place": "Clarke",
+      "state": "VA"
+    },
+    "20132": {
+      "lat": 39.17554,
+      "lng": -77.7021,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20135": {
+      "lat": 39.11947,
+      "lng": -77.87033,
+      "place": "Clarke",
+      "state": "VA"
+    },
+    "20136": {
+      "lat": 38.72794,
+      "lng": -77.54122,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "20137": {
+      "lat": 38.82354,
+      "lng": -77.71091,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "20141": {
+      "lat": 39.0668,
+      "lng": -77.79662,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20144": {
+      "lat": 38.90692,
+      "lng": -77.9172,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "20151": {
+      "lat": 38.90212,
+      "lng": -77.43455,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "20152": {
+      "lat": 38.91394,
+      "lng": -77.48066,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20155": {
+      "lat": 38.7902,
+      "lng": -77.6342,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "20158": {
+      "lat": 39.13504,
+      "lng": -77.66588,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20164": {
+      "lat": 39.01799,
+      "lng": -77.39077,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20165": {
+      "lat": 39.00119,
+      "lng": -77.34431,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20169": {
+      "lat": 38.87039,
+      "lng": -77.6353,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "20170": {
+      "lat": 38.95789,
+      "lng": -77.40253,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "20171": {
+      "lat": 38.94313,
+      "lng": -77.41457,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "20175": {
+      "lat": 39.1014,
+      "lng": -77.5832,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20176": {
+      "lat": 39.14609,
+      "lng": -77.53839,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20180": {
+      "lat": 39.26617,
+      "lng": -77.61491,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20181": {
+      "lat": 38.64056,
+      "lng": -77.49389,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "20186": {
+      "lat": 38.70323,
+      "lng": -77.8454,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "20187": {
+      "lat": 38.74463,
+      "lng": -77.73383,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "20197": {
+      "lat": 39.19024,
+      "lng": -77.61345,
+      "place": "Loudoun",
+      "state": "VA"
+    },
+    "20198": {
+      "lat": 38.8631,
+      "lng": -77.77204,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "22003": {
+      "lat": 38.83433,
+      "lng": -77.18015,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22015": {
+      "lat": 38.79023,
+      "lng": -77.27439,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22026": {
+      "lat": 38.56647,
+      "lng": -77.32387,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "22030": {
+      "lat": 38.83496,
+      "lng": -77.33798,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22032": {
+      "lat": 38.84061,
+      "lng": -77.26896,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22033": {
+      "lat": 38.86547,
+      "lng": -77.37054,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22041": {
+      "lat": 38.85239,
+      "lng": -77.13292,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22042": {
+      "lat": 38.8659,
+      "lng": -77.20298,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22044": {
+      "lat": 38.8645,
+      "lng": -77.15073,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22046": {
+      "lat": 38.88001,
+      "lng": -77.17426,
+      "place": "Falls Church",
+      "state": "VA"
+    },
+    "22060": {
+      "lat": 38.7112,
+      "lng": -77.14391,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22066": {
+      "lat": 38.99178,
+      "lng": -77.32372,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22079": {
+      "lat": 38.69442,
+      "lng": -77.21965,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22101": {
+      "lat": 38.94581,
+      "lng": -77.15472,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22124": {
+      "lat": 38.89018,
+      "lng": -77.3268,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22134": {
+      "lat": 38.52191,
+      "lng": -77.35928,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "22150": {
+      "lat": 38.79182,
+      "lng": -77.20586,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22151": {
+      "lat": 38.80954,
+      "lng": -77.22098,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22181": {
+      "lat": 38.90957,
+      "lng": -77.28413,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22182": {
+      "lat": 38.93259,
+      "lng": -77.30494,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22191": {
+      "lat": 38.60875,
+      "lng": -77.29061,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "22193": {
+      "lat": 38.61946,
+      "lng": -77.29849,
+      "place": "Prince William",
+      "state": "VA"
+    },
+    "22201": {
+      "lat": 38.88103,
+      "lng": -77.08394,
+      "place": "Arlington",
+      "state": "VA"
+    },
+    "22206": {
+      "lat": 38.84093,
+      "lng": -77.08691,
+      "place": "Arlington",
+      "state": "VA"
+    },
+    "22207": {
+      "lat": 38.92581,
+      "lng": -77.12137,
+      "place": "Arlington",
+      "state": "VA"
+    },
+    "22302": {
+      "lat": 38.82967,
+      "lng": -77.09125,
+      "place": "Alexandria",
+      "state": "VA"
+    },
+    "22303": {
+      "lat": 38.79278,
+      "lng": -77.0765,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22306": {
+      "lat": 38.75693,
+      "lng": -77.08844,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22307": {
+      "lat": 38.77945,
+      "lng": -77.05192,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22308": {
+      "lat": 38.71094,
+      "lng": -77.07224,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22309": {
+      "lat": 38.71257,
+      "lng": -77.11992,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22310": {
+      "lat": 38.78893,
+      "lng": -77.11304,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22312": {
+      "lat": 38.8246,
+      "lng": -77.16045,
+      "place": "Fairfax (County)",
+      "state": "VA"
+    },
+    "22314": {
+      "lat": 38.80411,
+      "lng": -77.0486,
+      "place": "Alexandria",
+      "state": "VA"
+    },
+    "22401": {
+      "lat": 38.29685,
+      "lng": -77.46732,
+      "place": "Fredericksburg",
+      "state": "VA"
+    },
+    "22405": {
+      "lat": 38.3201,
+      "lng": -77.45115,
+      "place": "Stafford",
+      "state": "VA"
+    },
+    "22406": {
+      "lat": 38.37696,
+      "lng": -77.53984,
+      "place": "Stafford",
+      "state": "VA"
+    },
+    "22407": {
+      "lat": 38.25074,
+      "lng": -77.5645,
+      "place": "Spotsylvania",
+      "state": "VA"
+    },
+    "22408": {
+      "lat": 38.2498,
+      "lng": -77.43513,
+      "place": "Caroline",
+      "state": "VA"
+    },
+    "22427": {
+      "lat": 38.051,
+      "lng": -77.34731,
+      "place": "Caroline",
+      "state": "VA"
+    },
+    "22435": {
+      "lat": 37.97238,
+      "lng": -76.5849,
+      "place": "Northumberland",
+      "state": "VA"
+    },
+    "22436": {
+      "lat": 38.09272,
+      "lng": -77.07559,
+      "place": "Essex",
+      "state": "VA"
+    },
+    "22437": {
+      "lat": 37.7824,
+      "lng": -76.76092,
+      "place": "Essex",
+      "state": "VA"
+    },
+    "22438": {
+      "lat": 38.067,
+      "lng": -77.01005,
+      "place": "Essex",
+      "state": "VA"
+    },
+    "22443": {
+      "lat": 38.17406,
+      "lng": -77.00513,
+      "place": "Westmoreland",
+      "state": "VA"
+    },
+    "22454": {
+      "lat": 37.8766,
+      "lng": -76.80903,
+      "place": "Essex",
+      "state": "VA"
+    },
+    "22460": {
+      "lat": 37.866,
+      "lng": -76.61731,
+      "place": "Richmond (County)",
+      "state": "VA"
+    },
+    "22469": {
+      "lat": 38.05634,
+      "lng": -76.63255,
+      "place": "Westmoreland",
+      "state": "VA"
+    },
+    "22473": {
+      "lat": 37.92294,
+      "lng": -76.47312,
+      "place": "Northumberland",
+      "state": "VA"
+    },
+    "22482": {
+      "lat": 37.72758,
+      "lng": -76.37223,
+      "place": "Northumberland",
+      "state": "VA"
+    },
+    "22485": {
+      "lat": 38.25545,
+      "lng": -77.17991,
+      "place": "King George",
+      "state": "VA"
+    },
+    "22488": {
+      "lat": 38.03019,
+      "lng": -76.58156,
+      "place": "Westmoreland",
+      "state": "VA"
+    },
+    "22503": {
+      "lat": 37.75694,
+      "lng": -76.50641,
+      "place": "Lancaster",
+      "state": "VA"
+    },
+    "22504": {
+      "lat": 37.75652,
+      "lng": -76.72356,
+      "place": "Essex",
+      "state": "VA"
+    },
+    "22508": {
+      "lat": 38.32762,
+      "lng": -77.77267,
+      "place": "Orange",
+      "state": "VA"
+    },
+    "22511": {
+      "lat": 37.96597,
+      "lng": -76.52422,
+      "place": "Northumberland",
+      "state": "VA"
+    },
+    "22514": {
+      "lat": 38.0091,
+      "lng": -77.33387,
+      "place": "Caroline",
+      "state": "VA"
+    },
+    "22520": {
+      "lat": 38.10252,
+      "lng": -76.79299,
+      "place": "Westmoreland",
+      "state": "VA"
+    },
+    "22535": {
+      "lat": 38.15432,
+      "lng": -77.20212,
+      "place": "Caroline",
+      "state": "VA"
+    },
+    "22538": {
+      "lat": 38.20219,
+      "lng": -77.27275,
+      "place": "Caroline",
+      "state": "VA"
+    },
+    "22539": {
+      "lat": 37.84898,
+      "lng": -76.2829,
+      "place": "Northumberland",
+      "state": "VA"
+    },
+    "22542": {
+      "lat": 38.2729,
+      "lng": -77.9122,
+      "place": "Orange",
+      "state": "VA"
+    },
+    "22546": {
+      "lat": 37.95766,
+      "lng": -77.50002,
+      "place": "Caroline",
+      "state": "VA"
+    },
+    "22551": {
+      "lat": 38.13461,
+      "lng": -77.57478,
+      "place": "Spotsylvania",
+      "state": "VA"
+    },
+    "22553": {
+      "lat": 38.2526,
+      "lng": -77.63312,
+      "place": "Spotsylvania",
+      "state": "VA"
+    },
+    "22554": {
+      "lat": 38.4422,
+      "lng": -77.3989,
+      "place": "Stafford",
+      "state": "VA"
+    },
+    "22560": {
+      "lat": 37.89762,
+      "lng": -76.90799,
+      "place": "Essex",
+      "state": "VA"
+    },
+    "22572": {
+      "lat": 37.9699,
+      "lng": -76.75058,
+      "place": "Richmond (County)",
+      "state": "VA"
+    },
+    "22576": {
+      "lat": 37.68145,
+      "lng": -76.42331,
+      "place": "Lancaster",
+      "state": "VA"
+    },
+    "22578": {
+      "lat": 37.62642,
+      "lng": -76.32866,
+      "place": "Lancaster",
+      "state": "VA"
+    },
+    "22580": {
+      "lat": 38.10857,
+      "lng": -77.52601,
+      "place": "Spotsylvania",
+      "state": "VA"
+    },
+    "22601": {
+      "lat": 39.18566,
+      "lng": -78.15921,
+      "place": "Frederick",
+      "state": "VA"
+    },
+    "22602": {
+      "lat": 39.13778,
+      "lng": -78.16195,
+      "place": "Frederick",
+      "state": "VA"
+    },
+    "22603": {
+      "lat": 39.22867,
+      "lng": -78.16183,
+      "place": "Frederick",
+      "state": "VA"
+    },
+    "22611": {
+      "lat": 39.15444,
+      "lng": -77.96835,
+      "place": "Clarke",
+      "state": "VA"
+    },
+    "22620": {
+      "lat": 39.0702,
+      "lng": -78.04281,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "22624": {
+      "lat": 39.29436,
+      "lng": -78.08008,
+      "place": "Frederick",
+      "state": "VA"
+    },
+    "22630": {
+      "lat": 38.9201,
+      "lng": -78.18496,
+      "place": "Rappahannock",
+      "state": "VA"
+    },
+    "22637": {
+      "lat": 39.26768,
+      "lng": -78.3239,
+      "place": "Frederick",
+      "state": "VA"
+    },
+    "22642": {
+      "lat": 38.90953,
+      "lng": -78.07534,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "22643": {
+      "lat": 38.90677,
+      "lng": -77.99613,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "22645": {
+      "lat": 39.02933,
+      "lng": -78.27958,
+      "place": "Frederick",
+      "state": "VA"
+    },
+    "22650": {
+      "lat": 38.80465,
+      "lng": -78.34979,
+      "place": "Page",
+      "state": "VA"
+    },
+    "22655": {
+      "lat": 39.09084,
+      "lng": -78.21149,
+      "place": "Frederick",
+      "state": "VA"
+    },
+    "22656": {
+      "lat": 39.23865,
+      "lng": -78.10842,
+      "place": "Frederick",
+      "state": "VA"
+    },
+    "22657": {
+      "lat": 38.98275,
+      "lng": -78.36182,
+      "place": "Shenandoah",
+      "state": "VA"
+    },
+    "22663": {
+      "lat": 39.06012,
+      "lng": -78.12044,
+      "place": "Clarke",
+      "state": "VA"
+    },
+    "22664": {
+      "lat": 38.84811,
+      "lng": -78.53054,
+      "place": "Shenandoah",
+      "state": "VA"
+    },
+    "22701": {
+      "lat": 38.45071,
+      "lng": -77.98421,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22713": {
+      "lat": 38.55123,
+      "lng": -78.13934,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22714": {
+      "lat": 38.49908,
+      "lng": -77.903,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22715": {
+      "lat": 38.4364,
+      "lng": -78.14341,
+      "place": "Madison",
+      "state": "VA"
+    },
+    "22718": {
+      "lat": 38.49215,
+      "lng": -77.81823,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22720": {
+      "lat": 38.44638,
+      "lng": -77.65263,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "22724": {
+      "lat": 38.67727,
+      "lng": -77.91865,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22725": {
+      "lat": 38.44302,
+      "lng": -78.13259,
+      "place": "Madison",
+      "state": "VA"
+    },
+    "22727": {
+      "lat": 38.39522,
+      "lng": -78.27226,
+      "place": "Madison",
+      "state": "VA"
+    },
+    "22728": {
+      "lat": 38.59637,
+      "lng": -77.70071,
+      "place": "Fauquier",
+      "state": "VA"
+    },
+    "22729": {
+      "lat": 38.37934,
+      "lng": -78.0238,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22730": {
+      "lat": 38.36845,
+      "lng": -78.17999,
+      "place": "Madison",
+      "state": "VA"
+    },
+    "22732": {
+      "lat": 38.29188,
+      "lng": -78.13747,
+      "place": "Madison",
+      "state": "VA"
+    },
+    "22733": {
+      "lat": 38.35267,
+      "lng": -78.06162,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22734": {
+      "lat": 38.52781,
+      "lng": -77.82061,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22737": {
+      "lat": 38.59787,
+      "lng": -77.96164,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22738": {
+      "lat": 38.28966,
+      "lng": -78.27059,
+      "place": "Madison",
+      "state": "VA"
+    },
+    "22740": {
+      "lat": 38.63149,
+      "lng": -78.23069,
+      "place": "Rappahannock",
+      "state": "VA"
+    },
+    "22741": {
+      "lat": 38.44209,
+      "lng": -77.88663,
+      "place": "Culpeper",
+      "state": "VA"
+    },
+    "22747": {
+      "lat": 38.70961,
+      "lng": -78.15519,
+      "place": "Rappahannock",
+      "state": "VA"
+    },
+    "22749": {
+      "lat": 38.60348,
+      "lng": -78.17155,
+      "place": "Rappahannock",
+      "state": "VA"
+    },
+    "22801": {
+      "lat": 38.43843,
+      "lng": -78.87752,
+      "place": "Harrisonburg",
+      "state": "VA"
+    },
+    "22802": {
+      "lat": 38.52884,
+      "lng": -78.79032,
+      "place": "Rockingham",
+      "state": "VA"
+    },
+    "22807": {
+      "lat": 38.43082,
+      "lng": -78.87586,
+      "place": "Harrisonburg",
+      "state": "VA"
+    },
+    "22812": {
+      "lat": 38.37386,
+      "lng": -79.02696,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "22821": {
+      "lat": 38.41917,
+      "lng": -78.93822,
+      "place": "Rockingham",
+      "state": "VA"
+    },
+    "22824": {
+      "lat": 38.82156,
+      "lng": -78.56637,
+      "place": "Shenandoah",
+      "state": "VA"
+    },
+    "22827": {
+      "lat": 38.389,
+      "lng": -78.5829,
+      "place": "Rockingham",
+      "state": "VA"
+    },
+    "22834": {
+      "lat": 38.55897,
+      "lng": -78.83467,
+      "place": "Rockingham",
+      "state": "VA"
+    },
+    "22835": {
+      "lat": 38.65739,
+      "lng": -78.45363,
+      "place": "Page",
+      "state": "VA"
+    },
+    "22841": {
+      "lat": 38.3561,
+      "lng": -78.9398,
+      "place": "Rockingham",
+      "state": "VA"
+    },
+    "22842": {
+      "lat": 38.75913,
+      "lng": -78.67097,
+      "place": "Shenandoah",
+      "state": "VA"
+    },
+    "22844": {
+      "lat": 38.7155,
+      "lng": -78.63081,
+      "place": "Shenandoah",
+      "state": "VA"
+    },
+    "22846": {
+      "lat": 38.39186,
+      "lng": -78.81009,
+      "place": "Rockingham",
+      "state": "VA"
+    },
+    "22847": {
+      "lat": 38.71572,
+      "lng": -78.68436,
+      "place": "Shenandoah",
+      "state": "VA"
+    },
+    "22849": {
+      "lat": 38.51381,
+      "lng": -78.61045,
+      "place": "Rockingham",
+      "state": "VA"
+    },
+    "22901": {
+      "lat": 38.0675,
+      "lng": -78.54052,
+      "place": "Albemarle",
+      "state": "VA"
+    },
+    "22902": {
+      "lat": 38.01178,
+      "lng": -78.47546,
+      "place": "Charlottesville",
+      "state": "VA"
+    },
+    "22903": {
+      "lat": 38.03441,
+      "lng": -78.51604,
+      "place": "Albemarle",
+      "state": "VA"
+    },
+    "22911": {
+      "lat": 38.06294,
+      "lng": -78.43547,
+      "place": "Albemarle",
+      "state": "VA"
+    },
+    "22920": {
+      "lat": 38.02625,
+      "lng": -78.82342,
+      "place": "Nelson",
+      "state": "VA"
+    },
+    "22922": {
+      "lat": 37.7125,
+      "lng": -78.91904,
+      "place": "Nelson",
+      "state": "VA"
+    },
+    "22931": {
+      "lat": 37.89073,
+      "lng": -78.70467,
+      "place": "Albemarle",
+      "state": "VA"
+    },
+    "22932": {
+      "lat": 38.06957,
+      "lng": -78.70064,
+      "place": "Albemarle",
+      "state": "VA"
+    },
+    "22936": {
+      "lat": 38.15602,
+      "lng": -78.4827,
+      "place": "Albemarle",
+      "state": "VA"
+    },
+    "22938": {
+      "lat": 37.85472,
+      "lng": -78.75113,
+      "place": "Nelson",
+      "state": "VA"
+    },
+    "22939": {
+      "lat": 38.08532,
+      "lng": -78.98445,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "22942": {
+      "lat": 38.10258,
+      "lng": -78.20688,
+      "place": "Louisa",
+      "state": "VA"
+    },
+    "22943": {
+      "lat": 38.03431,
+      "lng": -78.76295,
+      "place": "Albemarle",
+      "state": "VA"
+    },
+    "22947": {
+      "lat": 38.05025,
+      "lng": -78.32517,
+      "place": "Albemarle",
+      "state": "VA"
+    },
+    "22948": {
+      "lat": 38.35033,
+      "lng": -78.11555,
+      "place": "Madison",
+      "state": "VA"
+    },
+    "22949": {
+      "lat": 37.7596,
+      "lng": -78.87085,
+      "place": "Nelson",
+      "state": "VA"
+    },
+    "22958": {
+      "lat": 37.88189,
+      "lng": -78.86039,
+      "place": "Nelson",
+      "state": "VA"
+    },
+    "22960": {
+      "lat": 38.24273,
+      "lng": -78.12937,
+      "place": "Orange",
+      "state": "VA"
+    },
+    "22963": {
+      "lat": 37.84731,
+      "lng": -78.26923,
+      "place": "Fluvanna",
+      "state": "VA"
+    },
+    "22967": {
+      "lat": 37.77507,
+      "lng": -79.0033,
+      "place": "Nelson",
+      "state": "VA"
+    },
+    "22968": {
+      "lat": 38.22724,
+      "lng": -78.37349,
+      "place": "Madison",
+      "state": "VA"
+    },
+    "22971": {
+      "lat": 37.71934,
+      "lng": -78.82722,
+      "place": "Nelson",
+      "state": "VA"
+    },
+    "22973": {
+      "lat": 38.32624,
+      "lng": -78.46617,
+      "place": "Greene",
+      "state": "VA"
+    },
+    "22974": {
+      "lat": 37.97461,
+      "lng": -78.24677,
+      "place": "Fluvanna",
+      "state": "VA"
+    },
+    "22980": {
+      "lat": 38.07385,
+      "lng": -78.8884,
+      "place": "Waynesboro",
+      "state": "VA"
+    },
+    "23002": {
+      "lat": 37.34119,
+      "lng": -77.98267,
+      "place": "Amelia",
+      "state": "VA"
+    },
+    "23004": {
+      "lat": 37.6558,
+      "lng": -78.35115,
+      "place": "Buckingham",
+      "state": "VA"
+    },
+    "23005": {
+      "lat": 37.75718,
+      "lng": -77.4793,
+      "place": "Hanover",
+      "state": "VA"
+    },
+    "23009": {
+      "lat": 37.75545,
+      "lng": -77.12317,
+      "place": "King William",
+      "state": "VA"
+    },
+    "23015": {
+      "lat": 37.89726,
+      "lng": -77.59262,
+      "place": "Hanover",
+      "state": "VA"
+    },
+    "23022": {
+      "lat": 37.7177,
+      "lng": -78.30153,
+      "place": "Fluvanna",
+      "state": "VA"
+    },
+    "23024": {
+      "lat": 38.00566,
+      "lng": -77.74807,
+      "place": "Louisa",
+      "state": "VA"
+    },
+    "23027": {
+      "lat": 37.66594,
+      "lng": -78.12774,
+      "place": "Cumberland",
+      "state": "VA"
+    },
+    "23030": {
+      "lat": 37.33753,
+      "lng": -77.08327,
+      "place": "Charles City",
+      "state": "VA"
+    },
+    "23038": {
+      "lat": 37.76262,
+      "lng": -78.18034,
+      "place": "Fluvanna",
+      "state": "VA"
+    },
+    "23039": {
+      "lat": 37.63652,
+      "lng": -77.80524,
+      "place": "Goochland",
+      "state": "VA"
+    },
+    "23040": {
+      "lat": 37.50299,
+      "lng": -78.24727,
+      "place": "Buckingham",
+      "state": "VA"
+    },
+    "23043": {
+      "lat": 37.5544,
+      "lng": -76.34049,
+      "place": "Middlesex",
+      "state": "VA"
+    },
+    "23047": {
+      "lat": 37.85974,
+      "lng": -77.46787,
+      "place": "Caroline",
+      "state": "VA"
+    },
+    "23050": {
+      "lat": 37.46586,
+      "lng": -76.44477,
+      "place": "Mathews",
+      "state": "VA"
+    },
+    "23055": {
+      "lat": 37.77647,
+      "lng": -78.25297,
+      "place": "Fluvanna",
+      "state": "VA"
+    },
+    "23059": {
+      "lat": 37.67828,
+      "lng": -77.48923,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23060": {
+      "lat": 37.6625,
+      "lng": -77.49557,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23061": {
+      "lat": 37.39722,
+      "lng": -76.53625,
+      "place": "Gloucester",
+      "state": "VA"
+    },
+    "23062": {
+      "lat": 37.25037,
+      "lng": -76.50134,
+      "place": "Gloucester",
+      "state": "VA"
+    },
+    "23063": {
+      "lat": 37.71419,
+      "lng": -77.96947,
+      "place": "Goochland",
+      "state": "VA"
+    },
+    "23065": {
+      "lat": 37.78346,
+      "lng": -77.90572,
+      "place": "Louisa",
+      "state": "VA"
+    },
+    "23069": {
+      "lat": 37.75246,
+      "lng": -77.35328,
+      "place": "Caroline",
+      "state": "VA"
+    },
+    "23071": {
+      "lat": 37.55256,
+      "lng": -76.4524,
+      "place": "Middlesex",
+      "state": "VA"
+    },
+    "23072": {
+      "lat": 37.3148,
+      "lng": -76.51083,
+      "place": "Gloucester",
+      "state": "VA"
+    },
+    "23075": {
+      "lat": 37.53512,
+      "lng": -77.31752,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23083": {
+      "lat": 37.29685,
+      "lng": -78.09334,
+      "place": "Nottoway",
+      "state": "VA"
+    },
+    "23084": {
+      "lat": 37.90396,
+      "lng": -78.06647,
+      "place": "Fluvanna",
+      "state": "VA"
+    },
+    "23085": {
+      "lat": 37.67937,
+      "lng": -76.88945,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23086": {
+      "lat": 37.70541,
+      "lng": -77.05435,
+      "place": "King William",
+      "state": "VA"
+    },
+    "23089": {
+      "lat": 37.42391,
+      "lng": -76.89885,
+      "place": "New Kent",
+      "state": "VA"
+    },
+    "23091": {
+      "lat": 37.68036,
+      "lng": -76.75255,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23093": {
+      "lat": 38.01363,
+      "lng": -78.03182,
+      "place": "Louisa",
+      "state": "VA"
+    },
+    "23102": {
+      "lat": 37.64831,
+      "lng": -77.83541,
+      "place": "Goochland",
+      "state": "VA"
+    },
+    "23103": {
+      "lat": 37.6229,
+      "lng": -77.73346,
+      "place": "Goochland",
+      "state": "VA"
+    },
+    "23109": {
+      "lat": 37.43794,
+      "lng": -76.31812,
+      "place": "Mathews",
+      "state": "VA"
+    },
+    "23110": {
+      "lat": 37.58406,
+      "lng": -76.76558,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23111": {
+      "lat": 37.60291,
+      "lng": -77.29963,
+      "place": "Hanover",
+      "state": "VA"
+    },
+    "23112": {
+      "lat": 37.43384,
+      "lng": -77.61063,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23113": {
+      "lat": 37.53674,
+      "lng": -77.67763,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23114": {
+      "lat": 37.50318,
+      "lng": -77.64223,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23116": {
+      "lat": 37.66636,
+      "lng": -77.30349,
+      "place": "Hanover",
+      "state": "VA"
+    },
+    "23117": {
+      "lat": 37.96983,
+      "lng": -77.90843,
+      "place": "Louisa",
+      "state": "VA"
+    },
+    "23120": {
+      "lat": 37.38228,
+      "lng": -77.82072,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23123": {
+      "lat": 37.69668,
+      "lng": -78.31605,
+      "place": "Buckingham",
+      "state": "VA"
+    },
+    "23124": {
+      "lat": 37.51782,
+      "lng": -76.9784,
+      "place": "New Kent",
+      "state": "VA"
+    },
+    "23126": {
+      "lat": 37.91356,
+      "lng": -77.12785,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23128": {
+      "lat": 37.47553,
+      "lng": -76.37783,
+      "place": "Mathews",
+      "state": "VA"
+    },
+    "23138": {
+      "lat": 37.40994,
+      "lng": -76.33505,
+      "place": "Mathews",
+      "state": "VA"
+    },
+    "23139": {
+      "lat": 37.54868,
+      "lng": -77.96732,
+      "place": "Powhatan",
+      "state": "VA"
+    },
+    "23140": {
+      "lat": 37.41567,
+      "lng": -77.02084,
+      "place": "Charles City",
+      "state": "VA"
+    },
+    "23141": {
+      "lat": 37.51164,
+      "lng": -77.11342,
+      "place": "New Kent",
+      "state": "VA"
+    },
+    "23148": {
+      "lat": 37.79556,
+      "lng": -77.03019,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23149": {
+      "lat": 37.59646,
+      "lng": -76.58674,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23150": {
+      "lat": 37.52512,
+      "lng": -77.27117,
+      "place": "New Kent",
+      "state": "VA"
+    },
+    "23156": {
+      "lat": 37.59995,
+      "lng": -76.73805,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23161": {
+      "lat": 37.72012,
+      "lng": -76.9153,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23163": {
+      "lat": 37.3314,
+      "lng": -76.28617,
+      "place": "Mathews",
+      "state": "VA"
+    },
+    "23168": {
+      "lat": 37.39814,
+      "lng": -76.80915,
+      "place": "James City",
+      "state": "VA"
+    },
+    "23175": {
+      "lat": 37.63746,
+      "lng": -76.58087,
+      "place": "Middlesex",
+      "state": "VA"
+    },
+    "23177": {
+      "lat": 37.72517,
+      "lng": -77.0119,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23181": {
+      "lat": 37.56245,
+      "lng": -76.84471,
+      "place": "King And Queen",
+      "state": "VA"
+    },
+    "23185": {
+      "lat": 37.24188,
+      "lng": -76.72789,
+      "place": "James City",
+      "state": "VA"
+    },
+    "23188": {
+      "lat": 37.33733,
+      "lng": -76.76226,
+      "place": "James City",
+      "state": "VA"
+    },
+    "23192": {
+      "lat": 37.82512,
+      "lng": -77.61361,
+      "place": "Hanover",
+      "state": "VA"
+    },
+    "23219": {
+      "lat": 37.54357,
+      "lng": -77.43419,
+      "place": "Richmond (Ind. City)",
+      "state": "VA"
+    },
+    "23220": {
+      "lat": 37.54814,
+      "lng": -77.44666,
+      "place": "Richmond (Ind. City)",
+      "state": "VA"
+    },
+    "23221": {
+      "lat": 37.5563,
+      "lng": -77.4887,
+      "place": "Richmond (Ind. City)",
+      "state": "VA"
+    },
+    "23222": {
+      "lat": 37.57341,
+      "lng": -77.42656,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23223": {
+      "lat": 37.54565,
+      "lng": -77.41176,
+      "place": "Hanover",
+      "state": "VA"
+    },
+    "23225": {
+      "lat": 37.51784,
+      "lng": -77.47707,
+      "place": "Richmond (Ind. City)",
+      "state": "VA"
+    },
+    "23226": {
+      "lat": 37.56779,
+      "lng": -77.51433,
+      "place": "Richmond (Ind. City)",
+      "state": "VA"
+    },
+    "23227": {
+      "lat": 37.60784,
+      "lng": -77.45759,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23228": {
+      "lat": 37.62373,
+      "lng": -77.47634,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23229": {
+      "lat": 37.59393,
+      "lng": -77.53262,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23231": {
+      "lat": 37.44859,
+      "lng": -77.3101,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23234": {
+      "lat": 37.44227,
+      "lng": -77.43947,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23235": {
+      "lat": 37.49369,
+      "lng": -77.56171,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23236": {
+      "lat": 37.50684,
+      "lng": -77.58959,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23237": {
+      "lat": 37.38202,
+      "lng": -77.42279,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23238": {
+      "lat": 37.59215,
+      "lng": -77.62273,
+      "place": "Goochland",
+      "state": "VA"
+    },
+    "23250": {
+      "lat": 37.51762,
+      "lng": -77.33346,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23294": {
+      "lat": 37.63375,
+      "lng": -77.54269,
+      "place": "Henrico",
+      "state": "VA"
+    },
+    "23298": {
+      "lat": 37.54129,
+      "lng": -77.43017,
+      "place": "Richmond (Ind. City)",
+      "state": "VA"
+    },
+    "23301": {
+      "lat": 37.71856,
+      "lng": -75.67347,
+      "place": "Accomack",
+      "state": "VA"
+    },
+    "23307": {
+      "lat": 37.42765,
+      "lng": -75.89009,
+      "place": "Northampton",
+      "state": "VA"
+    },
+    "23310": {
+      "lat": 37.31213,
+      "lng": -75.96687,
+      "place": "Northampton",
+      "state": "VA"
+    },
+    "23314": {
+      "lat": 36.96835,
+      "lng": -76.54234,
+      "place": "Isle Of Wight",
+      "state": "VA"
+    },
+    "23320": {
+      "lat": 36.72014,
+      "lng": -76.23958,
+      "place": "Chesapeake",
+      "state": "VA"
+    },
+    "23321": {
+      "lat": 36.81075,
+      "lng": -76.41846,
+      "place": "Suffolk",
+      "state": "VA"
+    },
+    "23322": {
+      "lat": 36.6589,
+      "lng": -76.22906,
+      "place": "Chesapeake",
+      "state": "VA"
+    },
+    "23323": {
+      "lat": 36.64376,
+      "lng": -76.37148,
+      "place": "Chesapeake",
+      "state": "VA"
+    },
+    "23337": {
+      "lat": 37.93976,
+      "lng": -75.45704,
+      "place": "Accomack",
+      "state": "VA"
+    },
+    "23350": {
+      "lat": 37.55176,
+      "lng": -75.8078,
+      "place": "Accomack",
+      "state": "VA"
+    },
+    "23354": {
+      "lat": 37.47649,
+      "lng": -75.88468,
+      "place": "Northampton",
+      "state": "VA"
+    },
+    "23405": {
+      "lat": 37.40303,
+      "lng": -75.90919,
+      "place": "Northampton",
+      "state": "VA"
+    },
+    "23410": {
+      "lat": 37.62887,
+      "lng": -75.77412,
+      "place": "Accomack",
+      "state": "VA"
+    },
+    "23417": {
+      "lat": 37.69859,
+      "lng": -75.71666,
+      "place": "Accomack",
+      "state": "VA"
+    },
+    "23421": {
+      "lat": 37.78223,
+      "lng": -75.65378,
+      "place": "Accomack",
+      "state": "VA"
+    },
+    "23430": {
+      "lat": 37.00917,
+      "lng": -76.63602,
+      "place": "Isle Of Wight",
+      "state": "VA"
+    },
+    "23432": {
+      "lat": 36.85686,
+      "lng": -76.57682,
+      "place": "Suffolk",
+      "state": "VA"
+    },
+    "23434": {
+      "lat": 36.76226,
+      "lng": -76.57464,
+      "place": "Suffolk",
+      "state": "VA"
+    },
+    "23435": {
+      "lat": 36.81562,
+      "lng": -76.48992,
+      "place": "Suffolk",
+      "state": "VA"
+    },
+    "23436": {
+      "lat": 36.89368,
+      "lng": -76.51348,
+      "place": "Suffolk",
+      "state": "VA"
+    },
+    "23437": {
+      "lat": 36.65772,
+      "lng": -76.81029,
+      "place": "Suffolk",
+      "state": "VA"
+    },
+    "23440": {
+      "lat": 37.82774,
+      "lng": -75.99212,
+      "place": "Accomack",
+      "state": "VA"
+    },
+    "23442": {
+      "lat": 37.89477,
+      "lng": -75.54904,
+      "place": "Accomack",
+      "state": "VA"
+    },
+    "23451": {
+      "lat": 36.91679,
+      "lng": -76.03933,
+      "place": "Virginia Beach",
+      "state": "VA"
+    },
+    "23454": {
+      "lat": 36.89894,
+      "lng": -76.06332,
+      "place": "Virginia Beach",
+      "state": "VA"
+    },
+    "23455": {
+      "lat": 36.88294,
+      "lng": -76.12422,
+      "place": "Virginia Beach",
+      "state": "VA"
+    },
+    "23460": {
+      "lat": 36.81661,
+      "lng": -76.00735,
+      "place": "Virginia Beach",
+      "state": "VA"
+    },
+    "23462": {
+      "lat": 36.83463,
+      "lng": -76.16074,
+      "place": "Virginia Beach",
+      "state": "VA"
+    },
+    "23502": {
+      "lat": 36.84156,
+      "lng": -76.18878,
+      "place": "Norfolk",
+      "state": "VA"
+    },
+    "23503": {
+      "lat": 36.95815,
+      "lng": -76.25943,
+      "place": "Norfolk",
+      "state": "VA"
+    },
+    "23504": {
+      "lat": 36.85298,
+      "lng": -76.28027,
+      "place": "Norfolk",
+      "state": "VA"
+    },
+    "23508": {
+      "lat": 36.88562,
+      "lng": -76.30206,
+      "place": "Norfolk",
+      "state": "VA"
+    },
+    "23510": {
+      "lat": 36.85155,
+      "lng": -76.28566,
+      "place": "Norfolk",
+      "state": "VA"
+    },
+    "23511": {
+      "lat": 36.95076,
+      "lng": -76.31033,
+      "place": "Norfolk",
+      "state": "VA"
+    },
+    "23518": {
+      "lat": 36.9033,
+      "lng": -76.20647,
+      "place": "Norfolk",
+      "state": "VA"
+    },
+    "23602": {
+      "lat": 37.10679,
+      "lng": -76.51293,
+      "place": "Newport News",
+      "state": "VA"
+    },
+    "23603": {
+      "lat": 37.19839,
+      "lng": -76.57112,
+      "place": "Newport News",
+      "state": "VA"
+    },
+    "23607": {
+      "lat": 36.98072,
+      "lng": -76.42684,
+      "place": "Newport News",
+      "state": "VA"
+    },
+    "23608": {
+      "lat": 37.1653,
+      "lng": -76.54841,
+      "place": "Newport News",
+      "state": "VA"
+    },
+    "23651": {
+      "lat": 37.00281,
+      "lng": -76.31018,
+      "place": "Hampton",
+      "state": "VA"
+    },
+    "23661": {
+      "lat": 37.00432,
+      "lng": -76.37029,
+      "place": "Hampton",
+      "state": "VA"
+    },
+    "23663": {
+      "lat": 37.01997,
+      "lng": -76.3262,
+      "place": "Hampton",
+      "state": "VA"
+    },
+    "23664": {
+      "lat": 37.05859,
+      "lng": -76.28373,
+      "place": "Hampton",
+      "state": "VA"
+    },
+    "23666": {
+      "lat": 37.07402,
+      "lng": -76.39876,
+      "place": "Hampton",
+      "state": "VA"
+    },
+    "23668": {
+      "lat": 37.02372,
+      "lng": -76.33087,
+      "place": "Hampton",
+      "state": "VA"
+    },
+    "23669": {
+      "lat": 37.02325,
+      "lng": -76.34323,
+      "place": "Hampton",
+      "state": "VA"
+    },
+    "23692": {
+      "lat": 37.21199,
+      "lng": -76.43453,
+      "place": "York",
+      "state": "VA"
+    },
+    "23693": {
+      "lat": 37.12549,
+      "lng": -76.4563,
+      "place": "York",
+      "state": "VA"
+    },
+    "23696": {
+      "lat": 37.19494,
+      "lng": -76.43298,
+      "place": "York",
+      "state": "VA"
+    },
+    "23703": {
+      "lat": 36.85768,
+      "lng": -76.35404,
+      "place": "Portsmouth",
+      "state": "VA"
+    },
+    "23704": {
+      "lat": 36.83796,
+      "lng": -76.30186,
+      "place": "Portsmouth",
+      "state": "VA"
+    },
+    "23707": {
+      "lat": 36.85417,
+      "lng": -76.33455,
+      "place": "Portsmouth",
+      "state": "VA"
+    },
+    "23708": {
+      "lat": 36.84756,
+      "lng": -76.3052,
+      "place": "Portsmouth",
+      "state": "VA"
+    },
+    "23709": {
+      "lat": 36.82688,
+      "lng": -76.29709,
+      "place": "Portsmouth",
+      "state": "VA"
+    },
+    "23801": {
+      "lat": 37.24343,
+      "lng": -77.35204,
+      "place": "Prince George",
+      "state": "VA"
+    },
+    "23803": {
+      "lat": 37.21527,
+      "lng": -77.43007,
+      "place": "Dinwiddie",
+      "state": "VA"
+    },
+    "23805": {
+      "lat": 37.20749,
+      "lng": -77.40959,
+      "place": "Petersburg",
+      "state": "VA"
+    },
+    "23821": {
+      "lat": 36.85317,
+      "lng": -77.88566,
+      "place": "Brunswick",
+      "state": "VA"
+    },
+    "23824": {
+      "lat": 37.07366,
+      "lng": -77.96723,
+      "place": "Nottoway",
+      "state": "VA"
+    },
+    "23827": {
+      "lat": 36.61906,
+      "lng": -77.18894,
+      "place": "Southampton",
+      "state": "VA"
+    },
+    "23830": {
+      "lat": 37.04097,
+      "lng": -77.38941,
+      "place": "Prince George",
+      "state": "VA"
+    },
+    "23831": {
+      "lat": 37.35485,
+      "lng": -77.41324,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23832": {
+      "lat": 37.37092,
+      "lng": -77.568,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23833": {
+      "lat": 37.18554,
+      "lng": -77.63986,
+      "place": "Dinwiddie",
+      "state": "VA"
+    },
+    "23834": {
+      "lat": 37.27969,
+      "lng": -77.40824,
+      "place": "Colonial Heights",
+      "state": "VA"
+    },
+    "23836": {
+      "lat": 37.33506,
+      "lng": -77.33686,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23837": {
+      "lat": 36.69637,
+      "lng": -77.04477,
+      "place": "Southampton",
+      "state": "VA"
+    },
+    "23838": {
+      "lat": 37.32895,
+      "lng": -77.66356,
+      "place": "Chesterfield",
+      "state": "VA"
+    },
+    "23841": {
+      "lat": 37.10322,
+      "lng": -77.55567,
+      "place": "Dinwiddie",
+      "state": "VA"
+    },
+    "23842": {
+      "lat": 37.21607,
+      "lng": -77.08014,
+      "place": "Prince George",
+      "state": "VA"
+    },
+    "23844": {
+      "lat": 36.68616,
+      "lng": -77.38478,
+      "place": "Southampton",
+      "state": "VA"
+    },
+    "23846": {
+      "lat": 37.05779,
+      "lng": -76.90561,
+      "place": "Surry",
+      "state": "VA"
+    },
+    "23847": {
+      "lat": 36.69167,
+      "lng": -77.5469,
+      "place": "Greensville",
+      "state": "VA"
+    },
+    "23850": {
+      "lat": 37.24927,
+      "lng": -77.72532,
+      "place": "Amelia",
+      "state": "VA"
+    },
+    "23851": {
+      "lat": 36.67803,
+      "lng": -76.93988,
+      "place": "Franklin (Ind. City)",
+      "state": "VA"
+    },
+    "23856": {
+      "lat": 36.77511,
+      "lng": -77.67685,
+      "place": "Brunswick",
+      "state": "VA"
+    },
+    "23860": {
+      "lat": 37.26264,
+      "lng": -77.16645,
+      "place": "Prince George",
+      "state": "VA"
+    },
+    "23867": {
+      "lat": 36.81222,
+      "lng": -77.46415,
+      "place": "Sussex",
+      "state": "VA"
+    },
+    "23868": {
+      "lat": 36.74191,
+      "lng": -77.84841,
+      "place": "Brunswick",
+      "state": "VA"
+    },
+    "23872": {
+      "lat": 37.24257,
+      "lng": -77.86622,
+      "place": "Dinwiddie",
+      "state": "VA"
+    },
+    "23875": {
+      "lat": 37.2343,
+      "lng": -77.24208,
+      "place": "Prince George",
+      "state": "VA"
+    },
+    "23881": {
+      "lat": 37.15654,
+      "lng": -76.93322,
+      "place": "Surry",
+      "state": "VA"
+    },
+    "23882": {
+      "lat": 36.93005,
+      "lng": -77.41549,
+      "place": "Sussex",
+      "state": "VA"
+    },
+    "23883": {
+      "lat": 37.12472,
+      "lng": -76.77429,
+      "place": "Surry",
+      "state": "VA"
+    },
+    "23885": {
+      "lat": 37.19559,
+      "lng": -77.56774,
+      "place": "Dinwiddie",
+      "state": "VA"
+    },
+    "23887": {
+      "lat": 36.5661,
+      "lng": -77.81995,
+      "place": "Brunswick",
+      "state": "VA"
+    },
+    "23888": {
+      "lat": 36.97186,
+      "lng": -76.99226,
+      "place": "Sussex",
+      "state": "VA"
+    },
+    "23889": {
+      "lat": 36.9305,
+      "lng": -77.75564,
+      "place": "Brunswick",
+      "state": "VA"
+    },
+    "23890": {
+      "lat": 37.04664,
+      "lng": -77.08854,
+      "place": "Sussex",
+      "state": "VA"
+    },
+    "23894": {
+      "lat": 37.07294,
+      "lng": -77.86032,
+      "place": "Dinwiddie",
+      "state": "VA"
+    },
+    "23897": {
+      "lat": 36.81153,
+      "lng": -77.28131,
+      "place": "Sussex",
+      "state": "VA"
+    },
+    "23898": {
+      "lat": 36.80407,
+      "lng": -76.86221,
+      "place": "Southampton",
+      "state": "VA"
+    },
+    "23901": {
+      "lat": 37.30447,
+      "lng": -78.42101,
+      "place": "Cumberland",
+      "state": "VA"
+    },
+    "23917": {
+      "lat": 36.64467,
+      "lng": -78.36839,
+      "place": "Mecklenburg",
+      "state": "VA"
+    },
+    "23920": {
+      "lat": 36.77488,
+      "lng": -78.01965,
+      "place": "Brunswick",
+      "state": "VA"
+    },
+    "23921": {
+      "lat": 37.54222,
+      "lng": -78.57014,
+      "place": "Buckingham",
+      "state": "VA"
+    },
+    "23922": {
+      "lat": 37.21463,
+      "lng": -78.19058,
+      "place": "Nottoway",
+      "state": "VA"
+    },
+    "23923": {
+      "lat": 37.05951,
+      "lng": -78.64076,
+      "place": "Charlotte",
+      "state": "VA"
+    },
+    "23924": {
+      "lat": 36.82508,
+      "lng": -78.4505,
+      "place": "Lunenburg",
+      "state": "VA"
+    },
+    "23927": {
+      "lat": 36.61263,
+      "lng": -78.54297,
+      "place": "Mecklenburg",
+      "state": "VA"
+    },
+    "23930": {
+      "lat": 37.18243,
+      "lng": -78.11647,
+      "place": "Nottoway",
+      "state": "VA"
+    },
+    "23936": {
+      "lat": 37.51905,
+      "lng": -78.44331,
+      "place": "Buckingham",
+      "state": "VA"
+    },
+    "23942": {
+      "lat": 37.16252,
+      "lng": -78.30177,
+      "place": "Prince Edward",
+      "state": "VA"
+    },
+    "23944": {
+      "lat": 36.93803,
+      "lng": -78.11524,
+      "place": "Lunenburg",
+      "state": "VA"
+    },
+    "23947": {
+      "lat": 37.06515,
+      "lng": -78.46915,
+      "place": "Charlotte",
+      "state": "VA"
+    },
+    "23950": {
+      "lat": 36.70086,
+      "lng": -78.09493,
+      "place": "Mecklenburg",
+      "state": "VA"
+    },
+    "23958": {
+      "lat": 37.25064,
+      "lng": -78.63471,
+      "place": "Appomattox",
+      "state": "VA"
+    },
+    "23959": {
+      "lat": 37.11996,
+      "lng": -78.758,
+      "place": "Charlotte",
+      "state": "VA"
+    },
+    "23960": {
+      "lat": 37.27222,
+      "lng": -78.59044,
+      "place": "Prince Edward",
+      "state": "VA"
+    },
+    "23963": {
+      "lat": 37.19566,
+      "lng": -78.81001,
+      "place": "Appomattox",
+      "state": "VA"
+    },
+    "23964": {
+      "lat": 36.76386,
+      "lng": -78.59865,
+      "place": "Mecklenburg",
+      "state": "VA"
+    },
+    "23966": {
+      "lat": 37.27924,
+      "lng": -78.26471,
+      "place": "Prince Edward",
+      "state": "VA"
+    },
+    "23970": {
+      "lat": 36.72445,
+      "lng": -78.13096,
+      "place": "Mecklenburg",
+      "state": "VA"
+    },
+    "23974": {
+      "lat": 36.99354,
+      "lng": -78.22621,
+      "place": "Lunenburg",
+      "state": "VA"
+    },
+    "23976": {
+      "lat": 36.85825,
+      "lng": -78.58987,
+      "place": "Charlotte",
+      "state": "VA"
+    },
+    "24011": {
+      "lat": 37.27164,
+      "lng": -79.93936,
+      "place": "Roanoke (Ind. City)",
+      "state": "VA"
+    },
+    "24012": {
+      "lat": 37.31317,
+      "lng": -79.89467,
+      "place": "Roanoke (Ind. City)",
+      "state": "VA"
+    },
+    "24013": {
+      "lat": 37.26755,
+      "lng": -79.94066,
+      "place": "Roanoke (Ind. City)",
+      "state": "VA"
+    },
+    "24014": {
+      "lat": 37.25941,
+      "lng": -79.93319,
+      "place": "Roanoke (Ind. City)",
+      "state": "VA"
+    },
+    "24016": {
+      "lat": 37.27447,
+      "lng": -79.93996,
+      "place": "Roanoke (Ind. City)",
+      "state": "VA"
+    },
+    "24018": {
+      "lat": 37.26391,
+      "lng": -80.01203,
+      "place": "Roanoke (Ind. City)",
+      "state": "VA"
+    },
+    "24019": {
+      "lat": 37.35014,
+      "lng": -79.95749,
+      "place": "Botetourt",
+      "state": "VA"
+    },
+    "24053": {
+      "lat": 36.55636,
+      "lng": -80.56336,
+      "place": "Patrick",
+      "state": "VA"
+    },
+    "24055": {
+      "lat": 36.78087,
+      "lng": -79.93433,
+      "place": "Franklin (County)",
+      "state": "VA"
+    },
+    "24060": {
+      "lat": 37.22433,
+      "lng": -80.43052,
+      "place": "Montgomery",
+      "state": "VA"
+    },
+    "24064": {
+      "lat": 37.38507,
+      "lng": -79.79743,
+      "place": "Bedford (County)",
+      "state": "VA"
+    },
+    "24065": {
+      "lat": 37.09619,
+      "lng": -79.92739,
+      "place": "Roanoke (County)",
+      "state": "VA"
+    },
+    "24066": {
+      "lat": 37.55218,
+      "lng": -79.66353,
+      "place": "Botetourt",
+      "state": "VA"
+    },
+    "24070": {
+      "lat": 37.38186,
+      "lng": -80.13094,
+      "place": "Roanoke (County)",
+      "state": "VA"
+    },
+    "24073": {
+      "lat": 37.13561,
+      "lng": -80.40394,
+      "place": "Montgomery",
+      "state": "VA"
+    },
+    "24076": {
+      "lat": 36.56121,
+      "lng": -80.55283,
+      "place": "Patrick",
+      "state": "VA"
+    },
+    "24077": {
+      "lat": 37.37191,
+      "lng": -79.90576,
+      "place": "Botetourt",
+      "state": "VA"
+    },
+    "24079": {
+      "lat": 37.11777,
+      "lng": -80.1335,
+      "place": "Highland",
+      "state": "VA"
+    },
+    "24083": {
+      "lat": 37.4205,
+      "lng": -79.90837,
+      "place": "Botetourt",
+      "state": "VA"
+    },
+    "24084": {
+      "lat": 37.15151,
+      "lng": -80.70185,
+      "place": "Pulaski",
+      "state": "VA"
+    },
+    "24085": {
+      "lat": 37.79301,
+      "lng": -79.78693,
+      "place": "Alleghany",
+      "state": "VA"
+    },
+    "24087": {
+      "lat": 37.21502,
+      "lng": -80.23067,
+      "place": "Montgomery",
+      "state": "VA"
+    },
+    "24089": {
+      "lat": 36.70186,
+      "lng": -79.93553,
+      "place": "Henry",
+      "state": "VA"
+    },
+    "24090": {
+      "lat": 37.50014,
+      "lng": -79.8703,
+      "place": "Botetourt",
+      "state": "VA"
+    },
+    "24091": {
+      "lat": 36.91136,
+      "lng": -80.3201,
+      "place": "Floyd",
+      "state": "VA"
+    },
+    "24112": {
+      "lat": 36.7022,
+      "lng": -79.84597,
+      "place": "Henry",
+      "state": "VA"
+    },
+    "24120": {
+      "lat": 36.73323,
+      "lng": -80.45266,
+      "place": "Patrick",
+      "state": "VA"
+    },
+    "24121": {
+      "lat": 37.14685,
+      "lng": -79.66384,
+      "place": "Bedford (County)",
+      "state": "VA"
+    },
+    "24122": {
+      "lat": 37.37154,
+      "lng": -79.69958,
+      "place": "Bedford (County)",
+      "state": "VA"
+    },
+    "24124": {
+      "lat": 37.35097,
+      "lng": -80.81502,
+      "place": "Giles",
+      "state": "VA"
+    },
+    "24127": {
+      "lat": 37.44061,
+      "lng": -80.25798,
+      "place": "Craig",
+      "state": "VA"
+    },
+    "24128": {
+      "lat": 37.30632,
+      "lng": -80.46256,
+      "place": "Craig",
+      "state": "VA"
+    },
+    "24133": {
+      "lat": 36.6824,
+      "lng": -80.09163,
+      "place": "Patrick",
+      "state": "VA"
+    },
+    "24134": {
+      "lat": 37.25782,
+      "lng": -80.75954,
+      "place": "Giles",
+      "state": "VA"
+    },
+    "24136": {
+      "lat": 37.24848,
+      "lng": -80.59679,
+      "place": "Giles",
+      "state": "VA"
+    },
+    "24141": {
+      "lat": 37.14496,
+      "lng": -80.56563,
+      "place": "Pulaski",
+      "state": "VA"
+    },
+    "24148": {
+      "lat": 36.57396,
+      "lng": -79.85901,
+      "place": "Henry",
+      "state": "VA"
+    },
+    "24149": {
+      "lat": 37.01516,
+      "lng": -80.42629,
+      "place": "Floyd",
+      "state": "VA"
+    },
+    "24150": {
+      "lat": 37.32974,
+      "lng": -80.67493,
+      "place": "Giles",
+      "state": "VA"
+    },
+    "24151": {
+      "lat": 37.01234,
+      "lng": -79.8875,
+      "place": "Franklin (County)",
+      "state": "VA"
+    },
+    "24153": {
+      "lat": 37.28947,
+      "lng": -80.06715,
+      "place": "Salem",
+      "state": "VA"
+    },
+    "24162": {
+      "lat": 37.17186,
+      "lng": -80.26383,
+      "place": "Montgomery",
+      "state": "VA"
+    },
+    "24165": {
+      "lat": 36.6048,
+      "lng": -80.0524,
+      "place": "Henry",
+      "state": "VA"
+    },
+    "24167": {
+      "lat": 37.23274,
+      "lng": -80.72435,
+      "place": "Giles",
+      "state": "VA"
+    },
+    "24171": {
+      "lat": 36.64427,
+      "lng": -80.21891,
+      "place": "Patrick",
+      "state": "VA"
+    },
+    "24179": {
+      "lat": 37.28416,
+      "lng": -79.8488,
+      "place": "Bedford (County)",
+      "state": "VA"
+    },
+    "24184": {
+      "lat": 37.11978,
+      "lng": -79.76197,
+      "place": "Franklin (County)",
+      "state": "VA"
+    },
+    "24185": {
+      "lat": 36.83763,
+      "lng": -80.32112,
+      "place": "Floyd",
+      "state": "VA"
+    },
+    "24201": {
+      "lat": 36.59519,
+      "lng": -82.1805,
+      "place": "Bristol",
+      "state": "VA"
+    },
+    "24202": {
+      "lat": 36.62903,
+      "lng": -82.2094,
+      "place": "Scott",
+      "state": "VA"
+    },
+    "24210": {
+      "lat": 36.70888,
+      "lng": -81.9788,
+      "place": "Washington",
+      "state": "VA"
+    },
+    "24211": {
+      "lat": 36.63583,
+      "lng": -81.99819,
+      "place": "Washington",
+      "state": "VA"
+    },
+    "24216": {
+      "lat": 36.90568,
+      "lng": -82.78165,
+      "place": "Wise",
+      "state": "VA"
+    },
+    "24219": {
+      "lat": 36.84643,
+      "lng": -82.78114,
+      "place": "Lee",
+      "state": "VA"
+    },
+    "24221": {
+      "lat": 36.59423,
+      "lng": -83.07079,
+      "place": "Lee",
+      "state": "VA"
+    },
+    "24224": {
+      "lat": 36.86149,
+      "lng": -82.27954,
+      "place": "Dickenson",
+      "state": "VA"
+    },
+    "24228": {
+      "lat": 37.14765,
+      "lng": -82.46441,
+      "place": "Dickenson",
+      "state": "VA"
+    },
+    "24230": {
+      "lat": 36.9424,
+      "lng": -82.47044,
+      "place": "Wise",
+      "state": "VA"
+    },
+    "24236": {
+      "lat": 36.61903,
+      "lng": -81.64411,
+      "place": "Washington",
+      "state": "VA"
+    },
+    "24244": {
+      "lat": 36.7187,
+      "lng": -82.82852,
+      "place": "Lee",
+      "state": "VA"
+    },
+    "24245": {
+      "lat": 36.82751,
+      "lng": -82.46874,
+      "place": "Scott",
+      "state": "VA"
+    },
+    "24248": {
+      "lat": 36.61684,
+      "lng": -83.53666,
+      "place": "Lee",
+      "state": "VA"
+    },
+    "24251": {
+      "lat": 36.63768,
+      "lng": -82.56402,
+      "place": "Scott",
+      "state": "VA"
+    },
+    "24256": {
+      "lat": 37.19953,
+      "lng": -82.26832,
+      "place": "Dickenson",
+      "state": "VA"
+    },
+    "24260": {
+      "lat": 37.06753,
+      "lng": -82.02869,
+      "place": "Russell",
+      "state": "VA"
+    },
+    "24263": {
+      "lat": 36.67061,
+      "lng": -83.14856,
+      "place": "Lee",
+      "state": "VA"
+    },
+    "24266": {
+      "lat": 36.89587,
+      "lng": -82.01655,
+      "place": "Russell",
+      "state": "VA"
+    },
+    "24271": {
+      "lat": 36.70906,
+      "lng": -82.72083,
+      "place": "Lee",
+      "state": "VA"
+    },
+    "24272": {
+      "lat": 37.07999,
+      "lng": -82.3498,
+      "place": "Dickenson",
+      "state": "VA"
+    },
+    "24273": {
+      "lat": 36.93357,
+      "lng": -82.62962,
+      "place": "Wise",
+      "state": "VA"
+    },
+    "24277": {
+      "lat": 36.76,
+      "lng": -83.0763,
+      "place": "Lee",
+      "state": "VA"
+    },
+    "24279": {
+      "lat": 37.13477,
+      "lng": -82.60211,
+      "place": "Wise",
+      "state": "VA"
+    },
+    "24280": {
+      "lat": 36.96397,
+      "lng": -81.90385,
+      "place": "Russell",
+      "state": "VA"
+    },
+    "24281": {
+      "lat": 36.65348,
+      "lng": -83.40098,
+      "place": "Lee",
+      "state": "VA"
+    },
+    "24283": {
+      "lat": 36.90709,
+      "lng": -82.31792,
+      "place": "Wise",
+      "state": "VA"
+    },
+    "24290": {
+      "lat": 36.59471,
+      "lng": -82.57194,
+      "place": "Scott",
+      "state": "VA"
+    },
+    "24292": {
+      "lat": 36.61437,
+      "lng": -81.60673,
+      "place": "Grayson",
+      "state": "VA"
+    },
+    "24293": {
+      "lat": 36.97576,
+      "lng": -82.58004,
+      "place": "Wise",
+      "state": "VA"
+    },
+    "24301": {
+      "lat": 37.04651,
+      "lng": -80.78009,
+      "place": "Pulaski",
+      "state": "VA"
+    },
+    "24311": {
+      "lat": 36.88605,
+      "lng": -81.37163,
+      "place": "Smyth",
+      "state": "VA"
+    },
+    "24312": {
+      "lat": 36.87326,
+      "lng": -80.8706,
+      "place": "Wythe",
+      "state": "VA"
+    },
+    "24314": {
+      "lat": 37.21523,
+      "lng": -81.09436,
+      "place": "Bland",
+      "state": "VA"
+    },
+    "24315": {
+      "lat": 37.07593,
+      "lng": -81.15595,
+      "place": "Bland",
+      "state": "VA"
+    },
+    "24318": {
+      "lat": 37.01808,
+      "lng": -81.34349,
+      "place": "Bland",
+      "state": "VA"
+    },
+    "24319": {
+      "lat": 36.79853,
+      "lng": -81.67775,
+      "place": "Smyth",
+      "state": "VA"
+    },
+    "24324": {
+      "lat": 36.97872,
+      "lng": -80.78928,
+      "place": "Pulaski",
+      "state": "VA"
+    },
+    "24326": {
+      "lat": 36.72155,
+      "lng": -81.16815,
+      "place": "Grayson",
+      "state": "VA"
+    },
+    "24330": {
+      "lat": 36.71868,
+      "lng": -80.99722,
+      "place": "Grayson",
+      "state": "VA"
+    },
+    "24333": {
+      "lat": 36.63489,
+      "lng": -80.92752,
+      "place": "Grayson",
+      "state": "VA"
+    },
+    "24340": {
+      "lat": 36.76194,
+      "lng": -81.81077,
+      "place": "Washington",
+      "state": "VA"
+    },
+    "24343": {
+      "lat": 36.79775,
+      "lng": -80.73835,
+      "place": "Carroll",
+      "state": "VA"
+    },
+    "24348": {
+      "lat": 36.62254,
+      "lng": -81.15193,
+      "place": "Grayson",
+      "state": "VA"
+    },
+    "24350": {
+      "lat": 36.82653,
+      "lng": -80.95393,
+      "place": "Wythe",
+      "state": "VA"
+    },
+    "24352": {
+      "lat": 36.72213,
+      "lng": -80.47456,
+      "place": "Carroll",
+      "state": "VA"
+    },
+    "24354": {
+      "lat": 36.84179,
+      "lng": -81.51469,
+      "place": "Smyth",
+      "state": "VA"
+    },
+    "24360": {
+      "lat": 36.90844,
+      "lng": -80.89121,
+      "place": "Wythe",
+      "state": "VA"
+    },
+    "24361": {
+      "lat": 36.86969,
+      "lng": -81.77859,
+      "place": "Smyth",
+      "state": "VA"
+    },
+    "24368": {
+      "lat": 36.90323,
+      "lng": -81.31054,
+      "place": "Wythe",
+      "state": "VA"
+    },
+    "24370": {
+      "lat": 36.87743,
+      "lng": -81.76776,
+      "place": "Smyth",
+      "state": "VA"
+    },
+    "24377": {
+      "lat": 36.93529,
+      "lng": -81.67699,
+      "place": "Smyth",
+      "state": "VA"
+    },
+    "24380": {
+      "lat": 36.84314,
+      "lng": -80.5676,
+      "place": "Carroll",
+      "state": "VA"
+    },
+    "24381": {
+      "lat": 36.72741,
+      "lng": -80.81901,
+      "place": "Carroll",
+      "state": "VA"
+    },
+    "24382": {
+      "lat": 36.9742,
+      "lng": -81.09156,
+      "place": "Wythe",
+      "state": "VA"
+    },
+    "24401": {
+      "lat": 38.13496,
+      "lng": -79.09035,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "24416": {
+      "lat": 37.74291,
+      "lng": -79.36146,
+      "place": "Buena Vista",
+      "state": "VA"
+    },
+    "24421": {
+      "lat": 38.21935,
+      "lng": -79.14714,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "24422": {
+      "lat": 37.83468,
+      "lng": -79.70114,
+      "place": "Rockbridge",
+      "state": "VA"
+    },
+    "24426": {
+      "lat": 37.74314,
+      "lng": -80.06712,
+      "place": "Alleghany",
+      "state": "VA"
+    },
+    "24435": {
+      "lat": 37.88453,
+      "lng": -79.30987,
+      "place": "Rockbridge",
+      "state": "VA"
+    },
+    "24439": {
+      "lat": 38.02659,
+      "lng": -79.47823,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "24441": {
+      "lat": 38.26053,
+      "lng": -78.83005,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "24442": {
+      "lat": 38.31146,
+      "lng": -79.38432,
+      "place": "Highland",
+      "state": "VA"
+    },
+    "24445": {
+      "lat": 37.87474,
+      "lng": -79.92997,
+      "place": "Alleghany",
+      "state": "VA"
+    },
+    "24450": {
+      "lat": 37.79551,
+      "lng": -79.43567,
+      "place": "Lexington",
+      "state": "VA"
+    },
+    "24458": {
+      "lat": 38.31171,
+      "lng": -79.50136,
+      "place": "Highland",
+      "state": "VA"
+    },
+    "24460": {
+      "lat": 38.01855,
+      "lng": -79.62992,
+      "place": "Bath",
+      "state": "VA"
+    },
+    "24465": {
+      "lat": 38.4949,
+      "lng": -79.49881,
+      "place": "Highland",
+      "state": "VA"
+    },
+    "24467": {
+      "lat": 38.27787,
+      "lng": -78.98393,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "24471": {
+      "lat": 38.30209,
+      "lng": -78.76716,
+      "place": "Rockingham",
+      "state": "VA"
+    },
+    "24472": {
+      "lat": 37.93097,
+      "lng": -79.19753,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "24477": {
+      "lat": 38.03519,
+      "lng": -79.03513,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "24482": {
+      "lat": 38.23473,
+      "lng": -78.97751,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "24484": {
+      "lat": 38.08312,
+      "lng": -79.79635,
+      "place": "Highland",
+      "state": "VA"
+    },
+    "24485": {
+      "lat": 38.31135,
+      "lng": -79.384,
+      "place": "Augusta",
+      "state": "VA"
+    },
+    "24486": {
+      "lat": 38.31643,
+      "lng": -78.93624,
+      "place": "Rockingham",
+      "state": "VA"
+    },
+    "24501": {
+      "lat": 37.40044,
+      "lng": -79.16209,
+      "place": "Lynchburg",
+      "state": "VA"
+    },
+    "24502": {
+      "lat": 37.35042,
+      "lng": -79.20953,
+      "place": "Lynchburg",
+      "state": "VA"
+    },
+    "24503": {
+      "lat": 37.43676,
+      "lng": -79.1715,
+      "place": "Lynchburg",
+      "state": "VA"
+    },
+    "24504": {
+      "lat": 37.40308,
+      "lng": -79.12636,
+      "place": "Lynchburg",
+      "state": "VA"
+    },
+    "24517": {
+      "lat": 37.12929,
+      "lng": -79.26838,
+      "place": "Campbell",
+      "state": "VA"
+    },
+    "24521": {
+      "lat": 37.601,
+      "lng": -79.04768,
+      "place": "Amherst",
+      "state": "VA"
+    },
+    "24522": {
+      "lat": 37.37324,
+      "lng": -78.80455,
+      "place": "Appomattox",
+      "state": "VA"
+    },
+    "24523": {
+      "lat": 37.32055,
+      "lng": -79.51079,
+      "place": "Bedford (County)",
+      "state": "VA"
+    },
+    "24527": {
+      "lat": 36.68822,
+      "lng": -79.368,
+      "place": "Pittsylvania",
+      "state": "VA"
+    },
+    "24528": {
+      "lat": 37.06519,
+      "lng": -78.91582,
+      "place": "Campbell",
+      "state": "VA"
+    },
+    "24529": {
+      "lat": 36.64584,
+      "lng": -78.66119,
+      "place": "Mecklenburg",
+      "state": "VA"
+    },
+    "24530": {
+      "lat": 36.8256,
+      "lng": -79.58609,
+      "place": "Pittsylvania",
+      "state": "VA"
+    },
+    "24531": {
+      "lat": 36.82282,
+      "lng": -79.37645,
+      "place": "Pittsylvania",
+      "state": "VA"
+    },
+    "24534": {
+      "lat": 36.81733,
+      "lng": -78.7356,
+      "place": "Halifax",
+      "state": "VA"
+    },
+    "24538": {
+      "lat": 37.34946,
+      "lng": -78.9717,
+      "place": "Appomattox",
+      "state": "VA"
+    },
+    "24540": {
+      "lat": 36.59529,
+      "lng": -79.37865,
+      "place": "Danville",
+      "state": "VA"
+    },
+    "24541": {
+      "lat": 36.58425,
+      "lng": -79.4107,
+      "place": "Pittsylvania",
+      "state": "VA"
+    },
+    "24549": {
+      "lat": 36.70608,
+      "lng": -79.52376,
+      "place": "Pittsylvania",
+      "state": "VA"
+    },
+    "24551": {
+      "lat": 37.33667,
+      "lng": -79.29013,
+      "place": "Bedford (County)",
+      "state": "VA"
+    },
+    "24553": {
+      "lat": 37.5702,
+      "lng": -78.91154,
+      "place": "Nelson",
+      "state": "VA"
+    },
+    "24555": {
+      "lat": 37.6331,
+      "lng": -79.44502,
+      "place": "Rockbridge",
+      "state": "VA"
+    },
+    "24558": {
+      "lat": 36.74955,
+      "lng": -78.92467,
+      "place": "Halifax",
+      "state": "VA"
+    },
+    "24563": {
+      "lat": 37.10298,
+      "lng": -79.299,
+      "place": "Pittsylvania",
+      "state": "VA"
+    },
+    "24571": {
+      "lat": 37.12725,
+      "lng": -79.39867,
+      "place": "Bedford (County)",
+      "state": "VA"
+    },
+    "24572": {
+      "lat": 37.4161,
+      "lng": -79.11511,
+      "place": "Amherst",
+      "state": "VA"
+    },
+    "24574": {
+      "lat": 37.66633,
+      "lng": -79.28965,
+      "place": "Amherst",
+      "state": "VA"
+    },
+    "24577": {
+      "lat": 36.98722,
+      "lng": -78.8828,
+      "place": "Halifax",
+      "state": "VA"
+    },
+    "24578": {
+      "lat": 37.65905,
+      "lng": -79.51626,
+      "place": "Rockbridge",
+      "state": "VA"
+    },
+    "24586": {
+      "lat": 36.54197,
+      "lng": -79.21735,
+      "place": "Pittsylvania",
+      "state": "VA"
+    },
+    "24588": {
+      "lat": 37.27679,
+      "lng": -79.10124,
+      "place": "Campbell",
+      "state": "VA"
+    },
+    "24589": {
+      "lat": 36.76389,
+      "lng": -78.8272,
+      "place": "Halifax",
+      "state": "VA"
+    },
+    "24590": {
+      "lat": 37.78334,
+      "lng": -78.51405,
+      "place": "Albemarle",
+      "state": "VA"
+    },
+    "24592": {
+      "lat": 36.68585,
+      "lng": -79.0174,
+      "place": "Halifax",
+      "state": "VA"
+    },
+    "24598": {
+      "lat": 36.6702,
+      "lng": -78.7998,
+      "place": "Halifax",
+      "state": "VA"
+    },
+    "24599": {
+      "lat": 37.64009,
+      "lng": -78.75112,
+      "place": "Nelson",
+      "state": "VA"
+    },
+    "24605": {
+      "lat": 37.27345,
+      "lng": -81.29576,
+      "place": "Tazewell",
+      "state": "VA"
+    },
+    "24613": {
+      "lat": 37.27566,
+      "lng": -81.31126,
+      "place": "Tazewell",
+      "state": "VA"
+    },
+    "24614": {
+      "lat": 37.27786,
+      "lng": -82.09942,
+      "place": "Buchanan",
+      "state": "VA"
+    },
+    "24630": {
+      "lat": 37.14777,
+      "lng": -81.62542,
+      "place": "Tazewell",
+      "state": "VA"
+    },
+    "24637": {
+      "lat": 37.02984,
+      "lng": -81.68156,
+      "place": "Tazewell",
+      "state": "VA"
+    },
+    "24639": {
+      "lat": 37.15353,
+      "lng": -81.87574,
+      "place": "Buchanan",
+      "state": "VA"
+    },
+    "24641": {
+      "lat": 37.09264,
+      "lng": -81.83461,
+      "place": "Tazewell",
+      "state": "VA"
+    },
+    "24651": {
+      "lat": 37.12144,
+      "lng": -81.47128,
+      "place": "Tazewell",
+      "state": "VA"
+    },
+    "24740": {
+      "lat": 37.36752,
+      "lng": -80.86822,
+      "place": "Giles",
+      "state": "VA"
+    },
+    "24920": {
+      "lat": 38.47517,
+      "lng": -79.69915,
+      "place": "Highland",
+      "state": "VA"
+    },
+    "24963": {
+      "lat": 37.39717,
+      "lng": -80.80168,
+      "place": "Giles",
+      "state": "VA"
+    },
+    "24986": {
+      "lat": 37.77897,
+      "lng": -80.22769,
+      "place": "Alleghany",
+      "state": "VA"
+    },
+    "27030": {
+      "lat": 36.55257,
+      "lng": -80.48005,
+      "place": "Patrick",
+      "state": "VA"
+    },
+    "37680": {
+      "lat": 36.61259,
+      "lng": -81.75439,
+      "place": "Washington",
+      "state": "VA"
+    }
+  }
+}

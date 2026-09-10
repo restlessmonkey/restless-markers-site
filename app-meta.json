@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "version": "1.6.0-ca-hmdb-smart-list",
-  "applicationUpdated": "2026-09-10T02:05:18Z",
+  "version": "1.7.0-va-production",
+  "applicationUpdated": "2026-09-10T04:54:06Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -110,6 +110,32 @@
       "publicPublicationEnabled": true,
       "contentNote": "Public runtime authorized in Michigan Baby Step 7. Historical-marker dataset fields are published from the official MIDNR Open Data source. Source feature geometry is preserved exactly; out-of-state official records remain present and review-flagged rather than corrected or excluded. State logos, separately protected photographs, maps/site graphics, and other non-dataset content are not included by this authorization.",
       "publicRuntime": true
+    },
+    "VA": {
+      "name": "Virginia Historical Highway Markers",
+      "path": "data/states/va/markers.json",
+      "source": "Virginia Department of Historic Resources Highway Markers GIS",
+      "markerDataChanges": {
+        "comparedToDataUpdated": null,
+        "currentDataUpdated": "2026-09-10T04:54:06Z",
+        "added": 2680,
+        "updated": 0,
+        "removed": 0,
+        "totalChanged": 2680,
+        "netChange": 2680
+      },
+      "sourceUrl": "https://www.dhr.virginia.gov/programs/highway-markers/",
+      "sourceLayerUrl": "https://vcris.dhr.virginia.gov/arcgis/rest/services/Highway_Markers/MapServer/0",
+      "markerCount": 2680,
+      "retrievedUtc": "2026-09-10T04:54:06Z",
+      "obtainedFromDhrUtc": "2026-09-10T04:54:06Z",
+      "privateRuntime": true,
+      "publicPublicationEnabled": true,
+      "publicRuntime": true,
+      "sourceIdentityField": "fldMarkerPKey",
+      "reviewExceptionCount": 13,
+      "knownPreservationUnionCount": 2693,
+      "contentNote": "Active runtime includes only DHR status Yes records with valid in-bounds source coordinates, plus any previously validated active records preserved if temporarily absent from the current source. No/Unknown/coordinate-anomaly records remain preserved outside the active public runtime. The DHR GIS feed used here does not expose inscription text."
     }
   },
   "analytics": {

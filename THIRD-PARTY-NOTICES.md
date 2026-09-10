@@ -90,3 +90,13 @@ Website: <https://www.hmdb.org/>
 The Historical Marker Database is an outstanding independent resource for historical markers, photographs, inscriptions, and related historical information. Restless Markers encourages users to visit the original HMDB marker record whenever an HMDB source link is available.
 
 HMDB content is not licensed as Restless Markers application code. Copyright, licensing, terms of use, attribution requirements, and other rights applicable to HMDB content remain with HMDB and the applicable content owners.
+
+
+<!-- RM_VA_DHR_PRODUCTION_20260910 -->
+## Virginia historical highway markers
+
+Virginia marker identity, title, location, status, route, and coordinate metadata in Restless Markers are derived from the Virginia Department of Historic Resources (DHR) Highway Markers GIS layer and are attributed to DHR. DHR materials remain subject to DHR's applicable rights, notices, and terms. This independent site is not an official DHR product.
+
+Program: https://www.dhr.virginia.gov/programs/highway-markers/
+Source layer: https://vcris.dhr.virginia.gov/arcgis/rest/services/Highway_Markers/MapServer/0
+
