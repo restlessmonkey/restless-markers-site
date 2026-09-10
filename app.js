@@ -114,7 +114,7 @@ const STATE_CONFIG = Object.freeze({
     code: "VA",
     name: "Virginia",
     heading: "Virginia Historical Highway Markers",
-    subtitle: "Explore official Virginia historical highway marker locations and public program metadata.",
+    subtitle: "Explore official Virginia historical highway marker locations, inscriptions, and public program metadata.",
     dataPath: "data/states/va/markers.json",
     offlineLookupsPath: "data/states/va/offline-lookups.json",
     mapCenter: [37.55, -78.5],
@@ -129,9 +129,9 @@ const STATE_CONFIG = Object.freeze({
     refreshStatus: "Downloading and validating the official Virginia DHR highway marker GIS layer…",
     manualRefreshCommand: "Run the Restless Markers production updater and choose Virginia (option 5).",
     aboutIntro:
-      "Explore Virginia Department of Historic Resources historical highway marker locations and public source metadata.",
+      "Explore Virginia Department of Historic Resources historical highway marker locations, inscriptions, and public source metadata.",
     sourceCopy:
-      "Marker location and program metadata are derived from the Virginia Department of Historic Resources Highway Markers GIS layer. The GIS feed used by this release does not expose marker inscription text. This is an independent viewer, not an official Virginia DHR product.",
+      "Marker identity, location, status, route, and coordinate metadata are derived from the Virginia Department of Historic Resources Highway Markers GIS layer. Validated official inscription text in this release is sourced from Virginia DHR HistoricMarkers data and joined by DHR source ID. Records with conflicting or not-yet-validated DHR inscription text remain on an explicit review fallback. This is an independent viewer, not an official Virginia DHR product.",
     acknowledgments:
       "Virginia Department of Historic Resources; Virginia Highway Marker Program; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js; Cloudflare Web Analytics."
   })
@@ -2155,7 +2155,7 @@ function formatMarkerForClipboard(marker) {
     if (marker.routeNumber) metaLines.push(`Route: ${marker.routeNumber}`);
     if (marker.routeName) metaLines.push(`Road: ${marker.routeName}`);
     const metaBlock = metaLines.length ? `${metaLines.join("\n")}\n\n` : "";
-    const vaBody = marker.text || "Inscription text is not exposed in the Virginia DHR GIS feed used by this release. Use the Virginia DHR Highway Marker Program for the official marker text.";
+    const vaBody = marker.text || marker.textFallback || "Official inscription text has not yet been validated for this Restless Markers record. Use the Virginia DHR Highway Marker Program for the current official marker text.";
     return `${marker.title}\n${loc}\n\n${metaBlock}${vaBody}`;
   }
   if (marker.atlasNumber) {
@@ -2392,7 +2392,7 @@ function renderDetailInscriptionText(marker) {
   const token = wordCloudFilterToken;
   if (!raw) {
     detailTextEl.textContent = activeStateCode === "VA"
-      ? "Inscription text is not exposed in the Virginia DHR GIS feed used by this release. Use the Virginia DHR Highway Marker Program link for the official marker text."
+      ? (marker.textFallback || "Official inscription text has not yet been validated for this Restless Markers record. Use the Virginia DHR Highway Marker Program link for the current official marker text.")
       : placeholder;
     return;
   }

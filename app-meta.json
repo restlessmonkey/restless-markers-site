@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "version": "1.7.0-va-production",
-  "applicationUpdated": "2026-09-10T04:54:06Z",
+  "version": "1.8.0-va-dhr-text",
+  "applicationUpdated": "2026-09-10T17:09:36Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -116,13 +116,13 @@
       "path": "data/states/va/markers.json",
       "source": "Virginia Department of Historic Resources Highway Markers GIS",
       "markerDataChanges": {
-        "comparedToDataUpdated": null,
+        "comparedToDataUpdated": "2026-09-10T04:54:06Z",
         "currentDataUpdated": "2026-09-10T04:54:06Z",
-        "added": 2680,
-        "updated": 0,
+        "added": 0,
+        "updated": 2680,
         "removed": 0,
         "totalChanged": 2680,
-        "netChange": 2680
+        "netChange": 0
       },
       "sourceUrl": "https://www.dhr.virginia.gov/programs/highway-markers/",
       "sourceLayerUrl": "https://vcris.dhr.virginia.gov/arcgis/rest/services/Highway_Markers/MapServer/0",
@@ -135,7 +135,15 @@
       "sourceIdentityField": "fldMarkerPKey",
       "reviewExceptionCount": 13,
       "knownPreservationUnionCount": 2693,
-      "contentNote": "Active runtime includes only DHR status Yes records with valid in-bounds source coordinates, plus any previously validated active records preserved if temporarily absent from the current source. No/Unknown/coordinate-anomaly records remain preserved outside the active public runtime. The DHR GIS feed used here does not expose inscription text."
+      "inscriptionTextSourceAuthority": "Virginia Department of Historic Resources",
+      "inscriptionTextSourceUrl": "https://vcris.dhr.virginia.gov/HistoricMarkers/",
+      "inscriptionTextDataObtainedDate": "2026-09-10",
+      "validatedInscriptionCount": 2668,
+      "inscriptionConflictReviewCount": 12,
+      "inscriptionUnenrichedCount": 0,
+      "textEnrichmentPath": "data/states/va/dhr-text-enrichment.json",
+      "textConflictReviewPath": "data/states/va/dhr-text-conflicts.json",
+      "contentNote": "Active runtime includes only validated DHR active marker identities. Identity/location/status/route/coordinate metadata comes from the DHR Highway Markers GIS layer. Validated official inscription text comes from DHR HistoricMarkers data. Conflicting or not-yet-enriched inscription records remain blank with an explicit fallback."
     }
   },
   "analytics": {
