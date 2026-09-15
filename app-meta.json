@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "version": "1.8.0-va-dhr-text",
-  "applicationUpdated": "2026-09-10T17:09:36Z",
+  "version": "1.10.0-va-hmdb-public-photos",
+  "applicationUpdated": "2026-09-15T00:01:46Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -112,7 +112,7 @@
       "publicRuntime": true
     },
     "VA": {
-      "name": "Virginia Historical Highway Markers",
+      "name": "Virginia Historical Markers",
       "path": "data/states/va/markers.json",
       "source": "Virginia Department of Historic Resources Highway Markers GIS",
       "markerDataChanges": {
@@ -124,7 +124,7 @@
         "totalChanged": 2680,
         "netChange": 0
       },
-      "sourceUrl": "https://www.dhr.virginia.gov/programs/highway-markers/",
+      "sourceUrl": "https://vcris.dhr.virginia.gov/arcgis/rest/services/Highway_Markers/MapServer/0",
       "sourceLayerUrl": "https://vcris.dhr.virginia.gov/arcgis/rest/services/Highway_Markers/MapServer/0",
       "markerCount": 2680,
       "retrievedUtc": "2026-09-10T04:54:06Z",
@@ -143,7 +143,22 @@
       "inscriptionUnenrichedCount": 0,
       "textEnrichmentPath": "data/states/va/dhr-text-enrichment.json",
       "textConflictReviewPath": "data/states/va/dhr-text-conflicts.json",
-      "contentNote": "Active runtime includes only validated DHR active marker identities. Identity/location/status/route/coordinate metadata comes from the DHR Highway Markers GIS layer. Validated official inscription text comes from DHR HistoricMarkers data. Conflicting or not-yet-enriched inscription records remain blank with an explicit fallback."
+      "contentNote": "Virginia marker identity, title, location, coordinates, and validated inscription text remain authoritative from the Virginia Department of Historic Resources (DHR). HMdb.org photographs are optional attributed noncommercial enrichment only and do not replace DHR identity or text.",
+      "hmdbAssociationCount": 2412,
+      "hmdbPreferredPhotoCount": 2405,
+      "hmdbNoMarkerPhotoCount": 7,
+      "hmdbNoAssociationCount": 268,
+      "hmdbHumanReviewedAssociationCount": 120,
+      "hmdbAssociationConflictCount": 0,
+      "hmdbPhotoRightsStatus": "HOLD",
+      "hmdbPhotoPublicDisplayEnabled": false,
+      "hmdbPhotoAssociatedMarkerCount": 2412,
+      "hmdbPhotoPublishedMarkerCount": 2405,
+      "hmdbPhotoAssetCount": 2425,
+      "hmdbPhotoRightsMode": "NONCOMMERCIAL_ATTRIBUTION",
+      "hmdbPhotoSourceUrl": "https://www.hmdb.org/",
+      "hmdbPhotoCopyrightUrl": "https://www.hmdb.org/copyright.asp",
+      "hmdbPhotoSource": "The Historical Marker Database (HMdb.org)"
     }
   },
   "analytics": {

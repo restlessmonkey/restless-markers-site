@@ -751,7 +751,65 @@ function clearStateDetailExtras() {
     detailStateSourceLinkEl.href = "#";
     detailStateSourceLinkEl.textContent = "";
   }
+
+  // VA_HMDB_EXTRA_PHOTO_CLEANUP
+  if (detailPhotoSectionEl) {
+    for (const old of detailPhotoSectionEl.querySelectorAll(".va-hmdb-extra-photo")) {
+      old.remove();
+    }
+  }
 }
+
+// VA_HMDB_PUBLIC_PHOTOS_BEGIN
+function renderVaDetailExtras(marker) {
+  const raw = marker && marker.hmdbPhoto;
+  const photo = raw && raw.public ? raw.public : raw;
+  if (activeStateCode !== "VA" || !photo || photo.publicDisplayAllowed !== true || !Array.isArray(photo.photos) || !photo.photos.length) {
+    return;
+  }
+  if (!detailPhotoSectionEl || !detailMarkerPhotoEl || !detailPhotoStatusEl) {
+    return;
+  }
+  detailPhotoSectionEl.hidden = false;
+  const primary = photo.photos[0];
+  detailMarkerPhotoEl.src = String(primary.publicPath || primary.path || "");
+  detailMarkerPhotoEl.alt = `Historical marker ${marker.markerNumber || ""}: ${marker.title || "Virginia marker"}`.slice(0, 180);
+  detailMarkerPhotoEl.hidden = false;
+
+  detailPhotoStatusEl.textContent = "";
+  const credit = document.createElement("span");
+  credit.textContent = String(primary.credit || "HMdb.org");
+  detailPhotoStatusEl.appendChild(credit);
+  if (photo.hmdbPageUrl) {
+    detailPhotoStatusEl.appendChild(document.createTextNode(" · "));
+    const source = document.createElement("a");
+    source.href = String(photo.hmdbPageUrl);
+    source.target = "_blank";
+    source.rel = "noopener noreferrer";
+    source.textContent = "View source at HMdb.org";
+    detailPhotoStatusEl.appendChild(source);
+  }
+
+  for (const old of detailPhotoSectionEl.querySelectorAll(".va-hmdb-extra-photo")) {
+    old.remove();
+  }
+  for (let i = 1; i < photo.photos.length; i += 1) {
+    const item = photo.photos[i];
+    const wrap = document.createElement("div");
+    wrap.className = "va-hmdb-extra-photo";
+    const image = document.createElement("img");
+    image.className = "va-hmdb-secondary-photo";
+    image.src = String(item.publicPath || item.path || "");
+    image.alt = `${item.role === "secondary" ? "Reverse side of" : "Additional view of"} historical marker ${marker.markerNumber || ""}`.trim();
+    const line = document.createElement("div");
+    line.className = "va-hmdb-photo-credit";
+    line.textContent = String(item.credit || "HMdb.org");
+    wrap.appendChild(image);
+    wrap.appendChild(line);
+    detailPhotoSectionEl.appendChild(wrap);
+  }
+}
+// VA_HMDB_PUBLIC_PHOTOS_END
 
 function renderNcDetailExtras(marker) {
   clearStateDetailExtras();
@@ -970,6 +1028,11 @@ function renderDetailAtlasFields(marker) {
   }
   if (detailInscriptionHeadingEl) {
     detailInscriptionHeadingEl.hidden = false;
+  }
+
+  // VA_HMDB_RENDER_CALL
+  if (activeStateCode === "VA") {
+    renderVaDetailExtras(marker);
   }
 }
 
