@@ -100,15 +100,3 @@ Virginia marker identity, title, location, status, route, and coordinate metadat
 Program: https://www.dhr.virginia.gov/programs/highway-markers/
 Source layer: https://vcris.dhr.virginia.gov/arcgis/rest/services/Highway_Markers/MapServer/0
 
-<!-- VA_HMDB_PUBLIC_PHOTOS_NOTICE -->
-## Virginia HMdb marker photographs
-
-Selected Virginia marker photographs are reproduced from **The Historical Marker Database (HMdb.org)**
-for the noncommercial Restless Markers site. Each displayed image includes the photographer/artist
-credit and HMdb.org attribution, with a link to the HMdb marker page when available.
-
-HMdb copyright/use notice: <https://www.hmdb.org/copyright.asp>
-
-Images with separate restrictions or Creative Commons terms are held from this publication unless their
-specific terms are affirmatively reviewed outside this automated default-rights gate.
-

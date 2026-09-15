@@ -1124,10 +1124,3 @@ html:not(.device-mobile) #map {
   min-height: 260px;
   max-height: min(65vh, 720px);
 }
-
-/* VA_HMDB_PUBLIC_PHOTOS_BEGIN */
-.va-hmdb-extra-photo { margin-top: 0.9rem; }
-.va-hmdb-secondary-photo { display: block; max-width: 100%; height: auto; border-radius: 0.35rem; }
-.va-hmdb-photo-credit { margin-top: 0.35rem; font-size: 0.9em; opacity: 0.85; }
-/* VA_HMDB_PUBLIC_PHOTOS_END */
-
