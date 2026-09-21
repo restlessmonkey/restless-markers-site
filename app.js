@@ -790,6 +790,17 @@ function renderVaDetailExtras(marker) {
     source.textContent = "View source at HMdb.org";
     detailPhotoStatusEl.appendChild(source);
   }
+  const invitation = document.createElement("span");
+  invitation.className = "hmdb-discovery-invitation";
+  invitation.appendChild(document.createTextNode(" · Explore more at "));
+  const invitationLink = document.createElement("a");
+  invitationLink.href = "https://www.hmdb.org/";
+  invitationLink.target = "_blank";
+  invitationLink.rel = "noopener noreferrer";
+  invitationLink.textContent = "HMdb.org";
+  invitation.appendChild(invitationLink);
+  invitation.appendChild(document.createTextNode("—thousands of historical markers with photos and details."));
+  detailPhotoStatusEl.appendChild(invitation);
   if (
     detailStateResourcesEl &&
     detailStateSourceLinkEl &&
