@@ -49,7 +49,7 @@
       <h1 id="app-title">Restless Markers</h1>
       <p id="app-subtitle">Explore America’s historical markers</p>
       <p id="data-updated-notice" class="data-updated-notice" aria-live="polite"></p>
-      <p class="data-updated-notice">App build: 1.10.2</p>
+      <p class="data-updated-notice">App build: 1.10.3</p>
       <div class="header-update-row">
         <label class="state-picker" for="state-selector">
           <span>State</span>
@@ -106,6 +106,8 @@
         <label for="county-filter" class="label">Filter by county</label>
         <select id="county-filter" class="county-select"><option value="">All counties</option></select>
         </details>
+        <details id="mobile-explore-tools" class="mobile-explore-tools">
+          <summary>Explore &amp; search</summary>
         <div id="inscription-word-cloud-section" class="word-cloud-section">
           <div class="word-cloud-toolbar">
             <span class="label word-cloud-heading">Inscription word cloud</span>
@@ -121,6 +123,7 @@
         </div>
         <label for="search" class="label">Search markers</label>
         <input id="search" class="search-input" type="search" placeholder="Search by title, county, or text" />
+        </details>
         <ul id="marker-list" class="marker-list"></ul>
       </section>
 
@@ -175,7 +178,7 @@
       <div class="add-to-home-dialog-inner">
         <h2 id="hosted-update-dialog-title">About marker data updates</h2>
         <div class="add-to-home-dialog-body">
-          <p><strong>Current browser build:</strong> 1.10.2-mobile-map · cache rm-mobile-20260921-4</p><p>This hosted app displays the marker dataset bundled with the current release. GitHub Pages cannot run the server-side updater that downloads fresh state marker data.</p>
+          <p><strong>Current browser build:</strong> 1.10.3-mobile-explore · cache rm-mobile-20260921-5</p><p>This hosted app displays the marker dataset bundled with the current release. GitHub Pages cannot run the server-side updater that downloads fresh state marker data.</p>
           <p>Marker-data refresh and validation are performed in the private canonical Restless Markers source repository, then validated browser-ready files are published to the public deployment repository. The public site intentionally does not contain ingestion, audit, or reconciliation tooling.</p>
         </div>
         <button type="button" id="hosted-update-dialog-close" class="add-to-home-dialog-close">Close</button>
@@ -202,7 +205,7 @@
     <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
     <script src="vendor/wordcloud/wordcloud2.js"></script>
     <script src="ca-enhancements.js?v=1"></script>
-    <script src="app.js?v=rm-mobile-20260921-4"></script>
+    <script src="app.js?v=rm-mobile-20260921-5"></script>
     <script src="restless-markers-brand.js?v=1"></script>
     <script>
       if ("serviceWorker" in navigator && location.protocol !== "capacitor:") {
