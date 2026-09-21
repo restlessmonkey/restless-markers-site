@@ -1240,3 +1240,52 @@ html.device-mobile #map {
   min-height: 300px;
   max-height: 380px;
 }
+
+
+/* Keep secondary discovery tools out of the primary iPhone flow. */
+html:not(.device-mobile) .mobile-explore-tools {
+  display: contents;
+}
+
+html:not(.device-mobile) .mobile-explore-tools > summary {
+  display: none;
+}
+
+html.device-mobile .mobile-explore-tools {
+  margin: 0 0 0.7rem;
+  border: 1px solid #d4dce6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+html.device-mobile .mobile-explore-tools > summary {
+  padding: 0.72rem 0.8rem;
+  font-weight: 700;
+  color: #0b3d91;
+  cursor: pointer;
+  list-style: none;
+}
+
+html.device-mobile .mobile-explore-tools > summary::-webkit-details-marker {
+  display: none;
+}
+
+html.device-mobile .mobile-explore-tools > summary::after {
+  content: "⌄";
+  float: right;
+  font-size: 1.2rem;
+  line-height: 0.9;
+}
+
+html.device-mobile .mobile-explore-tools[open] > summary::after {
+  content: "⌃";
+}
+
+html.device-mobile .mobile-explore-tools[open] {
+  padding-bottom: 0.75rem;
+}
+
+html.device-mobile .mobile-explore-tools[open] > :not(summary) {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
