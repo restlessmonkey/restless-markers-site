@@ -1131,3 +1131,112 @@ html:not(.device-mobile) #map {
 .va-hmdb-photo-credit { margin-top: 0.35rem; font-size: 0.9em; opacity: 0.85; }
 /* VA_HMDB_PUBLIC_PHOTOS_END */
 
+
+
+/* Mobile map-first release: preserve desktop tools while reducing iPhone scrolling. */
+html:not(.device-mobile) .mobile-tools {
+  display: contents;
+}
+
+html:not(.device-mobile) .mobile-tools > summary {
+  display: none;
+}
+
+html.device-mobile .app-header {
+  padding: max(0.55rem, env(safe-area-inset-top)) 0.75rem 0.65rem;
+}
+
+html.device-mobile .app-header h1 {
+  font-size: 1.18rem;
+}
+
+html.device-mobile .app-header > #app-subtitle {
+  display: none;
+}
+
+html.device-mobile .data-updated-notice:not(:empty) {
+  margin-top: 0.28rem;
+  font-size: 0.72rem;
+  line-height: 1.25;
+}
+
+html.device-mobile .header-update-row {
+  gap: 0.42rem;
+  margin-top: 0.55rem;
+}
+
+html.device-mobile .state-picker {
+  flex: 1 0 100%;
+  min-height: 34px;
+  padding: 0.18rem 0.4rem 0.18rem 0.55rem;
+}
+
+html.device-mobile .state-picker select {
+  flex: 1 1 auto;
+  max-width: none;
+  min-height: 28px;
+}
+
+html.device-mobile .header-toolbar-btn {
+  min-height: 38px;
+  padding: 0.4rem 0.65rem;
+  font-size: 0.86rem;
+}
+
+html.device-mobile .mobile-tools {
+  margin: 0 0 0.7rem;
+  border: 1px solid #d4dce6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+html.device-mobile .mobile-tools > summary {
+  padding: 0.72rem 0.8rem;
+  font-weight: 700;
+  color: #0b3d91;
+  cursor: pointer;
+  list-style: none;
+}
+
+html.device-mobile .mobile-tools > summary::-webkit-details-marker {
+  display: none;
+}
+
+html.device-mobile .mobile-tools > summary::after {
+  content: "⌄";
+  float: right;
+  font-size: 1.2rem;
+  line-height: 0.9;
+}
+
+html.device-mobile .mobile-tools[open] > summary::after {
+  content: "⌃";
+}
+
+html.device-mobile .mobile-tools[open] {
+  padding-bottom: 0.75rem;
+}
+
+html.device-mobile .mobile-tools[open] > :not(summary) {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+html.device-mobile .detail-panel {
+  order: 2;
+}
+
+html.device-mobile .list-panel {
+  order: 3;
+}
+
+html.device-mobile:not(.thm-mobile-detail-open) .detail-panel {
+  display: none;
+}
+
+html.device-mobile #map {
+  aspect-ratio: auto;
+  height: 42svh;
+  min-height: 300px;
+  max-height: 380px;
+}
