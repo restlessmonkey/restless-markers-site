@@ -2420,9 +2420,10 @@ function getFilteredMarkers() {
 
 function updateMapMarkers(filteredMarkers) {
   markerCluster.clearLayers();
-  const maxMapMarkers = 4000;
+  // Keep every matching marker on the clustered map. The old 4,000-record
+  // cap hid valid Texas markers on the initial statewide view.
   const onMap = new Set();
-  filteredMarkers.slice(0, maxMapMarkers).forEach((marker) => {
+  filteredMarkers.forEach((marker) => {
     const mapMarker = markerById.get(marker.id);
     if (mapMarker) {
       markerCluster.addLayer(mapMarker);
@@ -2709,7 +2710,7 @@ async function lookupByZipCode() {
 
     setDetailMessage(
       "Nearby markers loaded",
-      `Showing markers within ${maxDistanceMiles} miles of ZIP ${zip} (${center.label}).`
+      `Showing ${nearbyMarkerIds.size} marker${nearbyMarkerIds.size === 1 ? "" : "s"} within ${maxDistanceMiles} miles of ZIP ${zip} (${center.label}).`
     );
   } catch (error) {
     let offlineMsg = "Could not look up that ZIP code. Please try another ZIP.";
