@@ -1,11 +1,11 @@
 /**
  * Offline cache for Add to Home Screen / browser use (not used in Capacitor native WebView).
  */
-const CACHE = "restless-markers-ui-20260824-v5";
+const CACHE = "restless-markers-ui-20260920-complete-release-v1";
 const PRECACHE = [
   "./",
   "./index.html",
-  "./app.js?v=1.4.0",
+  "./app.js?v=1.4.1",
   "./restless-markers-brand.js?v=1",
   "./ca-enhancements.js?v=1",
   "./ca-hmdb-poc.js?v=1.4.6-poc",
@@ -109,3 +109,4 @@ self.addEventListener("fetch", (event) => {
 });
 // RM_VA_PRODUCTION_CACHE_BUST_20260910 - Virginia production release cache refresh
 
+// VA_HMDB_PUBLIC_PHOTOS_CACHE_REFRESH 1.10.0-va-hmdb-public-photos

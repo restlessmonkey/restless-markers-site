@@ -733,6 +733,11 @@ function clearStateDetailExtras() {
     detailMarkerPhotoEl.hidden = true;
     detailMarkerPhotoEl.removeAttribute("src");
     detailMarkerPhotoEl.alt = "";
+    detailMarkerPhotoEl.onclick = null;
+    detailMarkerPhotoEl.onkeydown = null;
+    detailMarkerPhotoEl.removeAttribute("role");
+    detailMarkerPhotoEl.removeAttribute("tabindex");
+    detailMarkerPhotoEl.removeAttribute("title");
   }
   if (detailPhotoStatusEl) {
     detailPhotoStatusEl.textContent = "";
@@ -751,6 +756,122 @@ function clearStateDetailExtras() {
     detailStateSourceLinkEl.href = "#";
     detailStateSourceLinkEl.textContent = "";
   }
+
+  // VA_HMDB_EXTRA_PHOTO_CLEANUP
+  if (detailPhotoSectionEl) {
+    for (const old of detailPhotoSectionEl.querySelectorAll(".va-hmdb-extra-photo")) {
+      old.remove();
+    }
+  }
+}
+
+// VA_HMDB_PUBLIC_PHOTOS_BEGIN
+function renderVaDetailExtras(marker) {
+  const raw = marker && marker.hmdbPhoto;
+  const photo = raw && raw.public ? raw.public : raw;
+  if (activeStateCode !== "VA" || !photo || photo.publicDisplayAllowed !== true || !Array.isArray(photo.photos) || !photo.photos.length) {
+    return;
+  }
+  if (!detailPhotoSectionEl || !detailMarkerPhotoEl || !detailPhotoStatusEl) {
+    return;
+  }
+  detailPhotoSectionEl.hidden = false;
+  const primary = photo.photos[0];
+  detailMarkerPhotoEl.src = String(primary.publicPath || primary.path || "");
+  detailMarkerPhotoEl.alt = `Historical marker ${marker.markerNumber || ""}: ${marker.title || "Virginia marker"}`.slice(0, 180);
+  detailMarkerPhotoEl.hidden = false;
+
+  detailPhotoStatusEl.textContent = "";
+  const credit = document.createElement("span");
+  credit.textContent = String(primary.credit || "HMdb.org");
+  detailPhotoStatusEl.appendChild(credit);
+  const hmdbSourceUrl = String(photo.hmdbPageUrl || (raw && raw.hmdbUrl) || "").trim();
+  if (hmdbSourceUrl) {
+    detailPhotoStatusEl.appendChild(document.createTextNode(" · "));
+    const source = document.createElement("a");
+    source.href = hmdbSourceUrl;
+    source.target = "_blank";
+    source.rel = "noopener noreferrer";
+    source.textContent = "View source at HMdb.org";
+    detailPhotoStatusEl.appendChild(source);
+  }
+  if (
+    detailStateResourcesEl &&
+    detailStateSourceLinkEl &&
+    /^https:\/\/(www\.)?hmdb\.org\//i.test(hmdbSourceUrl)
+  ) {
+    detailStateSourceLinkEl.href = hmdbSourceUrl;
+    detailStateSourceLinkEl.target = "_blank";
+    detailStateSourceLinkEl.rel = "noopener noreferrer";
+    detailStateSourceLinkEl.textContent = "HMdb physical-marker source URL";
+    detailStateResourcesEl.hidden = false;
+  }
+
+  for (const old of detailPhotoSectionEl.querySelectorAll(".va-hmdb-extra-photo")) {
+    old.remove();
+  }
+  for (let i = 1; i < photo.photos.length; i += 1) {
+    const item = photo.photos[i];
+    const wrap = document.createElement("div");
+    wrap.className = "va-hmdb-extra-photo";
+    const image = document.createElement("img");
+    image.className = "va-hmdb-secondary-photo";
+    image.src = String(item.publicPath || item.path || "");
+    image.alt = `${item.role === "secondary" ? "Reverse side of" : "Additional view of"} historical marker ${marker.markerNumber || ""}`.trim();
+    const line = document.createElement("div");
+    line.className = "va-hmdb-photo-credit";
+    line.textContent = String(item.credit || "HMdb.org");
+    wrap.appendChild(image);
+    wrap.appendChild(line);
+    detailPhotoSectionEl.appendChild(wrap);
+  }
+}
+// VA_HMDB_PUBLIC_PHOTOS_END
+
+function renderTxDetailExtras(marker) {
+  clearStateDetailExtras();
+  if (activeStateCode !== "TX") {
+    return;
+  }
+  const photo = marker && marker.hmdbPhoto;
+  const photoUrl = String(photo && photo.photoUrl || "").trim();
+  const sourceUrl = String(photo && photo.hmdbUrl || "").trim();
+  if (!detailPhotoSectionEl || !detailMarkerPhotoEl || !detailPhotoStatusEl || !/^https:\/\/(www\.)?hmdb\.org\//i.test(photoUrl) || !/^https:\/\/(www\.)?hmdb\.org\//i.test(sourceUrl)) {
+    return;
+  }
+  const generation = photoLoadGeneration;
+  const credit = String(photo.credit || "").trim();
+  detailPhotoSectionEl.hidden = false;
+  detailPhotoStatusEl.textContent = "Loading photo from HMdb.org…";
+  const probe = new Image();
+  probe.onload = () => {
+    if (generation !== photoLoadGeneration) return;
+    detailMarkerPhotoEl.src = photoUrl;
+    detailMarkerPhotoEl.alt = `Historical marker: ${marker.title || marker.indexName || marker.markerNumber || "Texas marker"}`.slice(0, 180);
+    detailMarkerPhotoEl.title = "Open this photo at HMdb.org";
+    detailMarkerPhotoEl.setAttribute("role", "link");
+    detailMarkerPhotoEl.setAttribute("tabindex", "0");
+    const openSource = () => window.open(sourceUrl, "_blank", "noopener,noreferrer");
+    detailMarkerPhotoEl.onclick = openSource;
+    detailMarkerPhotoEl.onkeydown = (event) => {
+      if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openSource(); }
+    };
+    detailMarkerPhotoEl.hidden = false;
+    detailPhotoStatusEl.textContent = credit ? `Photo by ${credit} via HMdb.org · ` : "Photo via HMdb.org · ";
+    const sourceLink = document.createElement("a");
+    sourceLink.href = sourceUrl;
+    sourceLink.target = "_blank";
+    sourceLink.rel = "noopener noreferrer";
+    sourceLink.textContent = "View photo at HMdb.org";
+    detailPhotoStatusEl.appendChild(sourceLink);
+  };
+  probe.onerror = () => {
+    if (generation === photoLoadGeneration) {
+      detailPhotoStatusEl.textContent = "The remote HMdb photo could not be loaded. Use the source link in the marker details.";
+    }
+  };
+  probe.referrerPolicy = "no-referrer";
+  probe.src = photoUrl;
 }
 
 function renderNcDetailExtras(marker) {
@@ -927,10 +1048,11 @@ function renderDetailAtlasFields(marker) {
       detailInscriptionHeadingEl.hidden = false;
     }
     clearStateDetailExtras();
+    renderVaDetailExtras(marker);
     return;
   }
 
-  clearStateDetailExtras();
+  renderTxDetailExtras(marker);
 
   for (const def of THM_MARKER_DETAIL_ROWS) {
     const v = marker[def.key];
@@ -970,6 +1092,11 @@ function renderDetailAtlasFields(marker) {
   }
   if (detailInscriptionHeadingEl) {
     detailInscriptionHeadingEl.hidden = false;
+  }
+
+  // VA_HMDB_RENDER_CALL
+  if (activeStateCode === "VA") {
+    renderVaDetailExtras(marker);
   }
 }
 
