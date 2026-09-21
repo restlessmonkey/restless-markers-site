@@ -764,7 +764,7 @@ function clearStateDetailExtras() {
 function renderVaDetailExtras(marker) {
   const raw = marker && marker.hmdbPhoto;
   const photo = raw && raw.public ? raw.public : raw;
-  if (activeStateCode !== "VA" || !photo || photo.publicDisplayAllowed !== true || !Array.isArray(photo.photos) || !photo.photos.length) {
+  if ((activeStateCode !== "VA" && activeStateCode !== "TX") || !photo || photo.publicDisplayAllowed !== true || !Array.isArray(photo.photos) || !photo.photos.length) {
     return;
   }
   if (!detailPhotoSectionEl || !detailMarkerPhotoEl || !detailPhotoStatusEl) {
@@ -1044,7 +1044,7 @@ function renderDetailAtlasFields(marker) {
   }
 
   // VA_HMDB_RENDER_CALL
-  if (activeStateCode === "VA") {
+  if (activeStateCode === "VA" || activeStateCode === "TX") {
     renderVaDetailExtras(marker);
   }
 }
