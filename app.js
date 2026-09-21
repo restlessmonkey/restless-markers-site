@@ -1529,6 +1529,10 @@ let selectedId = null;
 let nearbyMarkerIds = null;
 const nearbyDistanceById = new Map();
 
+function setMobileDetailOpen(open) {
+  document.documentElement.classList.toggle("thm-mobile-detail-open", Boolean(open));
+}
+
 function tokenizeInscription(text) {
   const raw = (text || "").toLowerCase();
   const parts = raw.match(/[a-z0-9']+/g);
@@ -2152,6 +2156,7 @@ function pushMarkerUrl(marker) {
 
 function clearSelectionDetail() {
   selectedId = null;
+  setMobileDetailOpen(false);
   clearCopyMarkerTarget();
   updateGoogleMapsUI(null);
   updateAtlasDetailLinkUI(null);
@@ -2187,6 +2192,7 @@ function applyDeepLinkFromUrl() {
 }
 
 function setDetailMessage(title, message) {
+  setMobileDetailOpen(true);
   clearCopyMarkerTarget();
   updateGoogleMapsUI(null);
   updateAtlasDetailLinkUI(null);
@@ -2528,6 +2534,7 @@ function refreshDetailInscriptionIfSelected() {
 function selectMarker(marker, options = {}) {
   const { skipUrlUpdate = false } = options;
   selectedId = marker.id;
+  setMobileDetailOpen(true);
   markerEligibleForCopy = marker;
   if (copyMarkerTextBtnEl) {
     copyMarkerTextBtnEl.disabled = false;
