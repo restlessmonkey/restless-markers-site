@@ -309,6 +309,8 @@ const wordCloudClearBtnEl = document.getElementById("word-cloud-clear-btn");
 const wordCloudRefreshBtnEl = document.getElementById("word-cloud-refresh-btn");
 const wordCloudStatusEl = document.getElementById("word-cloud-status");
 const wordCloudLoadErrorEl = document.getElementById("word-cloud-load-error");
+const mobileToolsEl = document.getElementById("mobile-tools");
+const mobileExploreToolsEl = document.getElementById("mobile-explore-tools");
 const detailPhotoSectionEl = document.getElementById("detail-photo-section");
 const detailMarkerPhotoEl = document.getElementById("detail-marker-photo");
 const detailPhotoStatusEl = document.getElementById("detail-photo-status");
@@ -1741,6 +1743,24 @@ function refreshWordCloudInApp() {
   }
   buildInscriptionWordIndex(markers);
   renderWordCloud();
+}
+
+function syncResponsiveToolPanels() {
+  // iPads use the mobile layout, but have room for nearby-search controls.
+  if (window.matchMedia("(min-width: 600px)").matches && mobileToolsEl) {
+    mobileToolsEl.open = true;
+  }
+}
+
+syncResponsiveToolPanels();
+window.addEventListener("resize", syncResponsiveToolPanels, { passive: true });
+
+if (mobileExploreToolsEl) {
+  mobileExploreToolsEl.addEventListener("toggle", () => {
+    if (mobileExploreToolsEl.open) {
+      requestAnimationFrame(() => renderWordCloud());
+    }
+  });
 }
 
 function renderWordCloud() {
