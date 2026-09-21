@@ -2620,12 +2620,6 @@ function applyFilters() {
   updateMapMarkers(filtered);
 }
 
-/** Apply an explicit nearby result set after a detail-status redraw. */
-function renderNearbyResults(nearbyMarkers) {
-  renderList(nearbyMarkers);
-  updateMapMarkers(nearbyMarkers);
-}
-
 function applyNearbyFromCenter(centerLat, centerLng, maxDistanceMiles) {
   nearbyDistanceById.clear();
   markers.forEach((marker) => {
@@ -2717,7 +2711,6 @@ async function lookupByZipCode() {
       "Nearby markers loaded",
       `Showing markers within ${maxDistanceMiles} miles of ZIP ${zip} (${center.label}).`
     );
-    renderNearbyResults(nearbyMarkers);
   } catch (error) {
     let offlineMsg = "Could not look up that ZIP code. Please try another ZIP.";
     if (error && String(error.message) === "OFFLINE_NO_ZIP") {
