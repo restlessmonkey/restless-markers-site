@@ -1,7 +1,7 @@
 /**
  * Offline cache for Add to Home Screen / browser use (not used in Capacitor native WebView).
  */
-const CACHE = "restless-markers-hmdb-discovery-v1";
+const CACHE = "restless-markers-map-refresh-v2";
 const PRECACHE = [
   "./",
   "./index.html",
