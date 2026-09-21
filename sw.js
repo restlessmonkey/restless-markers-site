@@ -1,7 +1,7 @@
 /**
  * Offline cache for Add to Home Screen / browser use (not used in Capacitor native WebView).
  */
-const CACHE = "restless-markers-zip-nearby-fix-v1";
+const CACHE = "restless-markers-live-shell-v1";
 const PRECACHE = [
   "./",
   "./index.html",
@@ -36,6 +36,9 @@ const PRECACHE = [
 function isFreshDataJsonRequest(url) {
   const path = url.pathname;
   return (
+    path.endsWith("/") ||
+    path.endsWith("/index.html") ||
+    path.endsWith("/app.js") ||
     path.endsWith("/markers.json") ||
     path === "/markers.json" ||
     path.endsWith("/offline-lookups.json") ||
