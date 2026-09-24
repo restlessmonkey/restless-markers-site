@@ -193,7 +193,7 @@
         <dl class="about-facts"><div><dt>Application updated</dt><dd id="about-app-updated">Aug 14, 2026 at 11:07:44 PM UTC</dd></div><div><dt>Marker dataset</dt><dd id="about-marker-count">Loading…</dd></div><div><dt>Marker data updated</dt><dd id="about-data-updated">Loading…</dd></div></dl>
         <section class="about-section" aria-labelledby="about-changes-title"><h3 id="about-changes-title">What changed in the marker data</h3><p id="about-change-summary" class="about-change-summary">Loading the dataset comparison…</p></section>
         <section class="about-section" aria-labelledby="about-source-title"><h3 id="about-source-title">Source and accuracy</h3><p id="about-source-copy">Marker information is derived from public Texas Historical Commission data. This is an independent viewer, not an official Texas Historical Commission product. For the official record, use the <a id="about-source-link" href="https://atlas.thc.texas.gov/" target="_blank" rel="noopener noreferrer">Historic Sites Atlas</a>.</p></section>
-        <details class="about-details"><summary>Privacy</summary><p>The application has no user accounts. Restless Markers does not currently send marker searches, selected markers, or precise device location as custom analytics events. Layout and last-selected-state preferences stay on your device. Optional location, address, and map features use your browser or third-party services only when requested.</p></details>
+        <details class="about-details"><summary>Privacy</summary><p>Restless Markers has no user accounts. On the public website, Cloudflare Web Analytics provides aggregate visits and performance statistics without analytics cookies or local storage. Restless Markers does not send marker searches, selected markers, or precise device location as custom analytics events. Layout and last-selected-state preferences stay on your device. Optional location, address, and map features use your browser or third-party services only when requested. When a marker photo is displayed from HMdb.org, your browser requests it directly from HMdb.org; HMdb’s own terms and privacy practices apply to that request.</p></details>
         <details class="about-details"><summary>Acknowledgments</summary><p id="about-acknowledgments">Texas Historical Commission; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js.</p></details>
         <div class="about-contact"><p><strong>Created and maintained by Restless Monkey Software</strong></p><a href="mailto:restlessmonkey.software@gmail.com">restlessmonkey.software@gmail.com</a><div class="about-actions"><a id="about-report-link" class="about-action-btn" href="mailto:restlessmonkey.software@gmail.com?subject=Restless%20Markers%20feedback">Report a problem or idea</a><button id="about-copy-support-btn" type="button" class="about-action-btn">Copy support information</button></div></div>
         <p class="about-copyright">© 2026 Restless Monkey Software</p>
@@ -205,12 +205,25 @@
     <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
     <script src="vendor/wordcloud/wordcloud2.js"></script>
     <script src="ca-enhancements.js?v=1"></script>
-    <script src="app.js?v=rm-mobile-20260921-5"></script>
+    <script src="app.js?v=rm-analytics-20260924-6"></script>
     <script src="restless-markers-brand.js?v=1"></script>
     <script>
       if ("serviceWorker" in navigator && location.protocol !== "capacitor:") {
         navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(function () {});
       }
+    </script>
+    <!-- Cloudflare Web Analytics: public Restless Markers deployment only -->
+    <script>
+      (function () {
+        if (location.hostname !== "restlessmonkey.github.io" || !location.pathname.startsWith("/restless-markers-site/")) {
+          return;
+        }
+        var beacon = document.createElement("script");
+        beacon.type = "module";
+        beacon.src = "https://static.cloudflareinsights.com/beacon.min.js";
+        beacon.setAttribute("data-cf-beacon", '{"token": "66b71dd61ca746e39eb13105b9ee21fa"}');
+        document.body.appendChild(beacon);
+      })();
     </script>
   </body>
 </html>
