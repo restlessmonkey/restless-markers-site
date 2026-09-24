@@ -37,3 +37,8 @@ See [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md) for source and software a
 ## Licensing status
 
 No open-source license has been selected for the original Restless Markers application code at this time. The absence of a repository license does not alter the licenses or rights applicable to included third-party software or data.
+
+## Public sharing policies
+
+Before using or contributing to the site, see the [License and Rights Notice](LICENSE.md), [Terms of Use](TERMS-OF-USE.md), [Privacy Notice](PRIVACY.md), [Sources and Credits](SOURCES-AND-CREDITS.md), [Feedback Guidelines](FEEDBACK.md), and [Security Contact](SECURITY.md).
+
