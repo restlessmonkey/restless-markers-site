@@ -1,11 +1,11 @@
 /**
  * Offline cache for Add to Home Screen / browser use (not used in Capacitor native WebView).
  */
-const CACHE = "restless-markers-rm-analytics-20260924-6";
+const CACHE = "restless-markers-rm-analytics-20260924-7";
 const PRECACHE = [
   "./",
   "./index.html",
-  "./app.js?v=rm-analytics-20260924-6",
+  "./app.js?v=rm-analytics-20260924-7",
   "./restless-markers-brand.js?v=1",
   "./ca-enhancements.js?v=1",
   "./ca-hmdb-poc.js?v=1.4.6-poc",
@@ -70,6 +70,23 @@ self.addEventListener("fetch", (event) => {
   }
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) {
+    return;
+  }
+
+  // Always prefer a fresh document for app navigation. This lets a new index.html register
+  // a newer service worker rather than trapping visitors on an old cached shell.
+  if (req.mode === "navigate" || url.pathname.endsWith("/index.html")) {
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          if (res && res.status === 200) {
+            const copy = res.clone();
+            caches.open(CACHE).then((cache) => cache.put(req, copy));
+          }
+          return res;
+        })
+        .catch(() => caches.match(req).then((cached) => cached || caches.match("./index.html")))
+    );
     return;
   }
 
