@@ -1,11 +1,11 @@
 /**
  * Offline cache for Add to Home Screen / browser use (not used in Capacitor native WebView).
  */
-const CACHE = "restless-markers-rm-analytics-20260924-7";
+const CACHE = "restless-markers-rm-sharing-20260924-8";
 const PRECACHE = [
   "./",
   "./index.html",
-  "./app.js?v=rm-analytics-20260924-7",
+  "./app.js?v=rm-sharing-20260924-8",
   "./restless-markers-brand.js?v=1",
   "./ca-enhancements.js?v=1",
   "./ca-hmdb-poc.js?v=1.4.6-poc",
