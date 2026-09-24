@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "version": "1.10.3-mobile-explore",
-  "applicationUpdated": "2026-09-21T21:02:00Z",
+  "version": "1.10.4-cloudflare-analytics",
+  "applicationUpdated": "2026-09-24T15:00:00Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -163,7 +163,8 @@
   },
   "analytics": {
     "provider": "Cloudflare Web Analytics",
-    "enabled": false,
+    "enabled": true,
+    "siteToken": "66b71dd61ca746e39eb13105b9ee21fa",
     "host": "restlessmonkey.github.io",
     "pathPrefix": "/restless-markers-site/",
     "cookies": false,
