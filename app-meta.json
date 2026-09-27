@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "version": "1.10.5-public-sharing-docs",
-  "applicationUpdated": "2026-09-24T16:00:00Z",
+  "version": "1.10.6-ca-hmdb-remote-photos",
+  "applicationUpdated": "2026-09-27T21:39:07.162947Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -88,7 +88,12 @@
       "smartListInventoryComplete": true,
       "hmdbAcquisitionMethod": "Smart List spreadsheet download",
       "hmdbSmartListCsvSha256": "b7e58f28c7cab6f19e9580ca117cb9a1b4f4c151e7dd81a5b3b0e66339697106",
-      "migrationIssue": 32
+      "migrationIssue": 32,
+      "hmdbRemotePhotoPublishedMarkerCount": 13076,
+      "hmdbRemotePhotoBacklogCount": 12,
+      "hmdbRemotePhotoMode": "REMOTE_ATTRIBUTED_NO_LOCAL_ASSETS",
+      "hmdbPhotoSourceUrl": "https://www.hmdb.org/",
+      "hmdbPhotoCopyrightUrl": "https://www.hmdb.org/copyright.asp"
     },
     "MI": {
       "name": "Michigan Historical Markers",

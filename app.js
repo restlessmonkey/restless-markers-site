@@ -763,10 +763,10 @@ function clearStateDetailExtras() {
 }
 
 // VA_HMDB_PUBLIC_PHOTOS_BEGIN
-function renderVaDetailExtras(marker) {
+function renderHmdbDetailExtras(marker) {
   const raw = marker && marker.hmdbPhoto;
   const photo = raw && raw.public ? raw.public : raw;
-  if ((activeStateCode !== "VA" && activeStateCode !== "TX") || !photo || photo.publicDisplayAllowed !== true || !Array.isArray(photo.photos) || !photo.photos.length) {
+  if ((activeStateCode !== "VA" && activeStateCode !== "TX" && activeStateCode !== "CA") || !photo || photo.publicDisplayAllowed !== true || !Array.isArray(photo.photos) || !photo.photos.length) {
     return;
   }
   if (!detailPhotoSectionEl || !detailMarkerPhotoEl || !detailPhotoStatusEl) {
@@ -775,7 +775,7 @@ function renderVaDetailExtras(marker) {
   detailPhotoSectionEl.hidden = false;
   const primary = photo.photos[0];
   detailMarkerPhotoEl.src = String(primary.remoteUrl || primary.publicPath || primary.path || "");
-  detailMarkerPhotoEl.alt = `Historical marker ${marker.markerNumber || ""}: ${marker.title || "Virginia marker"}`.slice(0, 180);
+  detailMarkerPhotoEl.alt = `Historical marker ${marker.markerNumber || ""}: ${marker.title || "historical marker"}`.slice(0, 180);
   detailMarkerPhotoEl.hidden = false;
 
   detailPhotoStatusEl.textContent = "";
@@ -982,6 +982,7 @@ function renderDetailAtlasFields(marker) {
       detailInscriptionHeadingEl.hidden = false;
     }
     clearStateDetailExtras();
+    renderHmdbDetailExtras(marker);
     return;
   }
 
@@ -1010,7 +1011,7 @@ function renderDetailAtlasFields(marker) {
       detailInscriptionHeadingEl.hidden = false;
     }
     clearStateDetailExtras();
-    renderVaDetailExtras(marker);
+    renderHmdbDetailExtras(marker);
     return;
   }
 
@@ -1057,8 +1058,8 @@ function renderDetailAtlasFields(marker) {
   }
 
   // VA_HMDB_RENDER_CALL
-  if (activeStateCode === "VA" || activeStateCode === "TX") {
-    renderVaDetailExtras(marker);
+  if (activeStateCode === "VA" || activeStateCode === "TX" || activeStateCode === "CA") {
+    renderHmdbDetailExtras(marker);
   }
 }
 
