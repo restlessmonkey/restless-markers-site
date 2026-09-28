@@ -3,9 +3,9 @@
 
   const CA_MARKERS_PATH = "/data/states/ca/markers.json";
   const CA_UI_SCRIPTS = [
-    "ca-hmdb-poc.js?v=1.5.0-ca-statewide-partial",
-    "ca-hmdb-rich-details.js?v=1.5.0-ca-statewide-partial",
-    "ca-berd-enrichment.js?v=1.5.0-ca-statewide-partial"
+    "ca-hmdb-poc.js?v=1.10.8-ca-chl-filter",
+    "ca-hmdb-rich-details.js?v=1.10.8-ca-chl-filter",
+    "ca-berd-enrichment.js?v=1.10.8-ca-chl-filter"
   ];
   const MOJIBAKE_REPLACEMENTS = [
     [/â€œ/g, "“"],
