@@ -105,6 +105,14 @@
         <div class="random-marker-row"><button id="random-marker-btn" type="button" class="lookup-btn lookup-btn-full" disabled>Random Marker</button></div>
         <label for="county-filter" class="label">Filter by county</label>
         <select id="county-filter" class="county-select"><option value="">All counties</option></select>
+        <div id="california-marker-type-filter-wrap" hidden>
+          <label for="california-marker-type-filter" class="label">Show California markers</label>
+          <select id="california-marker-type-filter" class="county-select">
+            <option value="both">Both CHL and HMdb markers</option>
+            <option value="chl">CHL-linked markers only</option>
+            <option value="hmdb">HMdb markers only</option>
+          </select>
+        </div>
         </details>
         <details id="mobile-explore-tools" class="mobile-explore-tools">
           <summary>Explore &amp; search</summary>
@@ -206,7 +214,7 @@
     <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
     <script src="vendor/wordcloud/wordcloud2.js"></script>
     <script src="ca-enhancements.js?v=1"></script>
-    <script src="app.js?v=rm-sharing-20260924-8"></script>
+    <script src="app.js?v=rm-chl-filter-20260927-1"></script>
     <script src="restless-markers-brand.js?v=1"></script>
     <script>
       if ("serviceWorker" in navigator && location.protocol !== "capacitor:") {
