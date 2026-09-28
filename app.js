@@ -242,6 +242,8 @@ const markerNumberEl = document.getElementById("marker-number");
 const markerNumberBtnEl = document.getElementById("marker-number-btn");
 const randomMarkerBtnEl = document.getElementById("random-marker-btn");
 const countyFilterEl = document.getElementById("county-filter");
+const californiaMarkerTypeFilterEl = document.getElementById("california-marker-type-filter");
+const californiaMarkerTypeFilterWrapEl = document.getElementById("california-marker-type-filter-wrap");
 const detailTitleEl = document.getElementById("detail-title");
 const detailCountyEl = document.getElementById("detail-county");
 const detailAtlasFieldsEl = document.getElementById("detail-atlas-fields");
@@ -2424,7 +2426,15 @@ map.on("popupopen", (event) => {
 function getFilteredMarkers() {
   const query = searchEl.value.trim().toLowerCase();
   const county = countyFilterEl.value;
+  const californiaMarkerType = californiaMarkerTypeFilterEl ? californiaMarkerTypeFilterEl.value : "both";
   return markers.filter((marker) => {
+    if (activeStateCode === "CA") {
+      const isChlLinked =
+        marker.californiaLandmarkNumber != null &&
+        /^https:\/\/ohp\.parks\.ca\.gov\/ListedResources\/Detail\//i.test(String(marker.ohpUrl || ""));
+      if (californiaMarkerType === "chl" && !isChlLinked) return false;
+      if (californiaMarkerType === "hmdb" && isChlLinked) return false;
+    }
     if (nearbyMarkerIds && !nearbyMarkerIds.has(marker.id)) {
       return false;
     }
@@ -2474,6 +2484,13 @@ function haversineMiles(lat1, lng1, lat2, lng2) {
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
   return earthRadiusMiles * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function syncCaliforniaMarkerTypeFilter() {
+  if (!californiaMarkerTypeFilterWrapEl || !californiaMarkerTypeFilterEl) return;
+  const isCalifornia = activeStateCode === "CA";
+  californiaMarkerTypeFilterWrapEl.hidden = !isCalifornia;
+  if (!isCalifornia) californiaMarkerTypeFilterEl.value = "both";
 }
 
 function populateCountyFilter() {
@@ -3436,6 +3453,7 @@ function resetUiForStateLoad() {
 async function loadStateDataset(code) {
   const normalized = normalizeStateCode(code) || "TX";
   activeStateCode = normalized;
+  syncCaliforniaMarkerTypeFilter();
   const generation = ++stateLoadGeneration;
   storeStatePreference(normalized);
   applyStateChrome();
@@ -3544,6 +3562,10 @@ if (stateSelectorEl) {
   stateSelectorEl.addEventListener("change", () => {
     void switchState(stateSelectorEl.value);
   });
+}
+
+if (californiaMarkerTypeFilterEl) {
+  californiaMarkerTypeFilterEl.addEventListener("change", () => applyFilters());
 }
 
 window.addEventListener("popstate", () => {
