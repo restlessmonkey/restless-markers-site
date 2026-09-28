@@ -546,11 +546,6 @@
     randomMarkerBtnEl.removeEventListener("click", coreSelectRandomMarker);
   }
   selectRandomMarker = function () {
-    const pool = visibleMarkers();
-    if (!pool.length) {
-      setDetailMessage("No marker data", "No markers are enabled in the current source filter.");
-      return;
-    }
     nearbyMarkerIds = null;
     nearbyDistanceById.clear();
     clearMyLocationReadout();
@@ -560,6 +555,13 @@
     searchEl.value = "";
     countyFilterEl.value = "";
     resetInscriptionWordFilterOnly();
+
+    // Respect both the selected California source choice and any enabled collection.
+    const pool = getFilteredMarkers().filter(markerCollectionEnabled);
+    if (!pool.length) {
+      setDetailMessage("No marker data", "No markers are enabled by the current filters.");
+      return;
+    }
     const idx = Math.floor(Math.random() * pool.length);
     selectMarker(pool[idx]);
     if (detailPanelEl) {
