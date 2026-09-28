@@ -35,10 +35,8 @@
   }
   function coverageLabel() {
     const list = currentCaliforniaMarkers();
-    if (!list.length) return "captured statewide California historical-marker dataset";
-    const counties = new Set(list.map((m) => String(m.county || "").trim()).filter(Boolean));
-    const official = list.filter((m) => m.californiaLandmarkNumber != null && String(m.ohpUrl || "").startsWith("https://ohp.parks.ca.gov/ListedResources/Detail/"));
-    return `${list.length.toLocaleString()} deployable HMDB marker records across ${counties.size} California counties; ${official.length.toLocaleString()} safely linked to official California OHP landmark records`;
+    if (!list.length) return "California historical-marker dataset";
+    return `${list.length.toLocaleString()} California historical marker records`;
   }
 
   function patchCaliforniaMarkerLink() {
@@ -142,7 +140,7 @@
     }
 
     const coverage = coverageLabel();
-    const subtitle = `${coverage}. All 58 counties have been scanned; 52 are complete and 6 remain partial. The 2,520 records not yet captured from those partial counties are on the backlog.`;
+    const subtitle = "Explore California historical markers, source links, and HMdb photo details.";
     if (document.title !== APP_TITLE) document.title = APP_TITLE;
     setText(document.getElementById("app-title"), APP_TITLE);
     setText(document.getElementById("app-subtitle"), subtitle);
@@ -154,15 +152,15 @@
       setAttr(program, "aria-label", "Open the official California Historical Resources listing in a new tab");
     }
 
-    setText(document.getElementById("about-subtitle"), "California statewide historical-marker coverage — partial in six counties");
-    setText(document.getElementById("about-intro"), `Restless Markers currently deploys ${coverage}. The statewide HMDB source reports 13,038 California entries; 10,518 MarkerIDs have been captured. Six large counties remain partial and are explicitly tracked as backlog.`);
+    setText(document.getElementById("about-subtitle"), "California statewide historical-marker coverage");
+    setText(document.getElementById("about-intro"), `Restless Markers includes ${coverage}. HMdb supplies the physical-marker inventory; official California OHP links appear where a deterministic landmark match is available.`);
     setText(document.getElementById("about-source-copy"), "HMDB is the source for the statewide physical-marker inventory, marker coordinates, and marker-specific public metadata. California OHP remains authoritative for official California designation identity. Restless Markers links a physical marker to an official California Historical Landmark only when the deterministic Series 489 + marker-number-base + same-county identity gate passes.");
     const source = document.getElementById("about-source-link");
     if (source) {
       setHref(source, HMDB_STATE_URL);
       setText(source, "Historical Marker Database — California");
     }
-    setText(document.getElementById("about-acknowledgments"), "Historical Marker Database (HMDB); California Office of Historic Preservation; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js. Six California counties currently have partial HMDB capture and remain on the backlog.");
+    setText(document.getElementById("about-acknowledgments"), "Historical Marker Database (HMDB); California Office of Historic Preservation; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js.");
     patchDetailLabels();
   }
 
