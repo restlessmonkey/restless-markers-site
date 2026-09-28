@@ -3026,8 +3026,13 @@ function selectRandomMarker() {
   searchEl.value = "";
   countyFilterEl.value = "";
   resetInscriptionWordFilterOnly();
-  const idx = Math.floor(Math.random() * markers.length);
-  selectMarker(markers[idx]);
+  const eligible = getFilteredMarkers();
+  if (!eligible.length) {
+    setDetailMessage("No matching markers", "No markers match the active California source filter.");
+    return;
+  }
+  const idx = Math.floor(Math.random() * eligible.length);
+  selectMarker(eligible[idx]);
   if (detailPanelEl) {
     detailPanelEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
