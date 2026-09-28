@@ -6,7 +6,7 @@ const PRECACHE = [
   "./",
   "./index.html",
   "./app.js?v=rm-chl-filter-random-20260927-2",
-  "./restless-markers-brand.js?v=1",
+  "./restless-markers-brand.js?v=1.10.10-ca-chl-random-fix",
   "./ca-enhancements.js?v=1",
   "./ca-hmdb-poc.js?v=1.10.8-ca-chl-filter",
   "./ca-hmdb-rich-details.js?v=1.10.8-ca-chl-filter",
