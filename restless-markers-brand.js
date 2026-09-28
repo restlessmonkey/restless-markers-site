@@ -6,7 +6,7 @@
   function ensureMarkerCollectionsRuntime() {
     if (document.querySelector('script[data-restless-marker-collections="true"]')) return;
     const script = document.createElement("script");
-    script.src = new URL("data/runtime/marker-collections.js?v=1", document.baseURI).href;
+    script.src = new URL("data/runtime/marker-collections.js?v=1.10.10-ca-chl-random-fix", document.baseURI).href;
     script.async = false;
     script.dataset.restlessMarkerCollections = "true";
     script.addEventListener("error", () => console.error("Restless Markers marker-collection extension failed to load."));
