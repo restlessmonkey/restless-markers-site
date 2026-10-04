@@ -112,3 +112,7 @@ HMdb copyright/use notice: <https://www.hmdb.org/copyright.asp>
 Images with separate restrictions or Creative Commons terms are held from this publication unless their
 specific terms are affirmatively reviewed outside this automated default-rights gate.
 
+
+## Missouri HMdb remote photographs
+
+Missouri photos are remotely displayed from HMdb.org, with visible photographer/HMdb attribution and a link to the source marker page. No Missouri image files are stored in either Restless Markers repository.

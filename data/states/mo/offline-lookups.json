@@ -1,0 +1,6197 @@
+{
+  "version": 2,
+  "state": "MO",
+  "source": "Derived locally from HMdb Missouri statewide CSV marker coordinates",
+  "cities": {
+    "kirksville": {
+      "lat": 40.196898,
+      "lng": -92.581824,
+      "label": "Kirksville",
+      "county": "Adair",
+      "markerCount": 5
+    },
+    "savannah": {
+      "lat": 39.941097,
+      "lng": -94.830478,
+      "label": "Savannah",
+      "county": "Andrew",
+      "markerCount": 4
+    },
+    "rock port": {
+      "lat": 40.414187,
+      "lng": -95.52235,
+      "label": "Rock Port",
+      "county": "Atchison",
+      "markerCount": 3
+    },
+    "phelps city": {
+      "lat": 40.40099,
+      "lng": -95.64818,
+      "label": "Phelps City",
+      "county": "Atchison",
+      "markerCount": 1
+    },
+    "fairfax": {
+      "lat": 40.33933,
+      "lng": -95.39232,
+      "label": "Fairfax",
+      "county": "Atchison",
+      "markerCount": 1
+    },
+    "mexico": {
+      "lat": 39.166842,
+      "lng": -91.886572,
+      "label": "Mexico",
+      "county": "Audrain",
+      "markerCount": 19
+    },
+    "monett": {
+      "lat": 36.918598,
+      "lng": -93.922538,
+      "label": "Monett",
+      "county": "Barry",
+      "markerCount": 29
+    },
+    "cassville": {
+      "lat": 36.67682,
+      "lng": -93.86706,
+      "label": "Cassville",
+      "county": "Barry",
+      "markerCount": 3
+    },
+    "aurora": {
+      "lat": 36.931924,
+      "lng": -93.71083,
+      "label": "Aurora",
+      "county": "Barry",
+      "markerCount": 5
+    },
+    "purdy": {
+      "lat": 36.815977,
+      "lng": -93.919593,
+      "label": "Purdy",
+      "county": "Barry",
+      "markerCount": 3
+    },
+    "hilltop": {
+      "lat": 36.585,
+      "lng": -93.839,
+      "label": "Hilltop",
+      "county": "Barry",
+      "markerCount": 1
+    },
+    "lamar": {
+      "lat": 37.494962,
+      "lng": -94.274957,
+      "label": "Lamar",
+      "county": "Barton",
+      "markerCount": 9
+    },
+    "liberal": {
+      "lat": 37.56498,
+      "lng": -94.51766,
+      "label": "Liberal",
+      "county": "Barton",
+      "markerCount": 1
+    },
+    "butler": {
+      "lat": 38.25306,
+      "lng": -94.36582,
+      "label": "Butler",
+      "county": "Bates",
+      "markerCount": 21
+    },
+    "rich hill": {
+      "lat": 38.096835,
+      "lng": -94.35731,
+      "label": "Rich Hill",
+      "county": "Bates",
+      "markerCount": 2
+    },
+    "adrian": {
+      "lat": 38.39392,
+      "lng": -94.33645,
+      "label": "Adrian",
+      "county": "Bates",
+      "markerCount": 1
+    },
+    "hume": {
+      "lat": 38.09024,
+      "lng": -94.58368,
+      "label": "Hume",
+      "county": "Bates",
+      "markerCount": 1
+    },
+    "warsaw": {
+      "lat": 38.241435,
+      "lng": -93.38066,
+      "label": "Warsaw",
+      "county": "Benton",
+      "markerCount": 2
+    },
+    "puxico": {
+      "lat": 37.06993,
+      "lng": -90.07245,
+      "label": "Puxico",
+      "county": "Bollinger",
+      "markerCount": 1
+    },
+    "marble hill": {
+      "lat": 37.305763,
+      "lng": -89.97004,
+      "label": "Marble Hill",
+      "county": "Bollinger",
+      "markerCount": 3
+    },
+    "columbia": {
+      "lat": 38.944237,
+      "lng": -92.32918,
+      "label": "Columbia",
+      "county": "Boone",
+      "markerCount": 72
+    },
+    "rocheport": {
+      "lat": 38.973009,
+      "lng": -92.555516,
+      "label": "Rocheport",
+      "county": "Boone",
+      "markerCount": 10
+    },
+    "hartsburg": {
+      "lat": 38.72985,
+      "lng": -92.337656,
+      "label": "Hartsburg",
+      "county": "Boone",
+      "markerCount": 5
+    },
+    "mcbaine": {
+      "lat": 38.887443,
+      "lng": -92.446383,
+      "label": "McBaine",
+      "county": "Boone",
+      "markerCount": 3
+    },
+    "centralia": {
+      "lat": 39.21143,
+      "lng": -92.13878,
+      "label": "Centralia",
+      "county": "Boone",
+      "markerCount": 1
+    },
+    "st. joseph": {
+      "lat": 39.766113,
+      "lng": -94.850306,
+      "label": "St. Joseph",
+      "county": "Buchanan",
+      "markerCount": 60
+    },
+    "lewis and clark village": {
+      "lat": 39.53525,
+      "lng": -95.062013,
+      "label": "Lewis and Clark Village",
+      "county": "Buchanan",
+      "markerCount": 3
+    },
+    "iatan": {
+      "lat": 39.47117,
+      "lng": -94.986917,
+      "label": "Iatan",
+      "county": "Buchanan",
+      "markerCount": 3
+    },
+    "poplar bluff": {
+      "lat": 36.756809,
+      "lng": -90.393567,
+      "label": "Poplar Bluff",
+      "county": "Butler",
+      "markerCount": 7
+    },
+    "hamilton": {
+      "lat": 39.743162,
+      "lng": -93.998351,
+      "label": "Hamilton",
+      "county": "Caldwell",
+      "markerCount": 9
+    },
+    "kingston": {
+      "lat": 39.64297,
+      "lng": -94.038427,
+      "label": "Kingston",
+      "county": "Caldwell",
+      "markerCount": 3
+    },
+    "braymer": {
+      "lat": 39.6701,
+      "lng": -93.83916,
+      "label": "Braymer",
+      "county": "Caldwell",
+      "markerCount": 2
+    },
+    "breckenridge": {
+      "lat": 39.7616,
+      "lng": -93.80385,
+      "label": "Breckenridge",
+      "county": "Caldwell",
+      "markerCount": 1
+    },
+    "polo": {
+      "lat": 39.549125,
+      "lng": -94.039325,
+      "label": "Polo",
+      "county": "Caldwell",
+      "markerCount": 2
+    },
+    "fulton": {
+      "lat": 38.848793,
+      "lng": -91.951208,
+      "label": "Fulton",
+      "county": "Callaway",
+      "markerCount": 23
+    },
+    "tebbetts": {
+      "lat": 38.60975,
+      "lng": -91.982307,
+      "label": "Tebbetts",
+      "county": "Callaway",
+      "markerCount": 3
+    },
+    "calwood": {
+      "lat": 38.920219,
+      "lng": -91.851241,
+      "label": "Calwood",
+      "county": "Callaway",
+      "markerCount": 7
+    },
+    "jefferson city": {
+      "lat": 38.575798,
+      "lng": -92.161596,
+      "label": "Jefferson City",
+      "county": "Callaway",
+      "markerCount": 71
+    },
+    "williamsburg": {
+      "lat": 38.9176,
+      "lng": -91.73193,
+      "label": "Williamsburg",
+      "county": "Callaway",
+      "markerCount": 2
+    },
+    "mokane": {
+      "lat": 38.674766,
+      "lng": -91.870566,
+      "label": "Mokane",
+      "county": "Callaway",
+      "markerCount": 5
+    },
+    "millersburg": {
+      "lat": 38.89875,
+      "lng": -92.12339,
+      "label": "Millersburg",
+      "county": "Callaway",
+      "markerCount": 1
+    },
+    "portland": {
+      "lat": 38.70968,
+      "lng": -91.716595,
+      "label": "Portland",
+      "county": "Callaway",
+      "markerCount": 2
+    },
+    "kingdom city": {
+      "lat": 38.94559,
+      "lng": -91.94231,
+      "label": "Kingdom City",
+      "county": "Callaway",
+      "markerCount": 1
+    },
+    "steedman": {
+      "lat": 38.70806,
+      "lng": -91.7989,
+      "label": "Steedman",
+      "county": "Callaway",
+      "markerCount": 1
+    },
+    "ha ha tonka": {
+      "lat": 37.975224,
+      "lng": -92.76739,
+      "label": "Ha Ha Tonka",
+      "county": "Camden",
+      "markerCount": 5
+    },
+    "lake ozark": {
+      "lat": 38.2009,
+      "lng": -92.63002,
+      "label": "Lake Ozark",
+      "county": "Camden",
+      "markerCount": 1
+    },
+    "camdenton": {
+      "lat": 38.00816,
+      "lng": -92.74533,
+      "label": "Camdenton",
+      "county": "Camden",
+      "markerCount": 1
+    },
+    "hartle ford": {
+      "lat": 37.4498,
+      "lng": -89.85061,
+      "label": "Hartle Ford",
+      "county": "Cape Girardeau",
+      "markerCount": 1
+    },
+    "cape girardeau": {
+      "lat": 37.304168,
+      "lng": -89.523027,
+      "label": "Cape Girardeau",
+      "county": "Cape Girardeau",
+      "markerCount": 128
+    },
+    "jackson": {
+      "lat": 37.42515,
+      "lng": -89.553559,
+      "label": "Jackson",
+      "county": "Cape Girardeau",
+      "markerCount": 7
+    },
+    "burfordville": {
+      "lat": 37.367534,
+      "lng": -89.802786,
+      "label": "Burfordville",
+      "county": "Cape Girardeau",
+      "markerCount": 7
+    },
+    "carrollton": {
+      "lat": 39.369618,
+      "lng": -93.490064,
+      "label": "Carrollton",
+      "county": "Carroll",
+      "markerCount": 5
+    },
+    "de witt": {
+      "lat": 39.38456,
+      "lng": -93.221423,
+      "label": "De Witt",
+      "county": "Carroll",
+      "markerCount": 3
+    },
+    "van buren": {
+      "lat": 36.96091,
+      "lng": -90.998506,
+      "label": "Van Buren",
+      "county": "Carter",
+      "markerCount": 8
+    },
+    "pleasant hill": {
+      "lat": 38.788527,
+      "lng": -94.272805,
+      "label": "Pleasant Hill",
+      "county": "Cass",
+      "markerCount": 30
+    },
+    "harrisonville": {
+      "lat": 38.658136,
+      "lng": -94.356687,
+      "label": "Harrisonville",
+      "county": "Cass",
+      "markerCount": 11
+    },
+    "belton": {
+      "lat": 38.81207,
+      "lng": -94.53401,
+      "label": "Belton",
+      "county": "Cass",
+      "markerCount": 1
+    },
+    "stockton": {
+      "lat": 37.682587,
+      "lng": -93.807133,
+      "label": "Stockton",
+      "county": "Cedar",
+      "markerCount": 3
+    },
+    "el dorado springs": {
+      "lat": 37.875322,
+      "lng": -94.02229,
+      "label": "El Dorado Springs",
+      "county": "Cedar",
+      "markerCount": 9
+    },
+    "brunswick": {
+      "lat": 39.42288,
+      "lng": -93.13148,
+      "label": "Brunswick",
+      "county": "Chariton",
+      "markerCount": 2
+    },
+    "keytesville": {
+      "lat": 39.43415,
+      "lng": -92.938377,
+      "label": "Keytesville",
+      "county": "Chariton",
+      "markerCount": 3
+    },
+    "salisbury": {
+      "lat": 39.41692,
+      "lng": -92.80121,
+      "label": "Salisbury",
+      "county": "Chariton",
+      "markerCount": 1
+    },
+    "ozark": {
+      "lat": 37.021502,
+      "lng": -93.205654,
+      "label": "Ozark",
+      "county": "Christian",
+      "markerCount": 5
+    },
+    "clever": {
+      "lat": 37.047335,
+      "lng": -93.453115,
+      "label": "Clever",
+      "county": "Christian",
+      "markerCount": 2
+    },
+    "billings": {
+      "lat": 37.05787,
+      "lng": -93.55501,
+      "label": "Billings",
+      "county": "Christian",
+      "markerCount": 1
+    },
+    "athens": {
+      "lat": 40.585291,
+      "lng": -91.696188,
+      "label": "Athens",
+      "county": "Clark",
+      "markerCount": 11
+    },
+    "st. francisville": {
+      "lat": 40.428993,
+      "lng": -91.557532,
+      "label": "St. Francisville",
+      "county": "Clark",
+      "markerCount": 6
+    },
+    "kahoka": {
+      "lat": 40.42469,
+      "lng": -91.7193,
+      "label": "Kahoka",
+      "county": "Clark",
+      "markerCount": 1
+    },
+    "wayland": {
+      "lat": 40.42787,
+      "lng": -91.55432,
+      "label": "Wayland",
+      "county": "Clark",
+      "markerCount": 1
+    },
+    "liberty": {
+      "lat": 39.24273,
+      "lng": -94.417462,
+      "label": "Liberty",
+      "county": "Clay",
+      "markerCount": 87
+    },
+    "smithville": {
+      "lat": 39.38783,
+      "lng": -94.581032,
+      "label": "Smithville",
+      "county": "Clay",
+      "markerCount": 9
+    },
+    "kansas city": {
+      "lat": 39.085137,
+      "lng": -94.586848,
+      "label": "Kansas City",
+      "county": "Clay",
+      "markerCount": 328
+    },
+    "gladstone": {
+      "lat": 39.20906,
+      "lng": -94.549552,
+      "label": "Gladstone",
+      "county": "Clay",
+      "markerCount": 5
+    },
+    "north kansas city": {
+      "lat": 39.14064,
+      "lng": -94.57497,
+      "label": "North Kansas City",
+      "county": "Clay",
+      "markerCount": 5
+    },
+    "excelsior springs": {
+      "lat": 39.34179,
+      "lng": -94.22255,
+      "label": "Excelsior Springs",
+      "county": "Clay",
+      "markerCount": 2
+    },
+    "kearney": {
+      "lat": 39.383212,
+      "lng": -94.334646,
+      "label": "Kearney",
+      "county": "Clay",
+      "markerCount": 5
+    },
+    "cameron": {
+      "lat": 39.738502,
+      "lng": -94.238965,
+      "label": "Cameron",
+      "county": "Clinton",
+      "markerCount": 10
+    },
+    "plattsburg": {
+      "lat": 39.56964,
+      "lng": -94.44604,
+      "label": "Plattsburg",
+      "county": "Clinton",
+      "markerCount": 4
+    },
+    "boonville": {
+      "lat": 38.973232,
+      "lng": -92.747405,
+      "label": "Boonville",
+      "county": "Cooper",
+      "markerCount": 42
+    },
+    "blackwater": {
+      "lat": 38.979395,
+      "lng": -92.992865,
+      "label": "Blackwater",
+      "county": "Cooper",
+      "markerCount": 2
+    },
+    "pilot grove": {
+      "lat": 38.875305,
+      "lng": -92.912147,
+      "label": "Pilot Grove",
+      "county": "Cooper",
+      "markerCount": 6
+    },
+    "otterville": {
+      "lat": 38.76399,
+      "lng": -93.04525,
+      "label": "Otterville",
+      "county": "Cooper",
+      "markerCount": 2
+    },
+    "cuba": {
+      "lat": 38.064732,
+      "lng": -91.405744,
+      "label": "Cuba",
+      "county": "Crawford",
+      "markerCount": 25
+    },
+    "leasburg": {
+      "lat": 38.106235,
+      "lng": -91.3064,
+      "label": "Leasburg",
+      "county": "Crawford",
+      "markerCount": 2
+    },
+    "steelville": {
+      "lat": 37.967687,
+      "lng": -91.356073,
+      "label": "Steelville",
+      "county": "Crawford",
+      "markerCount": 6
+    },
+    "dillard": {
+      "lat": 37.72042,
+      "lng": -91.205903,
+      "label": "Dillard",
+      "county": "Crawford",
+      "markerCount": 6
+    },
+    "bourbon": {
+      "lat": 38.15437,
+      "lng": -91.24462,
+      "label": "Bourbon",
+      "county": "Crawford",
+      "markerCount": 1
+    },
+    "greenfield": {
+      "lat": 37.416296,
+      "lng": -93.841928,
+      "label": "Greenfield",
+      "county": "Dade",
+      "markerCount": 5
+    },
+    "buffalo": {
+      "lat": 37.643535,
+      "lng": -93.092105,
+      "label": "Buffalo",
+      "county": "Dallas",
+      "markerCount": 4
+    },
+    "lock springs": {
+      "lat": 39.84746,
+      "lng": -93.77623,
+      "label": "Lock Springs",
+      "county": "Daviess",
+      "markerCount": 1
+    },
+    "gallatin": {
+      "lat": 39.91489,
+      "lng": -93.962142,
+      "label": "Gallatin",
+      "county": "Daviess",
+      "markerCount": 4
+    },
+    "jamesport": {
+      "lat": 39.9713,
+      "lng": -93.80085,
+      "label": "Jamesport",
+      "county": "Daviess",
+      "markerCount": 1
+    },
+    "maysville": {
+      "lat": 39.889805,
+      "lng": -94.359835,
+      "label": "Maysville",
+      "county": "DeKalb",
+      "markerCount": 2
+    },
+    "salem": {
+      "lat": 37.647293,
+      "lng": -91.53718,
+      "label": "Salem",
+      "county": "Dent",
+      "markerCount": 23
+    },
+    "sligo": {
+      "lat": 37.77306,
+      "lng": -91.38056,
+      "label": "Sligo",
+      "county": "Dent",
+      "markerCount": 1
+    },
+    "ava": {
+      "lat": 36.958395,
+      "lng": -92.65972,
+      "label": "Ava",
+      "county": "Douglas",
+      "markerCount": 2
+    },
+    "kennett": {
+      "lat": 36.235157,
+      "lng": -90.056827,
+      "label": "Kennett",
+      "county": "Dunklin",
+      "markerCount": 6
+    },
+    "hornersville": {
+      "lat": 36.03974,
+      "lng": -90.11106,
+      "label": "Hornersville",
+      "county": "Dunklin",
+      "markerCount": 1
+    },
+    "malden": {
+      "lat": 36.565057,
+      "lng": -89.970933,
+      "label": "Malden",
+      "county": "Dunklin",
+      "markerCount": 3
+    },
+    "campbell": {
+      "lat": 36.48525,
+      "lng": -90.15389,
+      "label": "Campbell",
+      "county": "Dunklin",
+      "markerCount": 1
+    },
+    "new haven": {
+      "lat": 38.612676,
+      "lng": -91.211341,
+      "label": "New Haven",
+      "county": "Franklin",
+      "markerCount": 18
+    },
+    "washington": {
+      "lat": 38.560261,
+      "lng": -91.013943,
+      "label": "Washington",
+      "county": "Franklin",
+      "markerCount": 78
+    },
+    "labadie": {
+      "lat": 38.518315,
+      "lng": -90.87946,
+      "label": "Labadie",
+      "county": "Franklin",
+      "markerCount": 2
+    },
+    "union": {
+      "lat": 38.438398,
+      "lng": -90.990082,
+      "label": "Union",
+      "county": "Franklin",
+      "markerCount": 5
+    },
+    "st. clair": {
+      "lat": 38.339894,
+      "lng": -91.001117,
+      "label": "St. Clair",
+      "county": "Franklin",
+      "markerCount": 11
+    },
+    "gerald": {
+      "lat": 38.397085,
+      "lng": -91.33696,
+      "label": "Gerald",
+      "county": "Franklin",
+      "markerCount": 2
+    },
+    "pacific": {
+      "lat": 38.482343,
+      "lng": -90.736598,
+      "label": "Pacific",
+      "county": "Franklin",
+      "markerCount": 19
+    },
+    "st. albans": {
+      "lat": 38.58034,
+      "lng": -90.77223,
+      "label": "St. Albans",
+      "county": "Franklin",
+      "markerCount": 1
+    },
+    "sullivan": {
+      "lat": 38.20807,
+      "lng": -91.1599,
+      "label": "Sullivan",
+      "county": "Franklin",
+      "markerCount": 2
+    },
+    "stanton": {
+      "lat": 38.241265,
+      "lng": -91.09204,
+      "label": "Stanton",
+      "county": "Franklin",
+      "markerCount": 2
+    },
+    "gray summit": {
+      "lat": 38.48211,
+      "lng": -90.8243,
+      "label": "Gray Summit",
+      "county": "Franklin",
+      "markerCount": 1
+    },
+    "oak grove village": {
+      "lat": 38.223165,
+      "lng": -91.152007,
+      "label": "Oak Grove Village",
+      "county": "Franklin",
+      "markerCount": 4
+    },
+    "hermann": {
+      "lat": 38.705697,
+      "lng": -91.435571,
+      "label": "Hermann",
+      "county": "Gasconade",
+      "markerCount": 46
+    },
+    "owensville": {
+      "lat": 38.346749,
+      "lng": -91.500821,
+      "label": "Owensville",
+      "county": "Gasconade",
+      "markerCount": 20
+    },
+    "albany": {
+      "lat": 40.245765,
+      "lng": -94.356643,
+      "label": "Albany",
+      "county": "Gentry",
+      "markerCount": 4
+    },
+    "stanberry": {
+      "lat": 40.21397,
+      "lng": -94.54289,
+      "label": "Stanberry",
+      "county": "Gentry",
+      "markerCount": 2
+    },
+    "springfield": {
+      "lat": 37.177317,
+      "lng": -93.268601,
+      "label": "Springfield",
+      "county": "Greene",
+      "markerCount": 143
+    },
+    "battlefield": {
+      "lat": 37.106548,
+      "lng": -93.409023,
+      "label": "Battlefield",
+      "county": "Greene",
+      "markerCount": 34
+    },
+    "republic": {
+      "lat": 37.12985,
+      "lng": -93.444057,
+      "label": "Republic",
+      "county": "Greene",
+      "markerCount": 3
+    },
+    "fair grove": {
+      "lat": 37.38329,
+      "lng": -93.150835,
+      "label": "Fair Grove",
+      "county": "Greene",
+      "markerCount": 2
+    },
+    "ash grove": {
+      "lat": 37.330725,
+      "lng": -93.58144,
+      "label": "Ash Grove",
+      "county": "Greene",
+      "markerCount": 2
+    },
+    "wilsons creek": {
+      "lat": 37.09559,
+      "lng": -93.41008,
+      "label": "Wilsons Creek",
+      "county": "Greene",
+      "markerCount": 1
+    },
+    "pleasant hope": {
+      "lat": 37.46007,
+      "lng": -93.27284,
+      "label": "Pleasant Hope",
+      "county": "Greene",
+      "markerCount": 1
+    },
+    "trenton": {
+      "lat": 40.075463,
+      "lng": -93.618012,
+      "label": "Trenton",
+      "county": "Grundy",
+      "markerCount": 4
+    },
+    "bethany": {
+      "lat": 40.261737,
+      "lng": -94.044583,
+      "label": "Bethany",
+      "county": "Harrison",
+      "markerCount": 6
+    },
+    "clinton": {
+      "lat": 38.375951,
+      "lng": -93.769235,
+      "label": "Clinton",
+      "county": "Henry",
+      "markerCount": 12
+    },
+    "germantown": {
+      "lat": 38.29038,
+      "lng": -94.02004,
+      "label": "Germantown",
+      "county": "Henry",
+      "markerCount": 1
+    },
+    "quincy": {
+      "lat": 38.00873,
+      "lng": -93.47199,
+      "label": "Quincy",
+      "county": "Hickory",
+      "markerCount": 1
+    },
+    "elkton": {
+      "lat": 37.85275,
+      "lng": -93.42481,
+      "label": "Elkton",
+      "county": "Hickory",
+      "markerCount": 1
+    },
+    "hermitage": {
+      "lat": 37.9408,
+      "lng": -93.315855,
+      "label": "Hermitage",
+      "county": "Hickory",
+      "markerCount": 2
+    },
+    "weaubleau": {
+      "lat": 37.891313,
+      "lng": -93.541447,
+      "label": "Weaubleau",
+      "county": "Hickory",
+      "markerCount": 3
+    },
+    "oregon": {
+      "lat": 39.98702,
+      "lng": -95.14409,
+      "label": "Oregon",
+      "county": "Holt",
+      "markerCount": 2
+    },
+    "big lake": {
+      "lat": 40.08405,
+      "lng": -95.3433,
+      "label": "Big Lake",
+      "county": "Holt",
+      "markerCount": 2
+    },
+    "bigelow": {
+      "lat": 40.11295,
+      "lng": -95.27165,
+      "label": "Bigelow",
+      "county": "Holt",
+      "markerCount": 1
+    },
+    "new franklin": {
+      "lat": 39.006384,
+      "lng": -92.742656,
+      "label": "New Franklin",
+      "county": "Howard",
+      "markerCount": 33
+    },
+    "glasgow": {
+      "lat": 39.226851,
+      "lng": -92.843866,
+      "label": "Glasgow",
+      "county": "Howard",
+      "markerCount": 14
+    },
+    "petersburg": {
+      "lat": 39.081939,
+      "lng": -92.879111,
+      "label": "Petersburg",
+      "county": "Howard",
+      "markerCount": 8
+    },
+    "fayette": {
+      "lat": 39.14648,
+      "lng": -92.68373,
+      "label": "Fayette",
+      "county": "Howard",
+      "markerCount": 1
+    },
+    "west plains": {
+      "lat": 36.735084,
+      "lng": -91.855442,
+      "label": "West Plains",
+      "county": "Howell",
+      "markerCount": 13
+    },
+    "mountain view": {
+      "lat": 36.998466,
+      "lng": -91.706166,
+      "label": "Mountain View",
+      "county": "Howell",
+      "markerCount": 12
+    },
+    "pomoma": {
+      "lat": 36.79675,
+      "lng": -91.89666,
+      "label": "Pomoma",
+      "county": "Howell",
+      "markerCount": 1
+    },
+    "ironton": {
+      "lat": 37.599046,
+      "lng": -90.628134,
+      "label": "Ironton",
+      "county": "Iron",
+      "markerCount": 8
+    },
+    "pilot knob": {
+      "lat": 37.621366,
+      "lng": -90.640534,
+      "label": "Pilot Knob",
+      "county": "Iron",
+      "markerCount": 17
+    },
+    "belleview": {
+      "lat": 37.65311,
+      "lng": -90.68891,
+      "label": "Belleview",
+      "county": "Iron",
+      "markerCount": 1
+    },
+    "arcadia": {
+      "lat": 37.581741,
+      "lng": -90.660723,
+      "label": "Arcadia",
+      "county": "Iron",
+      "markerCount": 7
+    },
+    "middle brook": {
+      "lat": 37.54776,
+      "lng": -90.8461,
+      "label": "Middle Brook",
+      "county": "Iron",
+      "markerCount": 1
+    },
+    "independence": {
+      "lat": 39.095711,
+      "lng": -94.413835,
+      "label": "Independence",
+      "county": "Jackson",
+      "markerCount": 81
+    },
+    "raytown": {
+      "lat": 39.000585,
+      "lng": -94.476175,
+      "label": "Raytown",
+      "county": "Jackson",
+      "markerCount": 4
+    },
+    "lee's summit": {
+      "lat": 38.91254,
+      "lng": -94.37745,
+      "label": "Lee's Summit",
+      "county": "Jackson",
+      "markerCount": 6
+    },
+    "lone jack": {
+      "lat": 38.86649,
+      "lng": -94.17334,
+      "label": "Lone Jack",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "sibley": {
+      "lat": 39.18691,
+      "lng": -94.193053,
+      "label": "Sibley",
+      "county": "Jackson",
+      "markerCount": 3
+    },
+    "buckner": {
+      "lat": 39.140885,
+      "lng": -94.19658,
+      "label": "Buckner",
+      "county": "Jackson",
+      "markerCount": 2
+    },
+    "grandview": {
+      "lat": 38.90155,
+      "lng": -94.53112,
+      "label": "Grandview",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "oak grove": {
+      "lat": 38.98805,
+      "lng": -94.13848,
+      "label": "Oak Grove",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "sugar creek": {
+      "lat": 39.11003,
+      "lng": -94.4466,
+      "label": "Sugar Creek",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "carthage": {
+      "lat": 37.190663,
+      "lng": -94.299092,
+      "label": "Carthage",
+      "county": "Jasper",
+      "markerCount": 28
+    },
+    "joplin": {
+      "lat": 37.074227,
+      "lng": -94.526655,
+      "label": "Joplin",
+      "county": "Jasper",
+      "markerCount": 32
+    },
+    "webb city": {
+      "lat": 37.143682,
+      "lng": -94.46431,
+      "label": "Webb City",
+      "county": "Jasper",
+      "markerCount": 32
+    },
+    "sarcoxie": {
+      "lat": 37.06941,
+      "lng": -94.11641,
+      "label": "Sarcoxie",
+      "county": "Jasper",
+      "markerCount": 2
+    },
+    "carterville": {
+      "lat": 37.14912,
+      "lng": -94.44512,
+      "label": "Carterville",
+      "county": "Jasper",
+      "markerCount": 1
+    },
+    "arnold": {
+      "lat": 38.436358,
+      "lng": -90.387815,
+      "label": "Arnold",
+      "county": "Jefferson",
+      "markerCount": 6
+    },
+    "valles mines": {
+      "lat": 38.03216,
+      "lng": -90.49588,
+      "label": "Valles Mines",
+      "county": "Jefferson",
+      "markerCount": 1
+    },
+    "festus": {
+      "lat": 38.21336,
+      "lng": -90.39503,
+      "label": "Festus",
+      "county": "Jefferson",
+      "markerCount": 6
+    },
+    "imperial": {
+      "lat": 38.379084,
+      "lng": -90.377488,
+      "label": "Imperial",
+      "county": "Jefferson",
+      "markerCount": 5
+    },
+    "hillsboro": {
+      "lat": 38.25959,
+      "lng": -90.547678,
+      "label": "Hillsboro",
+      "county": "Jefferson",
+      "markerCount": 9
+    },
+    "crystal city": {
+      "lat": 38.217445,
+      "lng": -90.378465,
+      "label": "Crystal City",
+      "county": "Jefferson",
+      "markerCount": 2
+    },
+    "herculaneum": {
+      "lat": 38.270525,
+      "lng": -90.377403,
+      "label": "Herculaneum",
+      "county": "Jefferson",
+      "markerCount": 4
+    },
+    "kimmswick": {
+      "lat": 38.365377,
+      "lng": -90.363447,
+      "label": "Kimmswick",
+      "county": "Jefferson",
+      "markerCount": 3
+    },
+    "high ridge": {
+      "lat": 38.48074,
+      "lng": -90.515073,
+      "label": "High Ridge",
+      "county": "Jefferson",
+      "markerCount": 3
+    },
+    "valle mines": {
+      "lat": 38.032325,
+      "lng": -90.49599,
+      "label": "Valle Mines",
+      "county": "Jefferson",
+      "markerCount": 2
+    },
+    "cedar hill": {
+      "lat": 38.35707,
+      "lng": -90.64652,
+      "label": "Cedar Hill",
+      "county": "Jefferson",
+      "markerCount": 2
+    },
+    "de soto": {
+      "lat": 38.114532,
+      "lng": -90.623092,
+      "label": "De Soto",
+      "county": "Jefferson",
+      "markerCount": 4
+    },
+    "desoto": {
+      "lat": 38.0791,
+      "lng": -90.682605,
+      "label": "DeSoto",
+      "county": "Jefferson",
+      "markerCount": 2
+    },
+    "house springs": {
+      "lat": 38.40838,
+      "lng": -90.56879,
+      "label": "House Springs",
+      "county": "Jefferson",
+      "markerCount": 1
+    },
+    "sulphur springs": {
+      "lat": 38.33677,
+      "lng": -90.37388,
+      "label": "Sulphur Springs",
+      "county": "Jefferson",
+      "markerCount": 1
+    },
+    "warrensburg": {
+      "lat": 38.764209,
+      "lng": -93.742292,
+      "label": "Warrensburg",
+      "county": "Johnson",
+      "markerCount": 32
+    },
+    "whiteman afb": {
+      "lat": 38.72835,
+      "lng": -93.564,
+      "label": "Whiteman AFB",
+      "county": "Johnson",
+      "markerCount": 2
+    },
+    "knob knoster": {
+      "lat": 38.73716,
+      "lng": -93.57147,
+      "label": "Knob Knoster",
+      "county": "Johnson",
+      "markerCount": 1
+    },
+    "edina": {
+      "lat": 40.16766,
+      "lng": -92.17184,
+      "label": "Edina",
+      "county": "Knox",
+      "markerCount": 1
+    },
+    "newark": {
+      "lat": 39.99296,
+      "lng": -91.97338,
+      "label": "Newark",
+      "county": "Knox",
+      "markerCount": 1
+    },
+    "lebanon": {
+      "lat": 37.681406,
+      "lng": -92.662786,
+      "label": "Lebanon",
+      "county": "Laclede",
+      "markerCount": 14
+    },
+    "phillipsburg": {
+      "lat": 37.56387,
+      "lng": -92.78554,
+      "label": "Phillipsburg",
+      "county": "Laclede",
+      "markerCount": 1
+    },
+    "higginsville": {
+      "lat": 39.095945,
+      "lng": -93.728286,
+      "label": "Higginsville",
+      "county": "Lafayette",
+      "markerCount": 20
+    },
+    "lexington": {
+      "lat": 39.186514,
+      "lng": -93.881753,
+      "label": "Lexington",
+      "county": "Lafayette",
+      "markerCount": 23
+    },
+    "alma": {
+      "lat": 39.09608,
+      "lng": -93.54756,
+      "label": "Alma",
+      "county": "Lafayette",
+      "markerCount": 1
+    },
+    "concordia": {
+      "lat": 38.985688,
+      "lng": -93.569034,
+      "label": "Concordia",
+      "county": "Lafayette",
+      "markerCount": 13
+    },
+    "waverly": {
+      "lat": 39.21199,
+      "lng": -93.516797,
+      "label": "Waverly",
+      "county": "Lafayette",
+      "markerCount": 4
+    },
+    "wellington": {
+      "lat": 39.134175,
+      "lng": -93.982575,
+      "label": "Wellington",
+      "county": "Lafayette",
+      "markerCount": 2
+    },
+    "napoleon": {
+      "lat": 39.12976,
+      "lng": -94.079963,
+      "label": "Napoleon",
+      "county": "Lafayette",
+      "markerCount": 3
+    },
+    "dover": {
+      "lat": 39.19088,
+      "lng": -93.71746,
+      "label": "Dover",
+      "county": "Lafayette",
+      "markerCount": 3
+    },
+    "la russell": {
+      "lat": 37.11125,
+      "lng": -94.06378,
+      "label": "La Russell",
+      "county": "Lawrence",
+      "markerCount": 1
+    },
+    "halltown": {
+      "lat": 37.19434,
+      "lng": -93.67931,
+      "label": "Halltown",
+      "county": "Lawrence",
+      "markerCount": 1
+    },
+    "verona": {
+      "lat": 36.95959,
+      "lng": -93.79637,
+      "label": "Verona",
+      "county": "Lawrence",
+      "markerCount": 2
+    },
+    "mount vernon": {
+      "lat": 37.09227,
+      "lng": -93.80814,
+      "label": "Mount Vernon",
+      "county": "Lawrence",
+      "markerCount": 2
+    },
+    "pierce city": {
+      "lat": 36.94451,
+      "lng": -94.00332,
+      "label": "Pierce City",
+      "county": "Lawrence",
+      "markerCount": 1
+    },
+    "miller": {
+      "lat": 37.18454,
+      "lng": -93.70254,
+      "label": "Miller",
+      "county": "Lawrence",
+      "markerCount": 1
+    },
+    "canton": {
+      "lat": 40.125257,
+      "lng": -91.518007,
+      "label": "Canton",
+      "county": "Lewis",
+      "markerCount": 3
+    },
+    "la grange": {
+      "lat": 40.04393,
+      "lng": -91.50414,
+      "label": "La Grange",
+      "county": "Lewis",
+      "markerCount": 3
+    },
+    "winfield": {
+      "lat": 38.996135,
+      "lng": -90.738355,
+      "label": "Winfield",
+      "county": "Lincoln",
+      "markerCount": 2
+    },
+    "elsberry": {
+      "lat": 39.16567,
+      "lng": -90.78219,
+      "label": "Elsberry",
+      "county": "Lincoln",
+      "markerCount": 2
+    },
+    "moscow mills": {
+      "lat": 38.94895,
+      "lng": -90.9161,
+      "label": "Moscow Mills",
+      "county": "Lincoln",
+      "markerCount": 1
+    },
+    "troy": {
+      "lat": 38.978245,
+      "lng": -90.98078,
+      "label": "Troy",
+      "county": "Lincoln",
+      "markerCount": 2
+    },
+    "laclede": {
+      "lat": 39.785906,
+      "lng": -93.179463,
+      "label": "Laclede",
+      "county": "Linn",
+      "markerCount": 25
+    },
+    "marceline": {
+      "lat": 39.724845,
+      "lng": -92.94643,
+      "label": "Marceline",
+      "county": "Linn",
+      "markerCount": 27
+    },
+    "brookfield": {
+      "lat": 39.787796,
+      "lng": -93.074838,
+      "label": "Brookfield",
+      "county": "Linn",
+      "markerCount": 5
+    },
+    "linneus": {
+      "lat": 39.879297,
+      "lng": -93.189255,
+      "label": "Linneus",
+      "county": "Linn",
+      "markerCount": 4
+    },
+    "chillicothe": {
+      "lat": 39.793343,
+      "lng": -93.551372,
+      "label": "Chillicothe",
+      "county": "Livingston",
+      "markerCount": 32
+    },
+    "wheeling": {
+      "lat": 39.77868,
+      "lng": -93.38882,
+      "label": "Wheeling",
+      "county": "Livingston",
+      "markerCount": 1
+    },
+    "macon": {
+      "lat": 39.738946,
+      "lng": -92.472337,
+      "label": "Macon",
+      "county": "Macon",
+      "markerCount": 8
+    },
+    "bevier": {
+      "lat": 39.749993,
+      "lng": -92.564353,
+      "label": "Bevier",
+      "county": "Macon",
+      "markerCount": 3
+    },
+    "new cambria": {
+      "lat": 39.77631,
+      "lng": -92.75192,
+      "label": "New Cambria",
+      "county": "Macon",
+      "markerCount": 1
+    },
+    "callao": {
+      "lat": 39.760663,
+      "lng": -92.623427,
+      "label": "Callao",
+      "county": "Macon",
+      "markerCount": 3
+    },
+    "atlanta": {
+      "lat": 39.89859,
+      "lng": -92.47966,
+      "label": "Atlanta",
+      "county": "Macon",
+      "markerCount": 1
+    },
+    "la plata": {
+      "lat": 40.02325,
+      "lng": -92.49137,
+      "label": "La Plata",
+      "county": "Macon",
+      "markerCount": 1
+    },
+    "fredericktown": {
+      "lat": 37.562186,
+      "lng": -90.294024,
+      "label": "Fredericktown",
+      "county": "Madison",
+      "markerCount": 12
+    },
+    "vienna": {
+      "lat": 38.185645,
+      "lng": -91.946777,
+      "label": "Vienna",
+      "county": "Maries",
+      "markerCount": 4
+    },
+    "hannibal": {
+      "lat": 39.708121,
+      "lng": -91.356442,
+      "label": "Hannibal",
+      "county": "Marion",
+      "markerCount": 65
+    },
+    "ilasco": {
+      "lat": 39.671414,
+      "lng": -91.309526,
+      "label": "Ilasco",
+      "county": "Marion",
+      "markerCount": 11
+    },
+    "palmyra": {
+      "lat": 39.798535,
+      "lng": -91.522974,
+      "label": "Palmyra",
+      "county": "Marion",
+      "markerCount": 11
+    },
+    "west quincy": {
+      "lat": 39.92897,
+      "lng": -91.44469,
+      "label": "West Quincy",
+      "county": "Marion",
+      "markerCount": 1
+    },
+    "monroe city": {
+      "lat": 39.6789,
+      "lng": -91.715077,
+      "label": "Monroe City",
+      "county": "Marion",
+      "markerCount": 3
+    },
+    "lanagan": {
+      "lat": 36.59925,
+      "lng": -94.4559,
+      "label": "Lanagan",
+      "county": "McDonald",
+      "markerCount": 1
+    },
+    "princeton": {
+      "lat": 40.397047,
+      "lng": -93.561923,
+      "label": "Princeton",
+      "county": "Mercer",
+      "markerCount": 4
+    },
+    "mercer": {
+      "lat": 40.45703,
+      "lng": -93.54697,
+      "label": "Mercer",
+      "county": "Mercer",
+      "markerCount": 1
+    },
+    "tuscumbia": {
+      "lat": 38.24671,
+      "lng": -92.46811,
+      "label": "Tuscumbia",
+      "county": "Miller",
+      "markerCount": 2
+    },
+    "charleston": {
+      "lat": 36.91881,
+      "lng": -89.309236,
+      "label": "Charleston",
+      "county": "Mississippi",
+      "markerCount": 5
+    },
+    "charlestown": {
+      "lat": 36.92461,
+      "lng": -89.34987,
+      "label": "Charlestown",
+      "county": "Mississippi",
+      "markerCount": 1
+    },
+    "belmont": {
+      "lat": 36.76587,
+      "lng": -89.12381,
+      "label": "Belmont",
+      "county": "Mississippi",
+      "markerCount": 1
+    },
+    "california": {
+      "lat": 38.633484,
+      "lng": -92.566,
+      "label": "California",
+      "county": "Moniteau",
+      "markerCount": 7
+    },
+    "tipton": {
+      "lat": 38.655457,
+      "lng": -92.783047,
+      "label": "Tipton",
+      "county": "Moniteau",
+      "markerCount": 7
+    },
+    "paris": {
+      "lat": 39.482943,
+      "lng": -91.99992,
+      "label": "Paris",
+      "county": "Monroe",
+      "markerCount": 3
+    },
+    "florida": {
+      "lat": 39.490205,
+      "lng": -91.786455,
+      "label": "Florida",
+      "county": "Monroe",
+      "markerCount": 2
+    },
+    "shelbina": {
+      "lat": 39.61049,
+      "lng": -91.91974,
+      "label": "Shelbina",
+      "county": "Monroe",
+      "markerCount": 1
+    },
+    "mckittrick": {
+      "lat": 38.734082,
+      "lng": -91.44432,
+      "label": "McKittrick",
+      "county": "Montgomery",
+      "markerCount": 5
+    },
+    "mineola": {
+      "lat": 38.90432,
+      "lng": -91.57474,
+      "label": "Mineola",
+      "county": "Montgomery",
+      "markerCount": 2
+    },
+    "jonesburg": {
+      "lat": 38.85217,
+      "lng": -91.30379,
+      "label": "Jonesburg",
+      "county": "Montgomery",
+      "markerCount": 1
+    },
+    "danville": {
+      "lat": 38.90851,
+      "lng": -91.53474,
+      "label": "Danville",
+      "county": "Montgomery",
+      "markerCount": 2
+    },
+    "new florence": {
+      "lat": 38.89803,
+      "lng": -91.45246,
+      "label": "New Florence",
+      "county": "Montgomery",
+      "markerCount": 1
+    },
+    "high hill": {
+      "lat": 38.88455,
+      "lng": -91.40199,
+      "label": "High Hill",
+      "county": "Montgomery",
+      "markerCount": 1
+    },
+    "montgomery city": {
+      "lat": 38.97559,
+      "lng": -91.508055,
+      "label": "Montgomery City",
+      "county": "Montgomery",
+      "markerCount": 2
+    },
+    "syracuse": {
+      "lat": 38.66974,
+      "lng": -92.87384,
+      "label": "Syracuse",
+      "county": "Morgan",
+      "markerCount": 1
+    },
+    "laurie": {
+      "lat": 38.19676,
+      "lng": -92.83081,
+      "label": "Laurie",
+      "county": "Morgan",
+      "markerCount": 1
+    },
+    "versailles": {
+      "lat": 38.431163,
+      "lng": -92.841367,
+      "label": "Versailles",
+      "county": "Morgan",
+      "markerCount": 3
+    },
+    "mora": {
+      "lat": 38.56492,
+      "lng": -93.0239,
+      "label": "Mora",
+      "county": "Morgan",
+      "markerCount": 1
+    },
+    "new madrid": {
+      "lat": 36.58639,
+      "lng": -89.5298,
+      "label": "New Madrid",
+      "county": "New Madrid",
+      "markerCount": 23
+    },
+    "diamond": {
+      "lat": 36.986841,
+      "lng": -94.353692,
+      "label": "Diamond",
+      "county": "Newton",
+      "markerCount": 24
+    },
+    "neosho": {
+      "lat": 36.867255,
+      "lng": -94.372451,
+      "label": "Neosho",
+      "county": "Newton",
+      "markerCount": 18
+    },
+    "seneca": {
+      "lat": 36.841332,
+      "lng": -94.61123,
+      "label": "Seneca",
+      "county": "Newton",
+      "markerCount": 6
+    },
+    "newtonia": {
+      "lat": 36.876973,
+      "lng": -94.184003,
+      "label": "Newtonia",
+      "county": "Newton",
+      "markerCount": 3
+    },
+    "granby": {
+      "lat": 36.91642,
+      "lng": -94.25507,
+      "label": "Granby",
+      "county": "Newton",
+      "markerCount": 1
+    },
+    "maryville": {
+      "lat": 40.34829,
+      "lng": -94.875427,
+      "label": "Maryville",
+      "county": "Nodaway",
+      "markerCount": 9
+    },
+    "skidmore": {
+      "lat": 40.28914,
+      "lng": -95.08213,
+      "label": "Skidmore",
+      "county": "Nodaway",
+      "markerCount": 1
+    },
+    "koshkonong": {
+      "lat": 36.582561,
+      "lng": -91.644731,
+      "label": "Koshkonong",
+      "county": "Oregon",
+      "markerCount": 7
+    },
+    "alton": {
+      "lat": 36.69444,
+      "lng": -91.398093,
+      "label": "Alton",
+      "county": "Oregon",
+      "markerCount": 3
+    },
+    "chamois": {
+      "lat": 38.67576,
+      "lng": -91.77138,
+      "label": "Chamois",
+      "county": "Osage",
+      "markerCount": 1
+    },
+    "westphalia": {
+      "lat": 38.447445,
+      "lng": -92.003855,
+      "label": "Westphalia",
+      "county": "Osage",
+      "markerCount": 2
+    },
+    "linn": {
+      "lat": 38.48646,
+      "lng": -91.85249,
+      "label": "Linn",
+      "county": "Osage",
+      "markerCount": 1
+    },
+    "gainesville": {
+      "lat": 36.6036,
+      "lng": -92.42818,
+      "label": "Gainesville",
+      "county": "Ozark",
+      "markerCount": 2
+    },
+    "caruthersville": {
+      "lat": 36.189578,
+      "lng": -89.659842,
+      "label": "Caruthersville",
+      "county": "Pemiscot",
+      "markerCount": 6
+    },
+    "deering": {
+      "lat": 36.19083,
+      "lng": -89.88503,
+      "label": "Deering",
+      "county": "Pemiscot",
+      "markerCount": 1
+    },
+    "hayti": {
+      "lat": 36.23141,
+      "lng": -89.74767,
+      "label": "Hayti",
+      "county": "Pemiscot",
+      "markerCount": 1
+    },
+    "perryville": {
+      "lat": 37.737327,
+      "lng": -89.865383,
+      "label": "Perryville",
+      "county": "Perry",
+      "markerCount": 38
+    },
+    "altenburg": {
+      "lat": 37.630471,
+      "lng": -89.585616,
+      "label": "Altenburg",
+      "county": "Perry",
+      "markerCount": 7
+    },
+    "farrar": {
+      "lat": 37.70406,
+      "lng": -89.68602,
+      "label": "Farrar",
+      "county": "Perry",
+      "markerCount": 1
+    },
+    "wittenberg": {
+      "lat": 37.64448,
+      "lng": -89.52206,
+      "label": "Wittenberg",
+      "county": "Perry",
+      "markerCount": 2
+    },
+    "sedalia": {
+      "lat": 38.702048,
+      "lng": -93.238744,
+      "label": "Sedalia",
+      "county": "Pettis",
+      "markerCount": 46
+    },
+    "bryson": {
+      "lat": 38.59333,
+      "lng": -93.46157,
+      "label": "Bryson",
+      "county": "Pettis",
+      "markerCount": 1
+    },
+    "rolla": {
+      "lat": 37.950352,
+      "lng": -91.773155,
+      "label": "Rolla",
+      "county": "Phelps",
+      "markerCount": 35
+    },
+    "st. james": {
+      "lat": 37.970662,
+      "lng": -91.561345,
+      "label": "St. James",
+      "county": "Phelps",
+      "markerCount": 23
+    },
+    "saint james": {
+      "lat": 37.99419,
+      "lng": -91.61371,
+      "label": "Saint James",
+      "county": "Phelps",
+      "markerCount": 1
+    },
+    "louisiana": {
+      "lat": 39.448636,
+      "lng": -91.052053,
+      "label": "Louisiana",
+      "county": "Pike",
+      "markerCount": 7
+    },
+    "bowling green": {
+      "lat": 39.34187,
+      "lng": -91.193233,
+      "label": "Bowling Green",
+      "county": "Pike",
+      "markerCount": 3
+    },
+    "clarksville": {
+      "lat": 39.370542,
+      "lng": -90.90339,
+      "label": "Clarksville",
+      "county": "Pike",
+      "markerCount": 4
+    },
+    "weston": {
+      "lat": 39.411984,
+      "lng": -94.900509,
+      "label": "Weston",
+      "county": "Platte",
+      "markerCount": 31
+    },
+    "parkville": {
+      "lat": 39.18888,
+      "lng": -94.682647,
+      "label": "Parkville",
+      "county": "Platte",
+      "markerCount": 3
+    },
+    "camden point": {
+      "lat": 39.45337,
+      "lng": -94.7562,
+      "label": "Camden Point",
+      "county": "Platte",
+      "markerCount": 1
+    },
+    "ferrelview": {
+      "lat": 39.31241,
+      "lng": -94.68267,
+      "label": "Ferrelview",
+      "county": "Platte",
+      "markerCount": 1
+    },
+    "platte city": {
+      "lat": 39.391574,
+      "lng": -94.783248,
+      "label": "Platte City",
+      "county": "Platte",
+      "markerCount": 5
+    },
+    "farley": {
+      "lat": 39.28176,
+      "lng": -94.83145,
+      "label": "Farley",
+      "county": "Platte",
+      "markerCount": 1
+    },
+    "riverside": {
+      "lat": 39.17577,
+      "lng": -94.61508,
+      "label": "Riverside",
+      "county": "Platte",
+      "markerCount": 1
+    },
+    "bolivar": {
+      "lat": 37.611758,
+      "lng": -93.413498,
+      "label": "Bolivar",
+      "county": "Polk",
+      "markerCount": 5
+    },
+    "brighton": {
+      "lat": 37.47398,
+      "lng": -93.34895,
+      "label": "Brighton",
+      "county": "Polk",
+      "markerCount": 1
+    },
+    "flemington": {
+      "lat": 37.82362,
+      "lng": -93.43057,
+      "label": "Flemington",
+      "county": "Polk",
+      "markerCount": 1
+    },
+    "crocker": {
+      "lat": 37.9493,
+      "lng": -92.263617,
+      "label": "Crocker",
+      "county": "Pulaski",
+      "markerCount": 3
+    },
+    "st. robert": {
+      "lat": 37.821747,
+      "lng": -92.148867,
+      "label": "St. Robert",
+      "county": "Pulaski",
+      "markerCount": 14
+    },
+    "fort leonard wood": {
+      "lat": 37.752185,
+      "lng": -92.12132,
+      "label": "Fort Leonard Wood",
+      "county": "Pulaski",
+      "markerCount": 2
+    },
+    "waynesville": {
+      "lat": 37.828122,
+      "lng": -92.202852,
+      "label": "Waynesville",
+      "county": "Pulaski",
+      "markerCount": 13
+    },
+    "devils elbow": {
+      "lat": 37.84449,
+      "lng": -92.06829,
+      "label": "Devils Elbow",
+      "county": "Pulaski",
+      "markerCount": 1
+    },
+    "buckhorn": {
+      "lat": 37.79322,
+      "lng": -92.24502,
+      "label": "Buckhorn",
+      "county": "Pulaski",
+      "markerCount": 1
+    },
+    "richland": {
+      "lat": 37.85913,
+      "lng": -92.40071,
+      "label": "Richland",
+      "county": "Pulaski",
+      "markerCount": 1
+    },
+    "unionville": {
+      "lat": 40.476585,
+      "lng": -93.00255,
+      "label": "Unionville",
+      "county": "Putnam",
+      "markerCount": 6
+    },
+    "rensselaer": {
+      "lat": 39.61963,
+      "lng": -91.60428,
+      "label": "Rensselaer",
+      "county": "Ralls",
+      "markerCount": 1
+    },
+    "new london": {
+      "lat": 39.606755,
+      "lng": -91.32282,
+      "label": "New London",
+      "county": "Ralls",
+      "markerCount": 2
+    },
+    "center": {
+      "lat": 39.509885,
+      "lng": -91.49346,
+      "label": "Center",
+      "county": "Ralls",
+      "markerCount": 2
+    },
+    "clark": {
+      "lat": 39.2807,
+      "lng": -92.343175,
+      "label": "Clark",
+      "county": "Randolph",
+      "markerCount": 2
+    },
+    "moberly": {
+      "lat": 39.41984,
+      "lng": -92.43643,
+      "label": "Moberly",
+      "county": "Randolph",
+      "markerCount": 1
+    },
+    "huntsville": {
+      "lat": 39.44009,
+      "lng": -92.54439,
+      "label": "Huntsville",
+      "county": "Randolph",
+      "markerCount": 1
+    },
+    "richmond": {
+      "lat": 39.279464,
+      "lng": -93.976207,
+      "label": "Richmond",
+      "county": "Ray",
+      "markerCount": 14
+    },
+    "knoxville": {
+      "lat": 39.43433,
+      "lng": -94.01118,
+      "label": "Knoxville",
+      "county": "Ray",
+      "markerCount": 1
+    },
+    "hardin": {
+      "lat": 39.27319,
+      "lng": -93.8365,
+      "label": "Hardin",
+      "county": "Ray",
+      "markerCount": 1
+    },
+    "ellington": {
+      "lat": 37.25227,
+      "lng": -90.971965,
+      "label": "Ellington",
+      "county": "Reynolds",
+      "markerCount": 2
+    },
+    "centerville": {
+      "lat": 37.43519,
+      "lng": -90.95896,
+      "label": "Centerville",
+      "county": "Reynolds",
+      "markerCount": 1
+    },
+    "doniphan": {
+      "lat": 36.617287,
+      "lng": -90.826418,
+      "label": "Doniphan",
+      "county": "Ripley",
+      "markerCount": 18
+    },
+    "nelson": {
+      "lat": 39.03563,
+      "lng": -93.006761,
+      "label": "Nelson",
+      "county": "Saline",
+      "markerCount": 9
+    },
+    "arrow rock": {
+      "lat": 39.069538,
+      "lng": -92.946277,
+      "label": "Arrow Rock",
+      "county": "Saline",
+      "markerCount": 19
+    },
+    "marshall": {
+      "lat": 39.121196,
+      "lng": -93.192899,
+      "label": "Marshall",
+      "county": "Saline",
+      "markerCount": 7
+    },
+    "slater": {
+      "lat": 39.22321,
+      "lng": -93.06447,
+      "label": "Slater",
+      "county": "Saline",
+      "markerCount": 1
+    },
+    "napton": {
+      "lat": 39.060877,
+      "lng": -93.081687,
+      "label": "Napton",
+      "county": "Saline",
+      "markerCount": 3
+    },
+    "lancaster": {
+      "lat": 40.52402,
+      "lng": -92.535495,
+      "label": "Lancaster",
+      "county": "Schuyler",
+      "markerCount": 2
+    },
+    "memphis": {
+      "lat": 40.458035,
+      "lng": -92.170005,
+      "label": "Memphis",
+      "county": "Scotland",
+      "markerCount": 2
+    },
+    "arbela": {
+      "lat": 40.45431,
+      "lng": -92.00572,
+      "label": "Arbela",
+      "county": "Scotland",
+      "markerCount": 1
+    },
+    "benton": {
+      "lat": 37.096563,
+      "lng": -89.563223,
+      "label": "Benton",
+      "county": "Scott",
+      "markerCount": 3
+    },
+    "sikeston": {
+      "lat": 36.87812,
+      "lng": -89.589677,
+      "label": "Sikeston",
+      "county": "Scott",
+      "markerCount": 3
+    },
+    "eminence": {
+      "lat": 37.152037,
+      "lng": -91.414303,
+      "label": "Eminence",
+      "county": "Shannon",
+      "markerCount": 3
+    },
+    "alley": {
+      "lat": 37.15214,
+      "lng": -91.44232,
+      "label": "Alley",
+      "county": "Shannon",
+      "markerCount": 1
+    },
+    "winona": {
+      "lat": 37.09472,
+      "lng": -91.21028,
+      "label": "Winona",
+      "county": "Shannon",
+      "markerCount": 1
+    },
+    "birch tree": {
+      "lat": 36.99127,
+      "lng": -91.49301,
+      "label": "Birch Tree",
+      "county": "Shannon",
+      "markerCount": 1
+    },
+    "bethel": {
+      "lat": 39.87671,
+      "lng": -92.02403,
+      "label": "Bethel",
+      "county": "Shelby",
+      "markerCount": 1
+    },
+    "shelbyville": {
+      "lat": 39.80613,
+      "lng": -92.04091,
+      "label": "Shelbyville",
+      "county": "Shelby",
+      "markerCount": 1
+    },
+    "clarence": {
+      "lat": 39.7509,
+      "lng": -92.25713,
+      "label": "Clarence",
+      "county": "Shelby",
+      "markerCount": 1
+    },
+    "weldon spring": {
+      "lat": 38.691561,
+      "lng": -90.70618,
+      "label": "Weldon Spring",
+      "county": "St. Charles",
+      "markerCount": 13
+    },
+    "st. charles": {
+      "lat": 38.783223,
+      "lng": -90.485983,
+      "label": "St. Charles",
+      "county": "St. Charles",
+      "markerCount": 206
+    },
+    "portage des sioux": {
+      "lat": 38.930333,
+      "lng": -90.338937,
+      "label": "Portage Des Sioux",
+      "county": "St. Charles",
+      "markerCount": 9
+    },
+    "augusta": {
+      "lat": 38.575397,
+      "lng": -90.88145,
+      "label": "Augusta",
+      "county": "St. Charles",
+      "markerCount": 12
+    },
+    "o'fallon": {
+      "lat": 38.810155,
+      "lng": -90.708664,
+      "label": "O'Fallon",
+      "county": "St. Charles",
+      "markerCount": 15
+    },
+    "defiance": {
+      "lat": 38.646371,
+      "lng": -90.832437,
+      "label": "Defiance",
+      "county": "St. Charles",
+      "markerCount": 13
+    },
+    "st. peters": {
+      "lat": 38.792118,
+      "lng": -90.608543,
+      "label": "St. Peters",
+      "county": "St. Charles",
+      "markerCount": 15
+    },
+    "wentzville": {
+      "lat": 38.811394,
+      "lng": -90.853713,
+      "label": "Wentzville",
+      "county": "St. Charles",
+      "markerCount": 10
+    },
+    "west alton": {
+      "lat": 38.84587,
+      "lng": -90.163692,
+      "label": "West Alton",
+      "county": "St. Charles",
+      "markerCount": 4
+    },
+    "new melle": {
+      "lat": 38.709715,
+      "lng": -90.88063,
+      "label": "New Melle",
+      "county": "St. Charles",
+      "markerCount": 4
+    },
+    "matson": {
+      "lat": 38.608638,
+      "lng": -90.79474,
+      "label": "Matson",
+      "county": "St. Charles",
+      "markerCount": 5
+    },
+    "hamburg": {
+      "lat": 38.66566,
+      "lng": -90.73461,
+      "label": "Hamburg",
+      "county": "St. Charles",
+      "markerCount": 1
+    },
+    "machens": {
+      "lat": 38.90306,
+      "lng": -90.3321,
+      "label": "Machens",
+      "county": "St. Charles",
+      "markerCount": 1
+    },
+    "lake saint louis": {
+      "lat": 38.76068,
+      "lng": -90.80551,
+      "label": "Lake Saint Louis",
+      "county": "St. Charles",
+      "markerCount": 1
+    },
+    "appleton city": {
+      "lat": 38.19115,
+      "lng": -94.02822,
+      "label": "Appleton City",
+      "county": "St. Clair",
+      "markerCount": 4
+    },
+    "roscoe": {
+      "lat": 38.01641,
+      "lng": -93.81518,
+      "label": "Roscoe",
+      "county": "St. Clair",
+      "markerCount": 1
+    },
+    "osceola": {
+      "lat": 38.04512,
+      "lng": -93.702987,
+      "label": "Osceola",
+      "county": "St. Clair",
+      "markerCount": 4
+    },
+    "bonne terre": {
+      "lat": 37.92073,
+      "lng": -90.54517,
+      "label": "Bonne Terre",
+      "county": "St. Francois",
+      "markerCount": 2
+    },
+    "farmington": {
+      "lat": 37.783843,
+      "lng": -90.424184,
+      "label": "Farmington",
+      "county": "St. Francois",
+      "markerCount": 14
+    },
+    "french village": {
+      "lat": 37.97264,
+      "lng": -90.38999,
+      "label": "French Village",
+      "county": "St. Francois",
+      "markerCount": 2
+    },
+    "park hills": {
+      "lat": 37.83665,
+      "lng": -90.532165,
+      "label": "Park Hills",
+      "county": "St. Francois",
+      "markerCount": 2
+    },
+    "kirkwood": {
+      "lat": 38.572122,
+      "lng": -90.455936,
+      "label": "Kirkwood",
+      "county": "St. Louis",
+      "markerCount": 117
+    },
+    "st. louis": {
+      "lat": 38.627532,
+      "lng": -90.229148,
+      "label": "St. Louis",
+      "county": "St. Louis",
+      "markerCount": 805
+    },
+    "lemay": {
+      "lat": 38.506933,
+      "lng": -90.27963,
+      "label": "Lemay",
+      "county": "St. Louis",
+      "markerCount": 78
+    },
+    "ballwin": {
+      "lat": 38.58745,
+      "lng": -90.509201,
+      "label": "Ballwin",
+      "county": "St. Louis",
+      "markerCount": 7
+    },
+    "university city": {
+      "lat": 38.655499,
+      "lng": -90.305408,
+      "label": "University City",
+      "county": "St. Louis",
+      "markerCount": 144
+    },
+    "valley park": {
+      "lat": 38.55111,
+      "lng": -90.48358,
+      "label": "Valley Park",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "mehlville": {
+      "lat": 38.49832,
+      "lng": -90.287385,
+      "label": "Mehlville",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "maplewood": {
+      "lat": 38.613047,
+      "lng": -90.317985,
+      "label": "Maplewood",
+      "county": "St. Louis",
+      "markerCount": 13
+    },
+    "berkeley": {
+      "lat": 38.75086,
+      "lng": -90.345665,
+      "label": "Berkeley",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "eureka": {
+      "lat": 38.502699,
+      "lng": -90.613403,
+      "label": "Eureka",
+      "county": "St. Louis",
+      "markerCount": 8
+    },
+    "clayton": {
+      "lat": 38.649066,
+      "lng": -90.333703,
+      "label": "Clayton",
+      "county": "St. Louis",
+      "markerCount": 12
+    },
+    "affton": {
+      "lat": 38.551692,
+      "lng": -90.352042,
+      "label": "Affton",
+      "county": "St. Louis",
+      "markerCount": 19
+    },
+    "florissant": {
+      "lat": 38.795773,
+      "lng": -90.326407,
+      "label": "Florissant",
+      "county": "St. Louis",
+      "markerCount": 66
+    },
+    "maryland heights": {
+      "lat": 38.714303,
+      "lng": -90.467135,
+      "label": "Maryland Heights",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "sunset hills": {
+      "lat": 38.548824,
+      "lng": -90.415318,
+      "label": "Sunset Hills",
+      "county": "St. Louis",
+      "markerCount": 27
+    },
+    "chesterfield": {
+      "lat": 38.665651,
+      "lng": -90.564209,
+      "label": "Chesterfield",
+      "county": "St. Louis",
+      "markerCount": 17
+    },
+    "moline acres": {
+      "lat": 38.74166,
+      "lng": -90.24103,
+      "label": "Moline Acres",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "spanish lake": {
+      "lat": 38.818481,
+      "lng": -90.204738,
+      "label": "Spanish Lake",
+      "county": "St. Louis",
+      "markerCount": 11
+    },
+    "hazelwood": {
+      "lat": 38.787595,
+      "lng": -90.373812,
+      "label": "Hazelwood",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "webster groves": {
+      "lat": 38.592208,
+      "lng": -90.35634,
+      "label": "Webster Groves",
+      "county": "St. Louis",
+      "markerCount": 9
+    },
+    "oakville": {
+      "lat": 38.446915,
+      "lng": -90.319232,
+      "label": "Oakville",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "bel-nor": {
+      "lat": 38.69649,
+      "lng": -90.32319,
+      "label": "Bel-Nor",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "overland": {
+      "lat": 38.699939,
+      "lng": -90.368795,
+      "label": "Overland",
+      "county": "St. Louis",
+      "markerCount": 27
+    },
+    "fenton": {
+      "lat": 38.520658,
+      "lng": -90.437412,
+      "label": "Fenton",
+      "county": "St. Louis",
+      "markerCount": 9
+    },
+    "des peres": {
+      "lat": 38.60497,
+      "lng": -90.44269,
+      "label": "Des Peres",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "frontenac": {
+      "lat": 38.622805,
+      "lng": -90.420295,
+      "label": "Frontenac",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "wildwood": {
+      "lat": 38.596249,
+      "lng": -90.671123,
+      "label": "Wildwood",
+      "county": "St. Louis",
+      "markerCount": 15
+    },
+    "town and country": {
+      "lat": 38.62519,
+      "lng": -90.4495,
+      "label": "Town and Country",
+      "county": "St. Louis",
+      "markerCount": 3
+    },
+    "green park": {
+      "lat": 38.523575,
+      "lng": -90.338435,
+      "label": "Green Park",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "brentwood": {
+      "lat": 38.622205,
+      "lng": -90.346095,
+      "label": "Brentwood",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "rock hill": {
+      "lat": 38.610295,
+      "lng": -90.363205,
+      "label": "Rock Hill",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "crestwood": {
+      "lat": 38.564521,
+      "lng": -90.385329,
+      "label": "Crestwood",
+      "county": "St. Louis",
+      "markerCount": 7
+    },
+    "ferguson": {
+      "lat": 38.74333,
+      "lng": -90.30436,
+      "label": "Ferguson",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "creve coeur": {
+      "lat": 38.661164,
+      "lng": -90.448004,
+      "label": "Creve Coeur",
+      "county": "St. Louis",
+      "markerCount": 7
+    },
+    "hillsdale": {
+      "lat": 38.68701,
+      "lng": -90.28966,
+      "label": "Hillsdale",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "manchester": {
+      "lat": 38.593133,
+      "lng": -90.514483,
+      "label": "Manchester",
+      "county": "St. Louis",
+      "markerCount": 7
+    },
+    "shrewsbury": {
+      "lat": 38.585803,
+      "lng": -90.32446,
+      "label": "Shrewsbury",
+      "county": "St. Louis",
+      "markerCount": 3
+    },
+    "olivette": {
+      "lat": 38.674605,
+      "lng": -90.37692,
+      "label": "Olivette",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "velda city": {
+      "lat": 38.690395,
+      "lng": -90.29683,
+      "label": "Velda City",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "normandy": {
+      "lat": 38.710082,
+      "lng": -90.311025,
+      "label": "Normandy",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "bridgeton": {
+      "lat": 38.752315,
+      "lng": -90.415875,
+      "label": "Bridgeton",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "grantwood village": {
+      "lat": 38.55097,
+      "lng": -90.35277,
+      "label": "Grantwood Village",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "richmond heights": {
+      "lat": 38.62578,
+      "lng": -90.32541,
+      "label": "Richmond Heights",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "sappington": {
+      "lat": 38.52863,
+      "lng": -90.37663,
+      "label": "Sappington",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "bellefontaine neighbors": {
+      "lat": 38.74048,
+      "lng": -90.22997,
+      "label": "Bellefontaine Neighbors",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "bel-ridge": {
+      "lat": 38.715,
+      "lng": -90.32546,
+      "label": "Bel-Ridge",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "ste. genevieve": {
+      "lat": 37.980814,
+      "lng": -90.047424,
+      "label": "Ste. Genevieve",
+      "county": "Ste. Genevieve",
+      "markerCount": 21
+    },
+    "bloomfield": {
+      "lat": 36.879569,
+      "lng": -89.930738,
+      "label": "Bloomfield",
+      "county": "Stoddard",
+      "markerCount": 15
+    },
+    "dexter": {
+      "lat": 36.787657,
+      "lng": -89.967637,
+      "label": "Dexter",
+      "county": "Stoddard",
+      "markerCount": 3
+    },
+    "bernie": {
+      "lat": 36.67936,
+      "lng": -89.96979,
+      "label": "Bernie",
+      "county": "Stoddard",
+      "markerCount": 1
+    },
+    "hurley": {
+      "lat": 36.93192,
+      "lng": -93.49928,
+      "label": "Hurley",
+      "county": "Stone",
+      "markerCount": 1
+    },
+    "galena": {
+      "lat": 36.805443,
+      "lng": -93.462407,
+      "label": "Galena",
+      "county": "Stone",
+      "markerCount": 3
+    },
+    "crane": {
+      "lat": 36.9046,
+      "lng": -93.56524,
+      "label": "Crane",
+      "county": "Stone",
+      "markerCount": 2
+    },
+    "branson": {
+      "lat": 36.645989,
+      "lng": -93.286204,
+      "label": "Branson",
+      "county": "Stone",
+      "markerCount": 21
+    },
+    "scholten": {
+      "lat": 36.87489,
+      "lng": -93.62908,
+      "label": "Scholten",
+      "county": "Stone",
+      "markerCount": 1
+    },
+    "milan": {
+      "lat": 40.195288,
+      "lng": -93.12636,
+      "label": "Milan",
+      "county": "Sullivan",
+      "markerCount": 5
+    },
+    "point lookout": {
+      "lat": 36.613521,
+      "lng": -93.237395,
+      "label": "Point Lookout",
+      "county": "Taney",
+      "markerCount": 8
+    },
+    "ridgedale": {
+      "lat": 36.53418,
+      "lng": -93.27375,
+      "label": "Ridgedale",
+      "county": "Taney",
+      "markerCount": 1
+    },
+    "licking": {
+      "lat": 37.49945,
+      "lng": -91.85778,
+      "label": "Licking",
+      "county": "Texas",
+      "markerCount": 2
+    },
+    "cabool": {
+      "lat": 37.12214,
+      "lng": -92.10153,
+      "label": "Cabool",
+      "county": "Texas",
+      "markerCount": 3
+    },
+    "houston": {
+      "lat": 37.327188,
+      "lng": -91.956314,
+      "label": "Houston",
+      "county": "Texas",
+      "markerCount": 5
+    },
+    "fair haven": {
+      "lat": 37.981567,
+      "lng": -94.208845,
+      "label": "Fair Haven",
+      "county": "Vernon",
+      "markerCount": 6
+    },
+    "deerfield": {
+      "lat": 37.84065,
+      "lng": -94.50083,
+      "label": "Deerfield",
+      "county": "Vernon",
+      "markerCount": 1
+    },
+    "nevada": {
+      "lat": 37.838821,
+      "lng": -94.357025,
+      "label": "Nevada",
+      "county": "Vernon",
+      "markerCount": 13
+    },
+    "moundville": {
+      "lat": 37.764085,
+      "lng": -94.458335,
+      "label": "Moundville",
+      "county": "Vernon",
+      "markerCount": 2
+    },
+    "sheldon": {
+      "lat": 37.64877,
+      "lng": -94.30487,
+      "label": "Sheldon",
+      "county": "Vernon",
+      "markerCount": 1
+    },
+    "horton": {
+      "lat": 37.97945,
+      "lng": -94.37922,
+      "label": "Horton",
+      "county": "Vernon",
+      "markerCount": 1
+    },
+    "marthasville": {
+      "lat": 38.626572,
+      "lng": -91.058412,
+      "label": "Marthasville",
+      "county": "Warren",
+      "markerCount": 12
+    },
+    "pendleton": {
+      "lat": 38.84349,
+      "lng": -91.23178,
+      "label": "Pendleton",
+      "county": "Warren",
+      "markerCount": 1
+    },
+    "warrenton": {
+      "lat": 38.813836,
+      "lng": -91.151378,
+      "label": "Warrenton",
+      "county": "Warren",
+      "markerCount": 5
+    },
+    "dutzow": {
+      "lat": 38.60284,
+      "lng": -90.999223,
+      "label": "Dutzow",
+      "county": "Warren",
+      "markerCount": 3
+    },
+    "treloar": {
+      "lat": 38.643372,
+      "lng": -91.187934,
+      "label": "Treloar",
+      "county": "Warren",
+      "markerCount": 5
+    },
+    "wright city": {
+      "lat": 38.816975,
+      "lng": -91.03869,
+      "label": "Wright City",
+      "county": "Warren",
+      "markerCount": 2
+    },
+    "caledonia": {
+      "lat": 37.77785,
+      "lng": -90.77599,
+      "label": "Caledonia",
+      "county": "Washington",
+      "markerCount": 2
+    },
+    "potosi": {
+      "lat": 37.936268,
+      "lng": -90.787946,
+      "label": "Potosi",
+      "county": "Washington",
+      "markerCount": 5
+    },
+    "greenville": {
+      "lat": 37.10303,
+      "lng": -90.454683,
+      "label": "Greenville",
+      "county": "Wayne",
+      "markerCount": 52
+    },
+    "piedmont": {
+      "lat": 37.156695,
+      "lng": -90.69017,
+      "label": "Piedmont",
+      "county": "Wayne",
+      "markerCount": 2
+    },
+    "patterson": {
+      "lat": 37.186857,
+      "lng": -90.553753,
+      "label": "Patterson",
+      "county": "Wayne",
+      "markerCount": 3
+    },
+    "marshfield": {
+      "lat": 37.338682,
+      "lng": -92.908009,
+      "label": "Marshfield",
+      "county": "Webster",
+      "markerCount": 9
+    },
+    "seymour": {
+      "lat": 37.14684,
+      "lng": -92.76841,
+      "label": "Seymour",
+      "county": "Webster",
+      "markerCount": 1
+    },
+    "rogersville": {
+      "lat": 37.11847,
+      "lng": -93.05796,
+      "label": "Rogersville",
+      "county": "Webster",
+      "markerCount": 1
+    },
+    "conway": {
+      "lat": 37.48411,
+      "lng": -92.88541,
+      "label": "Conway",
+      "county": "Webster",
+      "markerCount": 1
+    },
+    "grant city": {
+      "lat": 40.486423,
+      "lng": -94.411483,
+      "label": "Grant City",
+      "county": "Worth",
+      "markerCount": 3
+    },
+    "hartville": {
+      "lat": 37.249475,
+      "lng": -92.51055,
+      "label": "Hartville",
+      "county": "Wright",
+      "markerCount": 4
+    },
+    "mansfield": {
+      "lat": 37.104417,
+      "lng": -92.573753,
+      "label": "Mansfield",
+      "county": "Wright",
+      "markerCount": 7
+    },
+    "mountain grove": {
+      "lat": 37.14917,
+      "lng": -92.26612,
+      "label": "Mountain Grove",
+      "county": "Wright",
+      "markerCount": 1
+    }
+  },
+  "zips": {
+    "63501": {
+      "lat": 40.196898,
+      "lng": -92.581824,
+      "label": "63501",
+      "county": "Adair",
+      "markerCount": 5
+    },
+    "64485": {
+      "lat": 39.941097,
+      "lng": -94.830478,
+      "label": "64485",
+      "county": "Andrew",
+      "markerCount": 4
+    },
+    "64482": {
+      "lat": 40.410888,
+      "lng": -95.553808,
+      "label": "64482",
+      "county": "Atchison",
+      "markerCount": 4
+    },
+    "64446": {
+      "lat": 40.33933,
+      "lng": -95.39232,
+      "label": "64446",
+      "county": "Atchison",
+      "markerCount": 1
+    },
+    "65265": {
+      "lat": 39.166842,
+      "lng": -91.886572,
+      "label": "65265",
+      "county": "Audrain",
+      "markerCount": 19
+    },
+    "65708": {
+      "lat": 36.918598,
+      "lng": -93.922538,
+      "label": "65708",
+      "county": "Barry",
+      "markerCount": 29
+    },
+    "65625": {
+      "lat": 36.653865,
+      "lng": -93.860045,
+      "label": "65625",
+      "county": "Barry",
+      "markerCount": 4
+    },
+    "65633": {
+      "lat": 36.889636,
+      "lng": -93.630822,
+      "label": "65633",
+      "county": "Barry",
+      "markerCount": 5
+    },
+    "65734": {
+      "lat": 36.815977,
+      "lng": -93.919593,
+      "label": "65734",
+      "county": "Barry",
+      "markerCount": 3
+    },
+    "64759": {
+      "lat": 37.494962,
+      "lng": -94.274957,
+      "label": "64759",
+      "county": "Barton",
+      "markerCount": 9
+    },
+    "64762": {
+      "lat": 37.56498,
+      "lng": -94.51766,
+      "label": "64762",
+      "county": "Barton",
+      "markerCount": 1
+    },
+    "64730": {
+      "lat": 38.25306,
+      "lng": -94.36582,
+      "label": "64730",
+      "county": "Bates",
+      "markerCount": 21
+    },
+    "64779": {
+      "lat": 38.096835,
+      "lng": -94.35731,
+      "label": "64779",
+      "county": "Bates",
+      "markerCount": 2
+    },
+    "64720": {
+      "lat": 38.39392,
+      "lng": -94.33645,
+      "label": "64720",
+      "county": "Bates",
+      "markerCount": 1
+    },
+    "64752": {
+      "lat": 38.09024,
+      "lng": -94.58368,
+      "label": "64752",
+      "county": "Bates",
+      "markerCount": 1
+    },
+    "65355": {
+      "lat": 38.241435,
+      "lng": -93.38066,
+      "label": "65355",
+      "county": "Benton",
+      "markerCount": 2
+    },
+    "63782": {
+      "lat": 37.06993,
+      "lng": -90.07245,
+      "label": "63782",
+      "county": "Bollinger",
+      "markerCount": 1
+    },
+    "63764": {
+      "lat": 37.305763,
+      "lng": -89.97004,
+      "label": "63764",
+      "county": "Bollinger",
+      "markerCount": 3
+    },
+    "65203": {
+      "lat": 38.922978,
+      "lng": -92.362028,
+      "label": "65203",
+      "county": "Boone",
+      "markerCount": 25
+    },
+    "65279": {
+      "lat": 38.973009,
+      "lng": -92.555516,
+      "label": "65279",
+      "county": "Boone",
+      "markerCount": 10
+    },
+    "65201": {
+      "lat": 38.945099,
+      "lng": -92.321612,
+      "label": "65201",
+      "county": "Boone",
+      "markerCount": 49
+    },
+    "65211": {
+      "lat": 38.94102,
+      "lng": -92.328955,
+      "label": "65211",
+      "county": "Boone",
+      "markerCount": 2
+    },
+    "65039": {
+      "lat": 38.694363,
+      "lng": -92.3099,
+      "label": "65039",
+      "county": "Boone",
+      "markerCount": 3
+    },
+    "65205": {
+      "lat": 38.9472,
+      "lng": -92.33103,
+      "label": "65205",
+      "county": "Boone",
+      "markerCount": 1
+    },
+    "65240": {
+      "lat": 39.21143,
+      "lng": -92.13878,
+      "label": "65240",
+      "county": "Boone",
+      "markerCount": 1
+    },
+    "64501": {
+      "lat": 39.768678,
+      "lng": -94.852497,
+      "label": "64501",
+      "county": "Buchanan",
+      "markerCount": 41
+    },
+    "64503": {
+      "lat": 39.756354,
+      "lng": -94.84657,
+      "label": "64503",
+      "county": "Buchanan",
+      "markerCount": 14
+    },
+    "64484": {
+      "lat": 39.525865,
+      "lng": -95.051897,
+      "label": "64484",
+      "county": "Buchanan",
+      "markerCount": 4
+    },
+    "64505": {
+      "lat": 39.786525,
+      "lng": -94.85409,
+      "label": "64505",
+      "county": "Buchanan",
+      "markerCount": 2
+    },
+    "64506": {
+      "lat": 39.77629,
+      "lng": -94.80861,
+      "label": "64506",
+      "county": "Buchanan",
+      "markerCount": 1
+    },
+    "64502": {
+      "lat": 39.756345,
+      "lng": -94.8486,
+      "label": "64502",
+      "county": "Buchanan",
+      "markerCount": 2
+    },
+    "63901": {
+      "lat": 36.756809,
+      "lng": -90.393567,
+      "label": "63901",
+      "county": "Butler",
+      "markerCount": 7
+    },
+    "64644": {
+      "lat": 39.743162,
+      "lng": -93.998351,
+      "label": "64644",
+      "county": "Caldwell",
+      "markerCount": 9
+    },
+    "64650": {
+      "lat": 39.64297,
+      "lng": -94.038427,
+      "label": "64650",
+      "county": "Caldwell",
+      "markerCount": 3
+    },
+    "64624": {
+      "lat": 39.6701,
+      "lng": -93.83916,
+      "label": "64624",
+      "county": "Caldwell",
+      "markerCount": 2
+    },
+    "64625": {
+      "lat": 39.7616,
+      "lng": -93.80385,
+      "label": "64625",
+      "county": "Caldwell",
+      "markerCount": 1
+    },
+    "64671": {
+      "lat": 39.549125,
+      "lng": -94.039325,
+      "label": "64671",
+      "county": "Caldwell",
+      "markerCount": 2
+    },
+    "65251": {
+      "lat": 38.861559,
+      "lng": -91.940401,
+      "label": "65251",
+      "county": "Callaway",
+      "markerCount": 29
+    },
+    "65080": {
+      "lat": 38.60975,
+      "lng": -91.982307,
+      "label": "65080",
+      "county": "Callaway",
+      "markerCount": 3
+    },
+    "65043": {
+      "lat": 38.605957,
+      "lng": -92.162407,
+      "label": "65043",
+      "county": "Callaway",
+      "markerCount": 9
+    },
+    "63388": {
+      "lat": 38.9176,
+      "lng": -91.73193,
+      "label": "63388",
+      "county": "Callaway",
+      "markerCount": 2
+    },
+    "65059": {
+      "lat": 38.674766,
+      "lng": -91.870566,
+      "label": "65059",
+      "county": "Callaway",
+      "markerCount": 5
+    },
+    "65262": {
+      "lat": 38.940973,
+      "lng": -91.876843,
+      "label": "65262",
+      "county": "Callaway",
+      "markerCount": 3
+    },
+    "65067": {
+      "lat": 38.70968,
+      "lng": -91.716595,
+      "label": "65067",
+      "county": "Callaway",
+      "markerCount": 2
+    },
+    "65077": {
+      "lat": 38.70806,
+      "lng": -91.7989,
+      "label": "65077",
+      "county": "Callaway",
+      "markerCount": 1
+    },
+    "65020": {
+      "lat": 37.980713,
+      "lng": -92.763713,
+      "label": "65020",
+      "county": "Camden",
+      "markerCount": 6
+    },
+    "65049": {
+      "lat": 38.2009,
+      "lng": -92.63002,
+      "label": "65049",
+      "county": "Camden",
+      "markerCount": 1
+    },
+    "63766": {
+      "lat": 37.4498,
+      "lng": -89.85061,
+      "label": "63766",
+      "county": "Cape Girardeau",
+      "markerCount": 1
+    },
+    "63701": {
+      "lat": 37.307532,
+      "lng": -89.522408,
+      "label": "63701",
+      "county": "Cape Girardeau",
+      "markerCount": 100
+    },
+    "63703": {
+      "lat": 37.297482,
+      "lng": -89.523102,
+      "label": "63703",
+      "county": "Cape Girardeau",
+      "markerCount": 29
+    },
+    "63755": {
+      "lat": 37.421567,
+      "lng": -89.568598,
+      "label": "63755",
+      "county": "Cape Girardeau",
+      "markerCount": 6
+    },
+    "63739": {
+      "lat": 37.367534,
+      "lng": -89.802786,
+      "label": "63739",
+      "county": "Cape Girardeau",
+      "markerCount": 7
+    },
+    "64633": {
+      "lat": 39.369618,
+      "lng": -93.490064,
+      "label": "64633",
+      "county": "Carroll",
+      "markerCount": 5
+    },
+    "64639": {
+      "lat": 39.38456,
+      "lng": -93.221423,
+      "label": "64639",
+      "county": "Carroll",
+      "markerCount": 3
+    },
+    "63965": {
+      "lat": 36.96091,
+      "lng": -90.998506,
+      "label": "63965",
+      "county": "Carter",
+      "markerCount": 8
+    },
+    "64080": {
+      "lat": 38.788527,
+      "lng": -94.272805,
+      "label": "64080",
+      "county": "Cass",
+      "markerCount": 30
+    },
+    "64701": {
+      "lat": 38.658136,
+      "lng": -94.356687,
+      "label": "64701",
+      "county": "Cass",
+      "markerCount": 11
+    },
+    "64012": {
+      "lat": 38.81207,
+      "lng": -94.53401,
+      "label": "64012",
+      "county": "Cass",
+      "markerCount": 1
+    },
+    "65785": {
+      "lat": 37.682587,
+      "lng": -93.807133,
+      "label": "65785",
+      "county": "Cedar",
+      "markerCount": 3
+    },
+    "64744": {
+      "lat": 37.875322,
+      "lng": -94.02229,
+      "label": "64744",
+      "county": "Cedar",
+      "markerCount": 9
+    },
+    "65236": {
+      "lat": 39.42288,
+      "lng": -93.13148,
+      "label": "65236",
+      "county": "Chariton",
+      "markerCount": 2
+    },
+    "65261": {
+      "lat": 39.43415,
+      "lng": -92.938377,
+      "label": "65261",
+      "county": "Chariton",
+      "markerCount": 3
+    },
+    "65281": {
+      "lat": 39.41692,
+      "lng": -92.80121,
+      "label": "65281",
+      "county": "Chariton",
+      "markerCount": 1
+    },
+    "65721": {
+      "lat": 37.021502,
+      "lng": -93.205654,
+      "label": "65721",
+      "county": "Christian",
+      "markerCount": 5
+    },
+    "65610": {
+      "lat": 37.062195,
+      "lng": -93.492655,
+      "label": "65610",
+      "county": "Christian",
+      "markerCount": 2
+    },
+    "65631": {
+      "lat": 37.02815,
+      "lng": -93.47593,
+      "label": "65631",
+      "county": "Christian",
+      "markerCount": 1
+    },
+    "63465": {
+      "lat": 40.585291,
+      "lng": -91.696188,
+      "label": "63465",
+      "county": "Clark",
+      "markerCount": 11
+    },
+    "63472": {
+      "lat": 40.428833,
+      "lng": -91.557073,
+      "label": "63472",
+      "county": "Clark",
+      "markerCount": 7
+    },
+    "63445": {
+      "lat": 40.42469,
+      "lng": -91.7193,
+      "label": "63445",
+      "county": "Clark",
+      "markerCount": 1
+    },
+    "64068": {
+      "lat": 39.242853,
+      "lng": -94.418007,
+      "label": "64068",
+      "county": "Clay",
+      "markerCount": 88
+    },
+    "64089": {
+      "lat": 39.38783,
+      "lng": -94.581032,
+      "label": "64089",
+      "county": "Clay",
+      "markerCount": 9
+    },
+    "64119": {
+      "lat": 39.196962,
+      "lng": -94.540002,
+      "label": "64119",
+      "county": "Clay",
+      "markerCount": 6
+    },
+    "64116": {
+      "lat": 39.134827,
+      "lng": -94.579317,
+      "label": "64116",
+      "county": "Clay",
+      "markerCount": 7
+    },
+    "64161": {
+      "lat": 39.18049,
+      "lng": -94.49028,
+      "label": "64161",
+      "county": "Clay",
+      "markerCount": 1
+    },
+    "64024": {
+      "lat": 39.34179,
+      "lng": -94.22255,
+      "label": "64024",
+      "county": "Clay",
+      "markerCount": 2
+    },
+    "64118": {
+      "lat": 39.20342,
+      "lng": -94.57682,
+      "label": "64118",
+      "county": "Clay",
+      "markerCount": 2
+    },
+    "64060": {
+      "lat": 39.383212,
+      "lng": -94.334646,
+      "label": "64060",
+      "county": "Clay",
+      "markerCount": 5
+    },
+    "64155": {
+      "lat": 39.25461,
+      "lng": -94.60074,
+      "label": "64155",
+      "county": "Clay",
+      "markerCount": 1
+    },
+    "64429": {
+      "lat": 39.738502,
+      "lng": -94.238965,
+      "label": "64429",
+      "county": "Clinton",
+      "markerCount": 10
+    },
+    "64477": {
+      "lat": 39.56964,
+      "lng": -94.44604,
+      "label": "64477",
+      "county": "Clinton",
+      "markerCount": 4
+    },
+    "65101": {
+      "lat": 38.570975,
+      "lng": -92.160893,
+      "label": "65101",
+      "county": "Cole",
+      "markerCount": 60
+    },
+    "65109": {
+      "lat": 38.584755,
+      "lng": -92.179025,
+      "label": "65109",
+      "county": "Cole",
+      "markerCount": 2
+    },
+    "65233": {
+      "lat": 38.973232,
+      "lng": -92.747405,
+      "label": "65233",
+      "county": "Cooper",
+      "markerCount": 42
+    },
+    "65322": {
+      "lat": 39.022667,
+      "lng": -92.97329,
+      "label": "65322",
+      "county": "Cooper",
+      "markerCount": 4
+    },
+    "65276": {
+      "lat": 38.875305,
+      "lng": -92.912147,
+      "label": "65276",
+      "county": "Cooper",
+      "markerCount": 6
+    },
+    "65348": {
+      "lat": 38.76399,
+      "lng": -93.04525,
+      "label": "65348",
+      "county": "Cooper",
+      "markerCount": 2
+    },
+    "65453": {
+      "lat": 38.064732,
+      "lng": -91.405744,
+      "label": "65453",
+      "county": "Crawford",
+      "markerCount": 25
+    },
+    "65535": {
+      "lat": 38.106235,
+      "lng": -91.3064,
+      "label": "65535",
+      "county": "Crawford",
+      "markerCount": 2
+    },
+    "65565": {
+      "lat": 37.967687,
+      "lng": -91.356073,
+      "label": "65565",
+      "county": "Crawford",
+      "markerCount": 6
+    },
+    "65456": {
+      "lat": 37.72042,
+      "lng": -91.205903,
+      "label": "65456",
+      "county": "Crawford",
+      "markerCount": 6
+    },
+    "65441": {
+      "lat": 38.15437,
+      "lng": -91.24462,
+      "label": "65441",
+      "county": "Crawford",
+      "markerCount": 1
+    },
+    "65661": {
+      "lat": 37.416296,
+      "lng": -93.841928,
+      "label": "65661",
+      "county": "Dade",
+      "markerCount": 5
+    },
+    "65622": {
+      "lat": 37.643535,
+      "lng": -93.092105,
+      "label": "65622",
+      "county": "Dallas",
+      "markerCount": 4
+    },
+    "64654": {
+      "lat": 39.84746,
+      "lng": -93.77623,
+      "label": "64654",
+      "county": "Daviess",
+      "markerCount": 1
+    },
+    "64640": {
+      "lat": 39.91489,
+      "lng": -93.962142,
+      "label": "64640",
+      "county": "Daviess",
+      "markerCount": 4
+    },
+    "64648": {
+      "lat": 39.9713,
+      "lng": -93.80085,
+      "label": "64648",
+      "county": "Daviess",
+      "markerCount": 1
+    },
+    "64469": {
+      "lat": 39.889805,
+      "lng": -94.359835,
+      "label": "64469",
+      "county": "DeKalb",
+      "markerCount": 2
+    },
+    "65560": {
+      "lat": 37.652534,
+      "lng": -91.530655,
+      "label": "65560",
+      "county": "Dent",
+      "markerCount": 24
+    },
+    "65608": {
+      "lat": 36.958395,
+      "lng": -92.65972,
+      "label": "65608",
+      "county": "Douglas",
+      "markerCount": 2
+    },
+    "63857": {
+      "lat": 36.235157,
+      "lng": -90.056827,
+      "label": "63857",
+      "county": "Dunklin",
+      "markerCount": 6
+    },
+    "63855": {
+      "lat": 36.03974,
+      "lng": -90.11106,
+      "label": "63855",
+      "county": "Dunklin",
+      "markerCount": 1
+    },
+    "63863": {
+      "lat": 36.565057,
+      "lng": -89.970933,
+      "label": "63863",
+      "county": "Dunklin",
+      "markerCount": 3
+    },
+    "63933": {
+      "lat": 36.48525,
+      "lng": -90.15389,
+      "label": "63933",
+      "county": "Dunklin",
+      "markerCount": 1
+    },
+    "63068": {
+      "lat": 38.612676,
+      "lng": -91.211341,
+      "label": "63068",
+      "county": "Franklin",
+      "markerCount": 18
+    },
+    "63090": {
+      "lat": 38.560261,
+      "lng": -91.013943,
+      "label": "63090",
+      "county": "Franklin",
+      "markerCount": 78
+    },
+    "63055": {
+      "lat": 38.518315,
+      "lng": -90.87946,
+      "label": "63055",
+      "county": "Franklin",
+      "markerCount": 2
+    },
+    "63084": {
+      "lat": 38.438398,
+      "lng": -90.990082,
+      "label": "63084",
+      "county": "Franklin",
+      "markerCount": 5
+    },
+    "63077": {
+      "lat": 38.339894,
+      "lng": -91.001117,
+      "label": "63077",
+      "county": "Franklin",
+      "markerCount": 11
+    },
+    "63037": {
+      "lat": 38.397085,
+      "lng": -91.33696,
+      "label": "63037",
+      "county": "Franklin",
+      "markerCount": 2
+    },
+    "63069": {
+      "lat": 38.488284,
+      "lng": -90.734384,
+      "label": "63069",
+      "county": "Franklin",
+      "markerCount": 21
+    },
+    "63073": {
+      "lat": 38.58034,
+      "lng": -90.77223,
+      "label": "63073",
+      "county": "Franklin",
+      "markerCount": 1
+    },
+    "63080": {
+      "lat": 38.223916,
+      "lng": -91.138989,
+      "label": "63080",
+      "county": "Franklin",
+      "markerCount": 8
+    },
+    "63039": {
+      "lat": 38.48211,
+      "lng": -90.8243,
+      "label": "63039",
+      "county": "Franklin",
+      "markerCount": 1
+    },
+    "65041": {
+      "lat": 38.70848,
+      "lng": -91.436429,
+      "label": "65041",
+      "county": "Gasconade",
+      "markerCount": 51
+    },
+    "65066": {
+      "lat": 38.346749,
+      "lng": -91.500821,
+      "label": "65066",
+      "county": "Gasconade",
+      "markerCount": 20
+    },
+    "64402": {
+      "lat": 40.245765,
+      "lng": -94.356643,
+      "label": "64402",
+      "county": "Gentry",
+      "markerCount": 4
+    },
+    "64489": {
+      "lat": 40.21397,
+      "lng": -94.54289,
+      "label": "64489",
+      "county": "Gentry",
+      "markerCount": 2
+    },
+    "65742": {
+      "lat": 37.119535,
+      "lng": -93.1373,
+      "label": "65742",
+      "county": "Greene",
+      "markerCount": 2
+    },
+    "65619": {
+      "lat": 37.107027,
+      "lng": -93.404234,
+      "label": "65619",
+      "county": "Greene",
+      "markerCount": 35
+    },
+    "65806": {
+      "lat": 37.207704,
+      "lng": -93.292258,
+      "label": "65806",
+      "county": "Greene",
+      "markerCount": 46
+    },
+    "65804": {
+      "lat": 37.167907,
+      "lng": -93.260447,
+      "label": "65804",
+      "county": "Greene",
+      "markerCount": 15
+    },
+    "65807": {
+      "lat": 37.174197,
+      "lng": -93.317142,
+      "label": "65807",
+      "county": "Greene",
+      "markerCount": 13
+    },
+    "65809": {
+      "lat": 37.122228,
+      "lng": -93.21635,
+      "label": "65809",
+      "county": "Greene",
+      "markerCount": 40
+    },
+    "65738": {
+      "lat": 37.120247,
+      "lng": -93.434655,
+      "label": "65738",
+      "county": "Greene",
+      "markerCount": 4
+    },
+    "65802": {
+      "lat": 37.216661,
+      "lng": -93.290163,
+      "label": "65802",
+      "county": "Greene",
+      "markerCount": 24
+    },
+    "65648": {
+      "lat": 37.38329,
+      "lng": -93.150835,
+      "label": "65648",
+      "county": "Greene",
+      "markerCount": 2
+    },
+    "65803": {
+      "lat": 37.229977,
+      "lng": -93.288063,
+      "label": "65803",
+      "county": "Greene",
+      "markerCount": 3
+    },
+    "65604": {
+      "lat": 37.285263,
+      "lng": -93.614063,
+      "label": "65604",
+      "county": "Greene",
+      "markerCount": 3
+    },
+    "65725": {
+      "lat": 37.46007,
+      "lng": -93.27284,
+      "label": "65725",
+      "county": "Greene",
+      "markerCount": 1
+    },
+    "64683": {
+      "lat": 40.075463,
+      "lng": -93.618012,
+      "label": "64683",
+      "county": "Grundy",
+      "markerCount": 4
+    },
+    "64424": {
+      "lat": 40.261737,
+      "lng": -94.044583,
+      "label": "64424",
+      "county": "Harrison",
+      "markerCount": 6
+    },
+    "64735": {
+      "lat": 38.375951,
+      "lng": -93.769235,
+      "label": "64735",
+      "county": "Henry",
+      "markerCount": 12
+    },
+    "64770": {
+      "lat": 38.29038,
+      "lng": -94.02004,
+      "label": "64770",
+      "county": "Henry",
+      "markerCount": 1
+    },
+    "65735": {
+      "lat": 38.00873,
+      "lng": -93.47199,
+      "label": "65735",
+      "county": "Hickory",
+      "markerCount": 1
+    },
+    "65724": {
+      "lat": 37.85275,
+      "lng": -93.42481,
+      "label": "65724",
+      "county": "Hickory",
+      "markerCount": 1
+    },
+    "65668": {
+      "lat": 37.9408,
+      "lng": -93.315855,
+      "label": "65668",
+      "county": "Hickory",
+      "markerCount": 2
+    },
+    "65774": {
+      "lat": 37.891313,
+      "lng": -93.541447,
+      "label": "65774",
+      "county": "Hickory",
+      "markerCount": 3
+    },
+    "64473": {
+      "lat": 39.98702,
+      "lng": -95.14409,
+      "label": "64473",
+      "county": "Holt",
+      "markerCount": 2
+    },
+    "64437": {
+      "lat": 40.093683,
+      "lng": -95.319417,
+      "label": "64437",
+      "county": "Holt",
+      "markerCount": 3
+    },
+    "65274": {
+      "lat": 39.006384,
+      "lng": -92.742656,
+      "label": "65274",
+      "county": "Howard",
+      "markerCount": 33
+    },
+    "65254": {
+      "lat": 39.226851,
+      "lng": -92.843866,
+      "label": "65254",
+      "county": "Howard",
+      "markerCount": 14
+    },
+    "65250": {
+      "lat": 39.081939,
+      "lng": -92.879111,
+      "label": "65250",
+      "county": "Howard",
+      "markerCount": 8
+    },
+    "65248": {
+      "lat": 39.14648,
+      "lng": -92.68373,
+      "label": "65248",
+      "county": "Howard",
+      "markerCount": 1
+    },
+    "65775": {
+      "lat": 36.735084,
+      "lng": -91.855442,
+      "label": "65775",
+      "county": "Howell",
+      "markerCount": 13
+    },
+    "65548": {
+      "lat": 36.998466,
+      "lng": -91.706166,
+      "label": "65548",
+      "county": "Howell",
+      "markerCount": 12
+    },
+    "65789": {
+      "lat": 36.79675,
+      "lng": -91.89666,
+      "label": "65789",
+      "county": "Howell",
+      "markerCount": 1
+    },
+    "63650": {
+      "lat": 37.591968,
+      "lng": -90.654412,
+      "label": "63650",
+      "county": "Iron",
+      "markerCount": 11
+    },
+    "63663": {
+      "lat": 37.621366,
+      "lng": -90.640534,
+      "label": "63663",
+      "county": "Iron",
+      "markerCount": 17
+    },
+    "63623": {
+      "lat": 37.65311,
+      "lng": -90.68891,
+      "label": "63623",
+      "county": "Iron",
+      "markerCount": 1
+    },
+    "63621": {
+      "lat": 37.588228,
+      "lng": -90.6129,
+      "label": "63621",
+      "county": "Iron",
+      "markerCount": 4
+    },
+    "63656": {
+      "lat": 37.54776,
+      "lng": -90.8461,
+      "label": "63656",
+      "county": "Iron",
+      "markerCount": 1
+    },
+    "64130": {
+      "lat": 39.015182,
+      "lng": -94.531661,
+      "label": "64130",
+      "county": "Jackson",
+      "markerCount": 11
+    },
+    "64105": {
+      "lat": 39.103264,
+      "lng": -94.587366,
+      "label": "64105",
+      "county": "Jackson",
+      "markerCount": 67
+    },
+    "64131": {
+      "lat": 38.94585,
+      "lng": -94.57266,
+      "label": "64131",
+      "county": "Jackson",
+      "markerCount": 23
+    },
+    "64050": {
+      "lat": 39.09432,
+      "lng": -94.419888,
+      "label": "64050",
+      "county": "Jackson",
+      "markerCount": 64
+    },
+    "64133": {
+      "lat": 39.007748,
+      "lng": -94.46868,
+      "label": "64133",
+      "county": "Jackson",
+      "markerCount": 5
+    },
+    "64132": {
+      "lat": 38.994548,
+      "lng": -94.539249,
+      "label": "64132",
+      "county": "Jackson",
+      "markerCount": 14
+    },
+    "64111": {
+      "lat": 39.054594,
+      "lng": -94.589631,
+      "label": "64111",
+      "county": "Jackson",
+      "markerCount": 28
+    },
+    "64108": {
+      "lat": 39.081484,
+      "lng": -94.579531,
+      "label": "64108",
+      "county": "Jackson",
+      "markerCount": 42
+    },
+    "64114": {
+      "lat": 38.96364,
+      "lng": -94.604208,
+      "label": "64114",
+      "county": "Jackson",
+      "markerCount": 4
+    },
+    "64063": {
+      "lat": 38.91254,
+      "lng": -94.37745,
+      "label": "64063",
+      "county": "Jackson",
+      "markerCount": 6
+    },
+    "64127": {
+      "lat": 39.085888,
+      "lng": -94.556987,
+      "label": "64127",
+      "county": "Jackson",
+      "markerCount": 11
+    },
+    "64055": {
+      "lat": 39.069283,
+      "lng": -94.403627,
+      "label": "64055",
+      "county": "Jackson",
+      "markerCount": 3
+    },
+    "64052": {
+      "lat": 39.078245,
+      "lng": -94.447127,
+      "label": "64052",
+      "county": "Jackson",
+      "markerCount": 4
+    },
+    "64070": {
+      "lat": 38.86649,
+      "lng": -94.17334,
+      "label": "64070",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "64112": {
+      "lat": 39.034626,
+      "lng": -94.593528,
+      "label": "64112",
+      "county": "Jackson",
+      "markerCount": 18
+    },
+    "64113": {
+      "lat": 39.021012,
+      "lng": -94.589727,
+      "label": "64113",
+      "county": "Jackson",
+      "markerCount": 4
+    },
+    "64110": {
+      "lat": 39.039942,
+      "lng": -94.577637,
+      "label": "64110",
+      "county": "Jackson",
+      "markerCount": 6
+    },
+    "64106": {
+      "lat": 39.106756,
+      "lng": -94.578152,
+      "label": "64106",
+      "county": "Jackson",
+      "markerCount": 21
+    },
+    "64129": {
+      "lat": 39.025638,
+      "lng": -94.510873,
+      "label": "64129",
+      "county": "Jackson",
+      "markerCount": 4
+    },
+    "64101": {
+      "lat": 39.105302,
+      "lng": -94.596106,
+      "label": "64101",
+      "county": "Jackson",
+      "markerCount": 5
+    },
+    "64109": {
+      "lat": 39.065158,
+      "lng": -94.576954,
+      "label": "64109",
+      "county": "Jackson",
+      "markerCount": 5
+    },
+    "64058": {
+      "lat": 39.13515,
+      "lng": -94.331682,
+      "label": "64058",
+      "county": "Jackson",
+      "markerCount": 6
+    },
+    "64088": {
+      "lat": 39.18691,
+      "lng": -94.193053,
+      "label": "64088",
+      "county": "Jackson",
+      "markerCount": 3
+    },
+    "64138": {
+      "lat": 38.960427,
+      "lng": -94.461547,
+      "label": "64138",
+      "county": "Jackson",
+      "markerCount": 3
+    },
+    "64016": {
+      "lat": 39.140885,
+      "lng": -94.19658,
+      "label": "64016",
+      "county": "Jackson",
+      "markerCount": 2
+    },
+    "64124": {
+      "lat": 39.108518,
+      "lng": -94.547326,
+      "label": "64124",
+      "county": "Jackson",
+      "markerCount": 5
+    },
+    "64053": {
+      "lat": 39.097665,
+      "lng": -94.470535,
+      "label": "64053",
+      "county": "Jackson",
+      "markerCount": 2
+    },
+    "64102": {
+      "lat": 39.092367,
+      "lng": -94.605563,
+      "label": "64102",
+      "county": "Jackson",
+      "markerCount": 3
+    },
+    "64051": {
+      "lat": 39.08648,
+      "lng": -94.41869,
+      "label": "64051",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "64030": {
+      "lat": 38.90155,
+      "lng": -94.53112,
+      "label": "64030",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "64120": {
+      "lat": 39.117828,
+      "lng": -94.57259,
+      "label": "64120",
+      "county": "Jackson",
+      "markerCount": 4
+    },
+    "64145": {
+      "lat": 38.906939,
+      "lng": -94.606133,
+      "label": "64145",
+      "county": "Jackson",
+      "markerCount": 7
+    },
+    "64075": {
+      "lat": 38.98805,
+      "lng": -94.13848,
+      "label": "64075",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "64123": {
+      "lat": 39.11673,
+      "lng": -94.54306,
+      "label": "64123",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "64054": {
+      "lat": 39.11003,
+      "lng": -94.4466,
+      "label": "64054",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "64056": {
+      "lat": 39.10256,
+      "lng": -94.29854,
+      "label": "64056",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "64125": {
+      "lat": 39.09887,
+      "lng": -94.47504,
+      "label": "64125",
+      "county": "Jackson",
+      "markerCount": 1
+    },
+    "64836": {
+      "lat": 37.190663,
+      "lng": -94.299092,
+      "label": "64836",
+      "county": "Jasper",
+      "markerCount": 28
+    },
+    "64804": {
+      "lat": 37.058043,
+      "lng": -94.535035,
+      "label": "64804",
+      "county": "Jasper",
+      "markerCount": 15
+    },
+    "64801": {
+      "lat": 37.088506,
+      "lng": -94.519261,
+      "label": "64801",
+      "county": "Jasper",
+      "markerCount": 17
+    },
+    "64870": {
+      "lat": 37.143682,
+      "lng": -94.46431,
+      "label": "64870",
+      "county": "Jasper",
+      "markerCount": 32
+    },
+    "64862": {
+      "lat": 37.06941,
+      "lng": -94.11641,
+      "label": "64862",
+      "county": "Jasper",
+      "markerCount": 2
+    },
+    "64835": {
+      "lat": 37.14912,
+      "lng": -94.44512,
+      "label": "64835",
+      "county": "Jasper",
+      "markerCount": 1
+    },
+    "63010": {
+      "lat": 38.436358,
+      "lng": -90.387815,
+      "label": "63010",
+      "county": "Jefferson",
+      "markerCount": 6
+    },
+    "63087": {
+      "lat": 38.032355,
+      "lng": -90.495985,
+      "label": "63087",
+      "county": "Jefferson",
+      "markerCount": 2
+    },
+    "63028": {
+      "lat": 38.21336,
+      "lng": -90.39503,
+      "label": "63028",
+      "county": "Jefferson",
+      "markerCount": 6
+    },
+    "63052": {
+      "lat": 38.369813,
+      "lng": -90.372407,
+      "label": "63052",
+      "county": "Jefferson",
+      "markerCount": 9
+    },
+    "63050": {
+      "lat": 38.25959,
+      "lng": -90.547678,
+      "label": "63050",
+      "county": "Jefferson",
+      "markerCount": 9
+    },
+    "63019": {
+      "lat": 38.217445,
+      "lng": -90.378465,
+      "label": "63019",
+      "county": "Jefferson",
+      "markerCount": 2
+    },
+    "63048": {
+      "lat": 38.270525,
+      "lng": -90.377403,
+      "label": "63048",
+      "county": "Jefferson",
+      "markerCount": 4
+    },
+    "63049": {
+      "lat": 38.48074,
+      "lng": -90.515073,
+      "label": "63049",
+      "county": "Jefferson",
+      "markerCount": 3
+    },
+    "63016": {
+      "lat": 38.35707,
+      "lng": -90.64652,
+      "label": "63016",
+      "county": "Jefferson",
+      "markerCount": 2
+    },
+    "63020": {
+      "lat": 38.11309,
+      "lng": -90.622703,
+      "label": "63020",
+      "county": "Jefferson",
+      "markerCount": 4
+    },
+    "63987": {
+      "lat": 38.0321,
+      "lng": -90.49589,
+      "label": "63987",
+      "county": "Jefferson",
+      "markerCount": 1
+    },
+    "63051": {
+      "lat": 38.40838,
+      "lng": -90.56879,
+      "label": "63051",
+      "county": "Jefferson",
+      "markerCount": 1
+    },
+    "64093": {
+      "lat": 38.764209,
+      "lng": -93.742292,
+      "label": "64093",
+      "county": "Johnson",
+      "markerCount": 32
+    },
+    "65305": {
+      "lat": 38.731287,
+      "lng": -93.56649,
+      "label": "65305",
+      "county": "Johnson",
+      "markerCount": 3
+    },
+    "63537": {
+      "lat": 40.16766,
+      "lng": -92.17184,
+      "label": "63537",
+      "county": "Knox",
+      "markerCount": 1
+    },
+    "63458": {
+      "lat": 39.99296,
+      "lng": -91.97338,
+      "label": "63458",
+      "county": "Knox",
+      "markerCount": 1
+    },
+    "65536": {
+      "lat": 37.681406,
+      "lng": -92.662786,
+      "label": "65536",
+      "county": "Laclede",
+      "markerCount": 14
+    },
+    "65722": {
+      "lat": 37.56387,
+      "lng": -92.78554,
+      "label": "65722",
+      "county": "Laclede",
+      "markerCount": 1
+    },
+    "64037": {
+      "lat": 39.095945,
+      "lng": -93.728286,
+      "label": "64037",
+      "county": "Lafayette",
+      "markerCount": 20
+    },
+    "64067": {
+      "lat": 39.186514,
+      "lng": -93.881753,
+      "label": "64067",
+      "county": "Lafayette",
+      "markerCount": 23
+    },
+    "64001": {
+      "lat": 39.09608,
+      "lng": -93.54756,
+      "label": "64001",
+      "county": "Lafayette",
+      "markerCount": 1
+    },
+    "64020": {
+      "lat": 38.985688,
+      "lng": -93.569034,
+      "label": "64020",
+      "county": "Lafayette",
+      "markerCount": 13
+    },
+    "64096": {
+      "lat": 39.21199,
+      "lng": -93.516797,
+      "label": "64096",
+      "county": "Lafayette",
+      "markerCount": 4
+    },
+    "64097": {
+      "lat": 39.134175,
+      "lng": -93.982575,
+      "label": "64097",
+      "county": "Lafayette",
+      "markerCount": 2
+    },
+    "64074": {
+      "lat": 39.12976,
+      "lng": -94.079963,
+      "label": "64074",
+      "county": "Lafayette",
+      "markerCount": 3
+    },
+    "64022": {
+      "lat": 39.19088,
+      "lng": -93.71746,
+      "label": "64022",
+      "county": "Lafayette",
+      "markerCount": 3
+    },
+    "64848": {
+      "lat": 37.11125,
+      "lng": -94.06378,
+      "label": "64848",
+      "county": "Lawrence",
+      "markerCount": 1
+    },
+    "65605": {
+      "lat": 36.965177,
+      "lng": -93.719867,
+      "label": "65605",
+      "county": "Lawrence",
+      "markerCount": 3
+    },
+    "65769": {
+      "lat": 36.95959,
+      "lng": -93.79637,
+      "label": "65769",
+      "county": "Lawrence",
+      "markerCount": 2
+    },
+    "65712": {
+      "lat": 37.09227,
+      "lng": -93.80814,
+      "label": "65712",
+      "county": "Lawrence",
+      "markerCount": 2
+    },
+    "65723": {
+      "lat": 36.94451,
+      "lng": -94.00332,
+      "label": "65723",
+      "county": "Lawrence",
+      "markerCount": 1
+    },
+    "65707": {
+      "lat": 37.18454,
+      "lng": -93.70254,
+      "label": "65707",
+      "county": "Lawrence",
+      "markerCount": 1
+    },
+    "63435": {
+      "lat": 40.125257,
+      "lng": -91.518007,
+      "label": "63435",
+      "county": "Lewis",
+      "markerCount": 3
+    },
+    "63448": {
+      "lat": 40.04393,
+      "lng": -91.50414,
+      "label": "63448",
+      "county": "Lewis",
+      "markerCount": 3
+    },
+    "63389": {
+      "lat": 38.996135,
+      "lng": -90.738355,
+      "label": "63389",
+      "county": "Lincoln",
+      "markerCount": 2
+    },
+    "63343": {
+      "lat": 39.16567,
+      "lng": -90.78219,
+      "label": "63343",
+      "county": "Lincoln",
+      "markerCount": 2
+    },
+    "63362": {
+      "lat": 38.94895,
+      "lng": -90.9161,
+      "label": "63362",
+      "county": "Lincoln",
+      "markerCount": 1
+    },
+    "63379": {
+      "lat": 38.978245,
+      "lng": -90.98078,
+      "label": "63379",
+      "county": "Lincoln",
+      "markerCount": 2
+    },
+    "64651": {
+      "lat": 39.788601,
+      "lng": -93.176215,
+      "label": "64651",
+      "county": "Linn",
+      "markerCount": 23
+    },
+    "64658": {
+      "lat": 39.724845,
+      "lng": -92.94643,
+      "label": "64658",
+      "county": "Linn",
+      "markerCount": 27
+    },
+    "64628": {
+      "lat": 39.787796,
+      "lng": -93.074838,
+      "label": "64628",
+      "county": "Linn",
+      "markerCount": 5
+    },
+    "64653": {
+      "lat": 39.879297,
+      "lng": -93.189255,
+      "label": "64653",
+      "county": "Linn",
+      "markerCount": 4
+    },
+    "64659": {
+      "lat": 39.754905,
+      "lng": -93.21681,
+      "label": "64659",
+      "county": "Linn",
+      "markerCount": 2
+    },
+    "64601": {
+      "lat": 39.793343,
+      "lng": -93.551372,
+      "label": "64601",
+      "county": "Livingston",
+      "markerCount": 32
+    },
+    "64688": {
+      "lat": 39.77868,
+      "lng": -93.38882,
+      "label": "64688",
+      "county": "Livingston",
+      "markerCount": 1
+    },
+    "63552": {
+      "lat": 39.738946,
+      "lng": -92.472337,
+      "label": "63552",
+      "county": "Macon",
+      "markerCount": 8
+    },
+    "63532": {
+      "lat": 39.749993,
+      "lng": -92.564353,
+      "label": "63532",
+      "county": "Macon",
+      "markerCount": 3
+    },
+    "63558": {
+      "lat": 39.77631,
+      "lng": -92.75192,
+      "label": "63558",
+      "county": "Macon",
+      "markerCount": 1
+    },
+    "63534": {
+      "lat": 39.760663,
+      "lng": -92.623427,
+      "label": "63534",
+      "county": "Macon",
+      "markerCount": 3
+    },
+    "63530": {
+      "lat": 39.89859,
+      "lng": -92.47966,
+      "label": "63530",
+      "county": "Macon",
+      "markerCount": 1
+    },
+    "63549": {
+      "lat": 40.02325,
+      "lng": -92.49137,
+      "label": "63549",
+      "county": "Macon",
+      "markerCount": 1
+    },
+    "63645": {
+      "lat": 37.562186,
+      "lng": -90.294024,
+      "label": "63645",
+      "county": "Madison",
+      "markerCount": 12
+    },
+    "65582": {
+      "lat": 38.185645,
+      "lng": -91.946777,
+      "label": "65582",
+      "county": "Maries",
+      "markerCount": 4
+    },
+    "63401": {
+      "lat": 39.702808,
+      "lng": -91.349652,
+      "label": "63401",
+      "county": "Marion",
+      "markerCount": 76
+    },
+    "63461": {
+      "lat": 39.798535,
+      "lng": -91.522974,
+      "label": "63461",
+      "county": "Marion",
+      "markerCount": 11
+    },
+    "63471": {
+      "lat": 39.92897,
+      "lng": -91.44469,
+      "label": "63471",
+      "county": "Marion",
+      "markerCount": 1
+    },
+    "63456": {
+      "lat": 39.664082,
+      "lng": -91.687377,
+      "label": "63456",
+      "county": "Marion",
+      "markerCount": 4
+    },
+    "64847": {
+      "lat": 36.59925,
+      "lng": -94.4559,
+      "label": "64847",
+      "county": "McDonald",
+      "markerCount": 1
+    },
+    "64673": {
+      "lat": 40.397047,
+      "lng": -93.561923,
+      "label": "64673",
+      "county": "Mercer",
+      "markerCount": 4
+    },
+    "64661": {
+      "lat": 40.45703,
+      "lng": -93.54697,
+      "label": "64661",
+      "county": "Mercer",
+      "markerCount": 1
+    },
+    "65082": {
+      "lat": 38.24671,
+      "lng": -92.46811,
+      "label": "65082",
+      "county": "Miller",
+      "markerCount": 2
+    },
+    "63834": {
+      "lat": 36.919777,
+      "lng": -89.316008,
+      "label": "63834",
+      "county": "Mississippi",
+      "markerCount": 6
+    },
+    "63845": {
+      "lat": 36.76587,
+      "lng": -89.12381,
+      "label": "63845",
+      "county": "Mississippi",
+      "markerCount": 1
+    },
+    "65018": {
+      "lat": 38.633484,
+      "lng": -92.566,
+      "label": "65018",
+      "county": "Moniteau",
+      "markerCount": 7
+    },
+    "65081": {
+      "lat": 38.655457,
+      "lng": -92.783047,
+      "label": "65081",
+      "county": "Moniteau",
+      "markerCount": 7
+    },
+    "65275": {
+      "lat": 39.482943,
+      "lng": -91.99992,
+      "label": "65275",
+      "county": "Monroe",
+      "markerCount": 3
+    },
+    "65283": {
+      "lat": 39.490205,
+      "lng": -91.786455,
+      "label": "65283",
+      "county": "Monroe",
+      "markerCount": 2
+    },
+    "63468": {
+      "lat": 39.61049,
+      "lng": -91.91974,
+      "label": "63468",
+      "county": "Monroe",
+      "markerCount": 1
+    },
+    "63361": {
+      "lat": 38.929473,
+      "lng": -91.539178,
+      "label": "63361",
+      "county": "Montgomery",
+      "markerCount": 6
+    },
+    "63351": {
+      "lat": 38.85217,
+      "lng": -91.30379,
+      "label": "63351",
+      "county": "Montgomery",
+      "markerCount": 1
+    },
+    "63363": {
+      "lat": 38.89803,
+      "lng": -91.45246,
+      "label": "63363",
+      "county": "Montgomery",
+      "markerCount": 1
+    },
+    "63350": {
+      "lat": 38.88455,
+      "lng": -91.40199,
+      "label": "63350",
+      "county": "Montgomery",
+      "markerCount": 1
+    },
+    "65354": {
+      "lat": 38.66974,
+      "lng": -92.87384,
+      "label": "65354",
+      "county": "Morgan",
+      "markerCount": 1
+    },
+    "65038": {
+      "lat": 38.19676,
+      "lng": -92.83081,
+      "label": "65038",
+      "county": "Morgan",
+      "markerCount": 1
+    },
+    "65084": {
+      "lat": 38.431163,
+      "lng": -92.841367,
+      "label": "65084",
+      "county": "Morgan",
+      "markerCount": 3
+    },
+    "65078": {
+      "lat": 38.56492,
+      "lng": -93.0239,
+      "label": "65078",
+      "county": "Morgan",
+      "markerCount": 1
+    },
+    "63869": {
+      "lat": 36.58639,
+      "lng": -89.5298,
+      "label": "63869",
+      "county": "New Madrid",
+      "markerCount": 23
+    },
+    "64840": {
+      "lat": 36.986841,
+      "lng": -94.353692,
+      "label": "64840",
+      "county": "Newton",
+      "markerCount": 24
+    },
+    "64850": {
+      "lat": 36.867255,
+      "lng": -94.372451,
+      "label": "64850",
+      "county": "Newton",
+      "markerCount": 18
+    },
+    "64865": {
+      "lat": 36.841332,
+      "lng": -94.61123,
+      "label": "64865",
+      "county": "Newton",
+      "markerCount": 6
+    },
+    "64866": {
+      "lat": 36.87782,
+      "lng": -94.183515,
+      "label": "64866",
+      "county": "Newton",
+      "markerCount": 2
+    },
+    "64844": {
+      "lat": 36.91642,
+      "lng": -94.25507,
+      "label": "64844",
+      "county": "Newton",
+      "markerCount": 1
+    },
+    "64853": {
+      "lat": 36.87528,
+      "lng": -94.18498,
+      "label": "64853",
+      "county": "Newton",
+      "markerCount": 1
+    },
+    "64468": {
+      "lat": 40.34829,
+      "lng": -94.875427,
+      "label": "64468",
+      "county": "Nodaway",
+      "markerCount": 9
+    },
+    "64487": {
+      "lat": 40.28914,
+      "lng": -95.08213,
+      "label": "64487",
+      "county": "Nodaway",
+      "markerCount": 1
+    },
+    "65692": {
+      "lat": 36.582561,
+      "lng": -91.644731,
+      "label": "65692",
+      "county": "Oregon",
+      "markerCount": 7
+    },
+    "65606": {
+      "lat": 36.69444,
+      "lng": -91.398093,
+      "label": "65606",
+      "county": "Oregon",
+      "markerCount": 3
+    },
+    "65024": {
+      "lat": 38.67576,
+      "lng": -91.77138,
+      "label": "65024",
+      "county": "Osage",
+      "markerCount": 1
+    },
+    "65085": {
+      "lat": 38.447445,
+      "lng": -92.003855,
+      "label": "65085",
+      "county": "Osage",
+      "markerCount": 2
+    },
+    "65051": {
+      "lat": 38.48646,
+      "lng": -91.85249,
+      "label": "65051",
+      "county": "Osage",
+      "markerCount": 1
+    },
+    "65655": {
+      "lat": 36.6036,
+      "lng": -92.42818,
+      "label": "65655",
+      "county": "Ozark",
+      "markerCount": 2
+    },
+    "63830": {
+      "lat": 36.189578,
+      "lng": -89.659842,
+      "label": "63830",
+      "county": "Pemiscot",
+      "markerCount": 6
+    },
+    "63840": {
+      "lat": 36.19083,
+      "lng": -89.88503,
+      "label": "63840",
+      "county": "Pemiscot",
+      "markerCount": 1
+    },
+    "63851": {
+      "lat": 36.23141,
+      "lng": -89.74767,
+      "label": "63851",
+      "county": "Pemiscot",
+      "markerCount": 1
+    },
+    "63175": {
+      "lat": 37.756485,
+      "lng": -89.876587,
+      "label": "63175",
+      "county": "Perry",
+      "markerCount": 4
+    },
+    "63775": {
+      "lat": 37.73354,
+      "lng": -89.858451,
+      "label": "63775",
+      "county": "Perry",
+      "markerCount": 34
+    },
+    "63732": {
+      "lat": 37.630471,
+      "lng": -89.585616,
+      "label": "63732",
+      "county": "Perry",
+      "markerCount": 7
+    },
+    "63748": {
+      "lat": 37.64448,
+      "lng": -89.52206,
+      "label": "63748",
+      "county": "Perry",
+      "markerCount": 2
+    },
+    "65301": {
+      "lat": 38.702048,
+      "lng": -93.238744,
+      "label": "65301",
+      "county": "Pettis",
+      "markerCount": 46
+    },
+    "65332": {
+      "lat": 38.59333,
+      "lng": -93.46157,
+      "label": "65332",
+      "county": "Pettis",
+      "markerCount": 1
+    },
+    "65401": {
+      "lat": 37.950352,
+      "lng": -91.773155,
+      "label": "65401",
+      "county": "Phelps",
+      "markerCount": 35
+    },
+    "65559": {
+      "lat": 37.971642,
+      "lng": -91.563527,
+      "label": "65559",
+      "county": "Phelps",
+      "markerCount": 24
+    },
+    "63353": {
+      "lat": 39.448636,
+      "lng": -91.052053,
+      "label": "63353",
+      "county": "Pike",
+      "markerCount": 7
+    },
+    "63334": {
+      "lat": 39.34187,
+      "lng": -91.193233,
+      "label": "63334",
+      "county": "Pike",
+      "markerCount": 3
+    },
+    "63336": {
+      "lat": 39.370542,
+      "lng": -90.90339,
+      "label": "63336",
+      "county": "Pike",
+      "markerCount": 4
+    },
+    "64098": {
+      "lat": 39.414766,
+      "lng": -94.904697,
+      "label": "64098",
+      "county": "Platte",
+      "markerCount": 33
+    },
+    "64153": {
+      "lat": 39.315092,
+      "lng": -94.699824,
+      "label": "64153",
+      "county": "Platte",
+      "markerCount": 31
+    },
+    "64152": {
+      "lat": 39.18888,
+      "lng": -94.682647,
+      "label": "64152",
+      "county": "Platte",
+      "markerCount": 3
+    },
+    "64018": {
+      "lat": 39.45337,
+      "lng": -94.7562,
+      "label": "64018",
+      "county": "Platte",
+      "markerCount": 1
+    },
+    "64163": {
+      "lat": 39.31241,
+      "lng": -94.68267,
+      "label": "64163",
+      "county": "Platte",
+      "markerCount": 1
+    },
+    "64079": {
+      "lat": 39.391574,
+      "lng": -94.783248,
+      "label": "64079",
+      "county": "Platte",
+      "markerCount": 5
+    },
+    "64028": {
+      "lat": 39.28176,
+      "lng": -94.83145,
+      "label": "64028",
+      "county": "Platte",
+      "markerCount": 1
+    },
+    "64150": {
+      "lat": 39.17577,
+      "lng": -94.61508,
+      "label": "64150",
+      "county": "Platte",
+      "markerCount": 1
+    },
+    "64154": {
+      "lat": 39.25391,
+      "lng": -94.6066,
+      "label": "64154",
+      "county": "Platte",
+      "markerCount": 1
+    },
+    "65613": {
+      "lat": 37.611758,
+      "lng": -93.413498,
+      "label": "65613",
+      "county": "Polk",
+      "markerCount": 5
+    },
+    "65617": {
+      "lat": 37.47398,
+      "lng": -93.34895,
+      "label": "65617",
+      "county": "Polk",
+      "markerCount": 1
+    },
+    "65650": {
+      "lat": 37.82362,
+      "lng": -93.43057,
+      "label": "65650",
+      "county": "Polk",
+      "markerCount": 1
+    },
+    "65452": {
+      "lat": 37.9493,
+      "lng": -92.263617,
+      "label": "65452",
+      "county": "Pulaski",
+      "markerCount": 3
+    },
+    "65584": {
+      "lat": 37.821747,
+      "lng": -92.148867,
+      "label": "65584",
+      "county": "Pulaski",
+      "markerCount": 14
+    },
+    "65473": {
+      "lat": 37.752185,
+      "lng": -92.12132,
+      "label": "65473",
+      "county": "Pulaski",
+      "markerCount": 2
+    },
+    "65583": {
+      "lat": 37.825629,
+      "lng": -92.205864,
+      "label": "65583",
+      "county": "Pulaski",
+      "markerCount": 14
+    },
+    "65457": {
+      "lat": 37.84449,
+      "lng": -92.06829,
+      "label": "65457",
+      "county": "Pulaski",
+      "markerCount": 1
+    },
+    "65556": {
+      "lat": 37.85913,
+      "lng": -92.40071,
+      "label": "65556",
+      "county": "Pulaski",
+      "markerCount": 1
+    },
+    "63565": {
+      "lat": 40.476585,
+      "lng": -93.00255,
+      "label": "63565",
+      "county": "Putnam",
+      "markerCount": 6
+    },
+    "63459": {
+      "lat": 39.606755,
+      "lng": -91.32282,
+      "label": "63459",
+      "county": "Ralls",
+      "markerCount": 2
+    },
+    "63436": {
+      "lat": 39.509885,
+      "lng": -91.49346,
+      "label": "63436",
+      "county": "Ralls",
+      "markerCount": 2
+    },
+    "65243": {
+      "lat": 39.2807,
+      "lng": -92.343175,
+      "label": "65243",
+      "county": "Randolph",
+      "markerCount": 2
+    },
+    "65270": {
+      "lat": 39.41984,
+      "lng": -92.43643,
+      "label": "65270",
+      "county": "Randolph",
+      "markerCount": 1
+    },
+    "65259": {
+      "lat": 39.44009,
+      "lng": -92.54439,
+      "label": "65259",
+      "county": "Randolph",
+      "markerCount": 1
+    },
+    "64085": {
+      "lat": 39.279464,
+      "lng": -93.976207,
+      "label": "64085",
+      "county": "Ray",
+      "markerCount": 14
+    },
+    "64084": {
+      "lat": 39.43433,
+      "lng": -94.01118,
+      "label": "64084",
+      "county": "Ray",
+      "markerCount": 1
+    },
+    "64035": {
+      "lat": 39.27319,
+      "lng": -93.8365,
+      "label": "64035",
+      "county": "Ray",
+      "markerCount": 1
+    },
+    "63638": {
+      "lat": 37.25227,
+      "lng": -90.971965,
+      "label": "63638",
+      "county": "Reynolds",
+      "markerCount": 2
+    },
+    "63633": {
+      "lat": 37.43519,
+      "lng": -90.95896,
+      "label": "63633",
+      "county": "Reynolds",
+      "markerCount": 1
+    },
+    "63935": {
+      "lat": 36.617287,
+      "lng": -90.826418,
+      "label": "63935",
+      "county": "Ripley",
+      "markerCount": 18
+    },
+    "65347": {
+      "lat": 39.03908,
+      "lng": -93.001369,
+      "label": "65347",
+      "county": "Saline",
+      "markerCount": 10
+    },
+    "65320": {
+      "lat": 39.069951,
+      "lng": -92.944937,
+      "label": "65320",
+      "county": "Saline",
+      "markerCount": 16
+    },
+    "65340": {
+      "lat": 39.1031,
+      "lng": -93.159535,
+      "label": "65340",
+      "county": "Saline",
+      "markerCount": 10
+    },
+    "65349": {
+      "lat": 39.22321,
+      "lng": -93.06447,
+      "label": "65349",
+      "county": "Saline",
+      "markerCount": 1
+    },
+    "63548": {
+      "lat": 40.52402,
+      "lng": -92.535495,
+      "label": "63548",
+      "county": "Schuyler",
+      "markerCount": 2
+    },
+    "63555": {
+      "lat": 40.458035,
+      "lng": -92.170005,
+      "label": "63555",
+      "county": "Scotland",
+      "markerCount": 2
+    },
+    "63432": {
+      "lat": 40.45431,
+      "lng": -92.00572,
+      "label": "63432",
+      "county": "Scotland",
+      "markerCount": 1
+    },
+    "63736": {
+      "lat": 37.096563,
+      "lng": -89.563223,
+      "label": "63736",
+      "county": "Scott",
+      "markerCount": 3
+    },
+    "63801": {
+      "lat": 36.87812,
+      "lng": -89.589677,
+      "label": "63801",
+      "county": "Scott",
+      "markerCount": 3
+    },
+    "65466": {
+      "lat": 37.152062,
+      "lng": -91.421307,
+      "label": "65466",
+      "county": "Shannon",
+      "markerCount": 4
+    },
+    "65588": {
+      "lat": 37.09472,
+      "lng": -91.21028,
+      "label": "65588",
+      "county": "Shannon",
+      "markerCount": 1
+    },
+    "65438": {
+      "lat": 36.99127,
+      "lng": -91.49301,
+      "label": "65438",
+      "county": "Shannon",
+      "markerCount": 1
+    },
+    "63434": {
+      "lat": 39.87671,
+      "lng": -92.02403,
+      "label": "63434",
+      "county": "Shelby",
+      "markerCount": 1
+    },
+    "63469": {
+      "lat": 39.80613,
+      "lng": -92.04091,
+      "label": "63469",
+      "county": "Shelby",
+      "markerCount": 1
+    },
+    "63437": {
+      "lat": 39.7509,
+      "lng": -92.25713,
+      "label": "63437",
+      "county": "Shelby",
+      "markerCount": 1
+    },
+    "63304": {
+      "lat": 38.68849,
+      "lng": -90.715295,
+      "label": "63304",
+      "county": "St. Charles",
+      "markerCount": 11
+    },
+    "63301": {
+      "lat": 38.784515,
+      "lng": -90.483943,
+      "label": "63301",
+      "county": "St. Charles",
+      "markerCount": 199
+    },
+    "63373": {
+      "lat": 38.927606,
+      "lng": -90.338253,
+      "label": "63373",
+      "county": "St. Charles",
+      "markerCount": 10
+    },
+    "63332": {
+      "lat": 38.573825,
+      "lng": -90.872158,
+      "label": "63332",
+      "county": "St. Charles",
+      "markerCount": 11
+    },
+    "63368": {
+      "lat": 38.75001,
+      "lng": -90.75202,
+      "label": "63368",
+      "county": "St. Charles",
+      "markerCount": 1
+    },
+    "63341": {
+      "lat": 38.646328,
+      "lng": -90.830396,
+      "label": "63341",
+      "county": "St. Charles",
+      "markerCount": 21
+    },
+    "63376": {
+      "lat": 38.794912,
+      "lng": -90.612719,
+      "label": "63376",
+      "county": "St. Charles",
+      "markerCount": 14
+    },
+    "63366": {
+      "lat": 38.814451,
+      "lng": -90.705567,
+      "label": "63366",
+      "county": "St. Charles",
+      "markerCount": 14
+    },
+    "63385": {
+      "lat": 38.811394,
+      "lng": -90.853713,
+      "label": "63385",
+      "county": "St. Charles",
+      "markerCount": 10
+    },
+    "63386": {
+      "lat": 38.84587,
+      "lng": -90.163692,
+      "label": "63386",
+      "county": "St. Charles",
+      "markerCount": 4
+    },
+    "63365": {
+      "lat": 38.71198,
+      "lng": -90.87959,
+      "label": "63365",
+      "county": "St. Charles",
+      "markerCount": 1
+    },
+    "63303": {
+      "lat": 38.747293,
+      "lng": -90.544751,
+      "label": "63303",
+      "county": "St. Charles",
+      "markerCount": 8
+    },
+    "63367": {
+      "lat": 38.71081,
+      "lng": -90.713053,
+      "label": "63367",
+      "county": "St. Charles",
+      "markerCount": 4
+    },
+    "64724": {
+      "lat": 38.19115,
+      "lng": -94.02822,
+      "label": "64724",
+      "county": "St. Clair",
+      "markerCount": 4
+    },
+    "64776": {
+      "lat": 38.039378,
+      "lng": -93.725426,
+      "label": "64776",
+      "county": "St. Clair",
+      "markerCount": 5
+    },
+    "63628": {
+      "lat": 37.92073,
+      "lng": -90.54517,
+      "label": "63628",
+      "county": "St. Francois",
+      "markerCount": 2
+    },
+    "63640": {
+      "lat": 37.780294,
+      "lng": -90.420254,
+      "label": "63640",
+      "county": "St. Francois",
+      "markerCount": 13
+    },
+    "63036": {
+      "lat": 37.97264,
+      "lng": -90.38999,
+      "label": "63036",
+      "county": "St. Francois",
+      "markerCount": 2
+    },
+    "63601": {
+      "lat": 37.834427,
+      "lng": -90.5132,
+      "label": "63601",
+      "county": "St. Francois",
+      "markerCount": 3
+    },
+    "63122": {
+      "lat": 38.572122,
+      "lng": -90.455936,
+      "label": "63122",
+      "county": "St. Louis",
+      "markerCount": 117
+    },
+    "63130": {
+      "lat": 38.655976,
+      "lng": -90.304783,
+      "label": "63130",
+      "county": "St. Louis",
+      "markerCount": 148
+    },
+    "63112": {
+      "lat": 38.649645,
+      "lng": -90.290553,
+      "label": "63112",
+      "county": "St. Louis",
+      "markerCount": 80
+    },
+    "63102": {
+      "lat": 38.624382,
+      "lng": -90.190519,
+      "label": "63102",
+      "county": "St. Louis",
+      "markerCount": 199
+    },
+    "63110": {
+      "lat": 38.619573,
+      "lng": -90.267489,
+      "label": "63110",
+      "county": "St. Louis",
+      "markerCount": 140
+    },
+    "63125": {
+      "lat": 38.506907,
+      "lng": -90.279823,
+      "label": "63125",
+      "county": "St. Louis",
+      "markerCount": 79
+    },
+    "63021": {
+      "lat": 38.578957,
+      "lng": -90.50359,
+      "label": "63021",
+      "county": "St. Louis",
+      "markerCount": 6
+    },
+    "63105": {
+      "lat": 38.648694,
+      "lng": -90.322108,
+      "label": "63105",
+      "county": "St. Louis",
+      "markerCount": 22
+    },
+    "63104": {
+      "lat": 38.610493,
+      "lng": -90.210787,
+      "label": "63104",
+      "county": "St. Louis",
+      "markerCount": 39
+    },
+    "63118": {
+      "lat": 38.595487,
+      "lng": -90.226098,
+      "label": "63118",
+      "county": "St. Louis",
+      "markerCount": 92
+    },
+    "63088": {
+      "lat": 38.55111,
+      "lng": -90.48358,
+      "label": "63088",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "63103": {
+      "lat": 38.631934,
+      "lng": -90.214478,
+      "label": "63103",
+      "county": "St. Louis",
+      "markerCount": 49
+    },
+    "63143": {
+      "lat": 38.613047,
+      "lng": -90.317985,
+      "label": "63143",
+      "county": "St. Louis",
+      "markerCount": 13
+    },
+    "63134": {
+      "lat": 38.75086,
+      "lng": -90.345665,
+      "label": "63134",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "63115": {
+      "lat": 38.696262,
+      "lng": -90.2316,
+      "label": "63115",
+      "county": "St. Louis",
+      "markerCount": 25
+    },
+    "63025": {
+      "lat": 38.502699,
+      "lng": -90.613403,
+      "label": "63025",
+      "county": "St. Louis",
+      "markerCount": 8
+    },
+    "63123": {
+      "lat": 38.549103,
+      "lng": -90.350838,
+      "label": "63123",
+      "county": "St. Louis",
+      "markerCount": 22
+    },
+    "63106": {
+      "lat": 38.637394,
+      "lng": -90.206901,
+      "label": "63106",
+      "county": "St. Louis",
+      "markerCount": 108
+    },
+    "63031": {
+      "lat": 38.794642,
+      "lng": -90.329173,
+      "label": "63031",
+      "county": "St. Louis",
+      "markerCount": 61
+    },
+    "63043": {
+      "lat": 38.71526,
+      "lng": -90.462943,
+      "label": "63043",
+      "county": "St. Louis",
+      "markerCount": 3
+    },
+    "63127": {
+      "lat": 38.548824,
+      "lng": -90.415318,
+      "label": "63127",
+      "county": "St. Louis",
+      "markerCount": 27
+    },
+    "63017": {
+      "lat": 38.663681,
+      "lng": -90.545284,
+      "label": "63017",
+      "county": "St. Louis",
+      "markerCount": 14
+    },
+    "63136": {
+      "lat": 38.74166,
+      "lng": -90.24103,
+      "label": "63136",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "63108": {
+      "lat": 38.643219,
+      "lng": -90.253639,
+      "label": "63108",
+      "county": "St. Louis",
+      "markerCount": 14
+    },
+    "63138": {
+      "lat": 38.818481,
+      "lng": -90.204738,
+      "label": "63138",
+      "county": "St. Louis",
+      "markerCount": 11
+    },
+    "63111": {
+      "lat": 38.550054,
+      "lng": -90.254518,
+      "label": "63111",
+      "county": "St. Louis",
+      "markerCount": 11
+    },
+    "63018": {
+      "lat": 38.64289,
+      "lng": -90.25404,
+      "label": "63018",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "63042": {
+      "lat": 38.787595,
+      "lng": -90.373812,
+      "label": "63042",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "63119": {
+      "lat": 38.593419,
+      "lng": -90.350489,
+      "label": "63119",
+      "county": "St. Louis",
+      "markerCount": 14
+    },
+    "63101": {
+      "lat": 38.627954,
+      "lng": -90.19247,
+      "label": "63101",
+      "county": "St. Louis",
+      "markerCount": 10
+    },
+    "63129": {
+      "lat": 38.454745,
+      "lng": -90.295097,
+      "label": "63129",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "63147": {
+      "lat": 38.689085,
+      "lng": -90.216432,
+      "label": "63147",
+      "county": "St. Louis",
+      "markerCount": 8
+    },
+    "63114": {
+      "lat": 38.697582,
+      "lng": -90.362219,
+      "label": "63114",
+      "county": "St. Louis",
+      "markerCount": 29
+    },
+    "63026": {
+      "lat": 38.520658,
+      "lng": -90.437412,
+      "label": "63026",
+      "county": "St. Louis",
+      "markerCount": 9
+    },
+    "63109": {
+      "lat": 38.586885,
+      "lng": -90.30435,
+      "label": "63109",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "63011": {
+      "lat": 38.595758,
+      "lng": -90.527198,
+      "label": "63011",
+      "county": "St. Louis",
+      "markerCount": 9
+    },
+    "63033": {
+      "lat": 38.79276,
+      "lng": -90.298937,
+      "label": "63033",
+      "county": "St. Louis",
+      "markerCount": 3
+    },
+    "63131": {
+      "lat": 38.618731,
+      "lng": -90.43921,
+      "label": "63131",
+      "county": "St. Louis",
+      "markerCount": 7
+    },
+    "63005": {
+      "lat": 38.647207,
+      "lng": -90.670003,
+      "label": "63005",
+      "county": "St. Louis",
+      "markerCount": 10
+    },
+    "63146": {
+      "lat": 38.71143,
+      "lng": -90.47971,
+      "label": "63146",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "63144": {
+      "lat": 38.622205,
+      "lng": -90.346095,
+      "label": "63144",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "63126": {
+      "lat": 38.560035,
+      "lng": -90.384241,
+      "label": "63126",
+      "county": "St. Louis",
+      "markerCount": 8
+    },
+    "63135": {
+      "lat": 38.74333,
+      "lng": -90.30436,
+      "label": "63135",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "63139": {
+      "lat": 38.610467,
+      "lng": -90.289553,
+      "label": "63139",
+      "county": "St. Louis",
+      "markerCount": 3
+    },
+    "63141": {
+      "lat": 38.661164,
+      "lng": -90.448004,
+      "label": "63141",
+      "county": "St. Louis",
+      "markerCount": 7
+    },
+    "63121": {
+      "lat": 38.702891,
+      "lng": -90.30661,
+      "label": "63121",
+      "county": "St. Louis",
+      "markerCount": 8
+    },
+    "63038": {
+      "lat": 38.560497,
+      "lng": -90.67144,
+      "label": "63038",
+      "county": "St. Louis",
+      "markerCount": 3
+    },
+    "63040": {
+      "lat": 38.576885,
+      "lng": -90.64142,
+      "label": "63040",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "63132": {
+      "lat": 38.674605,
+      "lng": -90.37692,
+      "label": "63132",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "63116": {
+      "lat": 38.568585,
+      "lng": -90.2808,
+      "label": "63116",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "63137": {
+      "lat": 38.747528,
+      "lng": -90.202898,
+      "label": "63137",
+      "county": "St. Louis",
+      "markerCount": 5
+    },
+    "63044": {
+      "lat": 38.752315,
+      "lng": -90.415875,
+      "label": "63044",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "63128": {
+      "lat": 38.46043,
+      "lng": -90.37641,
+      "label": "63128",
+      "county": "St. Louis",
+      "markerCount": 1
+    },
+    "63107": {
+      "lat": 38.654185,
+      "lng": -90.208985,
+      "label": "63107",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "63034": {
+      "lat": 38.83479,
+      "lng": -90.283245,
+      "label": "63034",
+      "county": "St. Louis",
+      "markerCount": 2
+    },
+    "63117": {
+      "lat": 38.62578,
+      "lng": -90.32541,
+      "label": "63117",
+      "county": "St. Louis",
+      "markerCount": 4
+    },
+    "63670": {
+      "lat": 37.980814,
+      "lng": -90.047424,
+      "label": "63670",
+      "county": "Ste. Genevieve",
+      "markerCount": 21
+    },
+    "63841": {
+      "lat": 36.817906,
+      "lng": -89.954378,
+      "label": "63841",
+      "county": "Stoddard",
+      "markerCount": 5
+    },
+    "63825": {
+      "lat": 36.882075,
+      "lng": -89.930161,
+      "label": "63825",
+      "county": "Stoddard",
+      "markerCount": 13
+    },
+    "63822": {
+      "lat": 36.67936,
+      "lng": -89.96979,
+      "label": "63822",
+      "county": "Stoddard",
+      "markerCount": 1
+    },
+    "65675": {
+      "lat": 36.93192,
+      "lng": -93.49928,
+      "label": "65675",
+      "county": "Stone",
+      "markerCount": 1
+    },
+    "65656": {
+      "lat": 36.805443,
+      "lng": -93.462407,
+      "label": "65656",
+      "county": "Stone",
+      "markerCount": 3
+    },
+    "65737": {
+      "lat": 36.6682,
+      "lng": -93.33979,
+      "label": "65737",
+      "county": "Stone",
+      "markerCount": 4
+    },
+    "63556": {
+      "lat": 40.195288,
+      "lng": -93.12636,
+      "label": "63556",
+      "county": "Sullivan",
+      "markerCount": 5
+    },
+    "65616": {
+      "lat": 36.639318,
+      "lng": -93.267543,
+      "label": "65616",
+      "county": "Taney",
+      "markerCount": 14
+    },
+    "65726": {
+      "lat": 36.61331,
+      "lng": -93.23723,
+      "label": "65726",
+      "county": "Taney",
+      "markerCount": 1
+    },
+    "65739": {
+      "lat": 36.53418,
+      "lng": -93.27375,
+      "label": "65739",
+      "county": "Taney",
+      "markerCount": 1
+    },
+    "65672": {
+      "lat": 36.613551,
+      "lng": -93.237419,
+      "label": "65672",
+      "county": "Taney",
+      "markerCount": 7
+    },
+    "65542": {
+      "lat": 37.49945,
+      "lng": -91.85778,
+      "label": "65542",
+      "county": "Texas",
+      "markerCount": 2
+    },
+    "65689": {
+      "lat": 37.12214,
+      "lng": -92.10153,
+      "label": "65689",
+      "county": "Texas",
+      "markerCount": 3
+    },
+    "65483": {
+      "lat": 37.327188,
+      "lng": -91.956314,
+      "label": "65483",
+      "county": "Texas",
+      "markerCount": 5
+    },
+    "64750": {
+      "lat": 37.981567,
+      "lng": -94.208845,
+      "label": "64750",
+      "county": "Vernon",
+      "markerCount": 6
+    },
+    "64741": {
+      "lat": 37.84065,
+      "lng": -94.50083,
+      "label": "64741",
+      "county": "Vernon",
+      "markerCount": 1
+    },
+    "64772": {
+      "lat": 37.838821,
+      "lng": -94.357025,
+      "label": "64772",
+      "county": "Vernon",
+      "markerCount": 13
+    },
+    "64771": {
+      "lat": 37.764085,
+      "lng": -94.458335,
+      "label": "64771",
+      "county": "Vernon",
+      "markerCount": 2
+    },
+    "64784": {
+      "lat": 37.64877,
+      "lng": -94.30487,
+      "label": "64784",
+      "county": "Vernon",
+      "markerCount": 1
+    },
+    "64778": {
+      "lat": 37.97945,
+      "lng": -94.37922,
+      "label": "64778",
+      "county": "Vernon",
+      "markerCount": 1
+    },
+    "63357": {
+      "lat": 38.629356,
+      "lng": -91.090238,
+      "label": "63357",
+      "county": "Warren",
+      "markerCount": 18
+    },
+    "63383": {
+      "lat": 38.818778,
+      "lng": -91.164778,
+      "label": "63383",
+      "county": "Warren",
+      "markerCount": 6
+    },
+    "63342": {
+      "lat": 38.60284,
+      "lng": -90.999223,
+      "label": "63342",
+      "county": "Warren",
+      "markerCount": 3
+    },
+    "63390": {
+      "lat": 38.816975,
+      "lng": -91.03869,
+      "label": "63390",
+      "county": "Warren",
+      "markerCount": 2
+    },
+    "63631": {
+      "lat": 37.77785,
+      "lng": -90.77599,
+      "label": "63631",
+      "county": "Washington",
+      "markerCount": 2
+    },
+    "63664": {
+      "lat": 37.960072,
+      "lng": -90.770388,
+      "label": "63664",
+      "county": "Washington",
+      "markerCount": 6
+    },
+    "63630": {
+      "lat": 38.08488,
+      "lng": -90.68417,
+      "label": "63630",
+      "county": "Washington",
+      "markerCount": 1
+    },
+    "63944": {
+      "lat": 37.10303,
+      "lng": -90.454683,
+      "label": "63944",
+      "county": "Wayne",
+      "markerCount": 52
+    },
+    "63957": {
+      "lat": 37.156695,
+      "lng": -90.69017,
+      "label": "63957",
+      "county": "Wayne",
+      "markerCount": 2
+    },
+    "63956": {
+      "lat": 37.186857,
+      "lng": -90.553753,
+      "label": "63956",
+      "county": "Wayne",
+      "markerCount": 3
+    },
+    "65706": {
+      "lat": 37.338682,
+      "lng": -92.908009,
+      "label": "65706",
+      "county": "Webster",
+      "markerCount": 9
+    },
+    "65746": {
+      "lat": 37.14684,
+      "lng": -92.76841,
+      "label": "65746",
+      "county": "Webster",
+      "markerCount": 1
+    },
+    "65632": {
+      "lat": 37.48411,
+      "lng": -92.88541,
+      "label": "65632",
+      "county": "Webster",
+      "markerCount": 1
+    },
+    "64456": {
+      "lat": 40.486423,
+      "lng": -94.411483,
+      "label": "64456",
+      "county": "Worth",
+      "markerCount": 3
+    },
+    "65667": {
+      "lat": 37.249475,
+      "lng": -92.51055,
+      "label": "65667",
+      "county": "Wright",
+      "markerCount": 4
+    },
+    "65704": {
+      "lat": 37.104417,
+      "lng": -92.573753,
+      "label": "65704",
+      "county": "Wright",
+      "markerCount": 7
+    },
+    "65711": {
+      "lat": 37.14917,
+      "lng": -92.26612,
+      "label": "65711",
+      "county": "Wright",
+      "markerCount": 1
+    }
+  }
+}

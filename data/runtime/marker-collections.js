@@ -44,6 +44,10 @@
         sourceUrl: "https://www.hmdb.org/results.asp?Search=State&State=California"
       })
     ]),
+    MO: Object.freeze([
+      Object.freeze({ id: "missouri-historical-society-highway-commission", label: "Missouri Historical Society / Highway Commission markers", shortLabel: "Missouri series", defaultEnabled: true, authoritative: true, sourceUrl: "https://shsmo.org/" }),
+      Object.freeze({ id: "hmdb", label: "Other HMdb Missouri markers", shortLabel: "HMdb", defaultEnabled: true, authoritative: false, sourceUrl: "https://www.hmdb.org/results.asp?Search=State&State=Missouri" })
+    ]),
     MI: Object.freeze([
       Object.freeze({
         id: "official",

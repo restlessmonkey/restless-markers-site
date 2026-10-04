@@ -83,6 +83,19 @@ const STATE_CONFIG = Object.freeze({
     acknowledgments:
       "California Office of Historic Preservation; California State Parks; Wikipedia contributors; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; wordcloud2.js; Cloudflare Web Analytics."
   }),
+  MO: Object.freeze({
+    code: "MO", name: "Missouri", heading: "Missouri Historical Markers",
+    subtitle: "Explore Missouri historical-marker locations and attributed HMdb records.",
+    dataPath: "data/states/mo/markers.json", offlineLookupsPath: "data/states/mo/offline-lookups.json",
+    mapCenter: [38.45, -92.45], mapZoom: 7, cityExample: "Jefferson City", zipExample: "65101", markerExample: "HMDB-4989",
+    programName: "Missouri Historical Society / Highway Commission marker series", programUrl: "https://shsmo.org/",
+    sourceName: "Historical Marker Database (HMdb.org), with a State Historical Society / Highway Commission series subset",
+    refreshDescription: "HMdb Missouri statewide CSV plus State Historical Society / Highway Commission series CSV",
+    refreshStatus: "Refreshing Missouri HMdb marker records…", manualRefreshCommand: "Documented Missouri update workflow",
+    aboutIntro: "Explore Missouri physical historical-marker records from HMdb.org. The Missouri Historical Society / Highway Commission option is a deterministic subset of the supplied HMdb series—not a claim that every official Missouri marker is included.",
+    sourceCopy: "Missouri’s statewide physical-marker inventory in this app is attributed to HMdb.org. The State Historical Society of Missouri / State Highway Commission subset is identified only by an exact HMdb MarkerID match to the supplied series export. This is an independent viewer, not an official Missouri state website.",
+    acknowledgments: "Historical Marker Database (HMdb.org); State Historical Society of Missouri; Missouri State Highway Commission; OpenStreetMap contributors; Leaflet and Leaflet.markercluster; Cloudflare Web Analytics."
+  }),
   // PRIVATE_STATE_MI_BEGIN
   MI: Object.freeze({
     code: "MI",
@@ -243,6 +256,8 @@ const markerNumberBtnEl = document.getElementById("marker-number-btn");
 const randomMarkerBtnEl = document.getElementById("random-marker-btn");
 const countyFilterEl = document.getElementById("county-filter");
 const californiaMarkerTypeFilterEl = document.getElementById("california-marker-type-filter");
+const missouriMarkerTypeFilterEl = document.getElementById("missouri-marker-type-filter");
+const missouriMarkerTypeFilterWrapEl = document.getElementById("missouri-marker-type-filter-wrap");
 const californiaMarkerTypeFilterWrapEl = document.getElementById("california-marker-type-filter-wrap");
 const detailTitleEl = document.getElementById("detail-title");
 const detailCountyEl = document.getElementById("detail-county");
@@ -768,7 +783,7 @@ function clearStateDetailExtras() {
 function renderHmdbDetailExtras(marker) {
   const raw = marker && marker.hmdbPhoto;
   const photo = raw && raw.public ? raw.public : raw;
-  if ((activeStateCode !== "VA" && activeStateCode !== "TX" && activeStateCode !== "CA") || !photo || photo.publicDisplayAllowed !== true || !Array.isArray(photo.photos) || !photo.photos.length) {
+  if ((activeStateCode !== "VA" && activeStateCode !== "TX" && activeStateCode !== "CA" && activeStateCode !== "MO") || !photo || photo.publicDisplayAllowed !== true || !Array.isArray(photo.photos) || !photo.photos.length) {
     return;
   }
   if (!detailPhotoSectionEl || !detailMarkerPhotoEl || !detailPhotoStatusEl) {
@@ -1060,7 +1075,7 @@ function renderDetailAtlasFields(marker) {
   }
 
   // VA_HMDB_RENDER_CALL
-  if (activeStateCode === "VA" || activeStateCode === "TX" || activeStateCode === "CA") {
+  if (activeStateCode === "VA" || activeStateCode === "TX" || activeStateCode === "CA" || activeStateCode === "MO") {
     renderHmdbDetailExtras(marker);
   }
 }
@@ -2427,13 +2442,23 @@ function getFilteredMarkers() {
   const query = searchEl.value.trim().toLowerCase();
   const county = countyFilterEl.value;
   const californiaMarkerType = californiaMarkerTypeFilterEl ? californiaMarkerTypeFilterEl.value : "both";
+  const missouriMarkerType = missouriMarkerTypeFilterEl ? missouriMarkerTypeFilterEl.value : "both";
   return markers.filter((marker) => {
     if (activeStateCode === "CA") {
       const isChlLinked =
         marker.californiaLandmarkNumber != null &&
         /^https:\/\/ohp\.parks\.ca\.gov\/ListedResources\/Detail\//i.test(String(marker.ohpUrl || ""));
-      if (californiaMarkerType === "chl" && !isChlLinked) return false;
-      if (californiaMarkerType === "hmdb" && isChlLinked) return false;
+      if (californiaMarkerType === "chl" && !isChlLinked) {
+        return false;
+      }
+      if (californiaMarkerType === "hmdb" && isChlLinked) {
+        return false;
+      }
+    }
+    if (activeStateCode === "MO") {
+      const official = marker.officialMissouriMarker === true;
+      if (missouriMarkerType === "official" && !official) return false;
+      if (missouriMarkerType === "hmdb" && official) return false;
     }
     if (nearbyMarkerIds && !nearbyMarkerIds.has(marker.id)) {
       return false;
@@ -2487,10 +2512,21 @@ function haversineMiles(lat1, lng1, lat2, lng2) {
 }
 
 function syncCaliforniaMarkerTypeFilter() {
-  if (!californiaMarkerTypeFilterWrapEl || !californiaMarkerTypeFilterEl) return;
+  if (!californiaMarkerTypeFilterWrapEl || !californiaMarkerTypeFilterEl) {
+    return;
+  }
   const isCalifornia = activeStateCode === "CA";
   californiaMarkerTypeFilterWrapEl.hidden = !isCalifornia;
-  if (!isCalifornia) californiaMarkerTypeFilterEl.value = "both";
+  if (!isCalifornia) {
+    californiaMarkerTypeFilterEl.value = "both";
+  }
+}
+
+function syncMissouriMarkerTypeFilter() {
+  if (!missouriMarkerTypeFilterWrapEl || !missouriMarkerTypeFilterEl) return;
+  const active = activeStateCode === "MO";
+  missouriMarkerTypeFilterWrapEl.hidden = !active;
+  if (!active) missouriMarkerTypeFilterEl.value = "both";
 }
 
 function populateCountyFilter() {
@@ -3459,6 +3495,7 @@ async function loadStateDataset(code) {
   const normalized = normalizeStateCode(code) || "TX";
   activeStateCode = normalized;
   syncCaliforniaMarkerTypeFilter();
+  syncMissouriMarkerTypeFilter();
   const generation = ++stateLoadGeneration;
   storeStatePreference(normalized);
   applyStateChrome();
@@ -3570,7 +3607,15 @@ if (stateSelectorEl) {
 }
 
 if (californiaMarkerTypeFilterEl) {
-  californiaMarkerTypeFilterEl.addEventListener("change", () => applyFilters());
+  californiaMarkerTypeFilterEl.addEventListener("change", () => {
+    applyFilters();
+  });
+}
+
+if (missouriMarkerTypeFilterEl) {
+  missouriMarkerTypeFilterEl.addEventListener("change", () => {
+    applyFilters();
+  });
 }
 
 window.addEventListener("popstate", () => {

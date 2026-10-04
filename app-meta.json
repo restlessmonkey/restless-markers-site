@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "version": "1.10.10-ca-chl-random-fix",
-  "applicationUpdated": "2026-09-28T04:10:00Z",
+  "version": "1.10.12-missouri-hmdb-remote-photos",
+  "applicationUpdated": "2026-10-04T16:26:33.743612Z",
   "publisher": {
     "name": "Restless Monkey Software",
     "contactEmail": "restlessmonkey.software@gmail.com"
@@ -164,6 +164,40 @@
       "hmdbPhotoSourceUrl": "https://www.hmdb.org/",
       "hmdbPhotoCopyrightUrl": "https://www.hmdb.org/copyright.asp",
       "hmdbPhotoSource": "The Historical Marker Database (HMdb.org)"
+    },
+    "MO": {
+      "name": "Missouri Historical Markers",
+      "path": "data/states/mo/markers.json",
+      "source": "Historical Marker Database (HMdb.org) Missouri statewide CSV, with deterministic State Historical Society of Missouri / State Highway Commission series membership",
+      "sourceUrl": "https://www.hmdb.org/results.asp?Search=State&State=Missouri",
+      "markerCount": 4990,
+      "officialSeriesMarkerCount": 122,
+      "hmdbOnlyMarkerCount": 4868,
+      "officialSeriesLabel": "Missouri Historical Society / Highway Commission markers",
+      "officialSeriesDefinition": "Exact HMdb MarkerID match to supplied State Historical Society of Missouri / State Highway Commission series CSV.",
+      "hmdbRemotePhotoPublishedMarkerCount": 4989,
+      "hmdbPhotoBacklogCount": 1,
+      "hmdbPhotoMode": "REMOTE_ATTRIBUTED_NO_LOCAL_ASSETS",
+      "hmdbPhotoSourceUrl": "https://www.hmdb.org/",
+      "hmdbPhotoCopyrightUrl": "https://www.hmdb.org/copyright.asp",
+      "collections": [
+        {
+          "id": "missouri-historical-society-highway-commission",
+          "label": "Missouri Historical Society / Highway Commission markers",
+          "shortLabel": "Missouri series",
+          "defaultEnabled": true,
+          "authoritative": true,
+          "sourceUrl": "https://shsmo.org/"
+        },
+        {
+          "id": "hmdb",
+          "label": "Other HMdb Missouri markers",
+          "shortLabel": "HMdb",
+          "defaultEnabled": true,
+          "authoritative": false,
+          "sourceUrl": "https://www.hmdb.org/results.asp?Search=State&State=Missouri"
+        }
+      ]
     }
   },
   "analytics": {
